@@ -1,0 +1,210 @@
+//data "Passives" "Passive_Chained_MeleeAttack_OnDamage;Passive_Chained_MeleeAttack_OnCastResolved;Passive_Chained_MeleeAttack_OnStatusApply"
+//data "Passives" "Passive_Chained_RangedAttack_OnDamage;Passive_Chained_RangedAttack_OnCastResolved;Passive_Chained_RangedAttack_OnStatusApply"
+//data "Passives" "Passive_Chained_SpellAttack_OnDamage;Passive_Chained_SpellAttack_OnCastResolved;Passive_Chained_SpellAttack_OnStatusApply"
+
+//Passive Template - Melee Weapon Attack
+//Order
+//1.0 > 1.1 > 2.0 > 2.1 > 3.0 > 3.1 > 4.0 > 4.1
+
+//1.0
+//OnDamage Apply Status to target
+new entry "Passive_Chained_MeleeAttack_OnDamage"
+type "PassiveData"
+data "Icon" "Action_PommelStrike"
+data "DisplayName" "h932c0064gcfaag4b09gbf50gaa0601b2b180;1"
+data "Description" "h41dd70bbg7feag4871gbe88g3bcb4d7e195d;1"
+data "StatsFunctorContext" "OnDamage"
+//OnAttack or OnDamage
+data "Conditions" "IsMeleeWeaponAttack() and Enemy() and not HasStatus('STATUS_CHAINED_MELEEATTACK_COOLDOWN',context.Source)"
+data "StatsFunctors" "ApplyStatus(STATUS_CHAINED_MELEEATTACK_TARGET,100,1)"
+//data "EnabledConditions" "not HasStatus('STATUS_CHAINED_MELEEATTACK_COOLDOWN',context.Source)"
+//data "EnabledContext" "OnCastResolved;OnStatusApplied;OnStatusRemoved"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
+//OncePerTurn etc. can be used as cooldown instead of a Status or ActionResource if this part remains split from the other passives.
+
+//2.0
+//OnCastResolved Trigger chain of statuses
+//STATUS_CHAINED_TRIGGER_CASTER > STATUS_CHAINED_TRIGGER_TARGET > UseSpell()
+new entry "Passive_Chained_MeleeAttack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "Conditions" "not HasStatus('STATUS_CHAINED_MELEEATTACK_COOLDOWN',context.Source)"
+data "StatsFunctors" "ApplyStatus(STATUS_CHAINED_TRIGGER_CASTER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+//OnStatusApply Trigger second attack
+new entry "Passive_Chained_MeleeAttack_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//This DisplayName will show up in the combat log
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_CHAINED_TRIGGER_TARGET')"
+data "StatsFunctors" "ApplyStatus(SELF,STATUS_CHAINED_MELEEATTACK_COOLDOWN,100,1);UseSpell(Target_PommelStrike,true,true,true)"
+//Recommend using a custom spell without UseCosts to not interfere with ExtraAttack
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+//Target Status
+new entry "STATUS_CHAINED_MELEEATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_CHAINED_TRIGGER_CASTER',context.Source)"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(STATUS_CHAINED_TRIGGER_TARGET,100,0)"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.1 Applied
+new entry "STATUS_CHAINED_TRIGGER_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1 Applied
+new entry "STATUS_CHAINED_TRIGGER_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//4.1
+//Cooldown Status
+new entry "STATUS_CHAINED_MELEEATTACK_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//Example
+//The above 3 passives tucked into one
+new entry "Passive_Chained_MeleeAttack_Merged"
+type "PassiveData"
+data "StatsFunctorContext" "OnDamage;OnCastResolved;OnStatusApply"
+data "Conditions" "(context.HasContextFlag(StatsFunctorContext.OnDamage) and IsWeaponAttack() and not HasStatus('STATUS_CHAINED_MELEEATTACK_COOLDOWN',context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnCastResolved) and not HasStatus('STATUS_CHAINED_MELEEATTACK_COOLDOWN',context.Source)) or (context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('STATUS_CHAINED_TRIGGER_TARGET'))"
+data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnDamage)):ApplyStatus(STATUS_CHAINED_MELEEATTACK_TARGET,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnCastResolved)):ApplyStatus(STATUS_CHAINED_TRIGGER_CASTER,100,0);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('STATUS_CHAINED_TRIGGER_TARGET')):ApplyStatus(SELF,STATUS_CHAINED_MELEEATTACK_COOLDOWN,100,1);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApply) and StatusId('STATUS_CHAINED_TRIGGER_TARGET')):UseSpell(Target_PommelStrike,true,true,true)"
+
+////
+//Passive Templates - Ranged Weapon Attack
+//1.0
+new entry "Passive_Chained_RangedAttack_OnDamage"
+type "PassiveData"
+data "Icon" "Action_HamstringShot"
+data "DisplayName" "h37d21943g0de4g4fffg9f79g5f824a4c0cb7;1"
+data "Description" "h41dd70bbg7feag4871gbe88g3bcb4d7e195d;1"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsRangedWeaponAttack() and Enemy() and not HasStatus('STATUS_CHAINED_RANGEDATTACK_COOLDOWN',context.Source)"
+data "StatsFunctors" "ApplyStatus(STATUS_CHAINED_RANGEDATTACK_TARGET,100,1)"
+//data "EnabledConditions" "not HasStatus('STATUS_CHAINED_RANGEDATTACK_COOLDOWN',context.Source)"
+//data "EnabledContext" "OnCastResolved;OnStatusApplied;OnStatusRemoved"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
+
+//2.0
+new entry "Passive_Chained_RangedAttack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "Conditions" "not HasStatus('STATUS_CHAINED_RANGEDATTACK_COOLDOWN',context.Source)"
+data "StatsFunctors" "ApplyStatus(STATUS_CHAINED_TRIGGER_CASTER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+new entry "Passive_Chained_RangedAttack_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//This DisplayName will show up in the combat log
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_CHAINED_TRIGGER_TARGET')"
+data "StatsFunctors" "ApplyStatus(SELF,STATUS_CHAINED_RANGEDATTACK_COOLDOWN,100,1);UseSpell(Projectile_HamstringShot,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+new entry "STATUS_CHAINED_RANGEDATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_CHAINED_TRIGGER_CASTER',context.Source)"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(STATUS_CHAINED_TRIGGER_TARGET,100,0)"
+
+//2.1
+new entry "STATUS_CHAINED_TRIGGER_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_CHAINED_TRIGGER_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "STATUS_CHAINED_RANGEDATTACK_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+////
+//Passive Templates - Spell Attack
+//1.0
+new entry "Passive_Chained_SpellAttack_OnDamage"
+type "PassiveData"
+data "Icon" "Spell_Evocation_FireBolt"
+data "DisplayName" "h0d6bd47fge09eg459aga29fg8e75466d1d30;1"
+data "Description" "h41dd70bbg7feag4871gbe88g3bcb4d7e195d;1"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "(IsRangedSpellAttack() or IsSavingThrow()) and Enemy() and not HasStatus('STATUS_CHAINED_SPELLATTACK_COOLDOWN',context.Source)"
+//IsSavingThrow() and IsHit()) and HasLastAttackTriggered() Fix later
+data "StatsFunctors" "ApplyStatus(SELF,STATUS_CHAINED_SHEATED_CASTER,100,1);ApplyStatus(STATUS_CHAINED_SPELLATTACK_TARGET,100,1)"
+//data "EnabledConditions" "not HasStatus('STATUS_CHAINED_SPELLATTACK_COOLDOWN',context.Source)"
+//data "EnabledContext" "OnCastResolved;OnStatusApplied;OnStatusRemoved"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
+
+//2.0
+new entry "Passive_Chained_SpellAttack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "Conditions" "not HasStatus('STATUS_CHAINED_SPELLATTACK_COOLDOWN',context.Source)"
+data "StatsFunctors" "ApplyStatus(STATUS_CHAINED_TRIGGER_CASTER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+new entry "Passive_Chained_SpellAttack_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//This DisplayName will show up in the combat log
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_CHAINED_TRIGGER_TARGET')"
+data "StatsFunctors" "ApplyStatus(SELF,STATUS_CHAINED_SPELLATTACK_COOLDOWN,100,1);UseSpell(Projectile_RayOfFrost,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+new entry "STATUS_CHAINED_SPELLATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_CHAINED_TRIGGER_CASTER',context.Source)"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(STATUS_CHAINED_TRIGGER_TARGET,100,0)"
+
+//2.1
+new entry "STATUS_CHAINED_TRIGGER_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_CHAINED_TRIGGER_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//Status to keep weapon sheated between casts
+new entry "STATUS_CHAINED_SHEATED_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Sheathing" "Sheathed"
+data "RemoveEvents" "OnSpellCast"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "STATUS_CHAINED_SPELLATTACK_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

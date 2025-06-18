@@ -1,0 +1,208 @@
+//Boosts for Testing
+//UnlockInterrupt(Interrupt_MeleeAttack_Attack);UnlockInterrupt(Interrupt_RangedAttack_Attack);UnlockInterrupt(Interrupt_RangedSpell_Attack)
+
+//Interrupt Template - Melee Weapon Attack
+//Order
+//1.0 > 1.1 > 2.0 > 2.1 > 3.0 > 3.1 > 4.0 > 4.1
+
+//1.0
+new entry "Interrupt_MeleeAttack_Attack"
+type "InterruptData"
+data "DisplayName" "h0a223baagb1b6g43d5gaff6gb95755f67f95;1"
+data "Description" "h64ba8ddcgd62ag4c92gbbf1ga8ba8fc512d1;1"
+data "DescriptionParams" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType)"
+data "Icon" "Target_MainHandAttack"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and IsMeleeAttack() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsWeaponAttack() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Properties" "ApplyStatus(STATUS_INTERRUPT_MELEEATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_INTERRUPT_MELEEATTACK_CASTER,100,1)"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptDefaultValue" "Enabled;Ask"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+//1.1
+//Caster Status
+new entry "STATUS_INTERRUPT_MELEEATTACK_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Passive_Interrupt_MeleeAttack_OnCastResolved;Passive_Interrupt_MeleeAttack_OnStatusApply"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.0
+new entry "Passive_Interrupt_MeleeAttack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "StatsFunctors" "ApplyStatus(STATUS_INTERRUPT_CASTER_TRIGGER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+new entry "Passive_Interrupt_MeleeAttack_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//DisplayName, this shows up in the combat log for the spell
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_INTERRUPT_TARGET_TRIGGER')"
+data "StatsFunctors" "RemoveStatus(SELF,STATUS_INTERRUPT_MELEEATTACK_CASTER);UseSpell(Target_PommelStrike,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+//Target Status
+new entry "STATUS_INTERRUPT_MELEEATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "OnRemoveFunctors" "ApplyStatus(STATUS_INTERRUPT_TARGET_TRIGGER,100,0)"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_INTERRUPT_CASTER_TRIGGER',context.Source)"
+
+//2.1
+new entry "STATUS_INTERRUPT_CASTER_TRIGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_INTERRUPT_TARGET_TRIGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+////
+//Interrupt Template - Ranged Weapon Attack
+//1.0
+new entry "Interrupt_RangedAttack_Attack"
+type "InterruptData"
+data "DisplayName" "h5ac535abgc01ag4f1fg8c0eg29806c5d9220;1"
+data "Description" "h64ba8ddcgd62ag4c92gbbf1ga8ba8fc512d1;1"
+data "DescriptionParams" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType)"
+data "Icon" "Projectile_MainHandAttack"
+data "InterruptContext" "OnPreDamage"
+//OnCastResolved happens before OnCastHit with Projectile spells at long range with slow projectiles, OnPreDamage can be used in those cases
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and IsRangedWeaponAttack() and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Properties" "ApplyStatus(STATUS_INTERRUPT_RANGEDATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_INTERRUPT_RANGEDATTACK_CASTER,100,1)"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptDefaultValue" "Enabled;Ask"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+//1.1
+//Caster Status
+new entry "STATUS_INTERRUPT_RANGEDATTACK_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Passive_Ranged_Attack_OnStatusApply;Passive_Ranged_Attack_OnCastResolved"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.0
+new entry "Passive_Ranged_Attack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "StatsFunctors" "ApplyStatus(STATUS_INTERRUPT_CASTER_TRIGGER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+new entry "Passive_Ranged_Attack_OnStatusApply"
+type "PassiveData"
+data "StatsFunctorContext" "OnStatusApply"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//DisplayName, this shows up in the combat log for the spell
+data "Conditions" "StatusId('STATUS_INTERRUPT_TARGET_TRIGGER')"
+data "StatsFunctors" "RemoveStatus(SELF,STATUS_INTERRUPT_RANGEDATTACK_CASTER);UseSpell(Projectile_MainHandAttack,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+//Target Status
+new entry "STATUS_INTERRUPT_RANGEDATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "OnRemoveFunctors" "ApplyStatus(STATUS_INTERRUPT_TARGET_TRIGGER,100,0)"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_INTERRUPT_CASTER_TRIGGER',context.Source)"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.1
+new entry "STATUS_INTERRUPT_CASTER_TRIGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_INTERRUPT_TARGET_TRIGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+////
+//Interrupt Template - Ranged Spell Attack
+//1.0
+new entry "Interrupt_RangedSpell_Attack"
+type "InterruptData"
+data "DisplayName" "h4785e78cg5c98g4200gb35ag25d62951f396;1"
+data "Description" "h64ba8ddcgd62ag4c92gbbf1ga8ba8fc512d1;1"
+data "DescriptionParams" "DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType)"
+data "Icon" "Spell_Evocation_RayOfFrost"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and ((IsSpellAttack() and HasDamageEffectFlag(DamageFlags.Hit)) or IsSavingThrow()) and Self(context.Source,context.Observer) and not IsKillingBlow() and not AnyEntityIsItem()"
+//and ConditionResult(context.HitDescription.FirstAttack)
+data "Properties" "ApplyStatus(STATUS_INTERRUPT_SPELLATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_INTERRUPT_SPELLATTACK_CASTER,100,1)"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptDefaultValue" "Enabled;Ask"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER') or HasStatus('SG_Disguise')"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+
+//1.1
+//Status Caster 
+new entry "STATUS_INTERRUPT_SPELLATTACK_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Passive_Ranged_Spell_OnCastResolved;Passive_Ranged_Spell_OnStatusApply"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.0
+//OnCastResolved Trigger chain of statuses
+new entry "Passive_Ranged_Spell_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "StatsFunctors" "ApplyStatus(STATUS_INTERRUPT_CASTER_TRIGGER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+//OnStatusApply Trigger second attack
+new entry "Passive_Ranged_Spell_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//DisplayName, this shows up in the combat log for the spell
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_INTERRUPT_TARGET_TRIGGER')"
+data "StatsFunctors" "RemoveStatus(SELF,STATUS_INTERRUPT_SPELLATTACK_CASTER);UseSpell(Projectile_FireBolt,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+//Status Target
+new entry "STATUS_INTERRUPT_SPELLATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_INTERRUPT_CASTER_TRIGGER',context.Source)"
+data "OnRemoveFunctors" "ApplyStatus(STATUS_INTERRUPT_TARGET_TRIGGER,100,0)"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.1
+new entry "STATUS_INTERRUPT_CASTER_TRIGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_INTERRUPT_TARGET_TRIGGER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

@@ -1,0 +1,191 @@
+//Boosts for Testing
+//UnlockSpell(Target_MainHandAttack_Test);UnlockSpell(Projectile_MainHandAttack_Test);UnlockSpell(Projectile_FireBolt_Test);UnlockSpell(Target_SacredFlame_Test)
+
+//Spell Template - Melee Weapon Attack
+//Order
+//1.0 > 1.1 > 2.0 > 2.1 > 3.0 > 3.1 > 4.0
+
+//1.0
+new entry "Target_MainHandAttack_Test"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MainHandAttack"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(STATUS_SPELL_MELEEATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_MELEEATTACK_CASTER,100,1)"
+//ApplyStatus(STATUS_SPELL_MELEEATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_MELEEATTACK_CASTER,100,1)
+
+//1.1
+new entry "STATUS_SPELL_MELEEATTACK_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Passive_Spell_MeleeAttack_OnCastResolved;Passive_Spell_MeleeAttack_OnStatusApply"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.0
+new entry "Passive_Spell_MeleeAttack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "StatsFunctors" "ApplyStatus(STATUS_SPELL_TRIGGER_CASTER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+new entry "Passive_Spell_MeleeAttack_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//DisplayName, this shows up in the combat log for the spell
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_SPELL_TRIGGER_TARGET')"
+data "StatsFunctors" "RemoveStatus(SELF,STATUS_SPELL_MELEEATTACK_CASTER);UseSpell(Target_PommelStrike,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+new entry "STATUS_SPELL_MELEEATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_SPELL_TRIGGER_CASTER',context.Source)"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(STATUS_SPELL_TRIGGER_TARGET,100,0)"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.1
+new entry "STATUS_SPELL_TRIGGER_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_SPELL_TRIGGER_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+////
+//Spell Template - Ranged Projectile Attack
+
+//1.0
+new entry "Projectile_MainHandAttack_Test"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_MainHandAttack"
+data "SpellSuccess" "DealDamage(max(1,MainRangedWeapon),MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(STATUS_SPELL_RANGEDATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_RANGEDATTACK_CASTER,100,1)"
+//ApplyStatus(STATUS_SPELL_RANGEDATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_RANGEDATTACK_CASTER,100,1)
+
+//1.1
+new entry "STATUS_SPELL_RANGEDATTACK_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Passive_Spell_RangedAttack_OnCastResolved;Passive_Spell_RangedAttack_OnStatusApply"
+
+//2.0
+new entry "Passive_Spell_RangedAttack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "StatsFunctors" "ApplyStatus(STATUS_SPELL_TRIGGER_CASTER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+new entry "Passive_Spell_RangedAttack_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//DisplayName, this shows up in the combat log for the spell
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_SPELL_TRIGGER_TARGET')"
+data "StatsFunctors" "RemoveStatus(SELF,STATUS_SPELL_RANGEDATTACK_CASTER);UseSpell(Projectile_HamstringShot,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+new entry "STATUS_SPELL_RANGEDATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_SPELL_TRIGGER_CASTER',context.Source)"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(STATUS_SPELL_TRIGGER_TARGET,100,0)"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.1
+new entry "STATUS_SPELL_TRIGGER_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_SPELL_TRIGGER_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+////
+//Spell Template - Ranged Spell Attack
+
+//1.0
+new entry "Projectile_FireBolt_Test"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_FireBolt"
+data "SpellSuccess" "DealDamage(LevelMapValue(D10Cantrip),Fire,Magical);ApplyStatus(STATUS_SPELL_SPELLATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_SPELLATTACK_CASTER,100,1);ApplyStatus(SELF,STATUS_SPELL_SHEATED_CASTER,100,1)"
+//ApplyStatus(STATUS_SPELL_SPELLATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_SPELLATTACK_CASTER,100,1);ApplyStatus(SELF,STATUS_SPELL_SHEATED_CASTER,100,1)
+
+//1.0
+new entry "Target_SacredFlame_Test"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Target_SacredFlame"
+data "SpellSuccess" "DealDamage(LevelMapValue(D8Cantrip),Radiant,Magical);ApplyStatus(STATUS_SPELL_SPELLATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_SPELLATTACK_CASTER,100,1);ApplyStatus(SELF,STATUS_SPELL_SHEATED_CASTER,100,1)"
+//ApplyStatus(STATUS_SPELL_SPELLATTACK_TARGET,100,1);ApplyStatus(SELF,STATUS_SPELL_SPELLATTACK_CASTER,100,1);ApplyStatus(SELF,STATUS_SPELL_SHEATED_CASTER,100,1)
+
+//1.1
+//Caster Status
+new entry "STATUS_SPELL_SPELLATTACK_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Passives" "Passive_Spell_SpellAttack_OnCastResolved;Passive_Spell_SpellAttack_OnStatusApply"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.0
+new entry "Passive_Spell_SpellAttack_OnCastResolved"
+type "PassiveData"
+data "StatsFunctorContext" "OnCastResolved"
+data "StatsFunctors" "ApplyStatus(STATUS_SPELL_TRIGGER_CASTER,100,0)"
+data "Properties" "IsHidden"
+
+//4.0
+new entry "Passive_Spell_SpellAttack_OnStatusApply"
+type "PassiveData"
+data "DisplayName" "h87596e97g02e1g436dg8c90g461880b98523;1"
+//DisplayName, this shows up in the combat log for the spell
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('STATUS_SPELL_TRIGGER_TARGET')"
+data "StatsFunctors" "RemoveStatus(SELF,STATUS_SPELL_SPELLATTACK_CASTER);UseSpell(Projectile_RayOfFrost,true,true,true)"
+data "Properties" "IsHidden"
+
+//1.1
+//3.0
+new entry "STATUS_SPELL_SPELLATTACK_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('STATUS_SPELL_TRIGGER_CASTER',context.Source)"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(STATUS_SPELL_TRIGGER_TARGET,100,0)"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//2.1
+new entry "STATUS_SPELL_TRIGGER_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//3.1
+new entry "STATUS_SPELL_TRIGGER_TARGET"
+type "StatusData"
+data "StatusType" "BOOST"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+//1.1
+//Status to keep weapon sheated between casts
+new entry "STATUS_SPELL_SHEATED_CASTER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Sheathing" "Sheathed"
+data "RemoveEvents" "OnSpellCast"
+//data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
