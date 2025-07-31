@@ -1,3 +1,9 @@
+i think there's 4 "RemoveCause"
+value "TimeOut"
+value "Condition"
+value "External"
+value "Death"
+
 valuelist "Penalty PreciseQualifier"
 value "None" : 0
 value "-10" : 1
