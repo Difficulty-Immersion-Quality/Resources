@@ -45,7 +45,7 @@
 - [Arcanist Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/17494)&#x20;
 - [Bladesinger Reforged](https://www.nexusmods.com/baldursgate3/mods/17321)&#x20;
 - [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Vegetation Shadows*.
--
+- [Trips' Shader Pack](https://www.nexusmods.com/baldursgate3/mods/4752)&#x20;
 - [Companions - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4774) + *(Textures)*.
 - [Player and NPC - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4821) + *(Textures)*.
 - [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT NVP - Kazstra's Virtual Tav Non-Virtual Port*.
