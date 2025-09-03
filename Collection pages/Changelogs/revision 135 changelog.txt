@@ -1,3 +1,5 @@
+### Revision 135
+
 # 🔥Patch #7/Hotfix #28 - Final Patch #7 Update.🔥
 
 ### Don't forget to endorse the collection if you enjoy it! 😘 Maybe buy me a Pepsi too? [Kofi](https://ko-fi.com/baldursgoonsack)💖
@@ -9,7 +11,7 @@
 
 ***
 
-- **Note:** Revision 136 is going to be the Patch #8 revision, it will be for the latest hotfix, and it will be arriving not too long after documentation is concluded for this revision. At the most, I would say Revision 136 will be released within 48 hours of the Revision 135 release.
+- **Note:** Revision 136 is going to be the Patch #8 revision, it will be for the latest hotfix, and it will be arriving not too long after documentation is concluded for this revision. At the most, I would say Revision 136 will be released within 48 hours of the Revision 135 release. (When I announced it in Discord I stretched that to 72, but if it goes a little beyond that oh well.)
 
 ***
 

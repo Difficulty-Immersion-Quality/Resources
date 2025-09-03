@@ -79,6 +79,7 @@
 - [Tooltip Manager - Highlight Everything SE - MCM](https://www.nexusmods.com/baldursgate3/mods/18208)&#x20;
 - [Hit Chance - Percentage to DC](https://www.nexusmods.com/baldursgate3/mods/18418)&#x20;
 - [Sneak Attack Charge on Hotbar (Patch 8 Ready)](https://www.nexusmods.com/baldursgate3/mods/18047)&#x20;
+- [5eSpells Icon fixes](https://www.nexusmods.com/baldursgate3/mods/18435)&#x20;
 - [Trade with Withers - Fully modular and customizable trader](https://www.nexusmods.com/baldursgate3/mods/2458) *trade with withers reset inventory*.
 - [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044) *FeatsOverhaul\_GWMPatch* & *FeatsOverhaul\_SpellsPatch*.
 - [Echo Knight Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/3939) *RAW Level Progression*.
