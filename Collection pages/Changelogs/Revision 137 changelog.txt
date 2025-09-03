@@ -26,49 +26,53 @@
 
 ### Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
 
-- [XS Sporty Sexy Map - fit muscle body texture](https://www.nexusmods.com/baldursgate3/mods/1004)&#x20;
-- [Ninja-to and Katana sets](https://www.nexusmods.com/baldursgate3/mods/2405) *Ninja-to and Katana sets for non monks*.
-- [Add Unarmed Attacks to Savage Attacker and Savage Attacks](https://www.nexusmods.com/baldursgate3/mods/2473)&#x20;
-- [Seamless and Smooth Fem Gith Body Textures](https://www.nexusmods.com/baldursgate3/mods/2844) *SSFGBT - Unique Tav* + *Addon for other genitalia*.
-- [Bard Subclass - College of Creation](https://www.nexusmods.com/baldursgate3/mods/4519)&#x20;
-- [Bard Subclass - College of Eloquence](https://www.nexusmods.com/baldursgate3/mods/4651)&#x20;
-- [Whispers of the Guardian - Dragonborn Guardian](https://www.nexusmods.com/baldursgate3/mods/4521) \
-  If your guardian is a dragonborn you probably ought to keep this for the duration of your playthrough.
-- [Companions - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4774) + *(Textures)*.
-- [Player and NPC - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4821) + *(Textures)*.
-- [Illithid Powers Overhaul 2](https://www.nexusmods.com/baldursgate3/mods/5105) *Original appearance*.
-- [Lawful or Chaotic - Sleeve Back and Chest Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/5425) *Body Tattoo Switcher Atlas*.
-- [Familiar Casting and Fixes](https://www.nexusmods.com/baldursgate3/mods/6149) *Wildfire Druid Support*.
-- [Handsome Half-Orc Body Textures](https://www.nexusmods.com/baldursgate3/mods/6191) *Handsome Half-Orc Body Textures for Player and NPC* & *Handsome Half-Orc Body Textures for Unique Tav*.
-- [Blade of Frontiers - Wyll Enhanced](https://www.nexusmods.com/baldursgate3/mods/6364) *(No Fire Resistance) 1.0.0*.
-- [Body Switcher Tattoo's](https://www.nexusmods.com/baldursgate3/mods/7323) *Body Switcher Tattoos Pack 3*.
-- [Monk - Wisdom Ki Scaling](https://www.nexusmods.com/baldursgate3/mods/7358)&#x20;
-- [Moonrise Towers Tadpole Cargo Dialogue Bug Fix](https://www.nexusmods.com/baldursgate3/mods/8015)&#x20;
-- [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) *Left Arm - Left Breast and Chest*.
+- [Damage Preview 2](https://www.nexusmods.com/baldursgate3/mods/4137)&#x20;
 - [SNEKUI (add Sneak Attack Charges to the player HUD and UI) (Patch 6 only)](https://www.nexusmods.com/baldursgate3/mods/8973)&#x20;
-- [OneDnD Monk - Martial Arts](https://www.nexusmods.com/baldursgate3/mods/9022)&#x20;
-- [Githyanki Ridged Spots (Body and Face) OVERHAUL](https://www.nexusmods.com/baldursgate3/mods/9058) *Githyanki Body Ridges - Unique Tav*.
-- [Myky's Makeup and Tattoos](https://www.nexusmods.com/baldursgate3/mods/11280) *Myky's Makeup and Tattoos - KAVT*.
+- [Buff Exploit Fix - MCM](https://www.nexusmods.com/baldursgate3/mods/13652)&#x20;
+- [Mordenkainen's Tome of Tieflings](https://www.nexusmods.com/baldursgate3/mods/14885) \
+  ❗️If you're playing as one of these custom subraces either keep the mod, or use "Resculpt" from [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899) to pick a vanilla subrace.I tried patching it for UTAV/KAVT but some of the specified parameters in the guide didn't even exist in the visual file, and my efforts did not do anything; may try again in the future when there aren't more important things to do.
+- [Ninja-to and Katana sets](https://www.nexusmods.com/baldursgate3/mods/2405) *Ninja-to and Katana sets for non monks*.
 - [Amulet of Speak With Animals](https://www.nexusmods.com/baldursgate3/mods/11674) \
   ❗️Requires use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
+- [Blade of Frontiers - Wyll Enhanced](https://www.nexusmods.com/baldursgate3/mods/6364) *(No Fire Resistance) 1.0.0*.
+- [Familiar Casting and Fixes](https://www.nexusmods.com/baldursgate3/mods/6149) *Wildfire Druid Support*.
+- [Illithid Powers Overhaul 2](https://www.nexusmods.com/baldursgate3/mods/5105) *Original appearance*.
+- [Add Unarmed Attacks to Savage Attacker and Savage Attacks](https://www.nexusmods.com/baldursgate3/mods/2473)&#x20;
+- [Bard Subclass - College of Creation](https://www.nexusmods.com/baldursgate3/mods/4519)&#x20;
+- [Bard Subclass - College of Eloquence](https://www.nexusmods.com/baldursgate3/mods/4651)&#x20;
+- [OneDnD Monk - Martial Arts](https://www.nexusmods.com/baldursgate3/mods/9022)&#x20;
+- [Monk - Wisdom Ki Scaling](https://www.nexusmods.com/baldursgate3/mods/7358)&#x20;
+- [Arcanist Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/17494)&#x20;
+- [Bladesinger Reforged](https://www.nexusmods.com/baldursgate3/mods/17321)&#x20;
+- [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Vegetation Shadows*.
+-
+- [Companions - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4774) + *(Textures)*.
+- [Player and NPC - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4821) + *(Textures)*.
+- [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT NVP - Kazstra's Virtual Tav Non-Virtual Port*.
+- [XS Sporty Sexy Map - fit muscle body texture](https://www.nexusmods.com/baldursgate3/mods/1004)&#x20;
+- [Githyanki Ridged Spots (Body and Face) OVERHAUL](https://www.nexusmods.com/baldursgate3/mods/9058) *Githyanki Body Ridges - Unique Tav*.
+- [Handsome Half-Orc Body Textures](https://www.nexusmods.com/baldursgate3/mods/6191) *Handsome Half-Orc Body Textures for Player and NPC* & *Handsome Half-Orc Body Textures for Unique Tav*.
+- [Seamless and Smooth Fem Gith Body Textures](https://www.nexusmods.com/baldursgate3/mods/2844) *SSFGBT - Unique Tav* + *Addon for other genitalia*.
+- [Myky's Makeup and Tattoos](https://www.nexusmods.com/baldursgate3/mods/11280) *Myky's Makeup and Tattoos - KAVT*.
+- [Body Switcher Tattoo's](https://www.nexusmods.com/baldursgate3/mods/7323) *Body Switcher Tattoos Pack 3*.
+- [Lawful or Chaotic - Sleeve Back and Chest Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/5425) *Body Tattoo Switcher Atlas*.
+- [Skull and Bones Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/15533) *Merged*.
+- [Silver Tongue - Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/16000) *Merged*.
 - [No Abs Gale - Works with Patch 7](https://www.nexusmods.com/baldursgate3/mods/12771) *No Abs Gale - Hairy Version*.
+- [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) *Left Arm - Left Breast and Chest*.
 - [Minthara's Immersive Redesign by AzazeL (Patch 7-8)](https://www.nexusmods.com/baldursgate3/mods/13022) *Minthara's Immersive Redesign*.\
   ❗️Requires use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
   (**Note:** She will be in her underwear if not yet recruited, and her gear changed; This is not immersive, but it might be hilarious.)
+- [Githyanki Frog Eyes](https://www.nexusmods.com/baldursgate3/mods/17647)&#x20;
 - [Jax' Companion Edits - Wyll](https://www.nexusmods.com/baldursgate3/mods/13381) *Wyll* & *Wyll (Devil Form)*.
 - [Jax' Companion Edits - Halsin](https://www.nexusmods.com/baldursgate3/mods/13424) *Halsin (No Beard)*.
 - [More Abs Lae'zel](https://www.nexusmods.com/baldursgate3/mods/13592)&#x20;
-- [Buff Exploit Fix - MCM](https://www.nexusmods.com/baldursgate3/mods/13652)&#x20;
-- [Skull and Bones Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/15533) *Merged*.
-- [Silver Tongue - Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/16000) *Merged*.
-- [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT NVP - Kazstra's Virtual Tav Non-Virtual Port*.
 - [Florrick Restyled](https://www.nexusmods.com/baldursgate3/mods/17039) *Florrick Restyled Version 2*.
 - [Minthara - Dirt B Gone](https://www.nexusmods.com/baldursgate3/mods/17070)&#x20;
 - [Jaheira - Dirt B Gone](https://www.nexusmods.com/baldursgate3/mods/17079)&#x20;
-- [Bladesinger Reforged](https://www.nexusmods.com/baldursgate3/mods/17321)&#x20;
-- [Arcanist Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/17494)&#x20;
-- [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Vegetation Shadows*.
-- [Githyanki Frog Eyes](https://www.nexusmods.com/baldursgate3/mods/17647)&#x20;
+- [Whispers of the Guardian - Dragonborn Guardian](https://www.nexusmods.com/baldursgate3/mods/4521) \
+  If your guardian is a dragonborn you probably ought to keep this for the duration of your playthrough.
+- [Moonrise Towers Tadpole Cargo Dialogue Bug Fix](https://www.nexusmods.com/baldursgate3/mods/8015)&#x20;
 
 ### Moved to [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) from [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv):🧙🏻‍♂️
 
