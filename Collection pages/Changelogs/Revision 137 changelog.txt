@@ -1,6 +1,6 @@
-### Revision 137 (Unreleased - WIP)
+### Revision 137&#x20;
 
-# 🔥Patch #8/Hotfix #33 - Big Ole' Maintenance.🔥
+# 🔥Patch #8/Hotfix #33 - Big Chungus Maintenance+.🔥
 
 ### Don't forget to endorse the collection if you enjoy it! 😘 Maybe buy me a Pepsi too? [Kofi](https://ko-fi.com/baldursgoonsack)💖
 
@@ -21,6 +21,9 @@
 - Body tattoo issues are all fixed up, but only the default atlas is included\
   **Note:** Keep in mind that body tattoo selection via character creation is a single channel, and body tattoos can have 3 channels. Not all atlases you add will be created with this limitation in mind, for the exceptions you ought to use the new addition [Character Appearance Editor (Charactery Character Editory Editor) (CCEE) WIP](https://www.nexusmods.com/baldursgate3/mods/17123).
 - Full transition to [KAVT](https://www.nexusmods.com/baldursgate3/mods/16325) and virtual textures. We lost some cool Origin customisation in the process, mainly [Shart's concept art tattoos](https://www.nexusmods.com/baldursgate3/mods/8115). But less graphical issues and new features such as glowing stuff is cool and worth it. Will see what can be done about Shart's tattoos in the future, because I'll definitely miss them.
+- Early game onboarding should be improved by providing 2 Injury Kits to each character and reducing the global application % chance by 20% for [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863 "Grit and Glory - Injuries Exhaustion and Madness - MCM
+
+  (https://www.nexusmods.com/baldursgate3/mods/14863)")!
 
 ***
 
@@ -45,7 +48,6 @@
 - [Arcanist Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/17494)&#x20;
 - [Bladesinger Reforged](https://www.nexusmods.com/baldursgate3/mods/17321)&#x20;
 - [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Vegetation Shadows*.
-- [Trips' Shader Pack](https://www.nexusmods.com/baldursgate3/mods/4752)&#x20;
 - [Companions - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4774) + *(Textures)*.
 - [Player and NPC - Old Shaders](https://www.nexusmods.com/baldursgate3/mods/4821) + *(Textures)*.
 - [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT NVP - Kazstra's Virtual Tav Non-Virtual Port*.
@@ -74,15 +76,9 @@
   If your guardian is a dragonborn you probably ought to keep this for the duration of your playthrough.
 - [Moonrise Towers Tadpole Cargo Dialogue Bug Fix](https://www.nexusmods.com/baldursgate3/mods/8015)&#x20;
 
-### Moved to [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) from [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv):🧙🏻‍♂️
-
--
-
 ### Added: 💯
 
 - [Tooltip Manager - Highlight Everything SE - MCM](https://www.nexusmods.com/baldursgate3/mods/18208)&#x20;
-- [Hit Chance - Percentage to DC](https://www.nexusmods.com/baldursgate3/mods/18418)&#x20;
-- [Sneak Attack Charge on Hotbar (Patch 8 Ready)](https://www.nexusmods.com/baldursgate3/mods/18047)&#x20;
 - [5eSpells Icon fixes](https://www.nexusmods.com/baldursgate3/mods/18435)&#x20;
 - [Trade with Withers - Fully modular and customizable trader](https://www.nexusmods.com/baldursgate3/mods/2458) *trade with withers reset inventory*.
 - [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044) *FeatsOverhaul\_GWMPatch* & *FeatsOverhaul\_SpellsPatch*.
@@ -103,7 +99,6 @@
 - [Counsellor Florrick Redone - Hand of the Archduke](https://www.nexusmods.com/baldursgate3/mods/17006)&#x20;
 - [Duke Belynne Stelmane Edits - Former Hope of the Gate](https://www.nexusmods.com/baldursgate3/mods/18327)&#x20;
 - [Dirt B Gone - NPC Edition](https://www.nexusmods.com/baldursgate3/mods/18263) *Nine-Fingers - Dirt B Gone* & *Quartermaster Talli - Dirt B Gone*.
-- [Lesser Restoration - Assorted Bug Fixes](https://www.nexusmods.com/baldursgate3/mods/15125) *HT\_LesserRestoration\_Voice and Mocap*.
 - [Extremely Literal Mirror Scene Line For All Races](https://www.nexusmods.com/baldursgate3/mods/18057)&#x20;
 - [Aylin Always Summons Moonlight Slivers](https://www.nexusmods.com/baldursgate3/mods/18079)&#x20;
 - [Wyll Kiss Dialogue](https://www.nexusmods.com/baldursgate3/mods/18278)&#x20;
@@ -111,6 +106,7 @@
 ### Added to optional mods: 💯
 
 - [Character Appearance Editor (Charactery Character Editory Editor) (CCEE) WIP](https://www.nexusmods.com/baldursgate3/mods/17123)&#x20;
+- [Hit Chance - Percentage to DC](https://www.nexusmods.com/baldursgate3/mods/18418)&#x20;
 - [Faster Rolls Quartered](https://www.nexusmods.com/baldursgate3/mods/1561)&#x20;
 - [Minimal Main Menu](https://www.nexusmods.com/baldursgate3/mods/18137)&#x20;
 - [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) *AIO Hairy (VT)*.\
@@ -145,12 +141,16 @@
 - [Unholy Smite for Oathbreakers](https://www.nexusmods.com/baldursgate3/mods/15366)&#x20;
 - [Goon's Rogue Overhaul](https://www.nexusmods.com/baldursgate3/mods/17612)&#x20;
 - [The Ruffian - A Strength Rogue](https://www.nexusmods.com/baldursgate3/mods/13512) + *Grappling Framework Extension*.
+- [Goon's Sorcerer Overhaul](https://www.nexusmods.com/baldursgate3/mods/17657)&#x20;
 - [Goon's Coffee Lock - Use Warlock Spell Slots First](https://www.nexusmods.com/baldursgate3/mods/17634) *Decaf*.
 - [Goon's Wizard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17659)&#x20;
 - [Valkrana's Necrobroker - Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/17919)&#x20;
+- [5e Spells Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/7054)&#x20;
+- [Homebrew Spells Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/8003)&#x20;
 
 ### Updated: ✅
 
+- [HybridUI](https://www.nexusmods.com/baldursgate3/mods/17906)&#x20;
 - [Mod Configuration Menu (MCM)](https://www.nexusmods.com/baldursgate3/mods/9162)&#x20;
 - [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717)&#x20;
 - [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217)&#x20;
@@ -162,8 +162,11 @@
 - [Goon's Short Legs Overhaul - Full Movement for Short Races](https://www.nexusmods.com/baldursgate3/mods/17616) *UNSO*.
 - [Goon's Condition and Surface Overhaul](https://www.nexusmods.com/baldursgate3/mods/17320)&#x20;
 - [Gale and His Netherese Orb - A Magical Appetite](https://www.nexusmods.com/baldursgate3/mods/14442) *Devouring Allergy*.
+- [Power Hunger - Story Buffs Enhanced](https://www.nexusmods.com/baldursgate3/mods/3989)&#x20;
+- [Awakened Spear of Selune](https://www.nexusmods.com/baldursgate3/mods/13832)&#x20;
 - [Goon's Companion Protection](https://www.nexusmods.com/baldursgate3/mods/14396)&#x20;
 - [Bonk Enhanced - Knocked Out Failsafe - Non-Lethal Attacks and Damage Overhaul](https://www.nexusmods.com/baldursgate3/mods/13727)&#x20;
+- [Fix Stragglers](https://www.nexusmods.com/baldursgate3/mods/10795)&#x20;
 - [Hardcore Help](https://www.nexusmods.com/baldursgate3/mods/10340)&#x20;
 - [Swap Places Common Action](https://www.nexusmods.com/baldursgate3/mods/13120)&#x20;
 - [JWL Histories and Occupations for Patch 7](https://www.nexusmods.com/baldursgate3/mods/14867) *JWL Histories and Occupations Plus*.
@@ -199,10 +202,6 @@
 ### Updated optional mods: ✅
 
 - [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Shadowcasting*.
-
-### Moved to optional mods:
-
--
 
 ### Other:
 
