@@ -6,7 +6,7 @@
 
 ***
 
-- Read! Follow updating instructions!📜
+- Read!📜Follow updating instructions! -> 2. Updating Guide - Collection & Game Updates⚠️
 - [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
 - Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
 - Save safe!✅**BUT**, multiple mods ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (See below)
@@ -21,9 +21,7 @@
 - Body tattoo issues are all fixed up, but only the default atlas is included\
   **Note:** Keep in mind that body tattoo selection via character creation is a single channel, and body tattoos can have 3 channels. Not all atlases you add will be created with this limitation in mind, for the exceptions you ought to use the new addition [Character Appearance Editor (Charactery Character Editory Editor) (CCEE) WIP](https://www.nexusmods.com/baldursgate3/mods/17123).
 - Full transition to [KAVT](https://www.nexusmods.com/baldursgate3/mods/16325) and virtual textures. We lost some cool Origin customisation in the process, mainly [Shart's concept art tattoos](https://www.nexusmods.com/baldursgate3/mods/8115). But less graphical issues and new features such as glowing stuff is cool and worth it. Will see what can be done about Shart's tattoos in the future, because I'll definitely miss them.
-- Early game onboarding should be improved by providing 2 Injury Kits to each character and reducing the global application % chance by 20% for [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863 "Grit and Glory - Injuries Exhaustion and Madness - MCM
-
-  (https://www.nexusmods.com/baldursgate3/mods/14863)")!
+- Early game onboarding should be improved by providing 2 Injury Kits to each character and reducing the global application % chance by 20% for [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863)!
 
 ***
 
@@ -190,7 +188,8 @@
 - [Zevlor Redone - The Exiled Hellrider Commander](https://www.nexusmods.com/baldursgate3/mods/17034)&#x20;
 - [Dame Aylin Redone - Holy Sword of the Moonmaiden](https://www.nexusmods.com/baldursgate3/mods/17426)&#x20;
 - [P4 Patches](https://www.nexusmods.com/baldursgate3/mods/353) *Patches\_for\_VFX\_Heads*.
-- [Horns of Faerun](https://www.nexusmods.com/baldursgate3/mods/466)&#x20;
+- [Horns of Faerun](https://www.nexusmods.com/baldursgate3/mods/466) \
+  ❗️Requires use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.❗️De-select the horns if they're in use by any characters.
 - [Myky's Hairstyles](https://www.nexusmods.com/baldursgate3/mods/16198)&#x20;
 - [Reassign Necromancy of Thay (and Danse Macabre and Codex Blessing)](https://www.nexusmods.com/baldursgate3/mods/15290)&#x20;
 - [Object Character Support](https://www.nexusmods.com/baldursgate3/mods/3940)&#x20;

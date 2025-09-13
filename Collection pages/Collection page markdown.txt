@@ -232,8 +232,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    **WARNING:** Make sure you have the appropriate version!\
    Patch #8: [1.0.12.0](https://github.com/LaughingLeader/BG3ModManager/releases)+\
    Patch #7: [1.0.11.1](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.11.1) \
-   Patch #6: [1.0.10.0](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.10.0)\
-   ![](https://i.postimg.cc/k4xg0sPQ/image-2025-04-19-140004580.png)
+   Patch #6: [1.0.10.0](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.10.0)\\
 2. ***Under Settings*** > ***Preferences*** > ***General*** check that your ***Game Data Path*** and ***Game Executable Path*** are correct, and match where you installed the game.![](https://i.postimg.cc/FHVWQPSf/Screenshot-2024-03-22-041956.png)
 3. Get the `REVISION_#.JSON` file from my [Discord](https://discord.gg/baldursgoonsacks) under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-load-order*** or [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) (requires extraction from the `.zip` folder) and place it in `BG3ModManager_Latest\Orders` folder.\
    \
@@ -242,11 +241,9 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    ![](https://i.postimg.cc/5tjDpDQs/image-10.png)![](https://i.postimg.cc/sfGPLsH1/Screenshot-2024-07-30-215439.png)
 4. Open or ***Refresh*** [BG3MM](https://github.com/LaughingLeader/BG3ModManager).![](https://i.postimg.cc/nzw67dVR/image.png)
 5. In [BG3MM](https://github.com/LaughingLeader/BG3ModManager), select the `.json` file on the ***Mod Order*** drop-down menu. Make sure you've always got the correct load order selected, matching the collection revision you have installed.![](https://i.postimg.cc/7LNCxzPY/image.png)
-6. When prompted with ***Missing Mods in Load Order*** select ***Remove All Missing.*** This will show all of the optional mods you don't have, as well as mods from [The DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj), [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg), [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) and [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) (if you're not using them) and the [Plus Categories](https://www.nexusmods.com/baldursgate3/mods/4600) dividers I use for organising the load order. \
-   **Note:** [The DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj) and [Plus Categories](https://www.nexusmods.com/baldursgate3/mods/4600) are not relevant for most users.![](https://i.postimg.cc/fbsK2Ygw/image.png)\
-   You will know it's worked even though the window has not closed, in the bottom left you will see the following.\
-   **Note:** The number below is not the exact number you should expect, that changes over time and varies based upon what you have chosen to install.\
-   ![](https://i.postimg.cc/j21cZ9B9/image.png)
+6. When prompted with ***Missing Mods in Load Order*** select ***Remove All Missing***, then \*\*\*OK. \*\*\*\
+   \
+   This will show all of the optional mods and mods from [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg), [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) that you don't have installed, enabled and deployed through vortex.![](https://i.postimg.cc/fbsK2Ygw/image.png)You can confirm that it's worked by saving the load order and refreshing [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\\
 7. ***Save*** the load order.![](https://i.postimg.cc/x1zxFffP/image.png)
 8. If there are collection mods in the ***Inactive Mods*** they likely are intended to be there, and act as if they were ***Overrides***.\
    \
@@ -267,6 +264,8 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    **Note:** Having a single save file is not inherent with the ***Honour Ruleset***, it's an optional setting just below it and otherwise a feature of the ***Honour Mode*** difficulty.\
    \
    *For further information on difficulty modes check out the *[*wiki page*](https://bg3.wiki/wiki/Difficulty)*.*\
+   \
+   ❗️**WARNING:** ***Honour ruleset*** won't be saved if setting up ***Custom difficulty*** in a multiplayer lobby. Given that my recommendation is to play ***Custom difficulty*** with ***honour rules*** toggled you should do so by setting up the game solo, then getting your homie(s) to join via ***direct connect***. Double check once you're in the game that ***honour rules*** are active.\
    ![](https://i.postimg.cc/hvGTCQBR/custom-difficulty-options.gif)
 2. **Recommendation 2:** \
    [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) is a script you can install so each time Windows starts up the game's `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache`, and other temp files are cleared. This is highly beneficial for avoiding issues that may arise over time, were it not cleaned out.\
@@ -454,25 +453,12 @@ Overwrite the game install with the downloaded packages, ***purge*** mods in [Vo
 
 ![](https://i.postimg.cc/Y024kVKF/3-Troubleshooting-Guides.png)**Before** seeking assistance in the [Comments](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=comments) or [Discord](https://discord.gg/baldursgoonsacks) you should be viewing these guides.
 
-- This is a handy external guide too: [Steam Community :: Guide :: Cleaning Cache](https://steamcommunity.com/sharedfiles/filedetails/?id=3018203217). If your install is old and sluggish, if you're having multiplayer connection issues, crashes/stutters etc. give it a go. Be mindful of what you're removing though things such as my configuration files may need to be put back after removal.
-
 ### Known Issues:
 
 <details><summary>⚡️Crashes, freezes & soft locks</summary>
 ### During gameplay:
 
-1. [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) *Combat Extender AI (CX AI)*. **NO AI MODS INCLUDING THIS ONE ARE PRESENT SINCE REVISION 134!**\
-   AI mods have always been fickle, and it appears that Combat Extender's AI is no exception. It's working flawlessly most of the time, but in niche circumstances it can cause crashes for some users.\
-   If you're experiencing a very specific crash, usually in combat, but also from destroying a specific environmental object, it could be [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207)'s Standalone AI.\
-   Temporarily removing it from the ***Active*** load order by dragging it to ***Inactive*** in [BG3MM](https://github.com/LaughingLeader/BG3ModManager) is a tried and true temporary solution, it's perfectly fine to add/remove mid-playthrough.\
-   \
-   **THE FIVE? HORSEMEN OF THE CX AI CRASHPOCALYPSE:**\
-   \- Nere fight (it's actually the Duergar Danna causing it)\
-   \- Dror Ragzlin fight\
-   \- Upstairs door of Waukeen's Rest, if broken with melee attacks\
-   \- When Karlach goes angery and smashes everything after dealing with the fake Paladins of Tyr\
-   \- Owlbear fight.
-2. **Engine limits:**\
+1. **Engine limits:**\
    There is such thing as too much, if you play with an increased party size, loads of custom auras and toggles your game is just going to be more crash prone, especially in Act III. I personally play with a party of 4 and don't have issues. If your machine/game can't handle all the craziness, try reducing it some.
 
 ### On game launch:
@@ -488,12 +474,12 @@ Overwrite the game install with the downloaded packages, ***purge*** mods in [Vo
 
 <details><summary>❗️gameplay issues</summary>
 1. Increasing the party limit with [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172) causes some niche bugs, please read the mod page and educate yourself on the subject prior to adjusting the party limit above 4.
-2. Using "Amulet of Lost Voices" and presumably any vanilla items which gives "Speak with Dead", will give you permanent "Recast Speak with Dead" upon after use. This is just due to how [Speak with Dead Rework and Tweaks](https://www.nexusmods.com/baldursgate3/mods/2144) works.
-3. Items looted from containers won't be auto-sorted into bags from [Bags of Sorting - Bean's Preset with auto-sort function](https://www.nexusmods.com/baldursgate3/mods/2797). If items don't get auto-sorted into containers drag the bag to another character's inventory, then back again. It should suck the items up. This is just a present limitation.
-4. A few quirks with [ARSENAL OVERHAUL -- Weapon Viability Enhanced](https://www.nexusmods.com/baldursgate3/mods/2370). Enemies using Short Bow ability *"Rapid Fire"* single target.
-5. Loading a save which is mid-combat will result in [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) health boosts not being properly applied.
-6. Scrolls with spell containers (multiple different version you can cast) and reactions, such as Counterspell, may need to be added to and cast from your hotbar to function appropriately.
-7. [JWL Discordant Instruments - New Equipment Slot](https://www.nexusmods.com/baldursgate3/mods/9119) Few bugs showing up for this mod, below are 3 items that do not appear to be lootable. Plop the below into your SE console to acquire the items.\
+2. Items looted from containers won't be auto-sorted into bags from [Simple Sorting Bags](https://www.nexusmods.com/baldursgate3/mods/7891). If items don't get auto-sorted into containers drag the bag to another character's inventory, then back again. It should suck the items up. This is just a present limitation.
+3. Loading a save which is mid-combat will result in [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) health boosts not being properly applied.
+4. Scrolls with spell containers (multiple different version you can cast) need to be added to and cast from your hotbar to function.
+5. Update: [JWL Discordant Instruments for Patch 7](https://www.nexusmods.com/baldursgate3/mods/17536) which is now included probably fixes this, need to confirm.\
+   \
+   [JWL Discordant Instruments - New Equipment Slot](https://www.nexusmods.com/baldursgate3/mods/9119) Few bugs showing up for this mod, below are 3 items that do not appear to be lootable. Plop the below into your SE console to acquire the items.\
    \
    **Ansur's trinket:**
 
@@ -515,38 +501,40 @@ TemplateAddTo("ae588c38-3e1b-4f38-97b2-635c76164527", GetHostCharacter(), 1)
 </details>
 
 <details><summary>❓Cosmetic Issues</summary>
-1. Since ***Patch #7*** many icons from action resources to classes and subraces have been cooked, this will be fixed over time.
+1. Since ***Patch #7*** many custom icons from action resources to classes and subraces have been cooked, this will be fixed over time.
 2. 🔞**In Game Nudity Toggles Not Working Properly:**\
    If a custom/modded item uses the chest/camp clothes slot and does not cover genitalia the game is generally assuming that it does. This circumvents the nudity being disabled. This may also be the case if a modded outfit does not have visuals for your race/gender.&#x20;
-3. [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97) the tattoo will not show up correctly on the upper arm. The same is true for any other unique bodies modified by clothing, such as Karlach, or even body tattoos from optional mod used on Tav.
+3. Unique bodies may not display correctly on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97).
 4. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
 5. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
 6. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
 </details>
 
 <details><summary>🪲vanilla bugs</summary>
-1. ***Honour ruleset*** won't be saved if setting up ***Custom difficulty*** in a multiplayer lobby. Given that my recommendation is to play ***Custom difficulty*** with ***honour rules*** toggled you should do so by setting up the game solo, then getting your homie(s) to join via ***direct connect***. Double check once you're in the game that ***honour rules*** are active.
-2. **"Someone in your party is not ready":**\
+1. **"Someone in your party is not ready":**\
    Pretty sure this is a vanilla bug, but it's a nasty one. Thankfully we've got a seemingly harmless fix for it.\
    \- Trade with Withers, inside his Important Objects container locate and purchase the [Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119).\
    \- Use the [Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119) to travel to the next chronological section of the game.
-3. **The Anisotropic Filtering Bug:**\
+2. **The Anisotropic Filtering Bug:**\
    "as of the last patch this setting doesn't seem to work anymore. Makes beards and short head hairs look blocky. A way to get around this is to force "16x Anisotropic Filtering" in Nvidia Control Panel (or AMD) 3D settings for the game, and then run the game with Direct X11 instead of Vulkan." - Stolen from the [Angels & Demons](https://next.nexusmods.com/baldursgate3/collections/bbckck) collection lol.
-4. **Incorrect tooltip information**:\
+3. **Incorrect tooltip information**:\
    Tooltips often get stuck showing outdated information, because of this bug the information displayed may be incorrect. Save then load the game to refresh the UI if necessary.
-5. [The Reviving Hands](https://bg3.wiki/wiki/The_Reviving_Hands) Casting Revivify on a dead ally does not apply Death Ward. Casting it on an ally who is downed, but not dead yet, does apply Death Ward. (as of Patch 6)
 </details>
 
 ### The Basic Troubleshoots:
 
-<details><summary>⚡️General troubleshooting: crashes, saves not loading, missing textures etc.</summary>
+<details><summary>⚡️General troubleshooting: crashes, saves not loading, missing textures, bad performance etc.</summary>
 ### Always do this first when encountering issues:
 
 1. If it's installed remove the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) from [Vortex](https://www.nexusmods.com/about/vortex/), ***Uninstall*** it, don't just ***Disable*** it.
 2. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-3. Verify integrity of game files through [Steam](https://store.steampowered.com/about/) or GOG.
+3. Verify integrity of game files through [Steam](https://store.steampowered.com/about/) or [GOG](https://www.gog.com/galaxy).
 4. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).&#x20;
-5. ***Export*** the load order to the game from BG3MM and try again.
+5. Restart your system, with the [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) installed.
+6. ***Export*** the load order to the game from [BG3MM](https://github.com/LaughingLeader/BG3ModManager).
+7. Launch the game from the DX11 .exe, or from [BG3MM](https://github.com/LaughingLeader/BG3ModManager) with DX11 enabled in the preferences.
+
+This is all stuff that's more or less covered in the install guide, there's no harm in making sure you've not missed something.
 </details>
 
 <details><summary>⚡️Native Mod Issues: Camera Functionality and WASD Movement</summary>
@@ -1044,18 +1032,15 @@ Same goes for my addon collections [DIQ Expanded](https://next.nexusmods.com/bal
 </details>
 
 <details><summary>💅🏼Customisation: body tattoos, makeup, unique tav stuff</summary>
-### Tattoo Tool:
+### Advanced Character Customisation Tools:
 
--
+- [Character Appearance Editor (Charactery Character Editory Editor) (CCEE) WIP](https://www.nexusmods.com/baldursgate3/mods/17123)&#x20;
 
-### Body Tattoos:
+### Body Textures:
 
-These are mutually exclusive, meaning, you should only install one. Installing all of them means the last in this list wins and cause benign "*Some mods are redundant*" warnings in [Vortex](https://www.nexusmods.com/about/vortex/).\
-![](https://i.postimg.cc/SQdzByrQ/Screenshot-2024-07-28-105158.png)These only overwrite the body tattoo atlas for Tav, no NPC ink is affected!
-
-- [Body Switcher Tattoo's](https://www.nexusmods.com/baldursgate3/mods/7323)&#x20;
-- [Skull and Bones Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/15533)&#x20;
-- [Lawful or Chaotic - Sleeve Back and Chest Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/5425)&#x20;
+- [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) *AIO Hairy (VT)*.\
+  Would have been main list, but elves share a body with the other normies and that's not immersive.\
+  Overwrites the hairless version in the main list.
 
 ### Face Tattoos:
 
@@ -1063,8 +1048,6 @@ These are mutually exclusive, meaning, you should only install one. Installing a
 These overwrite the vanilla makeup options for Tav only! Icons will remain vanilla however.
 
 - [Jules' Tattoos 1](https://www.nexusmods.com/baldursgate3/mods/17555) *KAVT - Additional Tattoo Slots*.
-- [Myky's Makeup and Tattoos](https://www.nexusmods.com/baldursgate3/mods/11280) *KAVT*.\
-  Tattoo and makeup options both included in this pack.
 
 ### Makeup:
 
@@ -1078,6 +1061,16 @@ These overwrite the vanilla makeup options for Tav only! Icons will remain vanil
 - [A Gith Can Change Their Spots](https://www.nexusmods.com/baldursgate3/mods/13134) In the middle of the Tattoo Style section Githyanki characters can select different spots to those on their head preset. Keep in mind that this does not alter the texture of the head, ridges and bumps will still be present but match the colour of your skin.\
   **NOTE:** This is not really functional for races other than Githyanki, and when using this function you must choose your spots prior to selecting a tattoo, selecting Githyanki spots again will remove your tattoo selection.\
   ![](https://i.postimg.cc/8cKTD1rf/Screenshot-2024-11-28-123549.png)
+
+### Body Tattoos:
+
+For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's CC Body Tattoo Selector](https://www.nexusmods.com/baldursgate3/mods/17702). Below is a list of some alternatives which I will update further. \
+**Note:** KAVT support may not be present.
+
+- [Body Switcher Tattoo's](https://www.nexusmods.com/baldursgate3/mods/7323) *Pack 1*, *Pack 2* & *Pack 3*.
+- [Lawful or Chaotic - Sleeve Back and Chest Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/5425) *Body Tattoo Switcher Atlas*.
+- [Skull and Bones Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/15533) *Merged*.
+- [Silver Tongue - Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/16000) *Merged*.
 </details>
 
 <details><summary>📷Graphics: trees, rocks, dirt, water, hair, armour</summary>
@@ -1085,9 +1078,9 @@ These overwrite the vanilla makeup options for Tav only! Icons will remain vanil
 
 ### Visuals:
 
-- [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Shadowcasting*, *Shadowed Torches* & *Vegetation Shadows*. \
-  **Note:** *Vegetation Shadows* may cause flickering issues.
-- [BG3 Texture Upscale Project (BG3TUP)](https://www.nexusmods.com/baldursgate3/mods/12402) Biggest download in the collection!
+- [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Shadowcasting* & *Shadowed Torches*.
+- [Immersive World Textures](https://www.nexusmods.com/baldursgate3/mods/18252) *Immersive World Textures - Loose files*.
+- [BG3 Texture Upscale Project (BG3TUP)](https://www.nexusmods.com/baldursgate3/mods/12402)&#x20;
 - [Upscaled Armour and Clothes Textures](https://www.nexusmods.com/baldursgate3/mods/1827) *Upscaled Armour and Clothes Textures - TEXTURES* & *Upscaled Armour and Clothes Textures - VTEX to TEX*.\
   Looks really nice, not recommended if you are short on VRAM or storage space. This mod is a good chunk of the overall collection size. YOU NEED TO INSTALL BOTH OR NEITHER!
 - [Vivid Landscapes - Water](https://www.nexusmods.com/baldursgate3/mods/7421) *4k* & *4k Rough Sea*. Overwrites the included lower resolution options of the main list.&#x20;
@@ -1117,6 +1110,15 @@ Ultrawide variants load last, so order of overwrites is: 16:9 < 16:10 < UW.
 - [Dynamic Sidebar](https://www.nexusmods.com/baldursgate3/mods/2668) *UW*.
 - [Better Topbar](https://www.nexusmods.com/baldursgate3/mods/2790) *16 to 10*.
 - [Better Topbar](https://www.nexusmods.com/baldursgate3/mods/2790) *UW*.
+
+### Other:
+
+- [Hit Chance - Percentage to DC](https://www.nexusmods.com/baldursgate3/mods/18418) \
+  Changes the % to hit shown in tooltips to DC (minimum roll required) instead. Simple, unobtrusive, universally compatible (tm) and safe to install/uninstall mid-playthrough.
+- [Faster Rolls Quartered](https://www.nexusmods.com/baldursgate3/mods/1561) \
+  Heavily reduces input delay for rolling dice after the interface comes up, and speeds up the animation for the rolling itself.
+- [Minimal Main Menu](https://www.nexusmods.com/baldursgate3/mods/18137) \
+  Reduces initial game load times by not loading the main menu level, replacing it with a blank black background.
 </details>
 
 ***
@@ -1131,13 +1133,13 @@ Yep, it's in the name.
 <details><summary>🙈Combat/difficulty changes!</summary>
 ### Primary:
 
-- [Absolutes Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) \
+- [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) \
   Soon to be replacing Combat Extender.
 - [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) \
   Controls stats and spells/abilities for NPCs, highly customisable; a large backbone of what gives DIQ a fresh combat experience, it's not just difficulty.
-- [Ultimate NPC Stat Overhaul](https://www.nexusmods.com/baldursgate3/mods/15535) + *Extras*.\
+- [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535) + *Extras*.\
   An ambitious project of my own, an overhaul to all NPCs; providing more hooks for Combat Extender to use, fixing bugs, adding missing racials etc.
-- [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) \
+- [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) + *Injuries - JWL Discordant Instruments Patch*.\
   My magnus opus developed for DIQ collaboratively with [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532). The ultimate immersive CBT experience, or not, depends on how you want to configure it.
 
 ### New Encounters:
@@ -1184,50 +1186,70 @@ The simple things, and sometimes not so simple things, which make a big differen
 <details><summary>🐱quality of life changes!</summary>
 ### Camera and movement:
 
-- [Remove Camera Move](https://www.nexusmods.com/baldursgate3/mods/5046) No longer will you attack the ground due to unneeded camera movement!
-- [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) No longer will you be so heavily restricted by the camera! Very configurable!
-- [WASD movement](https://www.nexusmods.com/baldursgate3/mods/781) Swap between point and click movement and WASD directional movement at will!
-- [Configurable movement speed - MCM compatible](https://www.nexusmods.com/baldursgate3/mods/2861) You can zoom zoom. Please be careful how much you zoom zoom. You can use [Ziphop - Teleport My Characters](https://www.nexusmods.com/baldursgate3/mods/15407) for if you get stuck under stairs or something, by default with my configs it's disabled.&#x20;
+- [Remove Camera Move](https://www.nexusmods.com/baldursgate3/mods/5046) \
+  No longer will you attack the ground due to unneeded camera movement!
+- [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) \
+  No longer will you be so heavily restricted by the camera! Very configurable!
+- [WASD movement](https://www.nexusmods.com/baldursgate3/mods/781) \
+  Swap between point and click movement and WASD directional movement at will!
+- [Configurable movement speed - MCM compatible](https://www.nexusmods.com/baldursgate3/mods/2861) \
+  You can zoom zoom. Please be careful how much you zoom zoom. You can use [Ziphop - Teleport My Characters](https://www.nexusmods.com/baldursgate3/mods/15407) for if you get stuck under stairs or something, by default with my configs it's disabled.&#x20;
 - [Ziphop - Teleport My Characters](https://www.nexusmods.com/baldursgate3/mods/15407)&#x20;
 
-### Immersive + convenience mods:
+### Immersive + convenience mods:&#x20;
 
-- [More Reactive Companions](https://www.nexusmods.com/baldursgate3/mods/5447) This mod makes it so your companions potentially speak up in place of Tav for observations of the environment etc.
+- [More Reactive Companions](https://www.nexusmods.com/baldursgate3/mods/5447) \
+  This mod makes it so your companions potentially speak up in place of Tav for observations of the environment etc.
 - [Dialogue and Reactivity Tags (DART) Framework](https://www.nexusmods.com/baldursgate3/mods/17561)&#x20;
-- [Use Highest Modifier in dialogue - *"Use Highest Modifier Mod."*](https://www.nexusmods.com/baldursgate3/mods/2171) Your Barbarian with negative Intelligence is trying to understand some magical shit? And Gale is just standing there again, isn't he? Well now your companions can actually assist you in these dialogue checks!
-- [Use Best Sleight of Hand](https://www.nexusmods.com/baldursgate3/mods/5036) Same as above but for lockpicking and pickpocketing.&#x20;
-- [Reduce NPC Banter Repetitiveness](https://www.nexusmods.com/baldursgate3/mods/7034) Quit the repetitive yapping.
-- [JWL Drop All The Loot](https://www.nexusmods.com/baldursgate3/mods/1475) *Drop ALL the loot*. Vendors drop all of their loot upon death. Unbalanced? Maybe. Immersive? Convenient? Yes.
+- [Use Highest Modifier in dialogue - *"Use Highest Modifier Mod."*](https://www.nexusmods.com/baldursgate3/mods/2171) \
+  Your Barbarian with negative Intelligence is trying to understand some magical shit? And Gale is just standing there again, isn't he? Well now your companions can actually assist you in these dialogue checks!
+- [Use Best Sleight of Hand](https://www.nexusmods.com/baldursgate3/mods/5036) \
+  Same as above but for lockpicking and pickpocketing.&#x20;
+- [Reduce NPC Banter Repetitiveness](https://www.nexusmods.com/baldursgate3/mods/7034) \
+  Quit the repetitive yapping.
+- [JWL Drop All The Loot](https://www.nexusmods.com/baldursgate3/mods/1475) *Drop ALL the loot*. \
+  Vendors drop all of their loot upon death. Unbalanced? Maybe. Immersive? Convenient? Yes.
 - [Approval Tweaks](https://www.nexusmods.com/baldursgate3/mods/644)&#x20;
 - [Goon's Companion Protection](https://www.nexusmods.com/baldursgate3/mods/14396)&#x20;
 - [Minthara Moves - Halsin and Minthara tents separated](https://www.nexusmods.com/baldursgate3/mods/14148)&#x20;
-- [BFR: Gale - Find Familiar: Tara](https://mod.io/g/baldursgate3/m/gale-find-familiar-tara) Tara is present even if you're not playing Origin Gale!
-- [Call Your Companions](https://www.nexusmods.com/baldursgate3/mods/14979) Shakeup for the endgame.
+- [BFR: Gale - Find Familiar: Tara](https://mod.io/g/baldursgate3/m/gale-find-familiar-tara) \
+  Tara is present even if you're not playing Origin Gale!
+- [Call Your Companions](https://www.nexusmods.com/baldursgate3/mods/14979) \
+  Shakeup for the endgame.
 
 ### Big convenience mods:
 
-- [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172) By default the party limit is still 4, edit the limit through the [MCM](https://www.nexusmods.com/baldursgate3/mods/9162) in-game.\
+- [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172) \
+  By default the party limit is still 4, edit the limit through the [MCM](https://www.nexusmods.com/baldursgate3/mods/9162) in-game.\
   **Note:** Increasing the party limit beyond 4 has its own set of bugs, educate yourself on the subject by reading the mod's page.
-- [Lodestones](https://www.nexusmods.com/baldursgate3/mods/7417?_gl=1*nuwheh*_ga*MTUzMDczNjAzMi4xNzA0NzM1OTI2*_ga_N0TELNQ37M*MTcwOTYxNzk2MC40NjcuMS4xNzA5NjMwMTQ2LjAuMC4w) Summon and dismiss any companion from anywhere, instantly. All mod functionality is bundled into a pouch of lodestones that is added to every avatar's inventory when loading a campaign.&#x20;
-- [Wifi potions](https://www.nexusmods.com/baldursgate3/mods/5080) Magical healing potions that look for any available healing potion of the same type in the party's inventory for convenience. No digging through the inventory mid combat, or needing to add potions to the hotbar constantly.
+- [Lodestones](https://www.nexusmods.com/baldursgate3/mods/7417?_gl=1*nuwheh*_ga*MTUzMDczNjAzMi4xNzA0NzM1OTI2*_ga_N0TELNQ37M*MTcwOTYxNzk2MC40NjcuMS4xNzA5NjMwMTQ2LjAuMC4w) \
+  Summon and dismiss any companion from anywhere, instantly. All mod functionality is bundled into a pouch of lodestones that is added to every avatar's inventory when loading a campaign.&#x20;
+- [Wifi potions](https://www.nexusmods.com/baldursgate3/mods/5080) \
+  Magical healing potions that look for any available healing potion of the same type in the party's inventory for convenience. No digging through the inventory mid combat, or needing to add potions to the hotbar constantly.
 - [Carry Weight Increased - Up To Over 9000](https://www.nexusmods.com/baldursgate3/mods/522) *Pickup and Send Heavy Objects - V3*. \
   This will let you pick up objects regardless of weight and send them to camp, it will not allow you to throw items though Strength thresholds still apply for that.
-- [Camp Event Notifications](https://www.nexusmods.com/baldursgate3/mods/1879) Displays an exclamation mark above the player character's head, and/or a status when an event is ready to take place upon a full rest. With my configs the annoying exclamation mark is removed by default.
+- [Camp Event Notifications](https://www.nexusmods.com/baldursgate3/mods/1879) \
+  Displays an exclamation mark above the player character's head, and/or a status when an event is ready to take place upon a full rest. With my configs the annoying exclamation mark is removed by default.
 - [New dialogues notifications (topical greetings)](https://www.nexusmods.com/baldursgate3/mods/13401) *New dialogues notifications (Camp Events)*.
-- [Fix Stragglers](https://www.nexusmods.com/baldursgate3/mods/10795) Automatically helps companions who get stuck or fall behind due to broken pathfinding by teleporting them or briefly boosting their jumps.
+- [Fix Stragglers](https://www.nexusmods.com/baldursgate3/mods/10795) \
+  Automatically helps companions who get stuck or fall behind due to broken pathfinding by teleporting them or briefly boosting their jumps.
 - [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899) + *Origins*.
-- [Automatic Inventory Manager (AIM)](https://www.nexusmods.com/baldursgate3/mods/6163) Disabled by default in my configs, highly customisable and in depth mod. Worth reading about if you're interested.
+- [Automatic Inventory Manager (AIM)](https://www.nexusmods.com/baldursgate3/mods/6163) \
+  Disabled by default in my configs, highly customisable and in depth mod. Worth reading about if you're interested.
 - [Bonk Enhanced - Knocked Out Failsafe - Non-Lethal Attacks and Damage Overhaul](https://www.nexusmods.com/baldursgate3/mods/13727)&#x20;
 - [Concentration Failsafe](https://www.nexusmods.com/baldursgate3/mods/2833)&#x20;
 
 ### Minor convenience mods:
 
-- [Spell List Sorter](https://www.nexusmods.com/baldursgate3/mods/9608) Organises spells by name and level in spell lists for character creation and level up.
-- [Auto Loot Seller V3](https://www.nexusmods.com/baldursgate3/mods/2435) In DIQ an older version of this mod is utilised to simply add junk items to wares automatically, nothing more.
+- [Spell List Sorter](https://www.nexusmods.com/baldursgate3/mods/9608) \
+  Organises spells by name and level in spell lists for character creation and level up.
+- [Auto Loot Seller V3](https://www.nexusmods.com/baldursgate3/mods/2435) \
+  In DIQ an older version of this mod is utilised to simply add junk items to wares automatically, nothing more.
 - [Auto Lockpicking](https://www.nexusmods.com/baldursgate3/mods/6188)&#x20;
 - [Auto Send Food To Camp](https://www.nexusmods.com/baldursgate3/mods/6086)&#x20;
 - [Auto Send Read Books To Camp](https://www.nexusmods.com/baldursgate3/mods/7035)&#x20;
-- [Automatically Hide Summons](https://www.nexusmods.com/baldursgate3/mods/5788) summons attached to a character will head when the character hides.
+- [Automatically Hide Summons](https://www.nexusmods.com/baldursgate3/mods/5788) \
+  Summons attached to a character will head when the character hides.
 - [AOE Cleaning Supplies](https://www.nexusmods.com/baldursgate3/mods/6408)&#x20;
 - [Short Rest Cooldown](https://www.nexusmods.com/baldursgate3/mods/10744)&#x20;
 - [Auto Use Soap](https://www.nexusmods.com/baldursgate3/mods/6880)&#x20;
@@ -1235,7 +1257,8 @@ The simple things, and sometimes not so simple things, which make a big differen
 
 ### Minor immersion mods:
 
-- [JWL Art Dealer](https://www.nexusmods.com/baldursgate3/mods/7943) Make all those paintings worth picking up.
+- [JWL Art Dealer](https://www.nexusmods.com/baldursgate3/mods/7943) \
+  Make all those paintings worth picking up.
 - [Elves Sit to Trance](https://www.nexusmods.com/baldursgate3/mods/5060)&#x20;
 - [Yield to Temptation - Tutorial Chest Anti-Cheat](https://www.nexusmods.com/baldursgate3/mods/4913)&#x20;
 - [Already Inspected (Visual opened containers)](https://www.nexusmods.com/baldursgate3/mods/13213)&#x20;
@@ -1302,6 +1325,9 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Lae'zel Kiss Dialogue](https://www.nexusmods.com/baldursgate3/mods/17523)&#x20;
 - [Night With Drow (Minthara Romance Alternative)](https://www.nexusmods.com/baldursgate3/mods/16213)&#x20;
 - [More Amnesia for the Haunted One (Dark Urge Not Baldurian)](https://www.nexusmods.com/baldursgate3/mods/6557) &#x20;
+- [Extremely Literal Mirror Scene Line For All Races](https://www.nexusmods.com/baldursgate3/mods/18057)&#x20;
+- [Aylin Always Summons Moonlight Slivers](https://www.nexusmods.com/baldursgate3/mods/18079)&#x20;
+- [Wyll Kiss Dialogue](https://www.nexusmods.com/baldursgate3/mods/18278)&#x20;
 
 ### [freshcantaloupe42](https://www.nexusmods.com/baldursgate3/users/56912202):
 
@@ -1349,7 +1375,6 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Dialogue Edits](https://www.nexusmods.com/baldursgate3/mods/7862)&#x20;
 - [Additional Grove Raid Dialogue Options](https://www.nexusmods.com/baldursgate3/mods/8517)&#x20;
 - [Astarion Bugbear and Ogre Dialogue Priority](https://www.nexusmods.com/baldursgate3/mods/7721)&#x20;
-- [Moonrise Towers Tadpole Cargo Dialogue Bug Fix](https://www.nexusmods.com/baldursgate3/mods/8015)&#x20;
 - [Flind - True Soul Dialogue Bug Fix](https://www.nexusmods.com/baldursgate3/mods/7307)&#x20;
 - [Minsc Dialogue Flow Fix](https://www.nexusmods.com/baldursgate3/mods/9061)&#x20;
 - [Strange Ox - Dialogue Flow Fix](https://www.nexusmods.com/baldursgate3/mods/8346)&#x20;
@@ -1374,23 +1399,21 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 
 - [Goon's Short Legs Overhaul - Full Movement for Short Races](https://www.nexusmods.com/baldursgate3/mods/17616) *UNSO*.
 - [Lolth-Sworn Drow Any Deity](https://www.nexusmods.com/baldursgate3/mods/6202)&#x20;
-- [Add Unarmed Attacks to Savage Attacker and Savage Attacks](https://www.nexusmods.com/baldursgate3/mods/2473) *Add Unarmed to Savage Attacks trait*. Half Orc racial.
-- [Blade of Frontiers - Wyll Enhanced](https://www.nexusmods.com/baldursgate3/mods/6364) Wyllie eyeball buff.
 - [Class-based High Elf Cantrips](https://www.nexusmods.com/baldursgate3/mods/12617)&#x20;
 - [Dark Urge - Rebirth](https://www.nexusmods.com/baldursgate3/mods/14598) *(Option 2) Dark Urge - Rebirth - Saving Throw*.&#x20;
 - [Dragonborn and Breath Weapon Enhanced - inspired by Fizban's Treasury of Dragons](https://www.nexusmods.com/baldursgate3/mods/12169)&#x20;
-- [Mordenkainen's Tome of Tieflings](https://www.nexusmods.com/baldursgate3/mods/14885)&#x20;
 
 ### Backgrounds:
 
 - [Impactful Backgrounds](https://www.nexusmods.com/baldursgate3/mods/8941)&#x20;
-- [JWL Histories and Occupations for Patch 7](https://www.nexusmods.com/baldursgate3/mods/14867)&#x20;
+- [JWL Histories and Occupations for Patch 7](https://www.nexusmods.com/baldursgate3/mods/14867) *JWL Histories and Occupations Plus*.
 </details>
 
 <details><summary>🧙🏼‍♂️Class changes!</summary>
 ### Overhauls:
 
-- [Expansion (with Bladesinger) Level 13-20 (Configurable)](https://www.nexusmods.com/baldursgate3/mods/279) Adds progressions for all vanilla classes up to level 20.
+- [Expansion Level 13-20 (Configurable)](https://www.nexusmods.com/baldursgate3/mods/279) \
+  Adds progressions for all vanilla classes up to level 20, and more.
 
 ### New Custom Classes
 
@@ -1417,8 +1440,6 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [Goon's Bard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17658)\
   **Subclasses:**
 - [College of Spirits Bard Subclass](https://www.nexusmods.com/baldursgate3/mods/4309?_gl=1*lho5vj*_ga*MTg1MjQ1NzM5LjE2ODY5MTYzMzU.*_ga_N0TELNQ37M*MTcwMDYwMTk3Mi40NDYuMS4xNzAwNjI0NjMxLjAuMC4w)&#x20;
-- [Bard Subclass - College of Eloquence](https://www.nexusmods.com/baldursgate3/mods/4651)&#x20;
-- [Bard Subclass - College of Creation](https://www.nexusmods.com/baldursgate3/mods/4519)&#x20;
 - [College of Cantors - Bard Subclass](https://www.nexusmods.com/baldursgate3/mods/11330)&#x20;
 - [College of Command - A Bard Subclass](https://www.nexusmods.com/baldursgate3/mods/13830)&#x20;
 - [College of Tragedy Bard Subclass](https://www.nexusmods.com/baldursgate3/mods/15166)&#x20;
@@ -1426,7 +1447,8 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 ### Cleric Changes
 
 - [Goon's Cleric Overhaul](https://www.nexusmods.com/baldursgate3/mods/17471)&#x20;
-- [UA6 Invoke Duplicity](https://www.nexusmods.com/baldursgate3/mods/5311) makes Trickery Domain Cleric a much more fun choice.\
+- [UA6 Invoke Duplicity](https://www.nexusmods.com/baldursgate3/mods/5311) \
+  Makes Trickery Domain Cleric a much more fun choice.\
   **Subclasses:**
 - [5e Cleric Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/16007)&#x20;
 - [War Domain Improved](https://www.nexusmods.com/baldursgate3/mods/5736)&#x20;
@@ -1462,7 +1484,7 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [Green Knight Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/10211)&#x20;
 - [Witch Knight - Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/7984)&#x20;
 - [The Guardian - A Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/13998)&#x20;
-- [Echo Knight Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/3939)&#x20;
+- [Echo Knight Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/3939) + *RAW Level Progression*.
 - [Houndmaster Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/16651)&#x20;
 - [Living Crucible Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/16848)&#x20;
 
@@ -1470,9 +1492,7 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 
 - [Goon's Monk Overhaul](https://www.nexusmods.com/baldursgate3/mods/17706)&#x20;
 - [Stillness of Mind PHB](https://www.nexusmods.com/baldursgate3/mods/6419)&#x20;
-- [Monk - Wisdom Ki Scaling](https://www.nexusmods.com/baldursgate3/mods/7358)&#x20;
-- [OneDnD Monk - Deflect Attacks](https://www.nexusmods.com/baldursgate3/mods/9019)&#x20;
-- [OneDnD Monk - Martial Arts](https://www.nexusmods.com/baldursgate3/mods/9022) \
+- [OneDnD Monk - Deflect Attacks](https://www.nexusmods.com/baldursgate3/mods/9019) \
   **Subclasses:**
 - [5e Monk Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15907) \
   Way of the Ascendant Dragon, Way of the Astral Self, Way of the Kensei, Way of the Long Death, Way of Mercy & Way of the Sun Soul.
@@ -1525,10 +1545,9 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [Metamagic Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/5674) \
   **Subclasses:**
 - [Aberrant Mind Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/3901)&#x20;
-- [Sorcerer - Divine Soul (Revised) PATCH 7 READY](https://www.nexusmods.com/baldursgate3/mods/4443)&#x20;
+- [Sorcerer - Divine Soul (Revised) PATCH 7 READY](https://www.nexusmods.com/baldursgate3/mods/4443) + [Divine Soul (REVISED) Lv20 Expansion Add-On\_ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/17331).
 - [Lunar Sorcery Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/8218)&#x20;
 - [Clockwork Soul Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/9081)&#x20;
-- [Arcanist Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/17494)&#x20;
 - [Frozen Sorcery Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/16976)&#x20;
 - [Favored Soul - Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/9369)&#x20;
 - [Divine Right - A Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/14997)&#x20;
@@ -1543,8 +1562,7 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [OneDnD UA7 Warlock Magical Cunning](https://www.nexusmods.com/baldursgate3/mods/5525) \
   [Pact of the Shroud](https://www.nexusmods.com/baldursgate3/mods/6001) \
   **Subclasses:**
--
-- [The Raven Queen Patron for Warlock](https://www.nexusmods.com/baldursgate3/mods/1895) Archfey tag
+- [The Raven Queen Patron for Warlock](https://www.nexusmods.com/baldursgate3/mods/1895)
 - [The First Vampire Warlock Subclass](https://www.nexusmods.com/baldursgate3/mods/9487)&#x20;
 - [The Undying Light - Warlock Subclass](https://www.nexusmods.com/baldursgate3/mods/9245) + *Great Old One Tag*.
 - [The Celestial - Warlock Subclass](https://www.nexusmods.com/baldursgate3/mods/11561) + *Archfey Tag*.
@@ -1603,7 +1621,7 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 
 ### Feats:
 
-- [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044)&#x20;
+- [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044) + *FeatsOverhaul\_GWMPatch* & *FeatsOverhaul\_SpellsPatch*.
 - [Essential Feats](https://www.nexusmods.com/baldursgate3/mods/5623)&#x20;
 - [Grappler Feat](https://www.nexusmods.com/baldursgate3/mods/3455) \
   Adds the Grappler feat from the D\&D5e Player's Handbook.
@@ -1638,7 +1656,7 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 
 - [Wild Magic D100 Table](https://www.nexusmods.com/baldursgate3/mods/2967)&#x20;
 - [More Wild Magic effects](https://www.nexusmods.com/baldursgate3/mods/2022)&#x20;
-- [Gale and His Netherese Orb - A Magical Appetite](https://www.nexusmods.com/baldursgate3/mods/14442)&#x20;
+- [Gale and His Netherese Orb - A Magical Appetite](https://www.nexusmods.com/baldursgate3/mods/14442) *Devouring Allergy*.
 
 ### Spells:
 
@@ -1708,7 +1726,7 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 <details><summary>⚔️Items</summary>
 ### Treasure Tables and Withers as a Merchant for Custom Items:
 
-- [Trade with Withers - Fully modular and customizable treasure tables](https://www.nexusmods.com/baldursgate3/mods/2458)&#x20;
+- [Trade with Withers - Fully modular and customizable trader](https://www.nexusmods.com/baldursgate3/mods/2458) + *trade with withers reset inventory*.
 - [Trade with Withers Addon - Containers](https://www.nexusmods.com/baldursgate3/mods/9397) The containers which all my patches point to.
 - [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095) *DIQ Clothing Patches*, *DIQ Miscellaneous Item Patches* & *DIQ Starting Equipment*.
 - [Immersive Infernal Robe](https://www.nexusmods.com/baldursgate3/mods/14235)&#x20;
@@ -1743,10 +1761,9 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 
 ### Weapons and Armour:
 
-- [Amulet of Speak With Animals](https://www.nexusmods.com/baldursgate3/mods/11674)&#x20;
 - [Valkrana's Limited Edition Bone - Necromancer Item](https://www.nexusmods.com/baldursgate3/mods/5005)&#x20;
 - [Helm's Armory - Shield and Longsword for Paladin Cleric](https://www.nexusmods.com/baldursgate3/mods/6345)&#x20;
-- [Ninja-to and Katana sets](https://www.nexusmods.com/baldursgate3/mods/2405) ***"Ninja-to and Katana sets from vendors and Orin"*** & ***"Ninja-to and Katana sets for non monks"***.
+- [Ninja-to and Katana sets](https://www.nexusmods.com/baldursgate3/mods/2405) *Ninja-to and Katana sets from vendors and Orin*.
 - [Ranger's Leather Armor](https://www.nexusmods.com/baldursgate3/mods/5590)&#x20;
 - [Withers Bodypillow](https://www.nexusmods.com/baldursgate3/mods/7012) Use this needlessly.
 - [Fade's Equipment Distribution (FED)](https://www.nexusmods.com/baldursgate3/mods/13824) *FED - SE*.
@@ -1968,13 +1985,14 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 - [Bulky Dwarf Heads](https://www.nexusmods.com/baldursgate3/mods/3921)&#x20;
 - [Femme Githyanki Heads](https://www.nexusmods.com/baldursgate3/mods/14031)&#x20;
 - [Githyanki Heads](https://www.nexusmods.com/baldursgate3/mods/15132)&#x20;
+- [HUNTRIX Head presets](https://www.nexusmods.com/baldursgate3/mods/18199) *Huntrix - UTAV*.
 </details>
 
 <details><summary>💄horns/beards/piercings/tattoos/makeup/replacers/etc!</summary>
 ### Core:
 
-- [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT NVP - Kazstra's Virtual Tav Non-Virtual Port*.
-- [Kazstra's CC Body Tattoo Selector](https://www.nexusmods.com/baldursgate3/mods/17702)&#x20;
+- [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT - Kazstra's Virtual Tav*.
+- [Kazstra's CC Body Tattoo Selector](https://www.nexusmods.com/baldursgate3/mods/17702) + *OPTIONAL - Loose File Atlas*..
 - [Unique Tav Custom Appearance](https://www.nexusmods.com/baldursgate3/mods/2754) *Data*.
 
 ### Other:
@@ -2011,7 +2029,7 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 
 ### Piercings:
 
-- [Piercing Improvement - Physics](https://www.nexusmods.com/baldursgate3/mods/6705) + *Physics Gale Piercing*.
+- [Piercing Improvement - Physics](https://www.nexusmods.com/baldursgate3/mods/6705) + *Piercing sets - Barbarian*, *Piercing sets - Crimsonhilt Dirks*, *Piercing sets - Orpheus* & *Piercing sets - Silvergold Gala*.
 - [Percing Edits ](https://www.nexusmods.com/baldursgate3/mods/2001)*with Standalone - Piercing Edits, Standalone - Piercing Edits - Trips and Standalone - Piercings for Dragonborn WIP.*
 - [Trips' Accessory Collection](https://www.nexusmods.com/baldursgate3/mods/2067)&#x20;
 - [Simple Piercing Sets](https://www.nexusmods.com/baldursgate3/mods/4633)&#x20;
@@ -2028,9 +2046,7 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 
 - [Upscaled Tattoos (and more)](https://www.nexusmods.com/baldursgate3/mods/1703)&#x20;
 - [Bobblehead Begone - Halfling Neck Reduction](https://www.nexusmods.com/baldursgate3/mods/2459)&#x20;
-- [Githyanki Ridged Spots (Body and Face) OVERHAUL](https://www.nexusmods.com/baldursgate3/mods/9058) *Githyanki Body Ridges*, *Githyanki Face Ridges* & *Githyanki Face Ridges - Unique NPCs*.
-- [Handsome Half-Orc Body Textures](https://www.nexusmods.com/baldursgate3/mods/6191) *Player and NPC & Unique Tav*.
-- [XS Sporty Sexy Map - fit muscle body texture](https://www.nexusmods.com/baldursgate3/mods/1004)&#x20;
+- [Githyanki Ridged Spots (Body and Face) OVERHAUL](https://www.nexusmods.com/baldursgate3/mods/9058) *Githyanki Body Ridges*, *Githyanki Face Ridges*, *Githyanki Face Ridges - Unique NPCs* & *Githyanki Body Ridges - VirtualTextures*.
 - [XS Sporty Sexy Map for UTAV - KAVT](https://www.nexusmods.com/baldursgate3/mods/8413) *KAVT*.
 - [Less Wrinkled Expression and Forehead for Face](https://www.nexusmods.com/baldursgate3/mods/1058) *PAK format all-in-1*.
 - [Githyanki Ridged Spots (Body and Face) CUSTOM](https://www.nexusmods.com/baldursgate3/mods/9059) *Smooth Githyanki Variants*.
@@ -2039,39 +2055,37 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 <details><summary>🫨NPC Customisation</summary>
 ### All Companions:
 
-- [DIQ Patches - Clothing Treasure Tables](https://www.nexusmods.com/baldursgate3/mods/9095) *DIQ Companion Starting Equipment*.
 - [Companion And NPC Face Texture Tweaks](https://www.nexusmods.com/baldursgate3/mods/36) *(Loose Files Version)*.
 
 ### Shadowheart:
 
 - [Black Nail Polish (Hands and Foot)](https://www.nexusmods.com/baldursgate3/mods/637) *Shadowheart*.
-- [Shadowheart Act 3 Hair Accessory Restored](https://www.nexusmods.com/baldursgate3/mods/2453) <- Spoiler warning.
-- [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) *Left Arm - Left Breast and Chest*.
-- [Shadowheart Hair Tweak](https://www.nexusmods.com/baldursgate3/mods/5885) All my homies hate Shadowheart's bangs hair sprayed to her cheeks.
+- [Shadowheart Act 3 Hair Accessory Restored](https://www.nexusmods.com/baldursgate3/mods/2453) \
+  ^ Spoiler warning.
+- [Shadowheart Hair Tweak](https://www.nexusmods.com/baldursgate3/mods/5885) \
+  All my homies hate Shadowheart's bangs being hair sprayed to her cheeks.
 - [More Detailed Shadowheart](https://www.nexusmods.com/baldursgate3/mods/3613)&#x20;
 
 ### Wyll:
 
 - [Scruffy Wyll](https://www.nexusmods.com/baldursgate3/mods/4292) Thicken up the scruff.
-- [Jax' Companion Edits - Wyll](https://www.nexusmods.com/baldursgate3/mods/13381) *Wyll* & *Wyll (Devil Form)*. Based and hairy pilled.
 - [Wyll's True Bloodstone Eye](https://www.nexusmods.com/baldursgate3/mods/5636) *C*.
+- [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) *Ripped Body Retexture - Wyll*.
 
 ### Lae'zel:
 
 - [Earrings for Astarion and Lae'zel](https://www.nexusmods.com/baldursgate3/mods/1524) *Lae'zel's Silver Earrings*.
 - [Lae'zel Face Tweak](https://www.nexusmods.com/baldursgate3/mods/9084)&#x20;
-- [More Abs Lae'zel](https://www.nexusmods.com/baldursgate3/mods/13592)&#x20;
 
 ### Gale:
 
 - [Gale Edits - Piercings and Beard fix](https://www.nexusmods.com/baldursgate3/mods/9372) *Gale Beard Fix* & *Gale Piercings*.
 - [Gale's Wizardly Updo](https://www.nexusmods.com/baldursgate3/mods/3546) *Gale's Wizardly Updo - Default (PAK)*.
-- [No Abs Gale - Works with Patch 7](https://www.nexusmods.com/baldursgate3/mods/12771)&#x20;
+- [Piercing Improvement - Physics](https://www.nexusmods.com/baldursgate3/mods/6705) *Physics Gale Piercing*.
 
 ### Minthara:
 
-- [Minthara's Immersive Redesign (Patch 7)](https://www.nexusmods.com/baldursgate3/mods/13022)&#x20;
-- [Makeups for Minthara and dirt remove](https://www.nexusmods.com/baldursgate3/mods/1795) *Blood on face remove*.
+-
 
 ### Karlach:
 
@@ -2080,13 +2094,17 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 
 ### Halsin:
 
-- [Jax' Companion Edits - Halsin](https://www.nexusmods.com/baldursgate3/mods/13424) Hairy boiz for the win
+-
 
 ### Astarion:
 
 - [Astarion Unusual Smile Replacer](https://www.nexusmods.com/baldursgate3/mods/9663) He on a mewing streak.
 - [Astarion's pre-patch 4 restored skin](https://www.nexusmods.com/baldursgate3/mods/3973)&#x20;
 - [Astarion's Messy Curls](https://www.nexusmods.com/baldursgate3/mods/16903) *Messy Hair (pak version)*.
+
+### Jaheira:
+
+- [Jaheira's Earring Restored](https://www.nexusmods.com/baldursgate3/mods/18345)&#x20;
 
 ### Non-Companion:
 
@@ -2097,12 +2115,10 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 - [Unique Appearance for Unique NPCs](https://www.nexusmods.com/baldursgate3/mods/6252) Give certain NPCs unique appearances. Very lore friendly, noice and fresh.
 - [Mystra Midnight Lover](https://www.nexusmods.com/baldursgate3/mods/8694)&#x20;
 - [Harpy Refined](https://www.nexusmods.com/baldursgate3/mods/2851) NSFW, but they already had their nips out in vanilla.
-- [NPC Visual Overhaul (WIP) - NPC VO](https://www.nexusmods.com/baldursgate3/mods/11373) *NPC\_Visual\_Overhaul*, *NPC\_Visual\_Overhaul\_Update* & *NPC (all NPCs are separated)*.
-- [Various NPCs Restyled](https://www.nexusmods.com/baldursgate3/mods/13937)&#x20;
 - [Florrick - Dirt B Gone](https://www.nexusmods.com/baldursgate3/mods/16702)&#x20;
-- [Florrick Restyled](https://www.nexusmods.com/baldursgate3/mods/17039) *Version 2* + *Florricks Retinue*.
+- [Counsellor Florrick Redone - Hand of the Archduke](https://www.nexusmods.com/baldursgate3/mods/17006)&#x20;
+- [Florrick Restyled](https://www.nexusmods.com/baldursgate3/mods/17039) *Florricks Retinue*.
 - [Viconia and Sarevok head replacement WIP](https://www.nexusmods.com/baldursgate3/mods/8751) *Sarevok head replacement*.
-- [Whispers of the Guardian - Dragonborn Guardian](https://www.nexusmods.com/baldursgate3/mods/4521)&#x20;
 - [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *NPC Vanilla Visual Restoration*.\
   Restores visuals for Kagha, Rolan and his siblings, as well as Bex and Dannis.
 - [Ravengard Restyled](https://www.nexusmods.com/baldursgate3/mods/13725)&#x20;
@@ -2124,6 +2140,14 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 - [Ketheric Thorm Redone - Reithwin's Fallen Glory](https://www.nexusmods.com/baldursgate3/mods/18036)&#x20;
 - [Executioner Z'rell Edits - Ketheric's Hammer](https://www.nexusmods.com/baldursgate3/mods/18018)&#x20;
 - [Ulder Ravengard Redone - Grand Marshall of the Gate](https://www.nexusmods.com/baldursgate3/mods/16906) *Duke Ravengard Redone - Outfit Edits Only Version*.
+- [Gale's Beard Fix NPC Patch](https://www.nexusmods.com/baldursgate3/mods/18329)&#x20;
+- [Underbrows](https://www.nexusmods.com/baldursgate3/mods/18330)&#x20;
+- [Duke Belynne Stelmane Edits - Former Hope of the Gate](https://www.nexusmods.com/baldursgate3/mods/18327)&#x20;
+- [Dirt B Gone - NPC Edition](https://www.nexusmods.com/baldursgate3/mods/18263) *Nine-Fingers - Dirt B Gone* & *Quartermaster Talli - Dirt B Gone*.
+- [NPC Visual Overhaul (WIP) - NPC VO](https://www.nexusmods.com/baldursgate3/mods/11373) *NPC\_Visual\_Overhaul*, *NPC\_Visual\_Overhaul\_Update* & *NPC (all NPCs are separated)*.\
+  ![](https://i.postimg.cc/QMmBSnBD/Screenshot-2025-08-31-011645.png)
+- [Various NPCs Restyled](https://www.nexusmods.com/baldursgate3/mods/13937) *All in One Version (seperate paks)*.\
+  ![](https://i.postimg.cc/0jvH7vSq/Screenshot-2025-08-31-221821.png)
 </details>
 
 ***
@@ -2141,6 +2165,7 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 - [Kai's Overhauled Appearance Interface aka KaiLimeUI](https://www.nexusmods.com/baldursgate3/mods/17443)&#x20;
 - [HybridUI](https://www.nexusmods.com/baldursgate3/mods/17906)&#x20;
 - [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162)&#x20;
+- [Tooltip Manager - Highlight Everything SE - MCM](https://www.nexusmods.com/baldursgate3/mods/18208)&#x20;
 
 ### Font:
 
@@ -2205,6 +2230,7 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 - [Customized Subclass Icons](https://www.nexusmods.com/baldursgate3/mods/8807)&#x20;
 - [Icons for Modded Subclasses](https://www.nexusmods.com/baldursgate3/mods/4216)&#x20;
 - [Various passives has an icon](https://www.nexusmods.com/baldursgate3/mods/16621)&#x20;
+- [5eSpells Icon fixes](https://www.nexusmods.com/baldursgate3/mods/18435)&#x20;
 </details>
 
 ***
@@ -2252,12 +2278,15 @@ The remaining mods.
 
 ### Other:
 
+- [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) *AIO Hairless (VT)*.
 - [Faerun Dental Care](https://www.nexusmods.com/baldursgate3/mods/2269) *Faerun Dental Care - Original*.
 - [Visual Artefact Fix](https://www.nexusmods.com/baldursgate3/mods/14841)
 - [HD Hair and Beards v2.0.0 (Patch 7 Update)](https://www.nexusmods.com/baldursgate3/mods/3496) Recommended to be used with TAA (anti-aliasing, in video options), looks great with DLAA for me too.
 - [Smaller Boo](https://www.nexusmods.com/baldursgate3/mods/6762)&#x20;
 - [Darker Paper ](https://www.nexusmods.com/baldursgate3/mods/3021)&#x20;
 - [Shadow Mastiff Nimbus - Hound of Ill Omen Replacer](https://www.nexusmods.com/baldursgate3/mods/17371)&#x20;
+- [I See A Red Wraith and I Want It Painted Black](https://www.nexusmods.com/baldursgate3/mods/18294)&#x20;
+- [Non-VT Shader Fix (Correct blood and dirt display)](https://www.nexusmods.com/baldursgate3/mods/18377)&#x20;
 - [Kaz Lab Assorted Shader Pack](https://www.nexusmods.com/baldursgate3/mods/17005)&#x20;
 </details>
 
