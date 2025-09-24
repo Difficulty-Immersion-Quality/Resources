@@ -2,7 +2,7 @@
 
 ***
 
-### My Other Collections:
+### My Other Baldur's Gate 3 Collections:
 
 - [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding further build options.
 - [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding more items!
@@ -14,31 +14,37 @@
 
 > ⚠️**NOTE:** If you want to mod a game you must be willing to **read**, **learn** and **commit** some time to it. Even when using a collection in its default state you should be attempting to understand the **what**, **why** and **how**.
 
-- ✅You **must** **read** and **follow instructions** to achieve a successful install **and** to successfully update!🤓
-- ❓If you have a general question it's likely **already answered** on this page.💡
-- ❌Do not seek support regarding the collection outside of my [Discord](https://discord.gg/baldursgoonsacks) or this collection page, the folks spending their free time helping in the [Larian Studios Discord](https://discord.gg/larianstudios) don't need it wasted, there's enough people building their own non-functional mod lists in there.
-- ✅You must use both [Vortex](https://www.nexusmods.com/about/vortex/) and [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) for this collection.⚙️
-- ❗️**New games only**, don't install this collection for an existing playthrough, especially an existing modded playthrough.
-- ❌You **cannot** use other curator's collections alongside this one, stuff will **break**!💥
-- ❌Only **big brained**, **longtime mod users**, or **very patient folk** should attempt to customise this list!🧠
-- ❌I do not recommend playing **Honour Mode**, it's bad enough in vanilla where bugs still exist, pile hundreds of mods on top and you're really gambling. BG3 is a long game, previous saves are a useful commodity.❗️
-- 🎮A number of mods are only relevant for **keyboard & mouse**, controllers will work just fine but **K\&B is recommended**.
-- ✅You can earn **achievements** with this collection installed thanks to [Script Extender](https://github.com/Norbyte/bg3se)!🏆
-- ✍🏻Most mods are **not translated** to languages other than **English**, some comprehension of **English** is basically **required**.
-- ✅A decent portion of the collection's size is found in the optional mods. Using ***Symlinks*** through [Vortex](https://www.nexusmods.com/about/vortex/) saves some space.
-- ⚡️[Vortex](https://www.nexusmods.com/about/vortex/) can fail to do its job sometimes, other issues can also occur though it's primarily user error. There is plenty of information under the ***3: Troubleshooting Guides***⚡️section.
+- ❓If you have a general question it's likely already answered on this page.
+- 🏆You can earn achievements with this collection installed thanks to [Script Extender](https://github.com/Norbyte/bg3se)!
+- ⚙️You must use both [Vortex](https://www.nexusmods.com/about/vortex/) and [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) for this collection.
+- 💡A decent portion of the collection's size is found in the optional mods. Using Symlinks through [Vortex](https://www.nexusmods.com/about/vortex/) saves some space.
+- 🎮A number of mods are only relevant for keyboard & mouse, controllers will work just fine but K\&B is recommended.
+- ✍🏻Most mods are not translated to languages other than English, some comprehension of English is basically required.
+
+### The Do Nots:
+
+- ❌Do not seek support when using the collection outside of my [Discord](https://discord.gg/baldursgoonsacks) or this collection page, do not report bugs to authors when using the collection. The folks spending their free time helping in the [Larian Studios Discord](https://discord.gg/larianstudios) will just direct you back to me, and authors don't need reports of false positives that waste their time.
+- ✅Report issues to me, I will diagnose things and filter more accurate information to relevant authors.
+- 💥You cannot use other curator's collections alongside this one, stuff will break!
+- 🧠Only big brained, longtime mod users, or very patient folk should attempt to customise this list!
+- ❗️I do not recommend playing Honour Mode, it's bad enough in vanilla where bugs still exist, pile hundreds of mods on top and you're really gambling. BG3 is a long game, previous saves are a useful commodity.
+- ❗️New games only, don't install this collection for an existing playthrough, especially an existing modded playthrough.
 
 ***
 
-> I started Playing the original Baldur's Gate when I was 9 years old, have been a fan of CRPGs ever since, and played many tabletop RPGs with a preference towards grimdark settings. Naturally, this collection is targeted at players with a similar background to me.🤓
->
-> I try to keep the collection living up to its name, combat should bring you a challenge, your immersion should be enhanced, and both the quality of life and overall quality of the mods should bring you an elevated gaming experience.🙏
+> I started Playing the original Baldur's Gate when I was 9 years old, have been a fan of CRPGs ever since, and played many tabletop RPGs with a preference towards more old school, grimdark settings. Naturally, this collection is targeted at players with a similar background to me. I try to keep the collection living up to its name, combat should bring you a challenge, your immersion should be enhanced, and both the quality of life and overall quality of the mods should bring you an elevated gaming experience.
 
-> I'm consistently patching and working on my own mods, learning and implementing all of this is incredibly time consuming. A lot goes into this pet project, all contributions to my [Ko-fi](https://ko-fi.com/baldursgoonsack) are greatly appreciated!🔥You can view the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1) for a better idea of what's in development.
+> While DIQ is primarily a one man show without any official co-curators, it'd be a whole lot worse off without the community that surrounds it, especially the mod authors who frequent the [Discord](https://discord.gg/baldursgoonsacks) and develop things for DIQ, or with it in mind. So big thanks to [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532) (Di Immortalis), [actualsailorcat](https://www.nexusmods.com/baldursgate3/users/78518828) ,  [Cahooots](https://www.nexusmods.com/baldursgate3/users/50497581) , [wtfbengt](https://www.nexusmods.com/baldursgate3/users/16726234) and everyone else!&#x20;
+>
+> Big shout out to [Vexorant](https://next.nexusmods.com/profile/vexorant) for forking DIQ to a Wabbajack list too, which for now can just be gotten over [here](https://www.nexusmods.com/baldursgate3/mods/9784?tab=files)!
+
+> I'm consistently patching and working on my own mods, learning and implementing all of this is incredibly time consuming. A lot goes into this pet project, all contributions to my [Ko-fi](https://ko-fi.com/baldursgoonsack) are greatly appreciated!
+>
+> You can view the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1) for a better idea of what's in development!
 
 [![](https://i.postimg.cc/sxZHqD8T/kofi-banner-collection-page.png)](https://ko-fi.com/baldursgoonsack)
 
-> 💻[Discord](https://discord.gg/baldursgoonsacks) is the best place to talk to me, report bugs, ask questions, etc. I will respond to [Comments](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=comments), but it's not very ideal for a fruitful exchange. It's the best place to receive the latest important information about the collection and much more, if you're actively playing the collection I highly advise joining, at least for the duration of your playthrough.
+> [Discord](https://discord.gg/baldursgoonsacks) is the best place to talk to me, report bugs, ask questions, etc. I will respond to [Comments](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=comments), but it's not very ideal for a fruitful exchange. It's the best place to receive the latest important information about the collection and much more, if you're actively playing the collection I highly advise joining, at least for the duration of your playthrough.
 
 [![](https://i.postimg.cc/Zn3jjsBg/discord-banner-collection-page.png)](https://discord.gg/baldursgoonsacks)
 
@@ -110,7 +116,7 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 
 - You'll need to be able to view hidden files to easily access appdata folders etc.\
   1\. Open ***File Explorer*** from the taskbar.\
-  2\. Select ***View*** > ***Show*** > **Hidden items**.\
+  2\. Select ***View*** > ***Show*** > ***Hidden items***.\
   ![](https://i.postimg.cc/VkBZykf6/Screenshot-2024-07-17-125957.png)You can also just search "hidden files" and select the following.\
   ![](https://i.postimg.cc/xdXmv642/Screenshot-2024-07-17-130344.png)**Bonus:** Seeing file extensions is very handy as well, if you don't have that enabled do it now.\
   ![](https://i.postimg.cc/CKp071vx/Screenshot-2024-07-17-130415.png)
@@ -232,7 +238,8 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    **WARNING:** Make sure you have the appropriate version!\
    Patch #8: [1.0.12.0](https://github.com/LaughingLeader/BG3ModManager/releases)+\
    Patch #7: [1.0.11.1](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.11.1) \
-   Patch #6: [1.0.10.0](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.10.0)\\
+   Patch #6: [1.0.10.0](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.10.0) \
+   ![](https://i.postimg.cc/0jHzLyRC/image-2025-09-15-114606159.png)
 2. ***Under Settings*** > ***Preferences*** > ***General*** check that your ***Game Data Path*** and ***Game Executable Path*** are correct, and match where you installed the game.![](https://i.postimg.cc/FHVWQPSf/Screenshot-2024-03-22-041956.png)
 3. Get the `REVISION_#.JSON` file from my [Discord](https://discord.gg/baldursgoonsacks) under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-load-order*** or [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) (requires extraction from the `.zip` folder) and place it in `BG3ModManager_Latest\Orders` folder.\
    \
@@ -451,159 +458,106 @@ Overwrite the game install with the downloaded packages, ***purge*** mods in [Vo
 
 ***
 
-![](https://i.postimg.cc/Y024kVKF/3-Troubleshooting-Guides.png)**Before** seeking assistance in the [Comments](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=comments) or [Discord](https://discord.gg/baldursgoonsacks) you should be viewing these guides.
+![](https://i.postimg.cc/Y024kVKF/3-Troubleshooting-Guides.png)**Before** seeking assistance in the [Comments](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=comments) or [Discord](https://discord.gg/baldursgoonsacks) you should be viewing and following these guides.
 
-### Known Issues:
+- 🪲***Known Issues + Workarounds*** has been moved to a [pinned comment](https://www.nexusmods.com/games/baldursgate3/collections/pns4qv/comments?commentId=172148) for greater visibility!
 
-<details><summary>⚡️Crashes, freezes & soft locks</summary>
-### During gameplay:
+<details><summary>⚡️Basic Troubleshooting</summary>
+## ⚡️Basic Troubleshooting:
 
-1. **Engine limits:**\
-   There is such thing as too much, if you play with an increased party size, loads of custom auras and toggles your game is just going to be more crash prone, especially in Act III. I personally play with a party of 4 and don't have issues. If your machine/game can't handle all the craziness, try reducing it some.
-
-### On game launch:
-
-1. Make sure your system's anti-virus is not interfering with [Script Extender](https://github.com/Norbyte/bg3se), make an exception in your firewall(s) for BG3's .exe files if need be.
-2. Don't launch the game as ***Administrator***, with the exception of the initial launch on a fresh install where it asks for elevation to install redistributable etc.
-
-### Starting a new game:
-
-1. There was a curious case where someone was crashing on attempting to launch a new game, it was due to their [RivaTuner Server Statistics](https://www.rivatuner.org) software running in the background and not being kept updated.\
-   Make sure no 3rd party software can interfere, keep things nice and clean.
-</details>
-
-<details><summary>❗️gameplay issues</summary>
-1. Increasing the party limit with [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172) causes some niche bugs, please read the mod page and educate yourself on the subject prior to adjusting the party limit above 4.
-2. Items looted from containers won't be auto-sorted into bags from [Simple Sorting Bags](https://www.nexusmods.com/baldursgate3/mods/7891). If items don't get auto-sorted into containers drag the bag to another character's inventory, then back again. It should suck the items up. This is just a present limitation.
-3. Loading a save which is mid-combat will result in [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) health boosts not being properly applied.
-4. Scrolls with spell containers (multiple different version you can cast) need to be added to and cast from your hotbar to function.
-5. Update: [JWL Discordant Instruments for Patch 7](https://www.nexusmods.com/baldursgate3/mods/17536) which is now included probably fixes this, need to confirm.\
-   \
-   [JWL Discordant Instruments - New Equipment Slot](https://www.nexusmods.com/baldursgate3/mods/9119) Few bugs showing up for this mod, below are 3 items that do not appear to be lootable. Plop the below into your SE console to acquire the items.\
-   \
-   **Ansur's trinket:**
-
-```
-TemplateAddTo("68ae2a78-57fc-4a10-9271-afe10dcc50c0", GetHostCharacter(), 1)
-```
-
-&#x20;     **Yurgir's trinket:**
-
-```
-TemplateAddTo("c4d45206-9201-4eca-b835-628ad31a8941", GetHostCharacter(), 1)
-```
-
-&#x20;     **Flind's trinket:**
-
-```
-TemplateAddTo("ae588c38-3e1b-4f38-97b2-635c76164527", GetHostCharacter(), 1)
-```
-</details>
-
-<details><summary>❓Cosmetic Issues</summary>
-1. Since ***Patch #7*** many custom icons from action resources to classes and subraces have been cooked, this will be fixed over time.
-2. 🔞**In Game Nudity Toggles Not Working Properly:**\
-   If a custom/modded item uses the chest/camp clothes slot and does not cover genitalia the game is generally assuming that it does. This circumvents the nudity being disabled. This may also be the case if a modded outfit does not have visuals for your race/gender.&#x20;
-3. Unique bodies may not display correctly on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97).
-4. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
-5. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
-6. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
-</details>
-
-<details><summary>🪲vanilla bugs</summary>
-1. **"Someone in your party is not ready":**\
-   Pretty sure this is a vanilla bug, but it's a nasty one. Thankfully we've got a seemingly harmless fix for it.\
-   \- Trade with Withers, inside his Important Objects container locate and purchase the [Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119).\
-   \- Use the [Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119) to travel to the next chronological section of the game.
-2. **The Anisotropic Filtering Bug:**\
-   "as of the last patch this setting doesn't seem to work anymore. Makes beards and short head hairs look blocky. A way to get around this is to force "16x Anisotropic Filtering" in Nvidia Control Panel (or AMD) 3D settings for the game, and then run the game with Direct X11 instead of Vulkan." - Stolen from the [Angels & Demons](https://next.nexusmods.com/baldursgate3/collections/bbckck) collection lol.
-3. **Incorrect tooltip information**:\
-   Tooltips often get stuck showing outdated information, because of this bug the information displayed may be incorrect. Save then load the game to refresh the UI if necessary.
-</details>
-
-### The Basic Troubleshoots:
-
-<details><summary>⚡️General troubleshooting: crashes, saves not loading, missing textures, bad performance etc.</summary>
-### Always do this first when encountering issues:
+Crashes, saves not loading, missing textures, bad performance etc. etc.
+You *always* do these before seeking assistance, otherwise you're just going to be told to do them and more specific support you may need will be delayed as a result.
 
 1. If it's installed remove the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) from [Vortex](https://www.nexusmods.com/about/vortex/), ***Uninstall*** it, don't just ***Disable*** it.
 2. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
 3. Verify integrity of game files through [Steam](https://store.steampowered.com/about/) or [GOG](https://www.gog.com/galaxy).
-4. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).&#x20;
+4. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
 5. Restart your system, with the [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) installed.
 6. ***Export*** the load order to the game from [BG3MM](https://github.com/LaughingLeader/BG3ModManager).
 7. Launch the game from the DX11 .exe, or from [BG3MM](https://github.com/LaughingLeader/BG3ModManager) with DX11 enabled in the preferences.
 
-This is all stuff that's more or less covered in the install guide, there's no harm in making sure you've not missed something.
+This is all stuff that's more or less covered in the install guide, there's no harm in going back over installation instructions and making sure you've not missed something.
 </details>
 
-<details><summary>⚡️Native Mod Issues: Camera Functionality and WASD Movement</summary>
-### [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) not working:
+<details><summary>⚡️Soft Rebooting Your Vortex Collection Install</summary>
+## ⚡️Soft Rebooting Your Vortex Collection Install:
+
+This is generally followed for resolving [Vortex](https://www.nexusmods.com/about/vortex/) issues such as missing ***Rules*** for loose file overwrites and such, but it can also help just clean up a messy Vortex environment.
+This should also be done if you've previously had the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) installed when you shouldn't have, and are now stuck getting a warning about a "corrupt load order".
+
+1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+2. Left click on any mod on the [Vortex](https://www.nexusmods.com/about/vortex/) ***Mods*** page, then press ***CTRL + A*** to select all mods.
+3. You will see an options bar in the bottom left, select ***Remove***.\
+   ![](https://i.postimg.cc/7h49BfCB/Screenshot-2024-08-03-215953.png)
+4. You will be greeted with a popup window with two boxes, tick the box for ***Remove Mods*** and leave it empty for ***Delete Archives***.\
+   **Note:** Deleting archives means you will have to redownload the mods, and we don't want that.\
+   ![](https://i.postimg.cc/zByYJ20m/Screenshot-2024-08-03-215800.png)
+5. Remove the collection from the [Vortex](https://www.nexusmods.com/about/vortex/) ***Collections*** tab, do not tick any of the boxes for removing mods with the collection. (For the same reason as above.)
+6. Restart [Vortex](https://www.nexusmods.com/about/vortex/). (close and open it again.)
+7. Add the collection to [Vortex](https://www.nexusmods.com/about/vortex/) again, from [Nexus](https://www.nexusmods.com/games/baldursgate3/collections/pns4qv).\
+   ![](https://i.postimg.cc/d06Z0tS9/Screenshot-2025-09-14-095725.png)
+8. Once the install has finished [Vortex](https://www.nexusmods.com/about/vortex/) should automatically ***Deploy***.
+9. ***Export*** the load order to the game from [BG3MM](https://github.com/LaughingLeader/BG3ModManager) and try again.\
+   ![](https://i.postimg.cc/HxHhyqC9/image.png)
+</details>
+
+<details><summary>⚡️Missing WASD Character Movement, Native Camera Tweaks, Script Extender Console or Achievements</summary>
+## ⚡️Missing [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) or [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945):&#x20;
 
 First make sure your issue is not simply with one of the below [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) keybinds:
-\- Auto-run, by default with ***Shift***+***W***.
-\- Toggle between jogging and walking, by default with ***Insert***.&#x20;
-\- Toggle the mod on and off with ***Caps Lock***.
+
+- Auto-run, by default with ***Shift***+***W***
+- Toggle between jogging and walking, by default with ***Insert***
+- Toggle the mod on and off with ***Caps Lock***.
 
 1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
 2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `NativeMods` folder.
 3. In Vortex find [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781), [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) and [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944).
-4. Right click and them and select ***Reinstall***.
+4. Right click on them and select ***Reinstall***.
 5. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-</details>
-
-<details><summary>⚡️soft rebooting your collection install: loose file rules not set in vortex etc. </summary>
-This is only really followed for resolving [Vortex](https://www.nexusmods.com/about/vortex/) issues. While it's a basic and may seem intuitive I wouldn't put much stock in this resolving an issue you are experiencing.
-
-1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-2. Left click on any mod on the [Vortex](https://www.nexusmods.com/about/vortex/) ***Mods*** page, then press CTRL + A to select all mods.
-3. You will see an options bar in the bottom left, select ***Remove***.\
-   ![](https://i.postimg.cc/7h49BfCB/Screenshot-2024-08-03-215953.png)
-4. You will be greeted with a popup window with two boxes, tick the box for ***Remove Mods*** and leave it empty for ***Delete Archives***.\
-   (Deleting archives means you will have to redownload the mods, we don't want that.)\
-   ![](https://i.postimg.cc/zByYJ20m/Screenshot-2024-08-03-215800.png)
-5. Remove the collection from the [Vortex](https://www.nexusmods.com/about/vortex/) Collections page, do not tick any of the boxes for removing mods with the collection. (For the same reason as above.)
-6. Restart [Vortex](https://www.nexusmods.com/about/vortex/). (close and open it again.)
-7. Add the collection to [Vortex](https://www.nexusmods.com/about/vortex/) again, from Nexus.\
-   ![](https://i.postimg.cc/Ls4NNHGh/image.png)
-8. Once the install has finished [Vortex](https://www.nexusmods.com/about/vortex/) should automatically Deploy.
-9. Export the load order to the game from [BG3MM](https://github.com/LaughingLeader/BG3ModManager) and try again.\
-   ![](https://i.postimg.cc/HxHhyqC9/image.png)
-</details>
-
-<details><summary>📌multiplayer recommendations & troubleshooting</summary>
-# Patch #7:
-
-The new patch has made it more difficult to get multiplayer games functioning, it can be done but there's some stupid hoops to jump through. Check out the [Discord](https://discord.gg/baldursgoonsacks) thread ***Mod issues detected + multiplayer connection*** under ❗***troubleshooting***.
-
-The following tool can help with identifying version mis-matches. [https://github.com/Rykarix/bg3mmcc](https://github.com/Rykarix/bg3mmcc "https://github.com/Rykarix/bg3mmcc")
-
-I would not advise staying on an older revision and game version just for a bit more multiplayer convenience, the game as a whole is much better when playing on Patch #7 with recent collection revisions.
 
 ***
 
-Hosting a multiplayer lobby is susceptible to fail, due to user error or vanilla bugs. Make sure to have 100% clean installs.
+## ⚡️Missing [Script Extender](https://github.com/Norbyte/bg3se) Console or Achievements:&#x20;
 
-Unfortunately I have little to offer when it comes to multiplayer issues, it's not something inherently wrong with the collection. Everyone who fixes it does so by following my existing troubleshooting guides, removing temp files etc. When in doubt others resolve it with a full nuke of **everything** BG3.
+The [Script Extender](https://github.com/Norbyte/bg3se) ([BG3SE](https://github.com/Norbyte/bg3se)) configuration files from [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) that come packaged with the collection enable the [BG3SE](https://github.com/Norbyte/bg3se) console, as well as achievements while using mods. However, not only can they be overwritten, the staging folders for them can become infected, for lack of a better term. This means no achievements and no [BG3SE](https://github.com/Norbyte/bg3se) console unless you've otherwise enabled them in via [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually via [Norbyte's documentation](https://github.com/Norbyte/bg3se).
 
-- To play multiplayer with any modded setup you must have all the exact same mods, load order, configuration files, everything! (For most things anyway.)
-- [Steam Community :: Guide :: Cleaning Cache](https://steamcommunity.com/sharedfiles/filedetails/?id=3018203217) removing temp files and having a properly cleaned install prior to setting up the collection goes a long way with avoiding problems.
-- You may need to be logged into a Larian account through the launcher, though you should be setup to skip the launcher anyway.\
-  ![](https://i.postimg.cc/50gBw8fw/image-7.webp)
+1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `ScriptExtenderSettings.json` and `ScriptExtenderUpdaterConfig.json` files.
+3. In Vortex find [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Norbyte's BG3SE Configs*.
+4. Right click and it and select ***Reinstall***.
+5. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+</details>
+
+<details><summary>⚡️Multiplayer Issues & Troubleshooting</summary>
+# ⚡️Multiplayer Issues & Troubleshooting
+
+Patch #7 was a bad time for multiplayer, and it seems that with Patch #8 improving Larian's mod validation and what not multiplayer has been improved also. If you're having trouble connecting to your friends, it's 100% not an inherent issue with the collection, or the mods included in the collection.
+
+Some general information for successfully playing modded multiplayer:
+
+- Direct connect is the best means of connecting, no Steam, no Larian account, no BS; it just works™.
+- All mods in your active load order must match, only loose files can be different. E.g. Some of the optional texture mods.
+- All players should have the same configs provided for the collection, even though most only matter for the host there are exceptions. E.g. configuring [Universal Feat Every X Level(s) - MCM](https://www.nexusmods.com/baldursgate3/mods/13193) to increase the number of feats you gain.
+- Sometimes the game is just circumstantially bad about letting people connect. E.g. you may need to finish up camp events before it lets people join.
+
+***
+
+# ⚡️"We've tried everything, so it must be the collection's fault!"
+
+No u
+
+- The following tool can help with identifying version mis-matches between [Vortex](https://www.nexusmods.com/about/vortex/) installs, but it's very rarely the case and likely just diagnosis something that the⚡️***Soft Rebooting Your Vortex Collection Install*** guide would otherwise fix. [https://github.com/Rykarix/bg3mmcc](https://github.com/Rykarix/bg3mmcc "https://github.com/Rykarix/bg3mmcc")
+- If someone has a dirty install it might not work, and even if it does work there might be other issues besides. It pretty well goes without saying, but this is by and large the most common reason people have problems, and it's already well covered in ***1: Installation Guide - Vortex, BG3MM & Configs***💡.
+- Basically everyone who fixes it does so by following my existing troubleshooting guides.
+- When in doubt go full nuclear, wipe it all and start from scratch.
+
+***
+
 - In your ***Baldurs Gate 3 > Data*** folder delete **all folders** (not **.pak** files) titled ***Mods***, ***SharedDev*** or ***GustavDev***.
-- Make sure you're not attempting to start a multiplayer lobby in the middle of camp events and what not, sometimes you'll need to finish something up in single player before it'll let friends join.&#x20;
 </details>
 
-<details><summary>❓temporarily reverting your game to vanilla</summary>
-**I want to return to a vanilla playthrough without deleting the collection, is it possible?**\
-You can easily return the game to a vanilla state temporarily by ***purging*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), or swapping to another empty ***profile*** in [Vortex](https://www.nexusmods.com/about/vortex/). Then ***exporting*** an empty load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager), or, you can just delete the `modsettings.lsx` inside `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > PlayerProfiles > Public > Savegames > Story`.
-
-To reactivate your collection install just ***deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), or swap to the DIQ [Vortex](https://www.nexusmods.com/about/vortex/) ***profile***. and ***export*** the appropriate load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager).
-
-This is not the same as a clean install, and just for temporarily swapping to vanilla. For reverting your game install to a vanilla state, please see further troubleshooting below.
-</details>
-
-### Less Frequent:
+### Guides I'm yet to update:
 
 <details><summary>⚡️texture issues: flickering or black</summary>
 ### Flickering textures troubleshooting:
@@ -611,7 +565,7 @@ This is not the same as a clean install, and just for temporarily swapping to va
 1. Run ⚡️***General troubleshooting: crashes, saves not loading, missing textures etc.***
 2. Per the instructions below, force appropriate settings for the game through your GPU's software
 
-> In the Nvidia control panel, or equivalent apps for Intel and AMD, force *Anisotropic Filtering* to "***x16***", *Negative LOD Bias* to "***Allow***", and *Texture Filtering Quality* to "***Quality***" (***NOT HIGH QUALITY***).
+> In the Nvidia control panel, or equivalent apps for Intel and AMD, force ***Anisotropic Filtering*** to "***x16***", ***Negative LOD Bias*** to "***Allow***", and ***Texture Filtering Quality*** to ***Quality*** (NOT ***HIGH QUALITY***).
 
 1. Update display drivers/clean reinstall display drivers
 2. Disable both files for Upscaled Armour and Clothes Textures
@@ -658,20 +612,6 @@ What will almost certainly cause this is having ANY [Achievement Enabler](https:
 4. Then restart your PC.
 
 If you have added external mods to your collection install, and your ***modsettings.lsx*** (load order) is being reset upon launching the game you've likely introduced a bad egg. One of the mods need removing, go through a process of elimination, It will happen even if the mod is Inactive in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), it just has to be present in the ***Appdata > Local > Larian Studios > Baldur's Gate 3 > Mods*** folder for the issue to occur.
-</details>
-
-<details><summary>⚡️vortex: corrupt load order warning</summary>
-### [Vortex](https://www.nexusmods.com/about/vortex/): Corrupt Load Order Warning
-
-1. Remove the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) from [Vortex](https://www.nexusmods.com/about/vortex/), ***Uninstall*** it, don't just ***Disable*** it.
-2. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-3. CTRL + A on the [Vortex](https://www.nexusmods.com/about/vortex/) ***Mods*** page to select all mods.
-4. You will see an options bar in the bottom left, ***Uninstall*** all mods but do not remove the ***Archives***. (Doing so means you will have to redownload the collection, we don't want that.)
-5. Remove the collection from the [Vortex](https://www.nexusmods.com/about/vortex/) ***Collections*** page, do not tick any of the boxes for removing mods with the collection. (For the same reason as above.)
-6. Restart [Vortex](https://www.nexusmods.com/about/vortex/).
-7. Add the collection to [Vortex](https://www.nexusmods.com/about/vortex/) again, from Nexus.
-
-If the above does not work you can try making a fresh ***Profile*** in [Vortex](https://www.nexusmods.com/about/vortex/) (You will have to enable ***Profile Management*** in the ***Settings***.) It should however be fixed, and should never have been an issue to begin with by following the installation instructions.
 </details>
 
 ### ⚡️Cleaning out your BG3 folders:
@@ -759,18 +699,20 @@ Selecting the ***Mod Type*** drop down box after double clicking on a mod allows
 
 ### HIGHLY Recommended Reading:
 
-<details><summary>🪓Custom items and where to find them</summary>
-### DIQ's unique custom item delivery system:
+<details><summary>🪓Custom Items and Where to Find Them</summary>
+***
 
-- You can purchase custom items from **Withers** through the power of [Trade with Withers](https://www.nexusmods.com/baldursgate3/mods/2458) and all the patches I've created! The items range from weapons and crafting tools, to clothes and dyes. Prices have been reduced and stats nerfed as needed.\
-  \
-  It's mostly cosmetic stuff, and is an alternative delivery method which I've opted to use instead of [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) or [AV Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/8295). The reason for this is to make the items un-exploitable for gold, further curated/organised and keeps other vendor's selections closer to how they were in vanilla.\
-  \
-  All other items are distributed through the game world for immersive and balanced acquisition.\
-  [Yield to Temptation - Tutorial Chest Anti-Cheat](https://www.nexusmods.com/baldursgate3/mods/4913) makes sure the beginning of your journey isn't like Dragon Age: Origins giving you a bunch of random DLC items, but even more overpowered and numerous.\
-  \
-  **Note:** [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) still exists in the load order, but it only exists for my testing purposes.\
-  ![](https://i.postimg.cc/BvnHJ0BD/Screenshot-2024-05-19-062307.png)For more information check out [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095).
+# 🪓DIQ's Unique Item Delivery System:
+
+You can purchase custom items from **Withers** through the power of [Trade with Withers](https://www.nexusmods.com/baldursgate3/mods/2458) and all the patches I've created! The items range from weapons and crafting tools, to clothes and dyes. Prices have been reduced and stats nerfed as needed.\
+\
+It's mostly cosmetic stuff, and is an alternative delivery method which I've opted to use instead of [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) or [AV Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/8295). The reason for this is to make the items un-exploitable for gold, further curated/organised and keeps other vendor's selections closer to how they were in vanilla.\
+\
+All other items are distributed through the game world for immersive and balanced acquisition.\
+[Yield to Temptation - Tutorial Chest Anti-Cheat](https://www.nexusmods.com/baldursgate3/mods/4913) makes sure the beginning of your journey isn't like Dragon Age: Origins giving you a bunch of random DLC items, but even more overpowered and numerous.\
+\
+**Note:** [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) still exists in the load order, but it only exists for my testing purposes.\
+![](https://i.postimg.cc/BvnHJ0BD/Screenshot-2024-05-19-062307.png)For more information check out [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095).
 </details>
 
 <details><summary>🎮Gameplay</summary>
@@ -787,10 +729,13 @@ Selecting the ***Mod Type*** drop down box after double clicking on a mod allows
   ![](https://i.postimg.cc/FsnDMTJf/Untitled-1000-x-250-px.gif)
 </details>
 
-<details><summary>🤠character creation</summary>
+<details><summary>🤠Character Creation</summary>
 - Some Origin characters have messed up colours of the character creation screen. This is a side effect of them being customisable, however it's **ONLY** on the character creation screen. They will not look like this as NPC party members.\
+  \
   Having [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899) as an optional file is a headache for compatibility, as some mods need to be patched to work alongside it such as [Origin's Gods](https://www.nexusmods.com/baldursgate3/mods/6305), so it's included in the main list. It does not take very long at all to select the appropriate eye, hair and skin colours, and to stick a beard back on to Gale. If you're not playing as one of these 4 Origin characters, or weren't going to use their default appearances, then this is entirely irrelevant to you.\
+  \
   Note: They may not look as cooked as they do below depending on other factors, such as optional mods that alter their default appearance somewhat fixing things.\
+  \
   **WARNING:** Wyll is a special case when it comes to Origin character editing, if he undergoes a certain transformation in Act I it will likely remove customisations made to him. He will not be further editable without resetting his appearance to his human form, which can be done via [Script Extender](https://github.com/Norbyte/bg3se). Be aware, that this will break any race/body type changing you have done and remove his devil form permanently: `Osi.RemoveTransforms("S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d")`\
   ![](https://i.postimg.cc/CKGsmgsf/origin-characters-at-home.png)
 - Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. For example, slots such as the Dragonborn Jaw, or Horns can be used for layering hairstyles if you wish (layering hairstyles etc. may cause physics to negatively interact with each other). There's a great number of options, and you're best to build your character piece by piece. \
@@ -804,7 +749,7 @@ Selecting the ***Mod Type*** drop down box after double clicking on a mod allows
   \- [Shar](https://www.nexusmods.com/baldursgate3/mods/6198) has had cut content restored and been made selectable to all, this includes Durge/Tav specific dialogue options.
 </details>
 
-<details><summary>📺user interface & looting</summary>
+<details><summary>📺User Interface & Looting</summary>
 ### [Enhanced World Tooltips](https://www.nexusmods.com/baldursgate3/mods/2037) *All-In-One*.
 
 1. Seeing loot in the loot preview window which is unattainable? Read the pinned post for [Enhanced World Tooltips](https://www.nexusmods.com/baldursgate3/mods/2037).\
@@ -815,30 +760,6 @@ Selecting the ***Mod Type*** drop down box after double clicking on a mod allows
 5. Unequip whatever item you have in that slot so that it doesn't automatically swap to the body (if you did this accidentally you can still get the item back using this method).
 6. Click on the empty slot and select the corpse's object to have it jump in to the slot - or your bags if you are unable to equip it for some reason.\
    ![](https://i.postimg.cc/JzNqwfBk/Untitled-design.png)
-
-> **Update:**
->
-> Below is not a factor until the mod is updated with icons representing stack counts, it's been removed. Thanks Patch #7!
-
-- [Universal Max Stack](https://www.nexusmods.com/baldursgate3/mods/4359) is a great mod for keeping a cleaner inventory, allowing you to stack items which do not stack in vanilla. Though it's got a pretty big quirk, if you have a stacked equippable item you can equip the whole stack (with no gameplay/stat benefit). **You don't want to do that, it can allegedly cause issues**, split the stack and equip just one.\
-  Slightly tedious, but the pros outweigh the cons, most items you'll want to equip over the course of the game are unique and therefore won't stack. This is a little more annoying in the very early game, but it is what it is for now.\
-  ![](https://i.postimg.cc/zX3fDGsq/Screenshot-2024-05-19-063225.png)
-
-> **Update:**
->
-> Auto-hide is now a toggleable feature on all these mods post-Patch #7.
-
-- **Auto-Hide UI Elements:** If you don't like the contextual UI, these can be swapped out for different versions in Vortex. ***uninstall*** or ***disable*** them through [Vortex](https://www.nexusmods.com/about/vortex/), not [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually.\
-  On the ***collections*** page in [Vortex](https://www.nexusmods.com/about/vortex/), you can set the included versions to ***Ignore*** so they won't be downloaded during collection updates. If you ***uninstalled*** them, then not doing this will result in [Vortex](https://www.nexusmods.com/about/vortex/) warning you that there's ***missing dependencies***, if you only ***disabled*** them it will not.\
-  The different download options have the same ***UUID***, so you'll be notified of mod conflicts in both [Vortex](https://www.nexusmods.com/about/vortex/) and [BG3MM](https://github.com/LaughingLeader/BG3ModManager) if you don't remove the versions included in this collection.\
-  \
-  \- [Better Combat Log 2](https://www.nexusmods.com/baldursgate3/mods/2212) Better Combat Log 2 Auto-Hide.\
-  \- [Better Hotbar 2](https://www.nexusmods.com/baldursgate3/mods/2417) *Better Hotbar 2 16to9 5x33 grid 0.75 AutoHide*.\
-  \- [Better Maps All-In-One](https://www.nexusmods.com/baldursgate3/mods/2256) *Better Map .85 Scale Auto-Hide* & *Clear Map No Grid*.\
-  \- [Dynamic Sidebar](https://www.nexusmods.com/baldursgate3/mods/2668) *Dynamic Sidebar 16 to 9* & *2 Status Rows on Sidebar*.\
-  \
-  I don't like auto-hide on the sidebar personally, it's inconvenient for dragging and dropping loot between party members.\
-  ![](https://i.postimg.cc/zGNPTzGG/Untitled-design.gif)
 
 > **Update:**
 >
@@ -895,7 +816,23 @@ Below is some general advice for dealing with the increased difficulty.
 
 ### Supplemental Information:
 
-<details><summary>🧌Where's the custom race mods?</summary>
+<details><summary>❓Temporarily Reverting Your Game to a Vanilla State</summary>
+# "I want to return to a vanilla playthrough without deleting the collection, is it possible?"
+
+You can easily return the game to a near-vanilla state temporarily by:
+
+1. ***Purging*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), or swapping to another empty ***profile*** in [Vortex](https://www.nexusmods.com/about/vortex/).&#x20;
+2. ***Exporting*** an empty load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager), or, you can just delete the `modsettings.lsx` inside `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > PlayerProfiles > Public > Savegames > Story`.
+
+To reactivate your collection install just:
+
+1. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), or swap to the DIQ [Vortex](https://www.nexusmods.com/about/vortex/) ***profile***.&#x20;
+2. ***Export*** the appropriate load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager).
+
+This is not the same as a clean install, and just for temporarily swapping to vanilla.
+</details>
+
+<details><summary>🧌Where's the Custom Race Mods?</summary>
 I currently have a few reasons for not being interested in custom races.
 
 ### **A lack of all in one patches for mods adding CC options:**
@@ -921,7 +858,7 @@ Over the course of curating DIQ I have rarely had a save with issues I could not
 Throughout my updates I always keep in mind users with ongoing playthroughs, were a custom race to be a pain point and need removing it would be a bit of a predicament. Custom items can now be rather easily removed through Mod Uninstaller. Class mods are usually not a problem at all to remove, it's just not the same if a custom race is in use. Resculpt could be used through Appearance Edit Enhanced, but that's a last resort. I don't really trust that feature, even though some of its most glaring issues only appear to come up when it's used on Origin characters.
 </details>
 
-<details><summary>⚡Mod Fixer bad?!</summary>
+<details><summary>⚡Mod Fixer Bad?!</summary>
 # Post-Patch #7:
 
 - If a [Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141) bundled in a mod overwrites ***Gustav*** it won't show in the in game mod manager's load order and may cause other issues.

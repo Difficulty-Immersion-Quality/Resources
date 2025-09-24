@@ -1,0 +1,85 @@
+# 🪲Known Issues + Workarounds
+
+Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=), alongside everything else in progress. Some other important ones for the current revision I will list here:
+
+- If you've updated to Patch #8/Hotfix #34 you can probably just update the following mods in Vortex (or MO2 is using the Wabbajack) and be fine.![](https://i.postimg.cc/9fmcXJ1C/image-33.png)
+- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) is under moderation review and cannot be downloaded. The reason for that is due to code that's not present in the current collection version of the mod, so I have no qualms in saying you can download the correct version [here from mod.io](https://g-6715.modapi.io/v1/games/6715/mods/4979078/files/6515254/download) (direct download link for 2.0.2.6), and import that into Vortex instead.\
+  ❓You can either ignore the unfinished collection install, or set the Nexus file for [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) to "Ignore" in the collections tab of Vortex.
+- [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) breaks the game over screen, you can just remove it.
+- [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535) needs to be manually updated to version 2.2.0.0 to prevent [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) from stacking passives provided to NPCs; which can cause them to do insane damage, have larger HP than usual, and continue stacking boost in multiple different contexts, including when they are hit, on their turn, when they take damage, etc.\
+  ❓Right click it in Vortex, check for updates, click update icon, ignore dependency warning (you won't break the list), deploy mods, W
+- Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can cause AI slowdown, or even have NPCs skipping turns. \
+  In Revision 138 there will be a full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217), spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+
+What follows below is instead known issues that are not things I can really do much of anything about, very low priority stuff, niche circumstantial issues, vanilla bugs, game limitations etc.
+
+***
+
+# ⚡️Crashes, Freezes & Soft Locks
+
+### During gameplay - Engine limits:
+
+- There is such thing as too much, if you play with an increased party size, piles of summons, lots of auras, your game is just going to be more crash prone, especially in Act III. I personally play with a party of 4 and don't have issues, a party of 6 is probably the reasonable maximum. If your machine/game can't handle all the craziness, try reducing it some. \
+  \
+  This will generally come back to being a memory/CPU bottleneck, but despite hardware the game has its own limits too, and the same can be said for general AI slowdown etc.
+
+### On game launch:
+
+- Make sure your system's anti-virus is not interfering with [Script Extender](https://github.com/Norbyte/bg3se), make an exception in your firewall(s) for BG3's .exe files if need be.
+- Don't launch the game as ***Administrator***, with the exception of the initial launch on a fresh install where it asks for elevation to install redistributable etc.
+
+### Starting a new game:
+
+- There was a curious case where someone was crashing on attempting to launch a new game, it was due to their [RivaTuner Server Statistics](https://www.rivatuner.org) software running in the background and not being kept updated.\
+  Make sure no 3rd party software can interfere, keep things nice and clean.
+
+***
+
+# ⚡️Gameplay Issues:
+
+1. **"Someone in your party is not ready":**\
+   Pretty sure this is a vanilla bug, but it's a nasty one. Thankfully we've got a seemingly harmless fix for it.\
+   \- Trade with Withers, inside his Important Objects container locate and purchase the [Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119).\
+   \- Use the [Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119) to travel to the next chronological section of the game.
+2. Increasing the party limit with [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172) causes some niche bugs, please read the mod page and educate yourself on the subject prior to adjusting the party limit above 4.
+3. Items looted from containers won't be auto-sorted into bags from [Simple Sorting Bags](https://www.nexusmods.com/baldursgate3/mods/7891). If items don't get auto-sorted into containers drag the bag to another character's inventory, then back again. It should suck the items up. This is just a present limitation.
+4. Loading a save which is mid-combat will result in [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) health boosts not being properly applied.
+5. Scrolls with spell containers (multiple different version you can cast) need to be added to and cast from your hotbar to function.
+6. The mini Grym pet reward from beating Grym 2.0 in [Many More Monsters](https://www.nexusmods.com/baldursgate3/mods/11639) is very loud.
+7. Update: [JWL Discordant Instruments for Patch 7](https://www.nexusmods.com/baldursgate3/mods/17536) which is now included probably fixes this, need to confirm.\
+   \
+   [JWL Discordant Instruments - New Equipment Slot](https://www.nexusmods.com/baldursgate3/mods/9119) Few bugs showing up for this mod, below are 3 items that do not appear to be lootable. Plop the below into your SE console to acquire the items.\
+   \
+   **Ansur's trinket:**
+
+```
+TemplateAddTo("68ae2a78-57fc-4a10-9271-afe10dcc50c0", GetHostCharacter(), 1)
+```
+
+&#x20;     **Yurgir's trinket:**
+
+```
+TemplateAddTo("c4d45206-9201-4eca-b835-628ad31a8941", GetHostCharacter(), 1)
+```
+
+&#x20;     **Flind's trinket:**
+
+```
+TemplateAddTo("ae588c38-3e1b-4f38-97b2-635c76164527", GetHostCharacter(), 1)
+```
+
+***
+
+# ⚡️Cosmetic Issues
+
+1. **Incorrect tooltip information**:\
+   Tooltips often get stuck showing outdated information, because of this bug the information displayed may be incorrect. Save then load the game to refresh the UI if necessary.
+2. Since ***Patch #7*** many custom icons have been cooked. Lots are patched, but a bunch of action resource icons might still be the purple star.
+3. [Better Inventory UI](https://www.nexusmods.com/baldursgate3/mods/4597) cooks instrument/trinket tooltips when they're equipped. It's Larian's fault and [Caites](https://www.nexusmods.com/baldursgate3/users/703937) can't fix it as of right now. Removing the mod is an option, but you lose all the good it brings too.\
+   ![](https://i.postimg.cc/764fPn7b/clZscS7.png)
+4. 🔞**In Game Nudity Toggles Not Working Properly:**\
+   If a custom/modded item uses the chest/camp clothes slot and does not cover genitalia the game is generally assuming that it does. This circumvents the nudity being disabled. This may also be the case if a modded outfit does not have visuals for your race/gender.&#x20;
+5. Unique bodies may not display correctly on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97).
+6. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
+7. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
+8. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
