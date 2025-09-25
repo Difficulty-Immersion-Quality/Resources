@@ -1,0 +1,99 @@
+### Revision 138 Changelog (Work in progress)
+
+# 🔥Patch #8/Hotfix #34 - WIP.🔥
+
+### Don't forget to endorse the collection if you enjoy it! 😘 Maybe buy me a Pepsi too? [Kofi](https://ko-fi.com/baldursgoonsack)💖
+
+***
+
+- Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
+- [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
+- Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
+- Save safe!✅**BUT**, multiple mods ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (See below)
+
+***
+
+- Support for [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) and [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) is being dropped, select mods will be included in the main collection.
+
+<details><summary>❓Why drop support for those 2 addon packs?</summary>
+- When it comes to bugs and troubleshooting I have to rule out whether or not people use those as a variable each time, overall this complicates every process of elimination
+- A number of bug reports are directly related to these mods, they tend to have more bugs and worse localisation
+- I feel obligated to maintain quality, and that means patching things I don't really want to patch
+- A lot of users assume more = better and download everything, then get a kitchen sink experience that does not match my vision at all
+- There's constantly questions about poorly implemented crafting materials, and class specific items
+- It's more mods in my workspace and game install, more mods that I otherwise would not be using that give me longer load times and VSC search times
+- I have limited time, and have spent an absurd amount of it on DIQ, this would give me time back
+- The userbase in the Discord will be playing a much similar game, instead of getting build recommendations for mods they don't have installed etc. causing a fractured social experience instead of everyone just playing DIQ as intended
+- It's harder to gauge where difficulty should be for the list, when 50% of the userbase has a bunch of unintended OP crap, it robs me of good feedback
+- People can just add a class mod or whatever and come to ⁠❗***bg3-modified-list-help*** because it's generally not rocket science to add them, with few exceptions
+- Realistically the addon packs were a recycling bin for crap I no longer wanted, then just became a dumping ground for things others may find cool that didn't seem like they would set the list on fire; I have no passion for them at all.
+</details>
+
+-
+
+***
+
+### Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
+
+- [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) \
+  \- For some reason this mod removes the game over screen, will return if the author can address my bug report, I don't think it happened on Patch #7.
+- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) \
+  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
+  \- It's under moderation review as of this WIP changelog and will only be in the archive if it becomes available again.\
+  \- Community drama and moderation review aside, dialogue mods are compatibility hell and it's way less work for me to just not support this mod.
+- [DVQR - Really Shadowheart Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/15822) *DVQR - Really Shadowheart Compability Patch 8*.
+- [Dialogue Voice Quality Restoration (DVQR)](https://www.nexusmods.com/baldursgate3/mods/8224) *2. DVQR - Audio*.
+- [Black Nail Polish (Hands and Foot)](https://www.nexusmods.com/baldursgate3/mods/637) *Shadowheart*.
+- [Pushed Back Gortash Hair](https://www.nexusmods.com/baldursgate3/mods/8310) *Pushed Back Hair - Full Swoop*.
+- [Druid Quality of Life - Hotbar Restore](https://www.nexusmods.com/baldursgate3/mods/5877) \
+  \- Deprecated.
+- [Graviturgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/484) \
+  \- Unaddressed issues and no spell lists for level 7-9 spells.
+- [Chronurgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/3323) \
+  \- Unaddressed issues and no spell lists for level 7-9 spells.
+- [Clockwork Soul Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/9081) \
+  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
+  \- **Note:** If you've used the included ***Clockwork Soul Dye*** on an item that exists it can cause the save to not load, remove/replace the dye and preferably never use any dye outside of [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717).\
+  \- Replaced by [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777).
+- [Lunar Sorcery Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/8218) \
+  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
+  \- **Note:** If you've used the included ***Lunar Sorcery Dye*** on an item that exists it can cause the save to not load, remove/replace the dye and preferably never use any dye outside of [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717).\
+  \- No 13-20 support.
+- [Aberrant Mind Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/3901) \
+  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
+  \- **Note:** If you've used the included ***Dye of the Aberrant Mind*** on an item that exists it can cause the save to not load, remove/replace the dye and preferably never use any dye outside of [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717).\
+  \- Replaced by [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777).
+- [The Raven Queen Patron for Warlock](https://www.nexusmods.com/baldursgate3/mods/1895) \
+  \- No 13-20 support.
+- [Wizard - War Magic (Patch 8 Updated)](https://www.nexusmods.com/baldursgate3/mods/924) \
+  \- Still conflicts with [Wizard Traditions - Runesmith](https://www.nexusmods.com/baldursgate3/mods/2563) for some reason.
+- [Sorcerer - Divine Soul (Revised) PATCH 7 READY](https://www.nexusmods.com/baldursgate3/mods/4443) \
+  \- Replaced by [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777).
+- [Divine Soul (REVISED) Lv20 Expansion Add-On\_ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/17331) \
+  \- Replaced by [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777).
+- [Troubadour](https://www.nexusmods.com/baldursgate3/mods/472) \
+  \- Doesn't have proper 13-20 support.
+
+### Added: 💯
+
+-
+
+### Added to optional mods: 💯
+
+-
+
+### Updated Class/Spell Mods:✨
+
+-
+
+### Updated: ✅
+
+-
+
+### Updated optional mods: ✅
+
+-
+
+### Other:
+
+-

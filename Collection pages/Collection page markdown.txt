@@ -21,32 +21,40 @@
 - 🎮A number of mods are only relevant for keyboard & mouse, controllers will work just fine but K\&B is recommended.
 - ✍🏻Most mods are not translated to languages other than English, some comprehension of English is basically required.
 
-### The Do Nots:
+<details><summary>❌THE DO NOTS</summary>
+# ❌THE DO NOTS:
 
-- ❌Do not seek support when using the collection outside of my [Discord](https://discord.gg/baldursgoonsacks) or this collection page, do not report bugs to authors when using the collection. The folks spending their free time helping in the [Larian Studios Discord](https://discord.gg/larianstudios) will just direct you back to me, and authors don't need reports of false positives that waste their time.
-- ✅Report issues to me, I will diagnose things and filter more accurate information to relevant authors.
+- ❌Do not seek support when using the collection outside of my [Discord](https://discord.gg/baldursgoonsacks) or this collection page, do not report bugs to authors when using the collection. The folks spending their free time helping in the [Larian Studios Discord](https://discord.gg/larianstudios) will just direct you back to me, and authors don't need reports of false positives that waste their time, instead:\
+  ✅Report issues to me, I will diagnose things and filter more accurate information to relevant authors.
 - 💥You cannot use other curator's collections alongside this one, stuff will break!
 - 🧠Only big brained, longtime mod users, or very patient folk should attempt to customise this list!
 - ❗️I do not recommend playing Honour Mode, it's bad enough in vanilla where bugs still exist, pile hundreds of mods on top and you're really gambling. BG3 is a long game, previous saves are a useful commodity.
 - ❗️New games only, don't install this collection for an existing playthrough, especially an existing modded playthrough.
+</details>
 
-***
+<details><summary>😎Preamble and Thanks!</summary>
+# 😎Preamble and Thanks:
 
 > I started Playing the original Baldur's Gate when I was 9 years old, have been a fan of CRPGs ever since, and played many tabletop RPGs with a preference towards more old school, grimdark settings. Naturally, this collection is targeted at players with a similar background to me. I try to keep the collection living up to its name, combat should bring you a challenge, your immersion should be enhanced, and both the quality of life and overall quality of the mods should bring you an elevated gaming experience.
 
 > While DIQ is primarily a one man show without any official co-curators, it'd be a whole lot worse off without the community that surrounds it, especially the mod authors who frequent the [Discord](https://discord.gg/baldursgoonsacks) and develop things for DIQ, or with it in mind. So big thanks to [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532) (Di Immortalis), [actualsailorcat](https://www.nexusmods.com/baldursgate3/users/78518828) ,  [Cahooots](https://www.nexusmods.com/baldursgate3/users/50497581) , [wtfbengt](https://www.nexusmods.com/baldursgate3/users/16726234) and everyone else!&#x20;
 >
 > Big shout out to [Vexorant](https://next.nexusmods.com/profile/vexorant) for forking DIQ to a Wabbajack list too, which for now can just be gotten over [here](https://www.nexusmods.com/baldursgate3/mods/9784?tab=files)!
+</details>
+
+<details><summary>🥰Discord, Ko-fi and the Github Planning Board</summary>
+# 🥰[Discord](https://discord.gg/baldursgoonsacks), [Ko-fi](https://ko-fi.com/baldursgoonsack) and the [Github Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1):
 
 > I'm consistently patching and working on my own mods, learning and implementing all of this is incredibly time consuming. A lot goes into this pet project, all contributions to my [Ko-fi](https://ko-fi.com/baldursgoonsack) are greatly appreciated!
 >
-> You can view the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1) for a better idea of what's in development!
+> You can view the [DIQ Github Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1) for a better idea of what's in development!
 
 [![](https://i.postimg.cc/sxZHqD8T/kofi-banner-collection-page.png)](https://ko-fi.com/baldursgoonsack)
 
 > [Discord](https://discord.gg/baldursgoonsacks) is the best place to talk to me, report bugs, ask questions, etc. I will respond to [Comments](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=comments), but it's not very ideal for a fruitful exchange. It's the best place to receive the latest important information about the collection and much more, if you're actively playing the collection I highly advise joining, at least for the duration of your playthrough.
 
 [![](https://i.postimg.cc/Zn3jjsBg/discord-banner-collection-page.png)](https://discord.gg/baldursgoonsacks)
+</details>
 
 ***
 
@@ -74,10 +82,12 @@
 https://www.youtube.com/watch?v=5u67KMwlfQY
 </details>
 
-<details><summary>⚡️Pre-Install: System Prerequisites  - step #0</summary>
+<details><summary>⚡️Pre-Install: System Prerequisites  - Step #0</summary>
 # Pre-Install: System Prerequisites
 
-- Mac operating systems (OS) are not supported **PERIOD** due to lack of support from [Script Extender](https://github.com/Norbyte/bg3se) and game updates. Windows 10/11 or Linux systems only, all I know about Linux is the video below so I cannot offer advice for setting up the collection on a Linux OS.
+- Mac operating systems (OS) are not supported **PERIOD** due to lack of support from [Script Extender](https://github.com/Norbyte/bg3se) and game updates. Windows 10/11 or Linux systems only, all I know about Linux is the video below so I cannot offer advice for setting up the collection on a Linux OS.\
+  \
+  Related [Discord](https://discord.gg/baldursgoonsacks) thread: [Adventures Through Linux Gaming ( R\&D Thread )](https://ptb.discord.com/channels/1174823496086470716/1357103513162874911)
 
 <details><summary>❓Guide for linux from lina</summary>
 1. to all of the insane people trying to run this shit on linux here's a tip for you: when you're pointing vortex to the game on steam it has no idea that the actual mods folder is in the corresponding proton wineprefix for baldur's gate 3 and you have to symlink it manually in the vortex wineprefix
@@ -91,11 +101,11 @@ https://www.youtube.com/watch?v=cC1CqyCN9Q0
 
 - Do not use [WeMod](https://www.wemod.com) or [Cheat Engine](https://www.cheatengine.org) with your modded BG3, there's been a few occurrences of save instability correlated with use of these programs. For cheating and debug needs use [EasyCheat with in-game UI (MCM)(SE)](https://www.nexusmods.com/baldursgate3/mods/9827) and [The Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119), both included in the collection.\
   **Note:** The above mods are not foolproof and can also damage saves depending on how they're used.\
-  ![](https://www.shutterstock.com/image-photo/student-using-formula-math-sheet-600nw-1490072507.jpg)
+  .
 - Make sure you're prepared to only use [NTFS](https://learn.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) formatted [Solid State Drives (SSD)](https://support.microsoft.com/en-au/windows/all-about-ssd-hdd-and-storage-types-9c6c7c59-7d1c-4611-9ba9-676d53cc0ff1) as the storage device(s) for your modded install.\
-  This is primarily so [Vortex](https://www.nexusmods.com/about/vortex/) can actually deploy the mods, if your drive is formatted to FAT or anything else it will likely result in the collection not functioning.
+  This is primarily so [Vortex](https://www.nexusmods.com/about/vortex/) can actually deploy the mods, if your drive is formatted to FAT or anything else it will likely result in the collection not functioning.\\
 
-https://www.youtube.com/watch?v=ySm\_ERcVUlk
+https://www.youtube.com/watch?v=ZxV6IcNvbek
 
 - As a general rule of them you should consider Larian's **recommended** specs as this collection's **minimum** specs, however you will need additional storage and Random-access Memory (RAM) on top of that. My recommended RAM is 32GB+ of dual channel memory, unusual configurations with 24GB+ will likely be completely fine but it's nice to have some head room.\
   \
@@ -104,6 +114,9 @@ https://www.youtube.com/watch?v=ySm\_ERcVUlk
   The GB size listed at the top of the collection page includes optional mods, but the mods are **stored twice** on your system, once in the [Vortex](https://www.nexusmods.com/about/vortex/) ***Staging*** folder and a second time as `.zip` file archives in the ***Download*** folder. On the plus side using ***Symlink Deployment*** in [Vortex](https://www.nexusmods.com/about/vortex/) as your ***Deployment Method*** you can set the [Vortex](https://www.nexusmods.com/about/vortex/) ***Staging*** and ***Download*** folders to a different drive from your game installation.\
   \
   ![](https://i.postimg.cc/FsFXx35D/Screenshot-2024-08-27-011852.png)
+
+\<!---->
+
 - If you're using 16GB or less you'll likely end up relying on your [Page File](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/introduction-to-the-page-file) (virtual memory) which will hinder performance, and is not healthy for Solid State Drives (SSDs) when used long-term; it's only harmful if the drive is actually accessed as RAM, the setting being enabled by itself is harmless.\
   \
   Your [Page File](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/introduction-to-the-page-file) (virtual memory) should be on the same storage device as your operating system e.g: drive (C:). This is 100% non-negotiable if you don't have adequate RAM, you will experience crashes, you may not even reach the main menu.\
@@ -124,45 +137,56 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 
 ### You're confident that your system is ready for the DIQ?
 
-- Proceed to the next drop down menu: 💡**GAME SETUP - STEP #1.**
+- Proceed to the next drop down menu: ✅***Pre-Install: Having and Maintaining Clean Install - Step #1***.
 </details>
 
-<details><summary>💡Game: Setup - Step #1</summary>
-# Game: Setup
+<details><summary>✅Pre-Install: Having and Maintaining Clean Install - Step #1</summary>
+# ✅Pre-Install: Having and Maintaining Clean Install - Step #1
 
-1. **Make sure you have a clean game installation!** This is beyond critical. View the guides in⚡️**Cleaning out your BG3 folders** under ***3: Troubleshooting Guides*** for more information! Alternatively follow [How to Remove All Mods from BG3](https://wiki.bg3.community/en/Tutorials/Mod-Use/How-to-remove-mods).\
-   Also check out [Steam Community :: Guide :: Cleaning Cache](https://steamcommunity.com/sharedfiles/filedetails/?id=3018203217), having a **clean install** is about more than just removing mods you were previously using, **I expect people who have never modded their install to also follow these instructions**.![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
-2. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Updates*** -> ***Automatic Updates***  set it to ***Only update the game when I launch it***.\
+1. **Make sure you have a clean game installation!** Follow [How to Remove All Mods from BG3](https://wiki.bg3.community/en/Tutorials/Mod-Use/How-to-remove-mods)!\
+   Also check out [Steam Community :: Guide :: Cleaning Cache](https://steamcommunity.com/sharedfiles/filedetails/?id=3018203217), having a **clean install** is about more than just removing mods you were previously using, **I expect people who have never modded their install to also follow these instructions**.\
+   .
+2. [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) is a script you can install so each time Windows starts up the game's `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache`, and other temp files are cleared. This is highly beneficial for avoiding issues that may arise over time were it otherwise not cleaned out.\
+   \
+   Alternatively, you can just run the executable file manually before playing the game, keep it on your desktop of wherever you want!\
+   ![](https://staticdelivery.nexusmods.com/mods/3474/images/14495/14495-1735549500-1291419674.png)
+3. Proceed to the next drop down menu: 💡***Game: Setup - Step #2***.
+</details>
+
+<details><summary>💡Game: Setup - Step #2</summary>
+# 💡Game: Setup - Step #2
+
+1. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Updates*** -> ***Automatic Updates***  set it to ***Only update the game when I launch it***.\
    \
    **Note:** There's a good reason for this, you don't want to update the game prior to collection revisions coming out, if there's an update available without a matching collection revision set [Steam](https://store.steampowered.com/about/) into ***Offline Mode*** prior to launching.\
    For more information please read ***2: Updating Guide - Collection & Game Updates***⚠️.\
    ![](https://i.postimg.cc/zGWhHZQP/image2222222222222222222222222222.png)
-3. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** select ***Verify integrity of game files***.\
+2. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** select ***Verify integrity of game files***.\
    You'll need to wait for this process under your [Steam](https://store.steampowered.com/about/) downloads to finish before continuing.\
    **Note:** I've even seen fresh installs get fixed from doing this, you are not above this step!\
    **ALSO:** If you're playing on a downgraded install you cannot ***Verify integrity of game files*** without [Steam](https://store.steampowered.com/about/) fetching files from the latest version, so in these cases skip this step. For more information please read ***2: Updating Guide - Collection & Game Updates***⚠️. \
    ![](https://i.postimg.cc/gkjqJ7df/image11111111111111111111.png)
-4. Once your install is finished being verified by [Steam](https://store.steampowered.com/about/) launch the game to open the ***Larian Launcher*** and select the ***Settings*** cog icon, underneath ***General*** untick the box for ***Enable stats tracking***.![](https://i.postimg.cc/MpFWwv5C/image.png)![](https://i.postimg.cc/cChSbH65/image.png)
-5. Again in the ***Larian launcher***, use ***DirectX 11*** instead of ***Vulkan*** as your game's API.\
+3. Once your install is finished being verified by [Steam](https://store.steampowered.com/about/) launch the game to open the ***Larian Launcher*** and select the ***Settings*** cog icon, underneath ***General*** untick the box for ***Enable stats tracking***.![](https://i.postimg.cc/MpFWwv5C/image.png)![](https://i.postimg.cc/cChSbH65/image.png)
+4. Again in the ***Larian launcher***, use ***DirectX 11*** instead of ***Vulkan*** as your game's API.\
    This is a general recommendation for performance and mod functionality, I've seen very few users have a better time with ***Vulkan***.\
    ![](https://i.postimg.cc/VLNQNzJm/image.png)
-6. New with **Patch #7** is making sure you're not subscribed to any mods through the official mod support, [mod.io](https://mod.io/g/baldursgate3) and the in game mod manager. **Better yet, just don't be signed in to **[**mod.io**](https://mod.io/g/baldursgate3)** in game at all!**\
+5. New with **Patch #7** is making sure you're not signed in to **ANY** in game accounts! If you're signed in to accounts the game will subscribe you to collection mods that are also present on [mod.io](https://mod.io/g/baldursgate3). This can cause dirty installs, especially when updating DIQ.\
    \
    You can unsubscribe from mods in game if you're signed into [mod.io](https://mod.io/g/baldursgate3), alternatively, unsubscribe from mods on the [mod.io](https://mod.io/g/baldursgate3) website.\
    **Note:** [mod.io](https://mod.io/g/baldursgate3) and [Larian](https://larian.com) accounts are separate but can be linked.\
    \
    If using the [mod.io](https://mod.io/g/baldursgate3) website just filter by ***My subscriptions***, then click the ***Subscribed*** button to unsubscribe from each mod. This helps to ensure your game won't download a bunch of conflicting mods.\
    ![](https://i.postimg.cc/kXVP4Tfk/Screenshot-2024-11-28-151349.png)
-7. Launch into the game at least once on a clean game install to generate files. This includes going through character creation and into the tutorial level to make sure it's working as intended.
-8. Under ***Video*** -> ***General*** set ***Display Mode*** to ***Fullscreen***.\
+6. Launch into the game at least once on a clean game install to generate files. This includes going through character creation and into the tutorial level to make sure it's working as intended.
+7. Under ***Video*** -> ***General*** set ***Display Mode*** to ***Fullscreen***.\
    Unless you're constantly tabbing out of the game It's generally better for performance and stability, if you tab out a lot however it could lead to the opposite, causing infrequent crashing or lead to noticeable performance loss over the course of a long play session.![](https://i.postimg.cc/FFBGjvP9/image.png)
-9. Under ***Video*** -> ***Quality*** set ***Animation Level of Detail*** to ***High***, otherwise custom heads and hair will have graphical issues.![](https://i.postimg.cc/HnxZTsBN/image.png)
-10. For future convenience, in [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** > ***General*** > ***Launch Options*** type ***--skip-launcher***.![](https://i.postimg.cc/G23zjmwp/image33333333333333333333333333333333333.png)
-11. Proceed to the next drop down menu: 💡**VORTEX SETUP - STEP #2**.
+8. Under ***Video*** -> ***Quality*** set ***Animation Level of Detail*** to ***High***, otherwise custom heads and hair will have graphical issues.![](https://i.postimg.cc/HnxZTsBN/image.png)
+9. For future convenience, in [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** > ***General*** > ***Launch Options*** type ***--skip-launcher***.![](https://i.postimg.cc/G23zjmwp/image33333333333333333333333333333333333.png)
+10. Proceed to the next drop down menu: 💡***Vortex: Setup - Step #3***.
 </details>
 
-<details><summary>💡Vortex: Setup - Step #2</summary>
-# Vortex: Setup
+<details><summary>💡Vortex: Setup - Step #3</summary>
+# 💡Vortex: Setup - Step #3
 
 1. Download and install [Vortex](https://www.nexusmods.com/about/vortex/). In the ***Games*** tab, select ***Manage*** on Baldur's Gate 3. The installed path should be recognised automatically, if not point [Vortex](https://www.nexusmods.com/about/vortex/) it to the game's install.![](https://i.postimg.cc/nL1GD6zZ/image.png)
 2. **WARNING:** DO NOT install [LSLib/Divine Tool](https://github.com/Norbyte/lslib) when prompted by [Vortex](https://www.nexusmods.com/about/vortex/), ***Uninstall*** it if need be do not just ***Disable*** it.\
@@ -181,18 +205,18 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 9. **Restart your PC for changes to take affect.**![](https://i.postimg.cc/3JWJGptc/image.png)
 10. **REMINDER:** If you uninstalled the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) please restart [Vortex](https://www.nexusmods.com/about/vortex/) before continuing with the installation.\
     You will get prompted to install it every time you open [Vortex](https://www.nexusmods.com/about/vortex/), just don't get tricked into installing it.![](https://i.postimg.cc/DyqFLgq5/image.png)
-11. Proceed to the next drop down menu: 📥**DOWNLOAD & INSTALLATION - STEP #3**.
+11. Proceed to the next drop down menu: 📥***Vortex: Download & Installation - Step #4***.
 </details>
 
-<details><summary>📥Vortex: Download & Installation - Step #3</summary>
-# Vortex: Download & Installation
+<details><summary>📥Vortex: Download & Installation - Step #4</summary>
+# 📥Vortex: Download & Installation - Step #4
 
 1. Click the orange ***Add collection*** button at the top of this page to begin the collection download. If you have [Nexus Premium](https://next.nexusmods.com/premium) it will begin downloading all of the mods, if not you will have to click through the download prompts for each mod.![](https://i.postimg.cc/3JwyMVC7/Screenshot-2024-10-27-150805.png)
 2. If you get stuck at 100% install/download, mods are missing, or anything weird happens remove the collection (but do not remove the mods, specifically the mod archives) and select ***Add collection*** again. Sometimes downloading hundreds of mods at the push of a button doesn't work right through [Vortex](https://www.nexusmods.com/about/vortex/), who could have guessed?\
    View ***3: Troubleshooting Guides*** for more information.![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
 3. Read over ***5: Optional & Archived Mods*** for information on each optional mod prior installing them, they're optional for a multitude of reasons. You've been warned.\
    ![](https://i.postimg.cc/Nf7gpQPk/image-2024-06-19-034858631.png)\
-   This step ensures you won't have question such as: "Why does my Tav have tattoos?" and "How can I remove this chat box?"\
+   This step ensures you won't have question such as: "Why does my Tav have different tattoos?" and "How can I remove this chat box?"\
    \
    When downloading optional mods you can hold the CTRL key and left click mods you wish to install, before installing them from the bar at the bottom of your screen. This saves time as [Vortex](https://www.nexusmods.com/about/vortex/) will automatically ***Deploy*** whenever an optional mod is installed. \
    **Note:** ***Deployment*** means the mods are being sent to the game files.\
@@ -212,11 +236,11 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 7. Make sure to ***Deploy*** mods before moving on from [Vortex](https://www.nexusmods.com/about/vortex/).\
    ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
 8. Once all of the above looks good, you are ready to begin managing the load order with [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)). Do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order.
-9. Proceed to the next drop down menu: 💾**CONFIGURATION FILES - STEP #4**.
+9. Proceed to the next drop down menu: 💾***Manual Installation: Configuration Files - Step #5***.
 </details>
 
-<details><summary>💾Manual Installation: Configuration Files - Step #4</summary>
-# Manual Installation: Configuration Files
+<details><summary>💾Manual Installation: Configuration Files - Step #5</summary>
+# 💾Manual Installation: Configuration Files - Step #5
 
 💻While [Script Extender](https://github.com/Norbyte/bg3se) based mods will generate their configuration files upon creating/loading a game, I **HIGHLY** recommend you get my customised configuration files; without them you are not truly playing the collection!
 
@@ -224,11 +248,11 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 2. You can find the files as an all in one `.zip` under [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784)***,*** or get them from my [Discord](https://discord.gg/baldursgoonsacks), under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-configs***.
 3. Inside the ***.zip*** folder you will see a folder called ***Script Extender***. Extract the ***.zip*** folder into `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3`
 4. Overwrite the existing files and `Script Extender` folder if they exist, if it doesn't exist then extracting the `.zip` will create  it.
-5. Proceed to the next drop down menu: 📋**BG3MM LOAD ORDER MANAGEMENT - STEP #5**.
+5. Proceed to the next drop down menu: 📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
-<details><summary>📋BG3MM: Load Order Management - step #5</summary>
-# BG3MM: LOAD ORDER MANAGEMENT
+<details><summary>📋BG3MM: Load Order Management - Step #6</summary>
+# 📋BG3MM: Load Order Management - Step #6
 
 **Note:** Before doing the following, have the collection(s) installed, including optional mods which you want to use from [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg), [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) and [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf).
 If you decide to add more optional mods afterwards, or install [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and/or [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) and/or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) at a later date, you will want to get a fresh load order `.json` file so the mods are placed correctly.
@@ -258,11 +282,11 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    ![](https://i.postimg.cc/6qNFYsK3/image.png)
 9. ***Export*** the load order to game. You must do this anytime the load order changes, collection updates etc. No such thing as too much here, click it every time you launch into the game if you wish.![](https://i.postimg.cc/HxHhyqC9/image.png)
 10. When you go to ***Export*** the load order for the first time you will get the following popup. You can ignore it, and select ***Ok***. [Script Extender](https://github.com/Norbyte/bg3se) has been installed through [Vortex](https://www.nexusmods.com/about/vortex/), but it won't complete the install until you've launched into the game at least once. After reaching the game's main menu exit the game.![](https://i.postimg.cc/N0CTwTjq/image.png)
-11. Proceed to the next drop down menu: 🥹**BEFORE YOU GO! - STEP #6**.
+11. Proceed to the next drop down menu: 🥹***IMPORTANT: Before you go! - Step #7***.
 </details>
 
-<details><summary>🥹IMPORTANT: Before you go! - step #6</summary>
-# IMPORTANT: Before you go!
+<details><summary>🥹IMPORTANT: Before you go! - Step #7</summary>
+# 🥹IMPORTANT: Before you go! - Step #7
 
 1. **Recommendation:** \
    Play the game on ***Custom Mode***, turn ***Honour Ruleset*** on and click ***Restore Defaults*** to toggle Tactician difficulty where applicable. Other settings here are handled via my patches and do not need changing, but you can change them if you choose.\
@@ -274,10 +298,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    \
    ❗️**WARNING:** ***Honour ruleset*** won't be saved if setting up ***Custom difficulty*** in a multiplayer lobby. Given that my recommendation is to play ***Custom difficulty*** with ***honour rules*** toggled you should do so by setting up the game solo, then getting your homie(s) to join via ***direct connect***. Double check once you're in the game that ***honour rules*** are active.\
    ![](https://i.postimg.cc/hvGTCQBR/custom-difficulty-options.gif)
-2. **Recommendation 2:** \
-   [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) is a script you can install so each time Windows starts up the game's `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache`, and other temp files are cleared. This is highly beneficial for avoiding issues that may arise over time, were it not cleaned out.\
-   ![](https://staticdelivery.nexusmods.com/mods/3474/images/14495/14495-1735549500-1291419674.png)
-3. **Recommendation 3:** \
+2. **Recommendation 3:** \
    [](https://www.nexusmods.com/baldursgate3/mods/14495)Play some BG3! Launch the game from [Steam](https://store.steampowered.com/about/) or a Desktop shortcut, `bg3_dx11.exe` preferably. If you want to launch from [BG3MM](https://github.com/LaughingLeader/BG3ModManager) make sure to ***Enable DirectX 11 Mode***, and for further convenience enable ***Skip Launcher*** too. Keep ***Launch Through Steam*** unticked to make avoiding game updates easier.\
    ![](https://i.postimg.cc/ry49knX8/image.png)
 
@@ -298,7 +319,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
 ❌DO NOT UPDATE YOUR GAME PRIOR TO A MATCHING COLLECTION REVISION BECOMING AVAILABLE!
 
 <details><summary>💡Collection Updates - Step by Step</summary>
-### Step By Step Instructions:
+# 💡Collection Updates - Step by Step
 
 1. Prior to updating It is recommended that you do the following to maintain the health of an ongoing save:\
    \
@@ -350,9 +371,9 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
     ![](https://i.postimg.cc/DzVXBF0L/Screenshot-2024-03-05-082217.png)If you're using some of the optional mods the ***Some mods are redundant warning*** will be present and not a problem, otherwise both of these warnings will go away once leftover mod files are all removed.\
     ![](https://i.postimg.cc/R0XvqQkh/Screenshot-2024-02-02-032627.png)Once you've cleaned things out properly ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
 12. Extract new configuration files if they've been updated.\
-    If you need a refresher on the configuration files please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡->💡***CONFIGURATION FILES - STEP #4***.
+    If you need a refresher on the configuration files please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡->💾***Manual Installation: Configuration Files - Step #5***.
 13. Export the new load order to the game through [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\
-    If you need a refresher on the load order please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡 ->💡***BG3MM LOAD ORDER MANAGEMENT - STEP #5***.
+    If you need a refresher on the load order please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡 ->📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
 <details><summary>⚡️Game Updates + Rolling Back Your Game Version</summary>
@@ -462,6 +483,8 @@ Overwrite the game install with the downloaded packages, ***purge*** mods in [Vo
 
 - 🪲***Known Issues + Workarounds*** has been moved to a [pinned comment](https://www.nexusmods.com/games/baldursgate3/collections/pns4qv/comments?commentId=172148) for greater visibility!
 
+### The Basics:
+
 <details><summary>⚡️Basic Troubleshooting</summary>
 ## ⚡️Basic Troubleshooting:
 
@@ -476,7 +499,7 @@ You *always* do these before seeking assistance, otherwise you're just going to 
 6. ***Export*** the load order to the game from [BG3MM](https://github.com/LaughingLeader/BG3ModManager).
 7. Launch the game from the DX11 .exe, or from [BG3MM](https://github.com/LaughingLeader/BG3ModManager) with DX11 enabled in the preferences.
 
-This is all stuff that's more or less covered in the install guide, there's no harm in going back over installation instructions and making sure you've not missed something.
+The above and more is covered in the install guide, there's no harm in going back over installation instructions and making sure you've not missed something.
 </details>
 
 <details><summary>⚡️Soft Rebooting Your Vortex Collection Install</summary>
@@ -501,34 +524,6 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
    ![](https://i.postimg.cc/HxHhyqC9/image.png)
 </details>
 
-<details><summary>⚡️Missing WASD Character Movement, Native Camera Tweaks, Script Extender Console or Achievements</summary>
-## ⚡️Missing [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) or [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945):&#x20;
-
-First make sure your issue is not simply with one of the below [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) keybinds:
-
-- Auto-run, by default with ***Shift***+***W***
-- Toggle between jogging and walking, by default with ***Insert***
-- Toggle the mod on and off with ***Caps Lock***.
-
-1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `NativeMods` folder.
-3. In Vortex find [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781), [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) and [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944).
-4. Right click on them and select ***Reinstall***.
-5. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-
-***
-
-## ⚡️Missing [Script Extender](https://github.com/Norbyte/bg3se) Console or Achievements:&#x20;
-
-The [Script Extender](https://github.com/Norbyte/bg3se) ([BG3SE](https://github.com/Norbyte/bg3se)) configuration files from [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) that come packaged with the collection enable the [BG3SE](https://github.com/Norbyte/bg3se) console, as well as achievements while using mods. However, not only can they be overwritten, the staging folders for them can become infected, for lack of a better term. This means no achievements and no [BG3SE](https://github.com/Norbyte/bg3se) console unless you've otherwise enabled them in via [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually via [Norbyte's documentation](https://github.com/Norbyte/bg3se).
-
-1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `ScriptExtenderSettings.json` and `ScriptExtenderUpdaterConfig.json` files.
-3. In Vortex find [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Norbyte's BG3SE Configs*.
-4. Right click and it and select ***Reinstall***.
-5. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-</details>
-
 <details><summary>⚡️Multiplayer Issues & Troubleshooting</summary>
 # ⚡️Multiplayer Issues & Troubleshooting
 
@@ -551,10 +546,80 @@ No u
 - If someone has a dirty install it might not work, and even if it does work there might be other issues besides. It pretty well goes without saying, but this is by and large the most common reason people have problems, and it's already well covered in ***1: Installation Guide - Vortex, BG3MM & Configs***💡.
 - Basically everyone who fixes it does so by following my existing troubleshooting guides.
 - When in doubt go full nuclear, wipe it all and start from scratch.
+</details>
 
-***
+### Stuff Is Missing:
 
-- In your ***Baldurs Gate 3 > Data*** folder delete **all folders** (not **.pak** files) titled ***Mods***, ***SharedDev*** or ***GustavDev***.
+The following issues should more is less be resolved by following the above ⚡️***Soft Rebooting Your Vortex Collection Install*** guide, I recommend following that first and if issues persist doing both.
+
+<details><summary>⚡️Mods Missing in Game + "MCM is 'inactive' in your load order" Main Menu Error</summary>
+# ⚡️Mods Missing in Game + "MCM is 'inactive' in your load order" Main Menu Error
+
+Below are the multiple potential causes of this issue and their respective fixes, from most likely to least likely.
+
+1. You did something incorrectly when handling the load order in [BG3MM](https://github.com/LaughingLeader/BG3ModManager):\
+   \
+   Go over ***1: Installation Guide - Vortex, BG3MM & Configs***💡> 📋***BG3MM: Load Order Management - Step #6*** again.\
+   \
+   ![](https://i.postimg.cc/Vvsp629m/Chance-GB3-S.webp)
+2. Dirty or modified installation with a bad egg mod:\
+   \
+   Patch #7 exposed many mods as having malformed UUIDs and such in their `meta.lsx` files and they simply will not work in the active load order, in addition, [Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141) scripts are no longer relevant as of that patch and are destructive unless housed in a `ForceRecompile.txt` file specifically. If you've been intentionally customising your install you will have to go through a process of elimination, removing the potential causes.\
+   \
+   ![](https://i.postimg.cc/fTNjxY1S/image-2025-09-25-173136376.png)
+3. You need to delete any ***Debug*** profiles found in `%AppData%\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles`:\
+   \
+   I don't believe these simply existing is harmful anymore, but the information is here anyway. \
+   They can be created from a few things, such as: \
+   \- Having ANY [Achievement Enabler](https://www.nexusmods.com/baldursgate3/mods/668) files installed (including any log files), as it conflicts with [Script Extender](https://github.com/Norbyte/bg3se)'s achievement enabling functionality\
+   \- Having multiple instances of the game running (can include hidden background processes), check task manager and force close them or just restart your PC\
+   \- Refresh [BG3MM](https://github.com/LaughingLeader/BG3ModManager) and check the ***Profile*** drop down menu, it should just show ***Public***.\
+   \
+   ![](https://i.postimg.cc/fbrJBhLg/image-2025-09-25-172633134.png)
+4. You need to delete your `modsettings.lsx` found in `%AppData%\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public`:\
+   \
+   \- In some rare cases [BG3MM](https://github.com/LaughingLeader/BG3ModManager) doesn't appear able to properly overwrite the file, deleting it and then ***Exporting*** in [BG3MM](https://github.com/LaughingLeader/BG3ModManager) should fix it.
+</details>
+
+<details><summary>⚡️Missing WASD Character Movement and/or Native Camera Tweaks</summary>
+## ⚡️Missing [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) and/or [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945)
+
+First make sure your issue is not simply with one of the below [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) keybinds:
+
+- Auto-run, by default with ***Shift***+***W***
+- Toggle between jogging and walking, by default with ***Insert***
+- Toggle the mod on and off with ***Caps Lock***.
+
+1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `NativeMods` folder.
+3. In Vortex find [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781), [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) and [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944).\
+   ![](https://i.postimg.cc/L8bNW1LV/image-2025-09-25-210714941.png)
+4. Right click on them and select ***Reinstall***.
+5. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+</details>
+
+<details><summary>⚡️Missing Dialogue Audio</summary>
+# ⚡️Missing Dialogue Audio
+
+1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+2. In Vortex find all the [Dialogue Voice Quality Restoration (DVQR)](https://www.nexusmods.com/baldursgate3/mods/8224) files.\
+   ![](https://i.postimg.cc/t4kHn204/erberbvqwevwqev.png)
+3. Right click on them and select ***Reinstall***.
+4. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+
+**Note:** AI voice replacer mods and such conflict with [DVQR](https://www.nexusmods.com/baldursgate3/mods/8224), if you're customising your install with such mods you'll have to pick one or the other unless there's a functionality compatibility patch.
+</details>
+
+<details><summary>⚡️Missing Script Extender Console and/or Achievements</summary>
+## ⚡️Missing [Script Extender](https://github.com/Norbyte/bg3se) Console and/or Achievements
+
+The [Script Extender](https://github.com/Norbyte/bg3se) ([BG3SE](https://github.com/Norbyte/bg3se)) configuration files from [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) that come packaged with the collection enable the [BG3SE](https://github.com/Norbyte/bg3se) console, as well as achievements while using mods. However, not only can they be overwritten, the staging folders for them can become infected, for lack of a better term. This means no achievements and no [BG3SE](https://github.com/Norbyte/bg3se) console unless you've otherwise enabled them in via [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually via [Norbyte's documentation](https://github.com/Norbyte/bg3se).
+
+1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `ScriptExtenderSettings.json` and `ScriptExtenderUpdaterConfig.json` files.
+3. In Vortex find [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Norbyte's BG3SE Configs*.
+4. Right click and it and select ***Reinstall***.
+5. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
 </details>
 
 ### Guides I'm yet to update:
@@ -591,29 +656,6 @@ No u
 - It's exceedingly rare.
 </details>
 
-<details><summary>⚡️can't level up: crashes, "choices pending" etc.</summary>
-This is generally caused from updating mods and not ***Respeccing*** as is recommended.\
-**Note:** If you're an ***Oathbreaker Paladin***, or using a custom class with the ***Oathbreaker*** tag you can use the [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899) ***Respec*** option to skip regaining your oath.
-
-### Level up issues:
-
-1. If you can't level up due to crashes or "*choices pending*" try ***Respeccing*** your character.
-2. If this does not work ***Respec*** all characters to level 1 Barbarian, Fighter, or Rogue.&#x20;
-3. If this also fails follow the ⚡️***General troubleshooting***.
-</details>
-
-<details><summary>⚡️debug profiles/modsettings.lsx reset on launch: mods and save files not present in game</summary>
-This is less common nowadays, for a time [Script Extender](https://github.com/Norbyte/bg3se) would conflict with the [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944) and cause this.
-What will almost certainly cause this is having ANY [Achievement Enabler](https://www.nexusmods.com/baldursgate3/mods/668) files installed, including the log files.
-
-1. Check your ***Appdata > Local > Larian Studios > Baldur's Gate 3 > Player Profiles*** for ***Debug*** profiles and delete them
-2. Check in ***Task Manager*** for additional instances of the game attempting to run and close them all.
-3. Refresh [BG3MM](https://github.com/LaughingLeader/BG3ModManager) and check the ***Profile*** drop down menu, it should just show ***Public***.
-4. Then restart your PC.
-
-If you have added external mods to your collection install, and your ***modsettings.lsx*** (load order) is being reset upon launching the game you've likely introduced a bad egg. One of the mods need removing, go through a process of elimination, It will happen even if the mod is Inactive in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), it just has to be present in the ***Appdata > Local > Larian Studios > Baldur's Gate 3 > Mods*** folder for the issue to occur.
-</details>
-
 ### ⚡️Cleaning out your BG3 folders:
 
 <details><summary>⚡️vortex failing to manage files: remnant files in game folders</summary>
@@ -623,6 +665,8 @@ I've only experienced files being unmanaged by [Vortex](https://www.nexusmods.co
 
 Delete all `.symlink` files if that was the deployment method in use.
 File paths shown below are based on a default [Steam](https://store.steampowered.com/about/) install.
+
+- In your ***Baldurs Gate 3 > Data*** folder delete **all folders** (not **.pak** files) titled ***Mods***, ***SharedDev*** or ***GustavDev***.
 
 1. ***Purge*** mods in Vortex.
 2. Go to your `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > Mods` folder and delete the:\
@@ -1024,7 +1068,7 @@ For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's
 - [Vivid Landscapes - Roads](https://www.nexusmods.com/baldursgate3/mods/6844) *4k*. Overwrites the included lower resolution options of the main list.
 - [Vivid Landscapes - Fire and Ashes](https://www.nexusmods.com/baldursgate3/mods/11520) *4k*.
 - [Vivid Landscapes - HD Ground and Terrain Textures](https://www.nexusmods.com/baldursgate3/mods/6473) *2k*. Overwrites the included lower resolution options of the main list.\
-  The above 3 mods will cause "*Some mods are redundant*" warnings in [Vortex](https://www.nexusmods.com/about/vortex/), but they can be safely ignored.\
+  Some of the above mods will cause "*Some mods are redundant*" warnings in [Vortex](https://www.nexusmods.com/about/vortex/), but they can be safely ignored.\
   ![](https://i.postimg.cc/SQdzByrQ/Screenshot-2024-07-28-105158.png)
 </details>
 

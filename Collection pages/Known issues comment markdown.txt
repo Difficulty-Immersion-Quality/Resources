@@ -1,8 +1,11 @@
 # 🪲Known Issues + Workarounds
 
+If you can't find what you're looking for here, make sure to check ***3: Troubleshooting Guides***⚡️on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page too.
+
 Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=), alongside everything else in progress. Some other important ones for the current revision I will list here:
 
-- If you've updated to Patch #8/Hotfix #34 you can probably just update the following mods in Vortex (or MO2 is using the Wabbajack) and be fine.![](https://i.postimg.cc/9fmcXJ1C/image-33.png)
+- If you've updated to Patch #8/Hotfix #34 you can probably just update the following mods in Vortex (or MO2 is using the Wabbajack) and be fine.\
+  ❓Hit ***Check for Updates***, let it do its thing, click the orange cloud icons to update the mods (the specific ones below, not everything), ignore dependency warning (you won't break the list), deploy mods, W![](https://i.postimg.cc/9fmcXJ1C/image-33.png)
 - [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) is under moderation review and cannot be downloaded. The reason for that is due to code that's not present in the current collection version of the mod, so I have no qualms in saying you can download the correct version [here from mod.io](https://g-6715.modapi.io/v1/games/6715/mods/4979078/files/6515254/download) (direct download link for 2.0.2.6), and import that into Vortex instead.\
   ❓You can either ignore the unfinished collection install, or set the Nexus file for [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) to "Ignore" in the collections tab of Vortex.
 - [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) breaks the game over screen, you can just remove it.
@@ -13,8 +16,7 @@ Bugs which are actively being hunted, or intend to be resolved can be found on t
 
 What follows below is instead known issues that are not things I can really do much of anything about, very low priority stuff, niche circumstantial issues, vanilla bugs, game limitations etc.
 
-***
-
+<details><summary>⚡️Crashes, Freezes & Soft Locks</summary>
 # ⚡️Crashes, Freezes & Soft Locks
 
 ### During gameplay - Engine limits:
@@ -32,10 +34,10 @@ What follows below is instead known issues that are not things I can really do m
 
 - There was a curious case where someone was crashing on attempting to launch a new game, it was due to their [RivaTuner Server Statistics](https://www.rivatuner.org) software running in the background and not being kept updated.\
   Make sure no 3rd party software can interfere, keep things nice and clean.
+</details>
 
-***
-
-# ⚡️Gameplay Issues:
+<details><summary>⚡️Gameplay Issues</summary>
+# ⚡️Gameplay Issues
 
 1. **"Someone in your party is not ready":**\
    Pretty sure this is a vanilla bug, but it's a nasty one. Thankfully we've got a seemingly harmless fix for it.\
@@ -67,9 +69,9 @@ TemplateAddTo("c4d45206-9201-4eca-b835-628ad31a8941", GetHostCharacter(), 1)
 ```
 TemplateAddTo("ae588c38-3e1b-4f38-97b2-635c76164527", GetHostCharacter(), 1)
 ```
+</details>
 
-***
-
+<details><summary>⚡️Cosmetic Issues</summary>
 # ⚡️Cosmetic Issues
 
 1. **Incorrect tooltip information**:\
@@ -83,3 +85,4 @@ TemplateAddTo("ae588c38-3e1b-4f38-97b2-635c76164527", GetHostCharacter(), 1)
 6. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
 7. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
 8. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
+</details>
