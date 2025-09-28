@@ -113,6 +113,8 @@
 
 ### Updated Class/Spell Mods:✨
 
+> It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
+
 - [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Cantrips*, *Level 1* & *Level 2*.
 - [True Darkness - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/13542)&#x20;
 - [Animate Dead Plus Plus - Necromancy Patch](https://www.nexusmods.com/baldursgate3/mods/642)&#x20;
@@ -137,7 +139,8 @@
 - [2024 Purple Dragon Knight (UA) - Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/15607)&#x20;
 - [Goon's Paladin Overhaul](https://www.nexusmods.com/baldursgate3/mods/17535)&#x20;
 - [Unholy Smite for Oathbreakers](https://www.nexusmods.com/baldursgate3/mods/15366)&#x20;
-- [Goon's Rogue Overhaul](https://www.nexusmods.com/baldursgate3/mods/17612)&#x20;
+- [Goon's Rogue Overhaul](https://www.nexusmods.com/baldursgate3/mods/17612) \
+  Respec out of Rogue prior to updating to, or adding 1.1.0.0+ mid-playthrough. Modifying action resources can be funky if they're in use.
 - [The Ruffian - A Strength Rogue](https://www.nexusmods.com/baldursgate3/mods/13512) + *Grappling Framework Extension*.
 - [Goon's Sorcerer Overhaul](https://www.nexusmods.com/baldursgate3/mods/17657)&#x20;
 - [Goon's Coffee Lock - Use Warlock Spell Slots First](https://www.nexusmods.com/baldursgate3/mods/17634) *Decaf*.

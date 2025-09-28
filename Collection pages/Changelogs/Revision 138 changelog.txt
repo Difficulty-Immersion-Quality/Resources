@@ -37,6 +37,8 @@
 
 - [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) \
   \- For some reason this mod removes the game over screen, will return if the author can address my bug report, I don't think it happened on Patch #7.
+- [Kiss Me Again - Unlimited Last Kisses in Endgame](https://www.nexusmods.com/baldursgate3/mods/16042) \
+  Redundant.
 - [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) \
   ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
   \- It's under moderation review as of this WIP changelog and will only be in the archive if it becomes available again.\
@@ -47,6 +49,11 @@
 - [Pushed Back Gortash Hair](https://www.nexusmods.com/baldursgate3/mods/8310) *Pushed Back Hair - Full Swoop*.
 - [Druid Quality of Life - Hotbar Restore](https://www.nexusmods.com/baldursgate3/mods/5877) \
   \- Deprecated.
+- [True Range - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/14441) \
+  Implementation isn't really dynamic enough and would require patching, it also will forever display improper 5e values regardless of the configuration.\
+  This is a concept I could support myself just by changing range values on base weapons, though it would be limited to 30m (which is what I want).
+- [True Darkness - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/13542) *(OPTIONAL) Semi-Transparent VFX*.\
+  It's a good idea but the base visuals are so much better to look at, if you can't see enough just toggle character highlighting with the tilde key.
 - [Graviturgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/484) \
   \- Unaddressed issues and no spell lists for level 7-9 spells.
 - [Chronurgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/3323) \
@@ -84,6 +91,8 @@
 
 ### Updated Class/Spell Mods:✨
 
+> It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
+
 -
 
 ### Updated: ✅
@@ -96,4 +105,6 @@
 
 ### Other:
 
--
+- [Various NPCs Restyled](https://www.nexusmods.com/baldursgate3/mods/13937) *All in One Version (seperate paks)*.\
+  Added *TheHallowleafs\_Restyled\_V2*.\
+  ![](https://i.postimg.cc/gkWLtJkF/Screenshot-2025-09-27-203624.png)

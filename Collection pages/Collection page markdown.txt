@@ -107,23 +107,15 @@ https://www.youtube.com/watch?v=cC1CqyCN9Q0
 
 https://www.youtube.com/watch?v=ZxV6IcNvbek
 
-- As a general rule of them you should consider Larian's **recommended** specs as this collection's **minimum** specs, however you will need additional storage and Random-access Memory (RAM) on top of that. My recommended RAM is 32GB+ of dual channel memory, unusual configurations with 24GB+ will likely be completely fine but it's nice to have some head room.\
+- As a general rule of them you should consider Larian's **recommended** specs as this collection's **minimum** specs, however you will absolutely need additional storage for the mods.\
   \
-  To play the collection with 16GB of RAM you'll want to be getting the most out of your hardware, have your system only running required processes and the game itself.\
+  \- The GB size listed at the top of the collection page includes optional mods, but the mods are **stored twice** on your system, once in the [Vortex](https://www.nexusmods.com/about/vortex/) ***Staging*** folder and a second time as `.zip` file archives in the ***Download*** folder. On the plus side using ***Symlink Deployment*** in [Vortex](https://www.nexusmods.com/about/vortex/) as your ***Deployment Method*** you can set the [Vortex](https://www.nexusmods.com/about/vortex/) ***Staging*** and ***Download*** folders to a different drive from your game installation.\
   \
-  The GB size listed at the top of the collection page includes optional mods, but the mods are **stored twice** on your system, once in the [Vortex](https://www.nexusmods.com/about/vortex/) ***Staging*** folder and a second time as `.zip` file archives in the ***Download*** folder. On the plus side using ***Symlink Deployment*** in [Vortex](https://www.nexusmods.com/about/vortex/) as your ***Deployment Method*** you can set the [Vortex](https://www.nexusmods.com/about/vortex/) ***Staging*** and ***Download*** folders to a different drive from your game installation.\
+  ![](https://i.postimg.cc/FsFXx35D/Screenshot-2024-08-27-011852.png)- To play the collection with 16GB of RAM you'll want to be getting the most out of your hardware by having your system only running required processes and the game itself, otherwise you'll likely end up relying on your [Page File](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/introduction-to-the-page-file) (virtual memory) which will hinder performance, and is not necessarily healthy for Solid State Drives (SSDs) when relied on long-term.\
   \
-  ![](https://i.postimg.cc/FsFXx35D/Screenshot-2024-08-27-011852.png)
-
-\<!---->
-
-- If you're using 16GB or less you'll likely end up relying on your [Page File](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/introduction-to-the-page-file) (virtual memory) which will hinder performance, and is not healthy for Solid State Drives (SSDs) when used long-term; it's only harmful if the drive is actually accessed as RAM, the setting being enabled by itself is harmless.\
+  \- Your [Page File](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/introduction-to-the-page-file) (virtual memory) should be on the same storage device as your operating system e.g.: drive (C:). This is 100% non-negotiable if you don't have adequate RAM, you will experience crashes, you may not even reach the main menu.\
   \
-  Your [Page File](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/introduction-to-the-page-file) (virtual memory) should be on the same storage device as your operating system e.g: drive (C:). This is 100% non-negotiable if you don't have adequate RAM, you will experience crashes, you may not even reach the main menu.\
-  \
-  (For some reason Windows will not allocate virtual memory from other drives to the game's process, if you have more information on this conundrum please share it with me.)\
-  \
-  **TLDR;** It largely goes without saying that RAM usage from background processes etc. should be reduced as much as possible in a memory limited environment. For multiple reasons, we want to be accessing virtual memory as little as possible.
+  **Note:** For some reason Windows will not allocate virtual memory from other drives to the game's process, if you have more information on this conundrum please share it with me.
 
 https://www.youtube.com/watch?v=xh91YywWaEo
 
@@ -591,7 +583,7 @@ First make sure your issue is not simply with one of the below [WASD Character M
 - Toggle the mod on and off with ***Caps Lock***.
 
 1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `NativeMods` folder.
+2. Go to your game install's `Bin` folder, e.g. `Steam\steamapps\common\Baldurs Gate 3\Bin` and **delete** the `NativeMods` folder.
 3. In Vortex find [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781), [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) and [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944).\
    ![](https://i.postimg.cc/L8bNW1LV/image-2025-09-25-210714941.png)
 4. Right click on them and select ***Reinstall***.
@@ -610,16 +602,21 @@ First make sure your issue is not simply with one of the below [WASD Character M
 **Note:** AI voice replacer mods and such conflict with [DVQR](https://www.nexusmods.com/baldursgate3/mods/8224), if you're customising your install with such mods you'll have to pick one or the other unless there's a functionality compatibility patch.
 </details>
 
-<details><summary>⚡️Missing Script Extender Console and/or Achievements</summary>
-## ⚡️Missing [Script Extender](https://github.com/Norbyte/bg3se) Console and/or Achievements
+<details><summary>⚡️Script Extender Won't Update + Missing Console Window and/or Achievements</summary>
+## ⚡️[Script Extender](https://github.com/Norbyte/bg3se) Won't Update + Missing Console Window and/or Achievements
 
-The [Script Extender](https://github.com/Norbyte/bg3se) ([BG3SE](https://github.com/Norbyte/bg3se)) configuration files from [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) that come packaged with the collection enable the [BG3SE](https://github.com/Norbyte/bg3se) console, as well as achievements while using mods. However, not only can they be overwritten, the staging folders for them can become infected, for lack of a better term. This means no achievements and no [BG3SE](https://github.com/Norbyte/bg3se) console unless you've otherwise enabled them in via [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually via [Norbyte's documentation](https://github.com/Norbyte/bg3se).
+The [Script Extender](https://github.com/Norbyte/bg3se) ([BG3SE](https://github.com/Norbyte/bg3se)) configuration files from [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) that come packaged with the collection enable the [BG3SE](https://github.com/Norbyte/bg3se) console, as well as achievements while using mods.\
+\
+Not only can they be overwritten, the staging folders for them in [Vortex](https://www.nexusmods.com/about/vortex/) can become infected, for lack of a better term. This means no achievements and no [BG3SE](https://github.com/Norbyte/bg3se) console unless you've otherwise enabled them in via [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually via [Norbyte's documentation](https://github.com/Norbyte/bg3se). In addition [BG3MM](https://github.com/LaughingLeader/BG3ModManager) seems to want to mess stuff up and not let settings reset, so we have to get nuclear with that.
 
 1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
-2. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the `ScriptExtenderSettings.json` and `ScriptExtenderUpdaterConfig.json` files.
-3. In Vortex find [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Norbyte's BG3SE Configs*.
-4. Right click and it and select ***Reinstall***.
-5. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+2. Completely nuke your [BG3MM](https://github.com/LaughingLeader/BG3ModManager) installation.
+3. Go to your `%LocalAppData%` find the `BG3ScriptExtender` folder and delete it.
+4. Go to your game install's `Bin` folder, e.g. `Steam\steamapps\common\Baldurs Gate 3\Bin` and **delete** the `ScriptExtenderSettings.json` and `ScriptExtenderUpdaterConfig.json` files.
+5. In Vortex find [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Norbyte's BG3SE Configs*.
+6. Right click and it and select ***Reinstall***.
+7. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+8. Reinstall [BG3MM](https://github.com/LaughingLeader/BG3ModManager), redoing ***1: Installation Guide - Vortex, BG3MM & Configs***💡-> 📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
 ### Guides I'm yet to update:
@@ -702,8 +699,7 @@ File paths shown below are based on a default [Steam](https://store.steampowered
 <details><summary>⚡️nuking script extender and configuration files</summary>
 In the above steps for ⚡️V***ortex failing to manage files: Remnant files in game folders*** you will delete the `Dwrite.dll` and `ScriptExtenderSettings.json` file.
 
-1. Go to your `Local Disk C: > Users > (Your account) > AppData > Local > BG3ScriptExtender` folder and delete the:\
-   ***Everything, make it an empty folder.***
+1. Go to your `%LocalAppData%` find the `BG3ScriptExtender` folder and delete it.
 2. Go to your `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > Script Extender` folder and delete the:\
    ***Everything, make it an empty folder.***
 </details>
