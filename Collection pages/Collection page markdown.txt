@@ -87,9 +87,58 @@ https://www.youtube.com/watch?v=5u67KMwlfQY
 
 - Mac operating systems (OS) are not supported **PERIOD** due to lack of support from [Script Extender](https://github.com/Norbyte/bg3se) and game updates. Windows 10/11 or Linux systems only, all I know about Linux is the video below so I cannot offer advice for setting up the collection on a Linux OS.\
   \
-  Related [Discord](https://discord.gg/baldursgoonsacks) thread: [Adventures Through Linux Gaming ( R\&D Thread )](https://ptb.discord.com/channels/1174823496086470716/1357103513162874911)
+  Related [Discord](https://discord.gg/baldursgoonsacks) thread: [Adventures Through Linux Gaming ( R\&D Thread )](https://ptb.discord.com/channels/1174823496086470716/1357103513162874911) \
+  \
+  **Note:** Because there's a Linux version of Baldur's Gate 3 now, you **must** force compatibility with a proton layer in the Steam settings, otherwise it will download and install the native Linux version, which will break [Vortex](https://www.nexusmods.com/about/vortex/) functionality.\
+  ![](https://i.postimg.cc/bJjYcSj8/image-34.png)
 
-<details><summary>❓Guide for linux from lina</summary>
+<details><summary>❓Kyozel's Endeavours to Play DIQ on EndeavourOS</summary>
+**Distro:** EndeavourOS **Setup:**
+
+- Steam through AUR
+- Nvidia GPU, using NVidia-open-dkms
+- DX11
+
+**Collections**:
+
+- DIQ
+- DIQ Extras
+
+**Installation:**
+
+- Issue 1) Symlink does not work through wine, `hardlink` deployment is required,
+- Issue 2) Using bottles or lutris did not work for me even when I symlinked the appdata folders, Vortex refused to identify the appdata folder as being on the same drive as the game and staging folder, therefore disabling Hardlinking,
+- SteamTinkerLaunch refused to install Vortex through its menu but for some reason `SteamTinkerLaunch-git` worked,
+- In STL, it can install vortex in a proton layer, I chose the same version as the one I'm running BG3 (not sure if Important),
+- In `Symlink` STL tab, inspect to make sure it properly linked your bg3 appdata to the vortex profile BEFORE running vortex for the first time,
+- Upon running Vortex, if it says there's a .NET 6 error and Vortex is unable to fix, don't fret. Download the \[installer]\(https://dotnet.microsoft.com/en-us/download/dotnet/6.0 "installer(https://dotnet.microsoft.com/en-us/download/dotnet/6.0)") and run the following commands:
+
+`export WINEPREFIX="/home/[user]/.config/steamtinkerlaunch/vortex/compatdata/pfx"` `wine /home/user/Downloads/windowsdesktop-runtime-6.0.36-win-x64.exe `
+
+- This sets wine to install the runtime into the exported wineprefix,
+- Run Vortex, follow the settings from Modpack instructions, Validate Hardlink is enabled,
+- Follow rest of modpack instructions to download and install modpack,
+
+\<!---->
+
+- Running Baldurs Gate 3 Mod Manager through Lutris/Bottles does work,,
+- Make sure to install .NET 8.0 and the latest C++ redistributable into the bottle or lutris profile containing BG3MM,
+
+on the main setup popup that appears when first running the app, Set `Game Data Path` , `Game Executable Path`, and `Override AppData Path`
+
+- In BG3MM when it says "Missing Mods in Load Order", Press Remove All Missing, It might not say 'removed x missing mods from current order\` but it has. Can check the active mod list to make sure,
+- Save updated load order to the json file and to `Current`. When I restarted my pc, because I didn't save on Current, it reset my mod load order but it was a simple fix,
+
+**STEAM:**
+
+- You must add `WINEDLLOVERRIDES="DWrite.dll=n,b" %command%  --skip-launcher` in Launch Options for the game to enable Script Extender to work properly or do it through winecfg,
+
+**Gameplay:**
+
+- Flawless, consistently hit 165 fps no stutters inside Nautiloud and on beach
+</details>
+
+<details><summary>❓Guide for Linux From Lina </summary>
 1. to all of the insane people trying to run this shit on linux here's a tip for you: when you're pointing vortex to the game on steam it has no idea that the actual mods folder is in the corresponding proton wineprefix for baldur's gate 3 and you have to symlink it manually in the vortex wineprefix
 2. this is presuming that you're running vortex off its own wineprefix which you should be doing through say lutris
 3. so the command would be `ln -s $HOME/.local/share/Steam/steamapps/compatdata/1086940/pfx/drive_c/users/steamuser/AppData/Local/Larian\ Studios/Baldur\'s\ Gate\ 3/ $WINEPREFIX/drive_c/users/user/AppData/Local/Larian\ Studios/Baldur\'s\ Gate\ 3` or something to this extent change the wineprefix and username paths to what corresponds to your system
@@ -97,15 +146,19 @@ https://www.youtube.com/watch?v=5u67KMwlfQY
 5. and you have to do the same thing with bg3mm but it's easier with bg3mm you add this string `  "DocumentsFolderPathOverride": "Z:\\home\\<user>\\.steam\\steam\\steamapps\\compatdata\\1086940\\pfx\\drive_c\\users\\steamuser\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\",` to `Data\settings.json`
 </details>
 
+<details><summary>❓How to be a Linux User</summary>
 https://www.youtube.com/watch?v=cC1CqyCN9Q0
+</details>
 
 - Do not use [WeMod](https://www.wemod.com) or [Cheat Engine](https://www.cheatengine.org) with your modded BG3, there's been a few occurrences of save instability correlated with use of these programs. For cheating and debug needs use [EasyCheat with in-game UI (MCM)(SE)](https://www.nexusmods.com/baldursgate3/mods/9827) and [The Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119), both included in the collection.\
   **Note:** The above mods are not foolproof and can also damage saves depending on how they're used.\
   .
 - Make sure you're prepared to only use [NTFS](https://learn.microsoft.com/en-us/windows-server/storage/file-server/ntfs-overview) formatted [Solid State Drives (SSD)](https://support.microsoft.com/en-au/windows/all-about-ssd-hdd-and-storage-types-9c6c7c59-7d1c-4611-9ba9-676d53cc0ff1) as the storage device(s) for your modded install.\
-  This is primarily so [Vortex](https://www.nexusmods.com/about/vortex/) can actually deploy the mods, if your drive is formatted to FAT or anything else it will likely result in the collection not functioning.\\
+  This is primarily so [Vortex](https://www.nexusmods.com/about/vortex/) can actually deploy the mods, if your drive is formatted to FAT or anything else it will likely result in the collection not functioning.
 
+<details><summary>❓Video: How to Initialize and Format a New Hard Drive in Windows 10</summary>
 https://www.youtube.com/watch?v=ZxV6IcNvbek
+</details>
 
 - As a general rule of them you should consider Larian's **recommended** specs as this collection's **minimum** specs, however you will absolutely need additional storage for the mods.\
   \
@@ -117,7 +170,9 @@ https://www.youtube.com/watch?v=ZxV6IcNvbek
   \
   **Note:** For some reason Windows will not allocate virtual memory from other drives to the game's process, if you have more information on this conundrum please share it with me.
 
+<details><summary>❓Video: How to Initialize and Format a New Hard Drive in Windows 10</summary>
 https://www.youtube.com/watch?v=xh91YywWaEo
+</details>
 
 - You'll need to be able to view hidden files to easily access appdata folders etc.\
   1\. Open ***File Explorer*** from the taskbar.\
@@ -234,12 +289,12 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 <details><summary>💾Manual Installation: Configuration Files - Step #5</summary>
 # 💾Manual Installation: Configuration Files - Step #5
 
-💻While [Script Extender](https://github.com/Norbyte/bg3se) based mods will generate their configuration files upon creating/loading a game, I **HIGHLY** recommend you get my customised configuration files; without them you are not truly playing the collection!
+While [Script Extender](https://github.com/Norbyte/bg3se) based mods will generate their configuration files upon creating/loading a game they will not have any of the custom settings which are critical to the functionality of DIQ.
 
-1. If you haven't cleaned out old configs please delete the ***Script Extender*** folder inside `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3`
+1. If you haven't cleaned out old configs please delete the `Script Extender` folder inside `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`
 2. You can find the files as an all in one `.zip` under [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784)***,*** or get them from my [Discord](https://discord.gg/baldursgoonsacks), under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-configs***.
-3. Inside the ***.zip*** folder you will see a folder called ***Script Extender***. Extract the ***.zip*** folder into `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3`
-4. Overwrite the existing files and `Script Extender` folder if they exist, if it doesn't exist then extracting the `.zip` will create  it.
+3. Inside the ***.zip*** folder you will see a folder called ***Script Extender***. Extract the ***.zip*** folder into `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`
+4. Overwrite the existing files and `Script Extender` folder if they exist, if it doesn't exist then extracting the `.zip` will create it.
 5. Proceed to the next drop down menu: 📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
@@ -573,8 +628,8 @@ Below are the multiple potential causes of this issue and their respective fixes
    \- In some rare cases [BG3MM](https://github.com/LaughingLeader/BG3ModManager) doesn't appear able to properly overwrite the file, deleting it and then ***Exporting*** in [BG3MM](https://github.com/LaughingLeader/BG3ModManager) should fix it.
 </details>
 
-<details><summary>⚡️Missing WASD Character Movement and/or Native Camera Tweaks</summary>
-## ⚡️Missing [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) and/or [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945)
+<details><summary>⚡️Missing or Broken WASD Character Movement and/or Native Camera Tweaks</summary>
+## ⚡️Missing or Broken [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) and/or [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945)
 
 First make sure your issue is not simply with one of the below [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) keybinds:
 
@@ -666,9 +721,9 @@ File paths shown below are based on a default [Steam](https://store.steampowered
 - In your ***Baldurs Gate 3 > Data*** folder delete **all folders** (not **.pak** files) titled ***Mods***, ***SharedDev*** or ***GustavDev***.
 
 1. ***Purge*** mods in Vortex.
-2. Go to your `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > Mods` folder and delete the:\
+2. Go to your `%AppData%\Local\Larian Studios\Baldur's Gate 3\Mods` folder and delete the:\
    ***Everything, make it an empty folder.***
-3. Go to your `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > PlayerProfiles > Public` folder and delete the:\
+3. Go to your `%AppData%\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public` folder and delete the:\
    `modsettings.lsx`\
    Any `Debug Profile` folders you see
 4. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the:\
@@ -700,7 +755,7 @@ File paths shown below are based on a default [Steam](https://store.steampowered
 In the above steps for ⚡️V***ortex failing to manage files: Remnant files in game folders*** you will delete the `Dwrite.dll` and `ScriptExtenderSettings.json` file.
 
 1. Go to your `%LocalAppData%` find the `BG3ScriptExtender` folder and delete it.
-2. Go to your `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > Script Extender` folder and delete the:\
+2. Go to your `%AppData%\Larian Studios\Baldur's Gate 3\Script Extender` folder and delete the:\
    ***Everything, make it an empty folder.***
 </details>
 
@@ -817,7 +872,7 @@ All other items are distributed through the game world for immersive and balance
 - I encourage everyone to customise this config to their liking, I highly recommend you use [Visual Studio Code](https://code.visualstudio.com) as it will let you know if you've made errors, or at least [Notepad ++](https://notepad-plus-plus.org) instead of [Notepad](https://apps.microsoft.com/detail/9msmlrh6lzf3?hl=en-US\&gl=US).
 - [Configuration Explained](https://github.com/Zehtukae/combat-extender/blob/main/Source/ConfigurationExplained.json#L281) is an overview of how the config works.
 - If your [Script Extender](https://github.com/Norbyte/bg3se) console is filling up with red texts usually referring to boosts not being applied then you've made errors.
-- You can make edits to your ***CombatExtender.json*** in `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > Script Extender` while the game is running, and load a save to apply changes. Great for testing!
+- You can make edits to your ***CombatExtender.json*** in `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3\Script Extender` while the game is running, and load a save to apply changes. Great for testing!
 - While you can just remove the mod (***Disable*** in [Vortex](https://www.nexusmods.com/about/vortex/), redo [BG3MM](https://github.com/LaughingLeader/BG3ModManager) steps) you will be missing out on some interesting gameplay changes, such as enemies using many more spells and abilities, keeping combat fresh and interesting.
 - **Note:** [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) uses Tactician difficulty stats as a base, decreasing the difficulty from Tactician has no impact on the buffs provided to enemies through [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207)'s configuration file.
 - Just bellow is the related lined for health, the `StaticBoost` 0.150 means all NPCs of that type have their health increased by a flat 15%, and the `HealthPerLevel` of 0.100 is giving another 10% per level of the creature. Given that the Tactician difficulty (used as a baseline) increases it by 30%, the collection essentially doubles the health of all NPCs at the higher levels.
@@ -862,7 +917,7 @@ Below is some general advice for dealing with the increased difficulty.
 You can easily return the game to a near-vanilla state temporarily by:
 
 1. ***Purging*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), or swapping to another empty ***profile*** in [Vortex](https://www.nexusmods.com/about/vortex/).&#x20;
-2. ***Exporting*** an empty load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager), or, you can just delete the `modsettings.lsx` inside `Local Disk C: > Users > (Your account) > Appdata > Local > Larian Studios > Baldur's Gate 3 > PlayerProfiles > Public > Savegames > Story`.
+2. ***Exporting*** an empty load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager), or, you can just delete the `modsettings.lsx` inside `%LocalAppData%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public\Savegames\Story`.
 
 To reactivate your collection install just:
 
@@ -1277,48 +1332,68 @@ The simple things, and sometimes not so simple things, which make a big differen
   Primarily bug fixes already reported to authors accumulated here as a temporary home.
 </details>
 
-<details><summary>Dialogue and cutscene mods: bug fixes, overhauls, new content</summary>
+<details><summary>Dialogue and cutscene Mods: Bug Fixes, Overhauls, New Content</summary>
 ### Other authors:
 
-- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524)&#x20;
-- [Emperor Finale Follower Dialogue Extended](https://www.nexusmods.com/baldursgate3/mods/12555)&#x20;
-- [Always Save Alfira](https://www.nexusmods.com/baldursgate3/mods/13740) (Not functional on Patch #8)
-- [Raphael Bed Story](https://www.nexusmods.com/baldursgate3/mods/14695)&#x20;
-- [Manifest Domination - Bypass the 25 DC Ending Check](https://www.nexusmods.com/baldursgate3/mods/13454)&#x20;
-- [Always hug the Dream Visitor](https://www.nexusmods.com/baldursgate3/mods/13735)&#x20;
-- [Myshka Comes To Camp](https://www.nexusmods.com/baldursgate3/mods/6126)&#x20;
-- [Minthara Moves - Halsin and Minthara tents separated](https://www.nexusmods.com/baldursgate3/mods/14148)&#x20;
-- [Minthara Oathbreaker Dialog](https://www.nexusmods.com/baldursgate3/mods/17578)&#x20;
-- [Rugan Restored - A Sweet Sight](https://www.nexusmods.com/baldursgate3/mods/17399)&#x20;
-- [Raphael Restored - Last Light Fixes](https://www.nexusmods.com/baldursgate3/mods/17508)&#x20;
-- [Priestess Gut Gonna Knock You Out](https://www.nexusmods.com/baldursgate3/mods/17344)&#x20;
+- [Always Save Alfira](https://www.nexusmods.com/baldursgate3/mods/13740)&#x20;
+- [Emperor Finale Follower Dialogue Extended](https://www.nexusmods.com/baldursgate3/mods/12555) &#x20;
 - [Humanoid Tag Scratch Fix](https://www.nexusmods.com/baldursgate3/mods/7786)&#x20;
+- [Manifest Domination - Bypass the 25 DC Ending Check](https://www.nexusmods.com/baldursgate3/mods/13454)&#x20;
+- [Minthara Moves - Halsin and Minthara tents separated](https://www.nexusmods.com/baldursgate3/mods/14148)&#x20;
+- [Myshka Comes To Camp](https://www.nexusmods.com/baldursgate3/mods/6126)&#x20;
+- [Night With Drow (Minthara Romance Alternative)](https://www.nexusmods.com/baldursgate3/mods/16213) ❌Getting removed in 138
+
+### Sorting pile:
+
+- [Raphael Bed Story](https://www.nexusmods.com/baldursgate3/mods/14695)&#x20;
+- [Priestess Gut Gonna Knock You Out](https://www.nexusmods.com/baldursgate3/mods/17344)&#x20;
 - [Companion Gale Can Consume Shadow Weave](https://www.nexusmods.com/baldursgate3/mods/16877)&#x20;
 - [Aylin and Isobel Epilogue Letters](https://www.nexusmods.com/baldursgate3/mods/16055)&#x20;
 - [Neutral Facial Expressions](https://www.nexusmods.com/baldursgate3/mods/11491)&#x20;
 - [Original NightSong Cinematic](https://www.nexusmods.com/baldursgate3/mods/17754) *Original Nightsong Cinematic with Tweaks*.
 - [Sit With Astarion](https://www.nexusmods.com/baldursgate3/mods/17772)&#x20;
-- [Stomp that Tadpole](https://www.nexusmods.com/baldursgate3/mods/17485)&#x20;
-- [Lae'zel Kiss Dialogue](https://www.nexusmods.com/baldursgate3/mods/17523)&#x20;
-- [Night With Drow (Minthara Romance Alternative)](https://www.nexusmods.com/baldursgate3/mods/16213)&#x20;
-- [More Amnesia for the Haunted One (Dark Urge Not Baldurian)](https://www.nexusmods.com/baldursgate3/mods/6557) &#x20;
+- [More Amnesia for the Haunted One (Dark Urge Not Baldurian)](https://www.nexusmods.com/baldursgate3/mods/6557)&#x20;
 - [Extremely Literal Mirror Scene Line For All Races](https://www.nexusmods.com/baldursgate3/mods/18057)&#x20;
+
+### [iamy0urdad](https://www.nexusmods.com/baldursgate3/users/3792625):
+
+- \-
+- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) ❌Getting removed in 138
+- [Shadowheart and her pets](https://www.nexusmods.com/baldursgate3/mods/17943) ✅Getting added in 138
+- \-
+
+### [whatsontheflip](https://www.nexusmods.com/baldursgate3/users/4618209):
+
 - [Aylin Always Summons Moonlight Slivers](https://www.nexusmods.com/baldursgate3/mods/18079)&#x20;
+- [Stomp that Tadpole](https://www.nexusmods.com/baldursgate3/mods/17485)&#x20;
+
+### [Nikjima](https://www.nexusmods.com/baldursgate3/users/126200613):
+
+- [Raphael Restored - Last Light Fixes](https://www.nexusmods.com/baldursgate3/mods/17508)&#x20;
+- [Rugan Restored - A Sweet Sight](https://www.nexusmods.com/baldursgate3/mods/17399)&#x20;
+
+### [Sinus23](https://www.nexusmods.com/baldursgate3/users/32927745):
+
+- [Lae'zel Kiss Dialogue](https://www.nexusmods.com/baldursgate3/mods/17523)&#x20;
+- [Minthara Oathbreaker Dialog](https://www.nexusmods.com/baldursgate3/mods/17578)&#x20;
 - [Wyll Kiss Dialogue](https://www.nexusmods.com/baldursgate3/mods/18278)&#x20;
+
+### [almasy87](https://www.nexusmods.com/baldursgate3/users/2278478):
+
+- [Always hug the Dream Visitor](https://www.nexusmods.com/baldursgate3/mods/13735)&#x20;
+- \-
+- \-
+- \-
+
+### [Cerberry](https://www.nexusmods.com/baldursgate3/users/21798254):
+
+- \-
+- \-
 
 ### [freshcantaloupe42](https://www.nexusmods.com/baldursgate3/users/56912202):
 
-- [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090)&#x20;
+- [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) ❌Getting removed in 138
 - [Gale Chose Partner Over Dialog Fix](https://www.nexusmods.com/baldursgate3/mods/14967)&#x20;
-
-### [magnetuning](https://www.nexusmods.com/baldursgate3/users/154458743):
-
-- [Wyll Meets Minsc Fix](https://www.nexusmods.com/baldursgate3/mods/9998)&#x20;
-- [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442)&#x20;
-- [Astarion Romance Reactions Fixed](https://www.nexusmods.com/baldursgate3/mods/6539)&#x20;
-- [Shadowheart Judgement Cam - Astarion Abdirak Scene Edits](https://www.nexusmods.com/baldursgate3/mods/11925)&#x20;
-- [Wyllzel Flirty Banter Restored - Wyll Cinematic Universe Mod 3 (WCU)](https://www.nexusmods.com/baldursgate3/mods/14566)&#x20;
-- [The Leg Thing - Astarion's Act 3 Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/11460)&#x20;
 
 ### [HyperspaceTowel](https://www.nexusmods.com/baldursgate3/users/232505958):
 
@@ -1346,6 +1421,15 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Happy facial expressions for Ascended Astarion kisses](https://www.nexusmods.com/baldursgate3/mods/9340) *MOXI\_NightingalesLordAstarion\_v3\_using\_patch7*.
 - [Vampire Lord Astarion - Epilogue Party Affection Dialog](https://www.nexusmods.com/baldursgate3/mods/12475)&#x20;
 - [Aeries' Gale Dekarios - Kisses and Hugs](https://www.nexusmods.com/baldursgate3/mods/10179)&#x20;
+
+### [magnetuning](https://www.nexusmods.com/baldursgate3/users/154458743):
+
+- [Wyll Meets Minsc Fix](https://www.nexusmods.com/baldursgate3/mods/9998)&#x20;
+- [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442)&#x20;
+- [Astarion Romance Reactions Fixed](https://www.nexusmods.com/baldursgate3/mods/6539)&#x20;
+- [Shadowheart Judgement Cam - Astarion Abdirak Scene Edits](https://www.nexusmods.com/baldursgate3/mods/11925)&#x20;
+- [Wyllzel Flirty Banter Restored - Wyll Cinematic Universe Mod 3 (WCU)](https://www.nexusmods.com/baldursgate3/mods/14566)&#x20;
+- [The Leg Thing - Astarion's Act 3 Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/11460) ❌Getting removed in 138
 
 ### [Joell560](https://www.nexusmods.com/baldursgate3/users/3509871):
 
