@@ -363,7 +363,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
 ***
 
 ![](https://i.postimg.cc/B6VLCp1f/2-Updating-Guide-Collection-Game-Updates.png)⚠️Proceed with caution when updating in the middle of a playthrough, follow instructions.
-❌DO NOT UPDATE YOUR GAME PRIOR TO A MATCHING COLLECTION REVISION BECOMING AVAILABLE!
+❌**DO NOT UPDATE YOUR GAME PRIOR TO A MATCHING COLLECTION REVISION BECOMING AVAILABLE!**
 
 <details><summary>💡Collection Updates - Step by Step</summary>
 # 💡Collection Updates - Step by Step
@@ -371,11 +371,14 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
 1. Prior to updating It is recommended that you do the following to maintain the health of an ongoing save:\
    \
    1\. Deactivate **ALL** toggle passives on your hotbars, and use the ***Remove Automation Toggles*** as shown in the GIF below.\
-   2\. Respec characters to level 1 Barbarians, unless the character is already a Barbarian in which case you should select Fighter or Rogue. Respeccing all characters is generally overkill if you're keeping the collection up to date, but if you're jumping multiple revisions it's highly recommended to just do all characters.\
+   **Note:** ***Remove Automation Toggles*** is now inside the ***Utility Spells*** spell container, AKA the big red exclamation mark.\
+   .\
+   2\. Respec characters to level 1 Barbarians, unless the character is already a Barbarian in which case you should select Fighter; you will have to redo your builds after successfully updating.\
    **Note:** This includes companions, hirelings, Tavs and Durges, both actively in the party and at camp.\
+   .\
    3\. Long rest to remove other temporary statuses and just for the sake of ruling weirdness out.\
    \
-   Failure to do so can result in issues for that save moving forward, though it's likely the same process as above can just be followed retroactively if issues arise, so long as said issue isn't a save failing to load.\
+   Failure to do so can result in issues for that save moving forward, though, usually the same process as above can be followed retroactively if issues arise, so long as the said issue isn't a save failing to load.\
    ![](https://i.postimg.cc/FsnDMTJf/Untitled-1000-x-250-px.gif)
 2. Read the [changelog](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog), not just the most recent; but all changelogs from the revision you are currently on, up to the most recent.\
    \
@@ -416,15 +419,21 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
 11. Under the ***Version*** column you will see some mods in the collection displaying that they have additional archives (orange boxes), these can be deleted too. These are just leftovers from updating mod files.\
     Click on it to display the drop down, the version at the top is currently installed. Select the ***minus -*** icon for the version below to remove them. Toggle the little box in the bottom right to delete archives.\
     ![](https://i.postimg.cc/DzVXBF0L/Screenshot-2024-03-05-082217.png)If you're using some of the optional mods the ***Some mods are redundant warning*** will be present and not a problem, otherwise both of these warnings will go away once leftover mod files are all removed.\
-    ![](https://i.postimg.cc/R0XvqQkh/Screenshot-2024-02-02-032627.png)Once you've cleaned things out properly ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+    ![](https://i.postimg.cc/R0XvqQkh/Screenshot-2024-02-02-032627.png)Once you've cleaned things out properly ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).\
+    .
 12. Extract new configuration files if they've been updated.\
-    If you need a refresher on the configuration files please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡->💾***Manual Installation: Configuration Files - Step #5***.
+    If you need a refresher on the configuration files please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡->💾***Manual Installation: Configuration Files - Step #5***.\
+    .
 13. Export the new load order to the game through [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\
     If you need a refresher on the load order please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡 ->📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
+❗️The two sections below need updating and are not currently relevant.
+
 <details><summary>⚡️Game Updates + Rolling Back Your Game Version</summary>
-> ### Patch #8:
+# ⚡️Game Updates + Rolling Back Your Game Version
+
+> Patch #8:
 >
 > > "While we expect better mod compatibility with supported mods, if you are playing on PC, you can continue to stay on Patch 7 by following the below steps:&#x20;
 > > Right clicking on the game in your Steam Library > Properties > Betas
@@ -497,6 +506,8 @@ Overwrite the game install with the downloaded packages, ***purge*** mods in [Vo
 </details>
 
 <details><summary>⚠️Script Extender Updates + Rolling Back Your Script Extender Version</summary>
+# ⚠️Script Extender Updates + Rolling Back Your [Script Extender](https://github.com/Norbyte/bg3se) Version
+
 > **NOTE:** As of Revision 134, [Script Extender](https://github.com/Norbyte/bg3se) will not auto-update to Patch #8 versions, 23.0.0.0+. When the collection is updated for Patch #8 this version control will be lifted, and the collection will begin fetching automatic updates again. \
 > \
 > **Everything below the following image is simply for your reference, and not a reflection of currently used versions.**
@@ -676,26 +687,28 @@ Not only can they be overwritten, the staging folders for them in [Vortex](https
 
 ### Guides I'm yet to update:
 
-<details><summary>⚡️texture issues: flickering or black</summary>
-### Flickering textures troubleshooting:
+<details><summary>⚡️Texture Issues: Flickering & Pop-in</summary>
+# ⚡️Texture Issues: Flickering & Pop-in
 
-1. Run ⚡️***General troubleshooting: crashes, saves not loading, missing textures etc.***
-2. Per the instructions below, force appropriate settings for the game through your GPU's software
+1. Run ⚡️***Basic Troubleshooting***.
+2. Per the instructions below, force appropriate settings for the game through your GPU's software.
 
 > In the Nvidia control panel, or equivalent apps for Intel and AMD, force ***Anisotropic Filtering*** to "***x16***", ***Negative LOD Bias*** to "***Allow***", and ***Texture Filtering Quality*** to ***Quality*** (NOT ***HIGH QUALITY***).
 
 1. Update display drivers/clean reinstall display drivers
-2. Disable both files for Upscaled Armour and Clothes Textures
-3. Disable 4k texture mods (optional mods, view section 5)
+2. Disable both files for [Upscaled Armour and Clothes Textures](https://www.nexusmods.com/baldursgate3/mods/1827)&#x20;
+3. Disable other 4k texture mods (optional mods, view section 5)
 4. Experiment with unequipping pieces of gear, primarily cosmetics from DIQ Extras with high resolution textures
 
 > Ultimately this issue will observed sporadically among users, it may be observed happening randomly in between play sessions. Ultimately the issue is a vanilla bug, view the attached GIF, but the game also has a tendancy to dislike higher resolution textures from mods.
 
 ![](https://i.postimg.cc/MGrbQP6Z/baldur-s-gate-baldur-s-gate-3.gif)
+</details>
 
-### Black textures on character models and equipment:
+<details><summary>⚡️Texture Issues: Black or Missing</summary>
+# ⚡️Texture Issues: Black or Missing
 
-[Upscaled Armour and Clothes Textures](https://www.nexusmods.com/baldursgate3/mods/1827) *Upscaled Armour and Clothes Textures - TEXTURES* and *Upscaled Armour and Clothes Textures - VTEX to TEX* are the relevant mod files here, this is an optional mod.
+[Upscaled Armour and Clothes Textures](https://www.nexusmods.com/baldursgate3/mods/1827) *TEXTURES* & *VTEX to TEX* are the relevant mod files here, this is an optional mod.
 
 1. ![](https://i.postimg.cc/cJs6kQ1N/upscale.png)Make sure that both files are installed for [Upscaled Armour and Clothes Textures](https://www.nexusmods.com/baldursgate3/mods/1827).
 2. If they are and you're experiencing the issue regardless, ***right click*** and select ***reinstall*** on the ***Textures*** file, then ***deploy*** mods.
@@ -708,9 +721,11 @@ Not only can they be overwritten, the staging folders for them in [Vortex](https
 - It's exceedingly rare.
 </details>
 
-### ⚡️Cleaning out your BG3 folders:
+### ⚡️Cleaning out Your BG3 folders:
 
-<details><summary>⚡️vortex failing to manage files: remnant files in game folders</summary>
+<details><summary>⚡️Vortex Failing to Manage Files: Remnant Files in Game Folders</summary>
+# ⚡️Vortex Failing to Manage Files: Remnant Files in Game Folders
+
 Alternatively follow [How to Remove All Mods from BG3](https://wiki.bg3.community/en/Tutorials/Mod-Use/How-to-remove-mods).
 
 I've only experienced files being unmanaged by [Vortex](https://www.nexusmods.com/about/vortex/) once, it was when I swapped ***Deployment Methods*** without ***Purging*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), I don't think that bug exists anymore either.
@@ -751,7 +766,9 @@ File paths shown below are based on a default [Steam](https://store.steampowered
 ![](<C: \> SteamLibrary \> steamapps \> common \> Baldurs Gate 3 \> Data folder>)![](https://i.postimg.cc/5txFZg52/Screenshot-2024-03-21-051301.png)
 </details>
 
-<details><summary>⚡️nuking script extender and configuration files</summary>
+<details><summary>⚡️Nuking Script Extender and Configuration Files</summary>
+# ⚡️Nuking Script Extender and Configuration Files
+
 In the above steps for ⚡️V***ortex failing to manage files: Remnant files in game folders*** you will delete the `Dwrite.dll` and `ScriptExtenderSettings.json` file.
 
 1. Go to your `%LocalAppData%` find the `BG3ScriptExtender` folder and delete it.
@@ -761,7 +778,9 @@ In the above steps for ⚡️V***ortex failing to manage files: Remnant files in
 
 ### Other:
 
-<details><summary>📖folder locations - recommended reading</summary>
+<details><summary>📖Folder Locations - Recommended Reading</summary>
+# 📖Folder Locations - Recommended Reading
+
 I will be adding much more to this drop down.
 
 ### Script Extender related Appdata folders:
@@ -774,7 +793,9 @@ I will be adding much more to this drop down.
 ***Steam\steamapps\common\Baldurs Gate 3\bin.***
 </details>
 
-<details><summary>📖mod types - recommended reading</summary>
+<details><summary>📖Mod Types - Recommended Reading</summary>
+# 📖Mod Types - Recommended Reading
+
 All mods with a specific ***Mod Type*** are listed as such in their instructions on Vortex and below.
 
 All mods should be set as their correct type automatically upon finishing the installation process.
@@ -795,9 +816,7 @@ Selecting the ***Mod Type*** drop down box after double clicking on a mod allows
 ### HIGHLY Recommended Reading:
 
 <details><summary>🪓Custom Items and Where to Find Them</summary>
-***
-
-# 🪓DIQ's Unique Item Delivery System:
+# 🪓Custom Items and Where to Find Them
 
 You can purchase custom items from **Withers** through the power of [Trade with Withers](https://www.nexusmods.com/baldursgate3/mods/2458) and all the patches I've created! The items range from weapons and crafting tools, to clothes and dyes. Prices have been reduced and stats nerfed as needed.\
 \
@@ -811,6 +830,8 @@ All other items are distributed through the game world for immersive and balance
 </details>
 
 <details><summary>🎮Gameplay</summary>
+# 🎮Gameplay
+
 - [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781) keybinds:\
   \- Auto-run, by default with ***Shift***+***W***.\
   \- Toggle between jogging and walking, by default with ***Insert***. \
@@ -825,6 +846,8 @@ All other items are distributed through the game world for immersive and balance
 </details>
 
 <details><summary>🤠Character Creation</summary>
+# 🤠Character Creation
+
 - Some Origin characters have messed up colours of the character creation screen. This is a side effect of them being customisable, however it's **ONLY** on the character creation screen. They will not look like this as NPC party members.\
   \
   Having [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899) as an optional file is a headache for compatibility, as some mods need to be patched to work alongside it such as [Origin's Gods](https://www.nexusmods.com/baldursgate3/mods/6305), so it's included in the main list. It does not take very long at all to select the appropriate eye, hair and skin colours, and to stick a beard back on to Gale. If you're not playing as one of these 4 Origin characters, or weren't going to use their default appearances, then this is entirely irrelevant to you.\
@@ -845,7 +868,7 @@ All other items are distributed through the game world for immersive and balance
 </details>
 
 <details><summary>📺User Interface & Looting</summary>
-### [Enhanced World Tooltips](https://www.nexusmods.com/baldursgate3/mods/2037) *All-In-One*.
+# 📺User Interface & Looting
 
 1. Seeing loot in the loot preview window which is unattainable? Read the pinned post for [Enhanced World Tooltips](https://www.nexusmods.com/baldursgate3/mods/2037).\
    "After a bit of research, I decided to leave the preview in this state. This way you at least know that there is something unobtainable still in the inventory. And, there is a known trick that lets you get such items. See: [How to get unobtainable items from corpses](https://www.reddit.com/r/BaldursGate3/comments/15vt61g/tips_tricks_how_to_get_unlootable_items_off/)." - [Proxa](https://www.nexusmods.com/baldursgate3/users/4227774).
@@ -864,8 +887,8 @@ All other items are distributed through the game world for immersive and balance
   ![](https://i.imgur.com/PcrPfzg.gif)
 </details>
 
-<details><summary>🤬difficulty: to customise or overcome?</summary>
-### Customising the difficulty through Combat Extender:
+<details><summary>🤬Difficulty: To Customise or Overcome?</summary>
+# 🤬Difficulty: To Customise or Overcome?
 
 [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) is the primary mod controlling the increased difficulty in this collection, for some users my [configuration file](https://www.nexusmods.com/baldursgate3/mods/9784) for [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) is too much.&#x20;
 
@@ -898,8 +921,6 @@ All other items are distributed through the game world for immersive and balance
 
 ### Overcoming the challenges:
 
-As soon as you escape the tutorial and it's just you and Shadowheart many players encounter a situation, the Intellect Devourers at the crash site appear too powerful. You can skip this fight and return to it later, the easiest means of doing so is to scale the cliff face to the north-east, otherwise, use stealth and line of sight to defeat them.
-
 Below is some general advice for dealing with the increased difficulty.
 
 - Use crowd control spells such as Command, Hold Person and Sleep, instead of focusing on strictly doing damage.
@@ -912,7 +933,9 @@ Below is some general advice for dealing with the increased difficulty.
 ### Supplemental Information:
 
 <details><summary>❓Temporarily Reverting Your Game to a Vanilla State</summary>
-# "I want to return to a vanilla playthrough without deleting the collection, is it possible?"
+# ❓Temporarily Reverting Your Game to a Vanilla State
+
+"I want to return to a vanilla playthrough without deleting the collection, is it possible?"
 
 You can easily return the game to a near-vanilla state temporarily by:
 
@@ -928,6 +951,8 @@ This is not the same as a clean install, and just for temporarily swapping to va
 </details>
 
 <details><summary>🧌Where's the Custom Race Mods?</summary>
+# 🧌Where's the Custom Race Mods?
+
 I currently have a few reasons for not being interested in custom races.
 
 ### **A lack of all in one patches for mods adding CC options:**
@@ -954,12 +979,14 @@ Throughout my updates I always keep in mind users with ongoing playthroughs, wer
 </details>
 
 <details><summary>⚡Mod Fixer Bad?!</summary>
-# Post-Patch #7:
+# ⚡Mod Fixer Bad?!
+
+### Post-Patch #7:
 
 - If a [Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141) bundled in a mod overwrites ***Gustav*** it won't show in the in game mod manager's load order and may cause other issues.
 - The game blocks [Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141) scripts housed in ***ForceRecompile.txt*** specifically, any other ***.txt*** files will cause problems such as not being able to start a new game.
 
-# Pre-Patch #7:
+### Pre-Patch #7:
 
 ### **"Doesn't Mod Fixer cause problems? It hasn't been updated and I read on Reddit..."**
 
@@ -999,7 +1026,7 @@ The [Baldur's Gate 3 Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141)
 
 ***
 
-![](https://i.postimg.cc/90HRvVgL/9-Optional-Archived-Mods.png)**DO NOT install optional mods without reading about them!**\
+![](https://i.postimg.cc/90HRvVgL/9-Optional-Archived-Mods.png)❌**DO NOT install optional mods without reading about them!**\
 Same goes for my addon collections [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z), [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) but it's easier to determine if you want the addon collections at a glance as the mods included generally aren't very niche or complicated.
 
 <details><summary>🙈difficulty & combat: buffs, nerfs, encounters, party management, bug fixes</summary>
@@ -1105,7 +1132,7 @@ For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's
 - [Silver Tongue - Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/16000) *Merged*.
 </details>
 
-<details><summary>📷Graphics: trees, rocks, dirt, water, hair, armour</summary>
+<details><summary>📷Graphics: Environment & Objects</summary>
 **Note:** The following optional texture mods will demand more VRAM and could negatively impact performance.
 
 ### Visuals:
@@ -1113,7 +1140,7 @@ For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's
 - [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Shadowcasting* & *Shadowed Torches*.
 - [Immersive World Textures](https://www.nexusmods.com/baldursgate3/mods/18252) *Immersive World Textures - Loose files*.
 - [BG3 Texture Upscale Project (BG3TUP)](https://www.nexusmods.com/baldursgate3/mods/12402)&#x20;
-- [Upscaled Armour and Clothes Textures](https://www.nexusmods.com/baldursgate3/mods/1827) *Upscaled Armour and Clothes Textures - TEXTURES* & *Upscaled Armour and Clothes Textures - VTEX to TEX*.\
+- [Upscaled Armour and Clothes Textures](https://www.nexusmods.com/baldursgate3/mods/1827) *TEXTURES* & *VTEX to TEX*.\
   Looks really nice, not recommended if you are short on VRAM or storage space. This mod is a good chunk of the overall collection size. YOU NEED TO INSTALL BOTH OR NEITHER!
 - [Vivid Landscapes - Water](https://www.nexusmods.com/baldursgate3/mods/7421) *4k* & *4k Rough Sea*. Overwrites the included lower resolution options of the main list.&#x20;
 - [Vivid Landscapes - Roads](https://www.nexusmods.com/baldursgate3/mods/6844) *4k*. Overwrites the included lower resolution options of the main list.
@@ -1215,7 +1242,7 @@ Yep, it's in the name.
 
 The simple things, and sometimes not so simple things, which make a big difference.
 
-<details><summary>🐱quality of life changes!</summary>
+<details><summary>🐱Quality of Life</summary>
 ### Camera and movement:
 
 - [Remove Camera Move](https://www.nexusmods.com/baldursgate3/mods/5046) \
@@ -1302,7 +1329,7 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Configurable Fall Damage](https://www.nexusmods.com/baldursgate3/mods/15849)&#x20;
 </details>
 
-<details><summary>⚡️bug fixes, tweaks, patches</summary>
+<details><summary>⚡️Bug Fixes, Tweaks & Patches</summary>
 ### Debugging tools:&#x20;
 
 - [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) For removing items, passives, statuses etc. from mods in your save game.
@@ -1332,7 +1359,7 @@ The simple things, and sometimes not so simple things, which make a big differen
   Primarily bug fixes already reported to authors accumulated here as a temporary home.
 </details>
 
-<details><summary>Dialogue and cutscene Mods: Bug Fixes, Overhauls, New Content</summary>
+<details><summary>🫂Dialogue and cutscene Mods: Bug Fixes, Overhauls & New Content</summary>
 ### Other authors:
 
 - [Always Save Alfira](https://www.nexusmods.com/baldursgate3/mods/13740)&#x20;
@@ -1351,7 +1378,6 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Aylin and Isobel Epilogue Letters](https://www.nexusmods.com/baldursgate3/mods/16055)&#x20;
 - [Neutral Facial Expressions](https://www.nexusmods.com/baldursgate3/mods/11491)&#x20;
 - [Original NightSong Cinematic](https://www.nexusmods.com/baldursgate3/mods/17754) *Original Nightsong Cinematic with Tweaks*.
-- [Sit With Astarion](https://www.nexusmods.com/baldursgate3/mods/17772)&#x20;
 - [More Amnesia for the Haunted One (Dark Urge Not Baldurian)](https://www.nexusmods.com/baldursgate3/mods/6557)&#x20;
 - [Extremely Literal Mirror Scene Line For All Races](https://www.nexusmods.com/baldursgate3/mods/18057)&#x20;
 
@@ -1397,24 +1423,29 @@ The simple things, and sometimes not so simple things, which make a big differen
 
 ### [HyperspaceTowel](https://www.nexusmods.com/baldursgate3/users/232505958):
 
-- [Dark Urge Tweeaks](https://www.nexusmods.com/baldursgate3/mods/15031)&#x20;
-- [Blade of Avernus saves Karlach (Act 3 spoilers)](https://www.nexusmods.com/baldursgate3/mods/13834)&#x20;
-- [Sussur Flower Dialogue Bug Fixes](https://www.nexusmods.com/baldursgate3/mods/14179)&#x20;
-- [Epilogue bug fixes](https://www.nexusmods.com/baldursgate3/mods/14626)&#x20;
-- [Karlach Romance - Better Hot Date](https://www.nexusmods.com/baldursgate3/mods/15134)&#x20;
-- [Astarion Confession Edit 2](https://www.nexusmods.com/baldursgate3/mods/14775)&#x20;
-- [Spawn Astarion - Epilogue Edits](https://www.nexusmods.com/baldursgate3/mods/14850)&#x20;
-- [Lesser Restoration - Assorted Bug Fixes](https://www.nexusmods.com/baldursgate3/mods/15125)&#x20;
-- [Kiss Me Again - Unlimited Last Kisses in Endgame](https://www.nexusmods.com/baldursgate3/mods/16042)&#x20;
-- [Minthara's Poison Kiss](https://www.nexusmods.com/baldursgate3/mods/15597)&#x20;
 - [Astarion Act 3 - But you're MY leaking blood-bag](https://www.nexusmods.com/baldursgate3/mods/14069)&#x20;
-- [Minthara's Alurlssrin](https://www.nexusmods.com/baldursgate3/mods/15522)&#x20;
-- [Minthara's Weaknesses - Astarion Minthara Banter Restored](https://www.nexusmods.com/baldursgate3/mods/17444)&#x20;
+- [Astarion Confession Edit 2](https://www.nexusmods.com/baldursgate3/mods/14775)&#x20;
 - [Astarion Docks Narration Unlocked](https://www.nexusmods.com/baldursgate3/mods/14048)&#x20;
-- [Stop accidentally dating Gale](https://www.nexusmods.com/baldursgate3/mods/14661)&#x20;
-- [Firestarter - Karlach Romance Overhaul](https://www.nexusmods.com/baldursgate3/mods/15282)&#x20;
 - [Astarion Kisses Revamped](https://www.nexusmods.com/baldursgate3/mods/15387)&#x20;
-- [Astarion's Nightmare - Restored from Early Access](https://www.nexusmods.com/baldursgate3/mods/17511)&#x20;
+- [Astarion's Nightmare - Restored from Early Access](https://www.nexusmods.com/baldursgate3/mods/17511) ❌Getting removed in 138
+- [Astral Pain - Lae'zel Romance Debuff](https://www.nexusmods.com/baldursgate3/mods/17067) ✅Getting added in 138
+- [Blade of Avernus saves Karlach (Act 3 spoilers)](https://www.nexusmods.com/baldursgate3/mods/13834)&#x20;
+- [Book Club With Gale](https://www.nexusmods.com/baldursgate3/mods/18568) ✅Getting added in 138
+- [Dark Urge Tweeaks](https://www.nexusmods.com/baldursgate3/mods/15031)&#x20;
+- [Epilogue bug fixes](https://www.nexusmods.com/baldursgate3/mods/14626)&#x20;
+- [Firestarter - Karlach Romance Overhaul](https://www.nexusmods.com/baldursgate3/mods/15282)&#x20;
+- [Karlach Romance - Better Hot Date](https://www.nexusmods.com/baldursgate3/mods/15134)&#x20;
+- [Kiss Me Again - Unlimited Last Kisses in Endgame](https://www.nexusmods.com/baldursgate3/mods/16042) ❌Getting removed in 138
+- [Lesser Restoration - Assorted Bug Fixes](https://www.nexusmods.com/baldursgate3/mods/15125)&#x20;
+- [Minthara's Alurlssrin](https://www.nexusmods.com/baldursgate3/mods/15522)&#x20;
+- [Minthara's Poison Kiss](https://www.nexusmods.com/baldursgate3/mods/15597)&#x20;
+- [Minthara's Weaknesses - Astarion Minthara Banter Restored](https://www.nexusmods.com/baldursgate3/mods/17444)&#x20;
+- [Missed Connections - Shadowheart](https://www.nexusmods.com/baldursgate3/mods/15272) ✅Getting added in 138
+- [Nightsong Points Bug Fix](https://www.nexusmods.com/baldursgate3/mods/15035) ✅Getting added in 138
+- [Sit With Astarion](https://www.nexusmods.com/baldursgate3/mods/17772)&#x20;
+- [Spawn Astarion - Epilogue Edits](https://www.nexusmods.com/baldursgate3/mods/14850)&#x20;
+- [Stop accidentally dating Gale](https://www.nexusmods.com/baldursgate3/mods/14661)&#x20;
+- [Sussur Flower Dialogue Bug Fixes](https://www.nexusmods.com/baldursgate3/mods/14179)&#x20;
 
 ### [moxifer3](https://www.nexusmods.com/baldursgate3/users/178903407):
 
@@ -1888,7 +1919,7 @@ More options than you'll ever need, but if it's not enough grab [DIQ Extras](htt
 
 - [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717) For all your transmogging needs, view the mod page for further information, there's also a tutorial video [here](https://github.com/osirisOfGit/BG3_The_Armory/wiki/Tutorial-Video)!
 
-<details><summary>💅🏼colours for skin/hair/eyes/Horns/makeup/tattoos!</summary>
+<details><summary>💅🏼Colours </summary>
 ### Overhauls:
 
 - [Colorizer - Makeup and Tattoo Color Organizer](https://www.nexusmods.com/baldursgate3/mods/16656)&#x20;
@@ -1928,11 +1959,10 @@ More options than you'll ever need, but if it's not enough grab [DIQ Extras](htt
 
 ### Other:
 
-- [Odds and Ends for Lani](https://www.nexusmods.com/baldursgate3/mods/14041) *Edited Draconic Face Scales 4k.*
 - [Draconic Scales - Color Expansion](https://www.nexusmods.com/baldursgate3/mods/10686)&#x20;
 </details>
 
-<details><summary>✂️Hairstyles!</summary>
+<details><summary>✂️Hairstyles</summary>
 **None of these replace existing hairstyles.**\
 The 2 mods that include hairs for Dragonborn do not implement them in a satisfactory fashion lol.
 
@@ -2049,11 +2079,11 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 - [HUNTRIX Head presets](https://www.nexusmods.com/baldursgate3/mods/18199) *Huntrix - UTAV*.
 </details>
 
-<details><summary>💄horns/beards/piercings/tattoos/makeup/replacers/etc!</summary>
+<details><summary>💄Horns, Beards, Piercings, Tattoos, Makeup, Scars, etc!</summary>
 ### Core:
 
 - [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT - Kazstra's Virtual Tav*.
-- [Kazstra's CC Body Tattoo Selector](https://www.nexusmods.com/baldursgate3/mods/17702) + *OPTIONAL - Loose File Atlas*..
+- [Kazstra's CC Body Tattoo Selector](https://www.nexusmods.com/baldursgate3/mods/17702) + *OPTIONAL - Loose File Atlas*.
 - [Unique Tav Custom Appearance](https://www.nexusmods.com/baldursgate3/mods/2754) *Data*.
 
 ### Other:
@@ -2102,10 +2132,13 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 
 - [Kaz x Astralities - Scarred Visage](https://www.nexusmods.com/baldursgate3/mods/16595)&#x20;
 - [Tav with a Backstory - Heavy Scarring Options](https://www.nexusmods.com/baldursgate3/mods/16782)&#x20;
+</details>
 
+<details><summary>📩Replacers</summary>
 ### Replacers:
 
 - [Upscaled Tattoos (and more)](https://www.nexusmods.com/baldursgate3/mods/1703)&#x20;
+- [Odds and Ends for Lani](https://www.nexusmods.com/baldursgate3/mods/14041) *Edited Draconic Face Scales 4k.*
 - [Bobblehead Begone - Halfling Neck Reduction](https://www.nexusmods.com/baldursgate3/mods/2459)&#x20;
 - [Githyanki Ridged Spots (Body and Face) OVERHAUL](https://www.nexusmods.com/baldursgate3/mods/9058) *Githyanki Body Ridges*, *Githyanki Face Ridges*, *Githyanki Face Ridges - Unique NPCs* & *Githyanki Body Ridges - VirtualTextures*.
 - [XS Sporty Sexy Map for UTAV - KAVT](https://www.nexusmods.com/baldursgate3/mods/8413) *KAVT*.
@@ -2300,7 +2333,7 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 
 The remaining mods.
 
-<details><summary>📷Models & textures</summary>
+<details><summary>📷Models & Textures</summary>
 ### Environment Models:
 
 - [Darker Underdark](https://www.nexusmods.com/baldursgate3/mods/12237) + *Darker Grymforge*.
@@ -2351,7 +2384,7 @@ The remaining mods.
 - [Kaz Lab Assorted Shader Pack](https://www.nexusmods.com/baldursgate3/mods/17005)&#x20;
 </details>
 
-<details><summary>🧥dice & dye</summary>
+<details><summary>🧥Dice & Dyes</summary>
 ### Dice:
 
 - [Glass Gallery - A Dice Set](https://www.nexusmods.com/baldursgate3/mods/2355) ***"Moonlilia's Glass Gallery"***.
@@ -2397,7 +2430,7 @@ Additional dyes can be found inside some of [havsglimt](https://www.nexusmods.co
 - [Color Presets As Dyes - Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/6175)&#x20;
 </details>
 
-<details><summary>📦libraries & utilities</summary>
+<details><summary>📦Libraries & Utilities</summary>
 **Requirements for other mods to function primarily.**
 
 ### Essential utilities:
