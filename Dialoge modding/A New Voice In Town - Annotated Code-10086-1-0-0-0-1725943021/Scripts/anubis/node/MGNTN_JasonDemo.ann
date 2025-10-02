@@ -1,0 +1,66 @@
+game.states.MGNTN_JasonDemo = State{function()
+
+
+    modules = {"shared.dialog", "shared.util", "shared.math", "shared.moveto"}
+
+    local coinTossIdle = Animation("DFLT_CC_Reaction_Class_Rogue_01_d3f98400-7220-49d5-86f7-1c2e9f9a05ad")   
+    local peaceIdle01 = Animation("DFLT_IDLE_Random_Peace_01_b5d99946-0646-4bdd-88a0-9604872a0dd9")
+    local peaceIdle02 = Animation("DFLT_IDLE_Random_Peace_02_9e02c309-46c1-43ef-b47c-ad6983058c19")  
+    local peaceIdle03 = Animation("DFLT_IDLE_Random_Peace_03_1c364663-4698-4f11-a39a-85833e4d0d75")   
+    local jasonPosPoint = Entity("MGNTN_DEN_JasonPos_684059fa-7e79-4c99-8a53-18a7e5b77fa1")
+    local jasonfacingPoint = Entity("MGNTN_DEN_Jason_FacingPos_424fbb2b-6156-47a3-ac51-354a1adef199")
+
+
+    -----------------------------------------
+
+    nodes.Idle = Selector {
+        function(nodes)
+            if GetDistance2DTo(me, jasonPosPoint) > 0.5 then
+                return nodes.movebacktoPos
+            else
+                return FindWeightedRandomSelectable(nodes, {
+                    [nodes.coinToss] = 1,
+                    [nodes.peaceIdle_02] = 1
+                })
+            end    
+        end
+    }
+
+    nodes.Idle.coinToss = Action {     
+        function()
+            Sleep(2.0)
+            LookFrom(jasonPosPoint)        
+            Sleep(2.0)
+            PlayAnimation(coinTossIdle, false, false)
+            Sleep(2.0)
+
+            Sleep(math.random(12.0, 18.0))
+        end
+    }
+
+    nodes.Idle.peaceIdle_02 = Action {      
+        function()
+            Sleep(2.0)
+            LookFrom(jasonPosPoint)
+            Sleep(2.0)
+            PlayAnimation(peaceIdle02, false, false)
+            Sleep(2.0)    
+
+            Sleep(math.random(12.0, 18.0))
+        end
+    }
+
+    nodes.Idle.movebacktoPos = Action {
+        function()
+            Sleep(1.5)
+            try
+                MoveTo(jasonPosPoint)
+                LookFrom(jasonPosPoint)                
+            catch e if ls.CheckType(e, error.MovementFailed) then
+                Sleep(8)
+            end 
+        end
+    }
+
+
+end}

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!--Setting up a scene trigger-->
+
+				<!--You can set up your own scene triggers to use for TLSwitchLocationEvent in your timeline files! Here's one I made to put part of Gale's Act 2 romance scene in Ketheric's bedroom.-->
+				<node id="GameObjects">
+					<attribute id="Extents" type="fvec3" value="0.5 0.5 0.5" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsUsingCalculatedSceneBounds" type="bool" value="True" />
+					<attribute id="IsWorldTimeline" type="bool" value="False" />
+					<!--The level the scene trigger is in. You'll only be able to switch to locations within the same main level as the scene, so make sure this matches that level. It does seem like sublevels can reference the main level to some degree, though! But it doesn't look like you can trigger Act 1 locations from Act 2, Githyanki Creche locations from Act 3, etc.-->
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<!--Generate new UUID, and use it for your SwitchLocationEventID in the timeline file.-->
+					<attribute id="MapKey" type="FixedString" value="f1987cb4-9102-475e-aa6e-0b6d97871cbf" />
+					<!--Give the scene trigger a new name.-->
+					<attribute id="Name" type="LSString" value="MGNTN_CAMP_Gale_Act2RomTest_SceneTrigger" />
+					<!--I left the next four settings the same; there doesn't seem to be much of a need to change them for cutscene location switches.-->
+					<attribute id="OnlyOsirisEvents" type="bool" value="False" />
+					<attribute id="Optional" type="bool" value="False" />
+					<attribute id="ShouldPreloadWorldTimelineActors" type="bool" value="False" />
+					<attribute id="StagingType" type="int32" value="1" />
+					<!--Keep this template UUID the same! Referencing other kinds of scene triggers for TLSwitchLocationEvent doesn't seem to work. It needs to be the TimelineSceneTrigger template, which is what that UUID refers to.-->
+					<attribute id="TemplateName" type="FixedString" value="66cc8388-9ed3-4523-8340-ed6ebd4387ad" />
+					<attribute id="Type" type="FixedString" value="trigger" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="FadeChildren" />
+						<!--I think this refers to specific parts of each level the actual trigger is placed in, but they might not actually be necessary. You can see examples of more extensive Layer lists in other Level files.-->
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<!--This should match the level your scene takes place in. You'll also want to put this in a Triggers folder for the same level in your mods folder. As an example, I put this one in the followng folder: \\MGNTN_GaleRom02\Mods\MGNTN_GaleRom02\Levels\SCL_Main_A\Triggers-->
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Timelines" />
+						<!--The coordinates for the location you want to switch to.-->
+						<node id="Transform">
+							<!--The X, Y, and Z coordinates for the location within the level. In this case, Ketheric Thorm's bedroom.-->
+							<attribute id="Position" type="fvec3" value="-166.52924 38.056576 -172.5945" />
+							<!--The rotation of the trigger and the scene within that location. This is listed in quaternation. The Adding and Positioning Items in the World guide on the BG3 Community Modding Wiki has a guide on RotationQuat/quaternation, which will help you calculate this!-->
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.3826833 0 0.9238797" />
+							<!--Keep this at 1. The scale function can sometimes be useful for other kinds of triggers, and can be used to configure character and item scale within levels, but it doesn't seem to do much for scene triggers.-->
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+			</children>
+		</node>
+	</region>
+</save>

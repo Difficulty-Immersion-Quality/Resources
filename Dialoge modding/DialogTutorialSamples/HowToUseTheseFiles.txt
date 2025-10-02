@@ -1,0 +1,40 @@
+Made by Magnetuning - https://magnetuning.neocities.org/
+
+Basic instructions:
+
+
+This is a collection of demo mods and annotated sample code for different dialog timeline effect components!
+
+It also contains annotated samples of two other files:
+
+- An edited Dialog Scene file
+- A sample SceneTrigger
+
+The Dialog Scene file is included in the CommonComponents folder, and the SceneTrigger is included in the SwitchLocation_AtmosphereLights folder.
+
+Because of the included scene trigger, the sample mod in SwitchLocation_AtmosphereLights needed to be packed, and will need to be installed via BG3 Mod Manager.
+
+The original mod folder has been included for SwitchLocation_AtmosphereLights as well, so you can reference the file structure.
+
+
+I also have another package of annotated code, including examples of the DialogsBinary file, Dialog Resources entries, GeneratedDialogTimelines entries,
+custom game flags, voicebanks, and more as part of the sample mod A New Voice In Town, which is included on the same mod page as this package of sample mods.
+
+This .zip file only contains examples of dialog timeline and scene files, edits to different effect components, and SceneTriggers; it was a bit easier
+to organize it this way.
+
+
+Each folder besides SwitchLocation_AtmosphereLights contains the following:
+
+- A ForInstallation folder, with a loose file sample mod for installation.
+- An AnnotatedCode folder, with the example code used for the sample mod.
+
+
+To find my edits and annotations in the code, search for "Dialog Tutorial Edits" in the files. I marked each part of the files I edited that way.
+
+
+You can find a list of what scene each sample mod edits, and what effect components they're demonstrating in the SampleMod_SceneEdits_Ref.txt file.
+
+
+Good luck, and happy modding!
+- Milo Magnetuning

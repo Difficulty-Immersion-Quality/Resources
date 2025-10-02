@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="302" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Flags">
+		<node id="Flags">
+			<!--Generate new UUID and make this the file name for your flag-->		
+			<attribute id="UUID" type="guid" value="2c60c719-c09f-4fa5-a1a1-8e5dbec6f1b6" />
+			<!--Also give the flag a unique name-->
+			<attribute id="Name" type="FixedString" value="MGNTN_HasMet_JasonAltea_01" />
+			<!--HasHet flags and flag usage 6 are usually used to tell if a specific character has met another character, i.e. a companion speaking to a character in dialogue that sets this kind of flag will usually only set the HasMet flag for that companion, not your player character, or any other companion.-->
+			<attribute id="Description" type="LSString" value="HasMet" />
+			<attribute id="Usage" type="uint8" value="6" />
+		</node>
+	</region>
+</save>

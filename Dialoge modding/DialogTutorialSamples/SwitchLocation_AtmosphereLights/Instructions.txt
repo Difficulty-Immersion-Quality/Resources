@@ -1,0 +1,15 @@
+This contains samples for both TLSwitchLocationEvent and TLAtmosphereAndLighting, as well as a sample SceneTrigger!
+
+I've provided both the .PAK file and the original mod folder, for you to check the file structure.
+
+I've put the annotated Timeline and SceneTrigger files in the 'JustAnnotatedFiles' folder, too, for easier reference.
+
+SceneTriggers need to be packed, so the sample mod here is a PAK file and not a loose file.
+
+Once the original SceneTrigger has been packed, though, it can be overridden in loose files, and the timeline file can be overridden in loose files, too.
+
+Install via BG3 Mod Manager to test!
+
+This overrides Gale's Act 2 romance scene, so you'll need to test it without any mods that edit that scene to see the changes.
+
+The changes I made happen if you choose to spend the night with the real Gale, instead of doing the astral projection spinny thing.

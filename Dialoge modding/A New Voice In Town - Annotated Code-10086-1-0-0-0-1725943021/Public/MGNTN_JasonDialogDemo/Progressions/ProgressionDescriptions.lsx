@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="5" revision="0" build="0"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+
+                <node id="ProgressionDescription">
+                    <attribute id="Hidden" type="bool" value="true"/>
+                    <attribute id="ProgressionTableId" type="guid" value="4c425fe9-3fe5-4b05-8588-75f5173e3709"/>
+                    <attribute id="Type" type="FixedString" value="MGNTN_JasonAltea"/>
+                    <attribute id="UUID" type="guid" value="285c2530-38b9-4098-9d53-19a21b4499db"/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,20 @@
+game.configs.MGNTN_JasonDemo = Config{
+    root=StateRef{game.roots.DefaultCharacter,
+        combat = StateRef{game.states.DefaultCombat},
+        combatCowerState = StateRef{game.states.CombatCower},
+        genericBehaviours = StateRef{game.states.CrimesHumanoid},
+        idle = StateRef{game.states.DEN_States,
+            attackPoint = [[MGNTN_DEN_JasonPos_684059fa-7e79-4c99-8a53-18a7e5b77fa1]],        
+            attackVictoryState = StateRef{game.states.MGNTN_JasonDemo},
+            denPeaceState = StateRef{game.states.MGNTN_JasonDemo},
+            druidAttackState = StateRef{game.states.DEN_DruidAttack_GeneralTiefling,
+                areaMoveTarget = [[S_DEN_DruidAttack_NonDruidArea3_c29917d6-f10c-43fb-8ddd-01ffb97d8b3e]],
+                moveTarget = [[S_DEN_DruidAttack_RefugeePos12_d259ebd7-826d-41a0-b7dc-800ce95622f7]],
+            },
+            leadershipDeadState = StateRef{game.states.MGNTN_JasonDemo},
+            postDruidAttackPoint = [[MGNTN_DEN_JasonPos_684059fa-7e79-4c99-8a53-18a7e5b77fa1]],          
+            postDruidAttackState = StateRef{game.states.MGNTN_JasonDemo},
+            victoryPoint = [[MGNTN_DEN_JasonPos_684059fa-7e79-4c99-8a53-18a7e5b77fa1]],            
+        },
+    }
+}

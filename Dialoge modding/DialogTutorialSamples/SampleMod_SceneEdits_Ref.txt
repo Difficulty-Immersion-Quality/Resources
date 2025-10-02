@@ -1,0 +1,231 @@
+This is a reference for the folders in the .zip file, and the sample mods in them!
+
+Here you can find out which scene each sample mod edits, how to trigger the changes ingame, and what effect components they demonstrate.
+
+---
+
+The effect components explained in these files are:
+
+  - TLAnimation: Animations and animation settings.
+  - TLAtmosphereAndLighting: Controls environment lighting and VFX settings, color grading, wind speed, and more.
+  - TLAttitudeEvent: Controls the poses and animations the player character and the characters standing behind them (although I believe it can be used
+                     for other characters too.) Think Tav crossing their arms, looking up confused, shifting their position during dialog, etc.
+  - TLCameraDoF: Changes the depth of field effect for a given camera.
+  - TLCameraFoV: Controls the field of view of a given camera.
+  - TLEmotionEvent: Controls facial expressions.
+  - TLMaterial: Allows you to enable temporary material overrides, including changing existing material settings, toggling their visibility, and more.
+  - TLPlayEffectEvent: Plays VFX.
+  - TLShapeshift: Swaps in CharacterVisuals from other characters.
+  - TLShot: Controls camera angles and camera angle switches.
+  - TLShowArmor: Toggles visibility of different camp clothes and armor slots.
+  - TLShowPeanuts: Shows and hides the characters standing behind the player, i.e. the peanut gallery.
+  - TLShowVisual: Toggles visibility of different visual resources.
+  - TLShowWeapon: Shows and hides weapons.
+  - TLSoundEvent: Plays sound effects.
+  - TLSplatter: Controls skin overlays like blood, sweat, bruises, and dirt.
+  - TLSwitchLocationEvent: Controls scene setting changes.
+  - TLSwitchStageEvent: Lets you reference a "stage" in the Dialog Scene file to reposition all the characters, cameras, lights, etc. at once.
+  - TLTransform: Lets you change positions of different characters/cameras/objects over time.
+  - TLVoice: Controls settings for voice lines.
+
+The files in the CommonComponents also explain the different elements of the Dialog Timeline and Scene files as a whole.
+
+---
+
+CommonComponents
+
+Effect components edited:
+
+  - TLVoice
+  - TLEmotionEvent
+  - TLAttitudeEvent
+  - TLAnimation
+  - TLSwitchStageEvent
+  - TLShowWeapon
+  - TLShowPeanuts
+  - TLShot
+  - Also covers the dialog timeline as a whole
+
+Other files annotated:
+
+  - Dialog Scene file
+
+This file wasn't actually edited, but I still went through and annotated the different parts of it to explain them!
+
+Scene edited:
+  - Astarion's romance dialog.
+
+Edits made/how to trigger:
+  - Talk to Astarion in a romance with the spawn version of him.
+      - Kiss him; one of his kisses was edited to demonstrate TLShowWeapon.
+      - Ask him what you are to him before completing his romance. Camera angle and attitude animation were changed for his final line.
+
+Not every effect component the annotated file explains was edited for the demo, but all the effect components listed above were annotated + explained!
+
+---
+
+SwitchLocationEvent_AtmosphereLights
+
+Effect components edited:
+  - TLSwitchLocationEvent
+  - TLAtmosphereAndLighting
+
+Other files edited:
+  - Adds a new SceneTrigger
+
+Scene edited:
+
+  - Gale's Act 2 romance scene.
+
+Edits made/how to trigger:
+  - Puts the final cinematic when you ask to be with the "real" Gale in Ketheric Thorm's bedroom. Changes the atmosphere and lighting for the cinematic
+    to match the rest of his romance scene, which was changed when the location switched to Ketheric Thorm's bedroom.
+
+---
+
+TLCameraDoF:
+
+Effect components edited:
+  - TLCameraDoF
+
+Scene edited:
+  - Astarion's Act 1 romance scene
+
+Edits made/how to trigger:
+  - Adds extra blur/depth of field effects to the first three shots in the morning after scene, when the player wakes up, and he's holding his arms out in the sun.
+
+---
+
+TLMaterial:
+
+Effect components edited:
+  - TLMaterial
+
+Scene edited:
+  - Karlach's InParty dialog
+
+Edits made/how to trigger:
+  - Talk to Karlach with high approval when you're not romancing her.
+  - Her eyes and pupils will glow a different color for each of her friendly greetings,
+    with some of them having the glow change brightness over the course of the line.
+
+---
+
+TLPlayEffectEvent:
+
+Effect components edited:
+  - TLPlayEffectEvent
+  - TLTransform
+  - TLShowVisual
+
+Scene edited:
+  - Wyll's Act 3 romance scene
+
+Edits made/how to trigger:
+  - Adds an aurora borealis effect in the sky to Wyll's Act 3 romance scene. Triggered by starting the scene.
+
+---
+
+TLShapeshift:
+
+Effect components edited:
+  - TLShapeshift
+
+Scene edited:
+  - Gale's first night camp scene (the one where he tells you to go to hell)
+
+Edits made/how to trigger:
+  - Talk to Gale when he's standing by the fire on the first camp night.
+  - He will now be Raphael.
+  - You will now also be Raphael.
+
+---
+
+TLShowArmor:
+
+Effect components edited:
+  - TLShowArmor
+
+Scene edited:
+  - Astarion's dialog when he comes out to you  as a vampire.
+
+Edits made/how to trigger:
+  - Go to the Underdark without finding out Astarion's a vampire, then talk to him while he's wearing headgear.
+  - Ask him how he's been in the sun this whole time when you're prompted to respond
+  - TLShowArmor will hide his headgear at the start of the conversation, and show it partway through his response:
+      - "...I should be cinders blowing in the wind, but something's protecting me."
+
+---
+
+TLShowVisual
+
+Effect components edited:
+  - TLShowVisual
+
+Scene edited:
+  - Astarion's Act 1 romance scene
+
+Edits made/how to trigger:
+  - Start Astarion's Act 1 romance scene
+  - A lot of the TLShowVisual effect components present in the scene have been set to "false,"
+    and both characters will be hidden.
+
+---
+
+TLSoundEvent
+
+Effect components edited:
+  -TLSoundEvent
+
+Scene edited:
+ - Lae'zel's romance dialog
+
+Edits made/how to trigger:
+  - Kiss Lae'zel as a humanoid body type 1 or body type 2 character.
+  - Flutes are set to play for two of her kiss animations for tall characters.
+
+---
+
+TLSplatter
+
+Effect components edited:
+  - TLSplatter
+
+Scenes edited:
+  - Astarion's bite scene
+
+Edits made/how to trigger:
+  - Turns Astarion into a very messy eater.
+  - Let him drink from you, and then persuade him to stop (don't push him)
+
+---
+
+TLTransform_CameraFoV
+
+Effect components edited:
+  - TLTransform
+  - TLCameraFoV
+
+Scenes edited:
+
+Two scenes were edited for this one:
+
+ - Astarion's InParty dialog
+ - Abdirak's scene if you accept his penance (?) whatsit. The part where he harms you in an act of religious fervor.
+
+Only Astarion's InParty dialog edits TLCameraFoV, though.
+
+Edits made/how to trigger:
+  For Astarion's InParty dialog:
+     - Talk to him with high approval, when you aren't romancing him.
+     - The Camera FoV and camera motion has been changed for his friendly greetings.
+  For Abdirak's scene:
+     - Have Shadowheart and Astarion both in the party during the scene
+     - The camera for their conversation during their scene has been changed to show Shadowheart's hidden reaction.
+         - This has also been uploaded as its own mod here:
+           - https://www.nexusmods.com/baldursgate3/mods/11925
+
+---
+
+
+

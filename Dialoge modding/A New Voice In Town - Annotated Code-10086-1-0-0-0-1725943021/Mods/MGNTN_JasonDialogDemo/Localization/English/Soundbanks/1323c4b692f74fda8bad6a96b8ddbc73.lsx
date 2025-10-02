@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="3" minor="2" revision="0" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="VoiceMetaData">
+		<node id="VoiceMetaData">
+			<children>
+				<node id="VoiceSpeakerMetaData">
+					<!--This UUID tells the game which character the voicebank is for! Put their Global/RootTemplate UUID here. The voicebank file name will be this same UUID without the hyphens.-->
+					<attribute id="MapKey" type="FixedString" value="1323c4b6-92f7-4fda-8bad-6a96b8ddbc73" />
+					<children>
+						<node id="MapValue">
+							<children>
+								<!--It's you! The mighty defenders of this little grove. (I recommend putting comments before each line so you know what they are)-->
+								<node id="VoiceTextMetaData">
+									<!--Put the text handle from your DialogsBinary and Localization files here!-->
+									<attribute id="MapKey" type="FixedString" value="h3c280632737c454b9f1bac7cef87a669201d" />
+									<children>
+										<node id="MapValue">
+											<!--The compression type for your .wem file. Most of the time, you'll want to match the VORBIS compression type the game uses.-->
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<!--Length of the audio file.-->
+											<attribute id="Length" type="float" value="4.053" />
+											<!--Type of voice line! There's also different priority settings for ambient dialogue in the overworld, party banter, point and click lines, etc. Try checking existing character voicebanks for examples! This is for regular conversation dialog.-->
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<!--The .wem audio file name. This will be a v followed by the character's UUID minus the hyphens, and then the text handle listed above. Lipysnc and dialog animations will have this same file name, but the lipsyncing will have an FX_ prefix at the start, and dialog animations will have an MC_ prefix.-->
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h3c280632737c454b9f1bac7cef87a669201d.wem" />
+										</node>
+									</children>
+								</node>
+
+                                <!--The rest of the file is just going to fill out his lines. The only notes from here on out are the tagged texts, to help me remember which line is which!-->
+
+								<!--There's not many who would stick their necks out for others like that.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h6f24a6cdedb2436d9dd8bb4b1ff6462ed0b0" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="4.211" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h6f24a6cdedb2436d9dd8bb4b1ff6462ed0b0.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Thank you. It means a lot.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h580e6615c3364b05843d7575309ad942e568" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.675" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h580e6615c3364b05843d7575309ad942e568.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Oh, that's a shame.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h078dfca2243845789a0afb48381aeb946112" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.616" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h078dfca2243845789a0afb48381aeb946112.wem" />
+										</node>
+									</children>
+								</node>
+								<!--I hadn't pegged you for a common mercenary.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="hc648329e90de4c0084ab6d9afba1b67e37e2" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="3.353" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_hc648329e90de4c0084ab6d9afba1b67e37e2.wem" />
+										</node>
+									</children>
+								</node>
+								<!--That's a bit dull.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h3227e20f28de4068a11b4a896b67a564c5ed" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="1.806" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h3227e20f28de4068a11b4a896b67a564c5ed.wem" />
+										</node>
+									</children>
+								</node>
+								<!--...Don't you think?-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h8486e39e7fb947f08da1908ebb50239b867f" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.48" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h8486e39e7fb947f08da1908ebb50239b867f.wem" />
+										</node>
+									</children>
+								</node>								
+								<!--Sharp laugh. HA! Hah-hah. Ugh...-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="hdbf39c3c7d06482ebe96dc3a71f9b7ed11ff" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="3.58" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_hdbf39c3c7d06482ebe96dc3a71f9b7ed11ff.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Fine, then. Take it.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="hbf1c3c82184d413db36b07921dc646a46969" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.849" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_hbf1c3c82184d413db36b07921dc646a46969.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Maybe looking for a gold piece in a haystack will be a meditative experience for you.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="hdac1ddc9999b4415bd5c9a0f8b8079643091" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="5.69" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_hdac1ddc9999b4415bd5c9a0f8b8079643091.wem" />
+										</node>
+									</children>
+								</node>		
+								<!--I think you need it.-->						
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h2b8bc04a7489422e9879faa7d45d85a436e9" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.997" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h2b8bc04a7489422e9879faa7d45d85a436e9.wem" />
+										</node>
+									</children>
+								</node>	
+								<!--Oh, that's cute.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h953f209c26c74b7c8ef03d080fcb7d6ec2e4" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="1.583" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h953f209c26c74b7c8ef03d080fcb7d6ec2e4.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Well, I suppose I could pity you - a little.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="had17a3cdd26d49b3a700c2d02dee581feb32" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="5.786" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_had17a3cdd26d49b3a700c2d02dee581feb32.wem" />
+										</node>
+									</children>
+								</node>
+								<!--And by that, I mean I'll give you a little bit of advice.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="hf43414fa01b24e7e930e23b80f5b6458b071" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="4.274" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_hf43414fa01b24e7e930e23b80f5b6458b071.wem" />
+										</node>
+									</children>
+								</node>		
+								<!--Don't go bothering anyone else.-->						
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h2df1d0c492e4400cbca28b6dc21a9073559a" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="1.589" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h2df1d0c492e4400cbca28b6dc21a9073559a.wem" />
+										</node>
+									</children>
+								</node>
+								<!--...All right?-->						
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h0f707a78268643309dca1056859cb4c8g2be" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="1.22" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h0f707a78268643309dca1056859cb4c8g2be.wem" />
+										</node>
+									</children>
+								</node>                                
+								<!--'Professional extortionist' isn't really a title you'd want to aim for.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h33d148b8db0a43788f224977927727adb825" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="5.537" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h33d148b8db0a43788f224977927727adb825.wem" />
+										</node>
+									</children>
+								</node>                                
+								<!--Oh, you and me both.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h9858b0831c174facb4787e23a53e92ccbdc3" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="1.364" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h9858b0831c174facb4787e23a53e92ccbdc3.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Oh, I don't think so.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="hae6d097f086043eb8de46c581fc02a94c399" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="1.189" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_hae6d097f086043eb8de46c581fc02a94c399.wem" />
+										</node>
+									</children>
+								</node>
+								<!--The world is cruel.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h67e32d3cbae44ecd90bdd32a47f83d7e5e06" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.09" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h67e32d3cbae44ecd90bdd32a47f83d7e5e06.wem" />
+										</node>
+									</children>
+								</node>
+								<!--It takes a lot to be kind.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="heb098af81a814372b9ecaf505ab1183f68e1" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="3.274" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_heb098af81a814372b9ecaf505ab1183f68e1.wem" />
+										</node>
+									</children>
+								</node>                                
+								<!--...You take care out there, alright?-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h475107ddacfd4d42b372d60939314ac9f1gd" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.882" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h475107ddacfd4d42b372d60939314ac9f1gd.wem" />
+										</node>
+									</children>
+								</node>
+								<!--If I stumble on your corpse later, I'll be quite cross.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h93c7ba65c46e4457bb9783033cfbef1a723b" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="3.213" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h93c7ba65c46e4457bb9783033cfbef1a723b.wem" />
+										</node>
+									</children>
+								</node>
+								<!--...Dance upon the stars, tonight...-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h76469642791b4be581d35236815f374d6291" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="4.959" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h76469642791b4be581d35236815f374d6291.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Now, where did I hear that...?-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h1a12158b1f77436dbc297a71d61ed85cb636" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="3.147" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h1a12158b1f77436dbc297a71d61ed85cb636.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Oh, if it isn't my scary friend!-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h11e5e945e2424e228a0888b02cb618c04129" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="2.782" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h11e5e945e2424e228a0888b02cb618c04129.wem" />
+										</node>
+									</children>
+								</node>
+								<!--I hope that little gold piece I tossed you wasn't too hard to find...-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="hc00842d2502d4d1e8d4aad233d2e66c81gfd" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="4.327" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_hc00842d2502d4d1e8d4aad233d2e66c81gfd.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Oh... Adventuring gets rather hard, doesn't it...?-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="h53357172703d4b528687eab784920b1a6f0a" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="3.472" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_h53357172703d4b528687eab784920b1a6f0a.wem" />
+										</node>
+									</children>
+								</node>
+								<!--Come here.-->
+								<node id="VoiceTextMetaData">
+									<attribute id="MapKey" type="FixedString" value="ha0529acd355e4e758830ac9db7b0daf8c652" />
+									<children>
+										<node id="MapValue">
+											<attribute id="Codec" type="FixedString" value="VORBIS" />
+											<attribute id="Length" type="float" value="0.71" />
+											<attribute id="Priority" type="FixedString" value="P1_StoryDialog" />
+											<attribute id="Source" type="FixedString" value="v1323c4b692f74fda8bad6a96b8ddbc73_ha0529acd355e4e758830ac9db7b0daf8c652.wem" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

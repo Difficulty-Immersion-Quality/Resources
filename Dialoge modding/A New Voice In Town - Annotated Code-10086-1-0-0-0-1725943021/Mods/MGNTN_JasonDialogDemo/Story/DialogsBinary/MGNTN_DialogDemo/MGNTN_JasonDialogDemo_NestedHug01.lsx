@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="6" revision="0" build="0" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="dialog">
+		<node id="dialog">
+			<!--This is a nested dialog file! This is what's being referred to by the Nested Dialog node in his first dialog file, the MGNTN_JasonDialogDemo_01 file.There won't be as many annotations here, but there are still some notes on nested dialog, dialog flags, body type tags, and dialog priorty order. For more annotations on the DialogsBinary files in general, check Jason's original dialogue file!-->
+
+			<attribute id="category" type="LSString" value="Generic NPC Dialog" />
+			<attribute id="UUID" type="FixedString" value="632515c2-b89a-4e50-82dc-6c3c3aaa7517" />
+			<attribute id="TimelineId" type="FixedString" value="c353d0a9-654e-4df0-b104-fdddb98c7cda" />
+			<children>
+				<node id="DefaultAddressedSpeakers">
+					<children>
+						<node id="Object" key="MapKey">
+							<attribute id="MapKey" type="int32" value="0" />
+							<attribute id="MapValue" type="int32" value="-1" />
+						</node>
+						<node id="Object" key="MapKey">
+							<attribute id="MapKey" type="int32" value="1" />
+							<attribute id="MapValue" type="int32" value="-1" />
+						</node>
+					</children>
+				</node>
+				<!--Again, a list of characters that can participate in a scene. These usually match that of the original dialog file, but not always.-->
+				<node id="speakerlist">
+					<children>
+						<node id="speaker" key="index">
+							<attribute id="index" type="FixedString" value="0" />
+							<attribute id="list" type="LSString" value="1323c4b6-92f7-4fda-8bad-6a96b8ddbc73" />
+							<!--The speaker mapping IDs for characters in nested dialog files are usually the same as the original dialog! Sometimes they're unique, but often they're the same. And, again, these are used in the dialog timeline files, to reference the Actors, or characters performing specific parts of the dialog.-->
+							<attribute id="SpeakerMappingId" type="guid" value="364f518b-9f52-4fb6-a405-c1b5718bf67f" />
+						</node>
+						<node id="speaker" key="index">
+							<attribute id="index" type="FixedString" value="1" />
+							<attribute id="list" type="LSString" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+							<attribute id="SpeakerMappingId" type="guid" value="64c3716a-9fc7-4bbb-9b22-063832b6b7aa" />
+						</node>
+					</children>
+				</node>
+				<node id="nodes">
+					<children>
+						<node id="node" key="UUID">
+							<!--This is the line of dialog I linked to from the Nested Dialog node in the original file. This node is a TagAnswer node, but you can link to other kinds of nodes as well!-->
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="2f61043b-199c-4317-876d-732a2b1ddead" />
+							<!--Marks this node as a Root node, aka a possible first node in the nested dialogue file. And in this case, the only one.-->
+							<attribute id="Root" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="4fe989e1-86bf-4846-99bd-31eff9975a79" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Oh... Adventuring gets rather hard, doesn't it?'-->
+															<attribute id="TagText" type="TranslatedString" handle="h53357172703d4b528687eab784920b1a6f0a" version="3" />
+															<attribute id="LineId" type="guid" value="5145fb7f-d459-4f35-8c81-121b7f5143c3" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="4fe989e1-86bf-4846-99bd-31eff9975a79" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<!--The child nodes here actually link to different hug cinematics based on bodytype!-->
+								<node id="children">
+									<children>
+										<node id="child">
+                                            <!--This is for short bodytypes!-->
+											<attribute id="UUID" type="FixedString" value="8f51cc15-339e-43b9-af38-bb10706608a6" />
+										</node>
+                                            <!--This is for strong bodytypes!-->
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="fe0da7cf-12ea-4014-9e3b-40d3ff67361e" />
+										</node>
+                                            <!--This is a fallback option, which will be used for tall humanoids, and other characters that don't fall into either the short or strong bodytype categories. Dialog node priority is based on their order in the 'children' list here. It checks whether the conditions for the first child node are valid, and if they aren't, it checks the next node, and so on.-->
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="914e26e9-1070-4356-84fa-8afc7620e3a4" />
+										</node>																				
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Come here.'-->
+															<attribute id="TagText" type="TranslatedString" handle="ha0529acd355e4e758830ac9db7b0daf8c652" version="3" />
+															<attribute id="LineId" type="guid" value="7262d47a-4916-486c-b8ff-5b4f94b3e73a" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagCinematic" />
+							<attribute id="UUID" type="FixedString" value="8f51cc15-339e-43b9-af38-bb10706608a6" />
+							<attribute id="speaker" type="int32" value="-1" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="54b62373-ba4b-4622-afbd-89a62e026a1e" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<!--This cinematic is testing for Short bodytypes!-->
+								<node id="checkflags">
+									<children>
+										<node id="flaggroup" key="type">
+                                            <!--This is checking for a character tag.-->
+											<attribute id="type" type="FixedString" value="Tag" />
+											<children>
+												<node id="flag" key="UUID">
+                                                    <!--The tag for short bodytypes.-->
+													<attribute id="UUID" type="FixedString" value="50e7beca-4e90-43cd-b7c5-c235e236077f" />
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="editorData">
+									<children>
+										<node id="data" key="key">
+											<attribute id="key" type="FixedString" value="CinematicNodeContext" />
+											<attribute id="val" type="LSString" value="Player and Jason hug [from Gale Epilogue]" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagCinematic" />
+							<attribute id="UUID" type="FixedString" value="fe0da7cf-12ea-4014-9e3b-40d3ff67361e" />
+							<attribute id="speaker" type="int32" value="-1" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="54b62373-ba4b-4622-afbd-89a62e026a1e" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags">
+									<children>
+										<!--This cinematic is testing for Strong bodytypes!-->
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Tag" />
+											<children>
+												<node id="flag" key="UUID">
+                                                    <!--The tag for strong bodytypes.-->
+													<attribute id="UUID" type="FixedString" value="d3116e58-c55a-4853-a700-bee996207397" />
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="editorData">
+									<children>
+										<node id="data" key="key">
+											<attribute id="key" type="FixedString" value="CinematicNodeContext" />
+											<attribute id="val" type="LSString" value="Player and Jason hug [from Gale Epilogue]" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>		
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagCinematic" />
+							<attribute id="UUID" type="FixedString" value="914e26e9-1070-4356-84fa-8afc7620e3a4" />
+							<attribute id="speaker" type="int32" value="-1" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="54b62373-ba4b-4622-afbd-89a62e026a1e" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+                                <!--This cinematic isn't checking for flags; tall humanoids are the default fallback for a lot of stuff, so they don't seem to be tested for in cinematics often. Instead, their cinematics are played if no other valid conditions come up first, at least in this case. Sometimes cinematics are shared between tall, short, and strong characters, and sometimes the cinematics are split into further categories, like for Dragonborn, etc.-->
+								<node id="checkflags" />
+								<node id="editorData">
+									<children>
+										<node id="data" key="key">
+											<attribute id="key" type="FixedString" value="CinematicNodeContext" />
+											<attribute id="val" type="LSString" value="Player and Jason hug [from Gale Epilogue]" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>                        
+
+                        <!--So, linking back to the main dialog file from nested dialog is *possible,* but you need to be careful with it. You'd do so by adding a nested dialog node to the nested dialog file, and linking back to the main file through it, exactly the same as how you set up any other nested dialog node. However! Doing so might break your dialog tree. Again, you want to be careful.
+                        
+                        Because of that, I'm not going to be linking back to the main file. Instead, I duplicated a couple lines of his from the main file into the nested dialog files, to serve as reaction lines after the hug.-->
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="54b62373-ba4b-4622-afbd-89a62e026a1e" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="c03dfba7-f985-4d44-8163-9ad476f78b27" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: '...You take care out there, all right?'-->
+															<attribute id="TagText" type="TranslatedString" handle="h475107ddacfd4d42b372d60939314ac9f1gd" version="3" />
+															<attribute id="LineId" type="guid" value="b8bb03df-9046-4847-b74a-af4db8372836" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="c03dfba7-f985-4d44-8163-9ad476f78b27" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children" />
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+                                                            <!--Text: 'If I stumble on your corpse later, I'll be quite cross!'-->
+															<attribute id="TagText" type="TranslatedString" handle="h93c7ba65c46e4457bb9783033cfbef1a723b" version="3" />
+															<attribute id="LineId" type="guid" value="3d8a08ae-d7eb-467b-8b65-5c02ec7964cc" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+						<node id="RootNodes">
+							<attribute id="RootNodes" type="FixedString" value="2f61043b-199c-4317-876d-732a2b1ddead" />
+						</node>																		
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

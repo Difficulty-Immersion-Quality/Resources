@@ -1,0 +1,2181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="6" revision="0" build="0" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="dialog">
+		<node id="dialog">
+			<!--The kind of dialogue scene the file is for. This is just for NPCs, but you can specify Companion dialogue as well, etc.-->
+			<attribute id="category" type="LSString" value="Generic NPC Dialog" />
+			<!--Generate a new UUID here. This doesn't seem to be referenced elsewhere, but still important.-->
+			<attribute id="UUID" type="FixedString" value="4ad0f91d-f344-419a-ae14-74d3d58e337a" />
+			<!--The UUID for the timeline listed in your GeneratedDialogTimelines entry for the scene.-->
+			<attribute id="TimelineId" type="FixedString" value="4dafc4e4-ed8c-484a-8041-e6e1d3342e70" />
+			<children>
+				<node id="DefaultAddressedSpeakers">
+					<children>
+						<node id="Object" key="MapKey">
+							<attribute id="MapKey" type="int32" value="0" />
+							<attribute id="MapValue" type="int32" value="-1" />
+						</node>
+						<node id="Object" key="MapKey">
+							<attribute id="MapKey" type="int32" value="1" />
+							<attribute id="MapValue" type="int32" value="-1" />
+						</node>
+					</children>
+				</node>
+				<!--A list of characters who can participate in a dialogue, mapping out the speaker and timeline actor IDs of each character. This conversation only has two, but that isn't always the case.-->
+				<node id="speakerlist">
+					<children>
+						<node id="speaker" key="index">
+							<!--Used to determine speakers -->
+							<attribute id="index" type="FixedString" value="0" />
+							<!--The UUID of the character speaking, in this case Jason.-->
+							<attribute id="list" type="LSString" value="1323c4b6-92f7-4fda-8bad-6a96b8ddbc73" />
+							<!--The TimelineSpeakers and actor ID for the character, which is how they're referred to in the timeline file.-->
+							<attribute id="SpeakerMappingId" type="guid" value="364f518b-9f52-4fb6-a405-c1b5718bf67f" />
+						</node>
+						<node id="speaker" key="index">
+							<attribute id="index" type="FixedString" value="1" />
+							<!--The UUID for the player character!-->
+							<attribute id="list" type="LSString" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+							<!--And again, the TimelineSpeakers and actor ID for the character in the timeline file.-->
+							<attribute id="SpeakerMappingId" type="guid" value="64c3716a-9fc7-4bbb-9b22-063832b6b7aa" />
+						</node>
+					</children>
+				</node>
+				<node id="nodes">
+					<children>
+						<node id="node" key="UUID">
+							<!--The type of dialogue node. This is a TagGreeting node, which is the first line of dialogue a character will have in a conversation. There can be multiple TagGreeting nodes in a dialogue file!-->
+							<attribute id="constructor" type="FixedString" value="TagGreeting" />
+							<!--The UUID of the dialogue node. Generate a new one when adding new dialogue.-->
+							<attribute id="UUID" type="FixedString" value="194918e5-fe1a-4a56-b902-45f7ad9f1a10" />
+							<!--Is this the start of a conversation? If so, this dialogue node should have a corresponding Root Node entry at the end of a file.-->
+							<attribute id="Root" type="bool" value="True" />
+							<!--The speaker ID of the character the dialogue node belongs to, as listed above and in the timeline file. Speaker 0 is generally the character being spoken to! And Speaker 1 is generally the player character, with additional speakers after that being other characters who can join in on a conversation.-->
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<!--The UUIDs of the dialogue nodes that will come next. A dialogue node can have multiple children, which can be either player responses, or links to dialogue that's being tested, some of which may not always be available..-->
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="1a97e532-61e1-4cc7-8105-7c6aa2a3bd1a" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<!--This section seems to let you tag for different kinds of dialogue, like if the dialogue is telepathic/using illithid mind melds/etc.-->
+								<node id="Tags" />
+								<!--Can be used to set game flags, which can be tested for later. It can also be used to unset flags, depending on whether the flag is set to true or false by this section. This one sets the HasMet flag for Jason.-->
+								<node id="setflags">
+									<children>
+										<node id="flaggroup" key="type">
+											<!--The type of flag being set. Dialog tags are most often used for HasMet flags, to see if a specific character has met another character, or seen a specific initial dialog before. These are set on a per character basis, so speaking to the character with one character will not set the HasMet flag for another.-->										
+											<attribute id="type" type="FixedString" value="Dialog" />
+											<children>
+												<node id="flag" key="UUID">
+													<!--The UUID of the flag being set.-->
+													<attribute id="UUID" type="FixedString" value="2c60c719-c09f-4fa5-a1a1-8e5dbec6f1b6" />
+													<!--You can set the flag to True to set the flag, or False to unset it.-->
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<!--This is used to check whether the dialogue should be available or not, based on game flags and character tags.-->
+								<node id="checkflags">
+									<children>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Dialog" />
+											<children>
+												<node id="flag" key="UUID">
+													<!--The UUID of the flag being checked for. This one is checking for the HasMet flag for Jason!-->
+													<attribute id="UUID" type="FixedString" value="2c60c719-c09f-4fa5-a1a1-8e5dbec6f1b6" />
+													<!--This dialogue will only play if the HasMet flag for Jason is False.-->
+													<attribute id="value" type="bool" value="False" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<!--This is almost always true, even if there aren't actually rules given.-->
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--The text handle for your dialogue. Links to your Localization file for the captions, as well as the character's Voicebank file to call up the audio, lipsync, and animation files for the dialogue. The text for this handle in my Localization files is 'It's you! The mighty defenders of this little grove.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h3c280632737c454b9f1bac7cef87a669201d" version="3" />
+															<!--Generate new UUID here.-->
+															<attribute id="LineId" type="guid" value="f5e96c36-8df4-40d2-b0fe-124974388ce2" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<!--There can be multiple possible lines of dialog in one dialog node! Sometimes this is used to add randomized dialog, and sometimes it's used in combination with RuleGroups, to test for certain conditions for each line. A good example of this is in the epilogue, with the game testing to see whether your character is an illithid, and switching to put lines in italics if they are.
+												
+												I've explained a bit more about this, and the related CustomSequenceIDs later in the file! Search for 'About Custom Sequences' in the file to find it.-->
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<!--The type of dialogue node. This is a TagAnswer node, which is used for when a character is speaking.-->
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="1a97e532-61e1-4cc7-8105-7c6aa2a3bd1a" />
+							<!--Again, this is usually 0, but if multiple characters have voice lines in a scene, this speaker ID should match the one for the character with the line.-->
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="ba5e064d-df90-4008-acf0-363540c8bf9f" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'There's not many who would stick their necks out for others like that.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h6f24a6cdedb2436d9dd8bb4b1ff6462ed0b0" version="3" />
+															<attribute id="LineId" type="guid" value="08c3a111-ec31-490e-873f-978b73c4a26a" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="ba5e064d-df90-4008-acf0-363540c8bf9f" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<!--The children listed here are player responses! This dialogue node is acting like a 'hub' for player responses, with each possible response listed as a 'child' under it. The order of each player response option listed here will also be the order they'll be listed in-game.-->
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="62808758-585b-4b3b-9c1f-ae9d3bb253b5" />
+										</node>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="04baa403-611c-439f-94b3-ba3c82b01a96" />
+										</node>																
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Thank you. It means a lot.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h580e6615c3364b05843d7575309ad942e568" version="3" />
+															<attribute id="LineId" type="guid" value="27da29e5-f949-4d44-9657-fbf127e9b144" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<!--The type of dialogue node. This time a TagQuestion node, which is a player dialogue option!-->
+							<attribute id="constructor" type="FixedString" value="TagQuestion" />
+							<!--The UUID of the file containing approval rating values for the interaction. In this case, Astarion should get +1 approval, and Wyll should get -1. HOWEVER. Just setting up this approval rating ID file will not trigger the approval. I'm still looking into how approval is configured by the game. But! Just for reference, this is still how approval is noted by the game in dialog.-->
+							<attribute id="ApprovalRatingID" type="guid" value="2ff8b964-5210-4b52-8b35-2dc2c56970b3" />
+							<attribute id="UUID" type="FixedString" value="62808758-585b-4b3b-9c1f-ae9d3bb253b5" />
+							<!--Since this is a player response, the speaker ID here should match that of the player's, listed at the top of the file. This is almost always 1.-->
+							<attribute id="speaker" type="int32" value="1" />
+							<children>
+								<node id="children">
+									<children>
+										<!--The possible responses from the other character will be listed as a child here. There's only one here, but that isn't always the case!-->
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="c7c44110-22b6-4e33-9b80-b0b657006bdf" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Don't thank me. I don't work for free - and I take my payment up front.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h56fc2f953493498e9e92776470a0e0f8ba0b" version="3" />
+															<attribute id="LineId" type="guid" value="88a8aac5-e8df-4f40-8ef4-b1f78dcaee35" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="c7c44110-22b6-4e33-9b80-b0b657006bdf" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="d75efb27-5026-432e-8865-8abe3c8e6f82" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Oh, that's a shame.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h078dfca2243845789a0afb48381aeb946112" version="3" />
+															<attribute id="LineId" type="guid" value="8f94b5d4-d946-4c2c-b7e1-cfddbbd0a454" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>						
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="d75efb27-5026-432e-8865-8abe3c8e6f82" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="2c88c164-8dd3-4b91-867d-ba9a33a1a25c" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'I hadn't pegged you for a common mercenary.'-->
+															<attribute id="TagText" type="TranslatedString" handle="hc648329e90de4c0084ab6d9afba1b67e37e2" version="3" />
+															<attribute id="LineId" type="guid" value="ca024d47-21be-4ba9-af9b-5d7eff6df3dd" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="2c88c164-8dd3-4b91-867d-ba9a33a1a25c" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="60fd425c-6ad3-4cf5-bc63-e47e00bcec60" />
+										</node>									
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'That's a bit dull...'-->
+															<attribute id="TagText" type="TranslatedString" handle="h3227e20f28de4068a11b4a896b67a564c5ed" version="3" />
+															<attribute id="LineId" type="guid" value="50ccbd70-a691-4161-acd6-01cd32a28e49" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="60fd425c-6ad3-4cf5-bc63-e47e00bcec60" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<!--This is another example of player dialogue options!-->
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="4e2b99e6-8498-4158-9652-8eca30d17f99" />
+										</node>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="798a3dc5-f267-48dc-a1f3-23950bbf0e16" />
+										</node>									
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: '...don't you think?'-->
+															<attribute id="TagText" type="TranslatedString" handle="h8486e39e7fb947f08da1908ebb50239b867f" version="3" />
+															<attribute id="LineId" type="guid" value="dc76dd3c-c28a-4229-910d-9cb2347a6b7b" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<!--The type of dialogue node. This time an ActiveRoll node, which is a dialogue node where the player is prompted to make a dice roll to determine the next lines of dialogue in a conversation.
+                            
+                            PassiveRoll nodes are Extremely similar so I've not included an example in this mod. They use the same code structure as ActiveRoll nodes, just with the PassiveRoll constructor tag instead! The only difference besides that tag is that the roll will be done automatically by the game, without the player being prompted to roll for the outcome, but they're otherwise identical within the code.-->
+							<attribute id="constructor" type="FixedString" value="ActiveRoll" />
+							<attribute id="UUID" type="FixedString" value="4e2b99e6-8498-4158-9652-8eca30d17f99" />
+							<attribute id="transitionmode" type="uint8" value="2" />
+							<!--Again, the speaker for this node should match the player.-->
+							<attribute id="speaker" type="int32" value="1" />
+							<!--This roll is checking a specific skill, Intimidation. If the check is just for a raw ability score, there won't be anything listed for the RollType here (although the attribute will still be listed), and the Skill attribute will also be empty, leaving just the ability being tested.-->
+							<attribute id="RollType" type="string" value="SkillCheck" />
+							<!--The base ability of the skill check.-->
+							<attribute id="Ability" type="string" value="Charisma" />
+							<!--The specific skill the check is for.-->
+							<attribute id="Skill" type="string" value="Intimidation" />
+							<!--The character the roll is being made against.-->
+							<attribute id="RollTargetSpeaker" type="int32" value="0" />
+							<!--This can be used to set situational advantage, but this node does not have situational advantage.-->
+							<attribute id="Advantage" type="uint8" value="0" />
+							<!--Should you exclude the extra bonuses to rolls companions can give you, like Guidance? In this case, no. Guide away.-->
+							<attribute id="ExcludeCompanionsOptionalBonuses" type="bool" value="False" />
+							<!--Same as above, only it's for the character making the roll.-->
+							<attribute id="ExcludeSpeakerOptionalBonuses" type="bool" value="False" />
+							<!--This links to the specific difficulty class for the roll, which is listed in the DifficultyClasses.lsx file. In this case, the difficulty class is 10.-->
+							<attribute id="DifficultyClassID" type="guid" value="fa621d38-6f83-4e42-a55c-6aa651a75d46" />
+							<children>
+								<node id="children">
+									<children>
+										<!--The children listed here are RollResult nodes, which will determine the path the dialogue takes based on whether the roll succeeded or not.-->
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="4eedb6b3-e4c9-442f-ada9-4d49f9f3159e" />
+										</node>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="a63379b1-3a27-4bf9-b2a8-943dd49155cf" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags">
+									<children>
+										<node id="flaggroup" key="type">
+										<!--A Global flag refers to flags that apply to the game broadly, and not just to specific characters.-->
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<!--The UUID of the flag being set. In this case, it's a flag to indicate you tried to intimidate Jason, which will change his response to you later.-->
+													<attribute id="UUID" type="FixedString" value="a93af79a-6bec-4ad8-9b6f-8c1bdc924e40" />
+													<!--This sets the flag to true.-->
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'And yet the blade of a knife is so sharp.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h4ff847e270644da4b0332cb3ea15c923ac69" version="2" />
+															<attribute id="LineId" type="guid" value="e2fa305a-bc63-4b56-8afc-c58c28e3906a" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ValidatedFlags">
+									<attribute id="ValidatedHasValue" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<!--This type of dialogue node determines the path taken depending on the result of the dice roll!-->
+							<attribute id="constructor" type="FixedString" value="RollResult" />
+							<attribute id="UUID" type="FixedString" value="4eedb6b3-e4c9-442f-ada9-4d49f9f3159e" />
+							<!--This will determine the path the dialogue takes if the roll succeeded.-->
+							<attribute id="Success" type="bool" value="True" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="57e523d8-ab96-4cc8-8a22-27455114a294" />
+										</node>
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="RollResult" />
+							<attribute id="UUID" type="FixedString" value="a63379b1-3a27-4bf9-b2a8-943dd49155cf" />
+							<!--This will determine the path the dialogue takes if the roll failed.-->
+							<attribute id="Success" type="bool" value="False" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="200e4d7c-ccb9-49dd-a0ce-ac4124725a0f" />
+										</node>
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+							</children>
+						</node>
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="57e523d8-ab96-4cc8-8a22-27455114a294" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="0e7e8c7a-b0bd-4404-9781-30f4e8e41da6" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Sharp laugh. Tagged text: HA! Hah-hah. Ugh...-->
+															<attribute id="TagText" type="TranslatedString" handle="hdbf39c3c7d06482ebe96dc3a71f9b7ed11ff" version="3" />
+															<attribute id="LineId" type="guid" value="b88ae674-3fda-4204-ad80-54f09992ee5d" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="0e7e8c7a-b0bd-4404-9781-30f4e8e41da6" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="bfadb532-41f1-4409-8f01-6598d789856d" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Fine, then. Take it.'-->
+															<attribute id="TagText" type="TranslatedString" handle="hbf1c3c82184d413db36b07921dc646a46969" version="3" />
+															<attribute id="LineId" type="guid" value="f3e6a3b0-d263-4345-918c-6e3b64cb781b" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>							
+
+
+						<node id="node" key="UUID">
+							<!--This dialogue node is used for cinematics! Animations, cutscenes, etc.-->
+							<attribute id="constructor" type="FixedString" value="TagCinematic" />
+							<attribute id="UUID" type="FixedString" value="bfadb532-41f1-4409-8f01-6598d789856d" />
+							<!--The speaker ID for cinematics is almost always -1, most likely to allow any character in the scene to participate.-->
+							<attribute id="speaker" type="int32" value="-1" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="117a4894-5684-4fca-a7a2-bf619e189cb8" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="editorData">
+									<children>
+										<node id="data" key="key">
+											<!--Can be used to list notes for yourself wrt what the cinematic is and its context. Not used by the game itself, it's just for you.-->
+											<attribute id="key" type="FixedString" value="CinematicNodeContext" />
+											<attribute id="val" type="LSString" value="Jason tosses coin into haystack." />
+										</node>
+									</children>
+								</node>								
+								<!--Cinematics also generally do not have tagged texts, so that attribute is not present here.-->
+							</children>
+						</node>		
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="117a4894-5684-4fca-a7a2-bf619e189cb8" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="00a4f854-cd55-4a5d-975d-82b280c7c3b4" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Maybe looking for a gold piece in a haystack will be a meditative experience for you.'-->
+															<attribute id="TagText" type="TranslatedString" handle="hdac1ddc9999b4415bd5c9a0f8b8079643091" version="3" />
+															<attribute id="LineId" type="guid" value="b041f623-2704-4758-b2c6-8c820ccd60c3" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>							
+
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="00a4f854-cd55-4a5d-975d-82b280c7c3b4" />
+							<!--Used to end the dialogue. This is the end of the conversation! Or, one branch of it, at least.-->
+							<attribute id="endnode" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<!--Having nothing listed for the children of a dialogue node can actually bring you back to the last set of player response options you were given, but in this case, since it's the end of the dialogue, you'll just exit the conversation.-->
+								<node id="children" />
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'I think you need it.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h2b8bc04a7489422e9879faa7d45d85a436e9" version="3" />
+															<attribute id="LineId" type="guid" value="a55bce9b-7e22-4146-9df8-3ac166732309" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>							
+
+
+						<node id="node" key="UUID">
+							<!--This is the result of the intimidation roll earlier failing.-->
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="200e4d7c-ccb9-49dd-a0ce-ac4124725a0f" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="c8f5a9e4-2d64-4282-81fd-03e4819b068a" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Oh, that's cute.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h953f209c26c74b7c8ef03d080fcb7d6ec2e4" version="3" />
+															<attribute id="LineId" type="guid" value="e74c313f-4772-45f3-b1aa-280d93afe459" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>			
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="c8f5a9e4-2d64-4282-81fd-03e4819b068a" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="7a6c009d-a612-41c4-a619-8b59bfe621dc" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'I suppose I could pity you, a little.'-->
+															<attribute id="TagText" type="TranslatedString" handle="had17a3cdd26d49b3a700c2d02dee581feb32" version="3" />
+															<attribute id="LineId" type="guid" value="44b9a45b-9921-4b47-b75b-4624ee92fee2" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>		
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="7a6c009d-a612-41c4-a619-8b59bfe621dc" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="d8ed6489-86a3-4a13-9463-06fa81872719" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Here.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h0a613dadc28d4ef3aae9321375f22937344b" version="3" />
+															<attribute id="LineId" type="guid" value="ba72eb37-2914-47dc-9b44-dcdc009b90a2" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<!--A jump dialogue node. This kind of node will allow you to jump to different parts of the timeline.-->
+							<attribute id="constructor" type="FixedString" value="Jump" />
+							<attribute id="UUID" type="FixedString" value="d8ed6489-86a3-4a13-9463-06fa81872719" />
+							<!--The dialogue node to jump to.-->
+							<attribute id="jumptarget" type="FixedString" value="bfadb532-41f1-4409-8f01-6598d789856d" />
+							<!--Allows you to jump to the line of dialogue and play it, or skip it entirely, which is helpful for passive rolls and returning to previous sets of dialogue options without replaying the line.
+                            
+                            jumptargetpoint 1 will take you to the line itself, and jumptargetpoint 2 will skip it!-->
+							<attribute id="jumptargetpoint" type="uint8" value="1" />
+							<children>
+								<node id="children" />
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagQuestion" />
+							<!--This approval rating file is meant to give Astarion and Shadowheart both +1 approval. It doesn't! But it still references the file for these approval ratings.-->
+							<attribute id="ApprovalRatingID" type="guid" value="eb20f498-5830-43c2-a563-6d9f6e0d0078" />
+							<attribute id="UUID" type="FixedString" value="798a3dc5-f267-48dc-a1f3-23950bbf0e16" />
+							<attribute id="speaker" type="int32" value="1" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="2d6bed91-999e-4d8f-b579-5e28a6cb6f70" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Look, it's no hard feelings. I'm just looking out for myself.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h6d18665e33f94907ad2bdd7c794af7f083c1" version="3" />
+															<attribute id="LineId" type="guid" value="20a414f5-65c1-4514-a5fc-c11b390b5c8e" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="2d6bed91-999e-4d8f-b579-5e28a6cb6f70" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="e7a965fa-7634-42e2-ad38-ae7ed1de2118" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Oh, you and me both.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h9858b0831c174facb4787e23a53e92ccbdc3" version="3" />
+															<attribute id="LineId" type="guid" value="4a9c5f31-0a5f-42e9-9c49-cabdf3786903" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<!--This kind of node allows you to play a line of dialogue from elsewhere in a file, so you can repeat the same line in different paths of the dialogue tree, and set different parameters to trigger it if necessary.-->
+							<attribute id="constructor" type="FixedString" value="Alias" />
+							<attribute id="UUID" type="FixedString" value="e7a965fa-7634-42e2-ad38-ae7ed1de2118" />
+							<!--This is almost always -1. I've not seen it be anything else.-->
+							<attribute id="speaker" type="int32" value="-1" />
+							<!--The line of dialogue the alias node is replicating, in this case, the line of dialogue it's emulating is the 'I suppose I could pity you, a little' line.-->
+							<attribute id="SourceNode" type="FixedString" value="c8f5a9e4-2d64-4282-81fd-03e4819b068a" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="58b7e9ff-85a2-4f11-a3b4-fc56afb7f5ee" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+							</children>
+						</node>						
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="58b7e9ff-85a2-4f11-a3b4-fc56afb7f5ee" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="fa16195a-acb7-4a47-bc6f-65b7b28fa4cd" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'And by that, I mean I'll give you a little bit of advice.'-->
+															<attribute id="TagText" type="TranslatedString" handle="hf43414fa01b24e7e930e23b80f5b6458b071" version="3" />
+															<attribute id="LineId" type="guid" value="e5cdd802-dd7d-41d7-b54c-474cb574ff6b" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="fa16195a-acb7-4a47-bc6f-65b7b28fa4cd" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="9bfaf81a-b9dc-43a1-bf84-183f3bac1fde" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Don't bothering anyone else.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h2df1d0c492e4400cbca28b6dc21a9073559a" version="3" />
+															<attribute id="LineId" type="guid" value="9ae576d0-e896-4efb-926b-305c0ec51532" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="9bfaf81a-b9dc-43a1-bf84-183f3bac1fde" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="f8049ea8-e0d8-4dd1-89e8-18044fad17cc" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: '...All right?' / Alright-->
+															<attribute id="TagText" type="TranslatedString" handle="h0f707a78268643309dca1056859cb4c8g2be" version="3" />
+															<attribute id="LineId" type="guid" value="49c2e438-463c-42c8-831e-365500b3d3f8" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="f8049ea8-e0d8-4dd1-89e8-18044fad17cc" />
+							<attribute id="endnode" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children" />
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: ''Professional extortionist' isn't really a title you'd want to aim for.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h33d148b8db0a43788f224977927727adb825" version="3" />
+															<attribute id="LineId" type="guid" value="3d34a55a-04e2-43d5-bce4-21c4f9eb1d19" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagQuestion" />
+							<attribute id="UUID" type="FixedString" value="04baa403-611c-439f-94b3-ba3c82b01a96" />
+							<attribute id="speaker" type="int32" value="1" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="e6f37a2e-0e21-4e31-b70d-6ab896be2833" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'It was nothing, really.'-->
+															<attribute id="TagText" type="TranslatedString" handle="hefff737a6f60496699c8fff6585a707c0fad" version="3" />
+															<attribute id="LineId" type="guid" value="63550b99-ad59-419d-b2a2-4adc3d91bd89" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="e6f37a2e-0e21-4e31-b70d-6ab896be2833" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="b583f5d8-f26e-4b20-b2c1-0d925446b7da" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Oh, I don't think so.'-->
+															<attribute id="TagText" type="TranslatedString" handle="hae6d097f086043eb8de46c581fc02a94c399" version="3" />
+															<attribute id="LineId" type="guid" value="cbef4693-b897-49c6-8efb-e5d66e5e2d84" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="b583f5d8-f26e-4b20-b2c1-0d925446b7da" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="9482c663-b961-4845-afd8-7991d6579d68" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'The world is cruel.'-->
+															<attribute id="TagText" type="TranslatedString" handle="h67e32d3cbae44ecd90bdd32a47f83d7e5e06" version="3" />
+															<attribute id="LineId" type="guid" value="32aed049-16aa-49e4-aed5-97e74037921f" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="9482c663-b961-4845-afd8-7991d6579d68" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="ff69de87-af29-407e-9a6f-4cc787c0ed19" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'It takes a lot to be kind.'-->
+															<attribute id="TagText" type="TranslatedString" handle="heb098af81a814372b9ecaf505ab1183f68e1" version="3" />
+															<attribute id="LineId" type="guid" value="5249e415-bc41-4d88-861b-d66faa432009" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="ff69de87-af29-407e-9a6f-4cc787c0ed19" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="fe6c0151-4d7c-4396-a11f-9755c5a8ca90" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: '...You take care out there, all right?'-->
+															<attribute id="TagText" type="TranslatedString" handle="h475107ddacfd4d42b372d60939314ac9f1gd" version="3" />
+															<attribute id="LineId" type="guid" value="604f2619-97b5-46f9-b748-6d971784a0bc" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="fe6c0151-4d7c-4396-a11f-9755c5a8ca90" />
+							<attribute id="endnode" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children" />
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'If I stumble on your corpse later, I'll be quite cross!'-->
+															<attribute id="TagText" type="TranslatedString" handle="h93c7ba65c46e4457bb9783033cfbef1a723b" version="3" />
+															<attribute id="LineId" type="guid" value="474e3e67-ea74-4276-8eec-e437262bdea5" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagGreeting" />
+							<attribute id="UUID" type="FixedString" value="0610cd4c-b761-4124-afa8-53fe0ca17fc7" />
+							<attribute id="Root" type="bool" value="True" />
+							<!--ShowOnce will prevent the dialog from being shown multiple times while you're talking to a character! This won't prevent it from showing if the conversation ends, and you talk to the character again. If the game flags are still valid for it to trigger, it'll be available again.-->
+							<attribute id="ShowOnce" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="ca2fc932-b8e2-4d11-a08f-ecba751a87ad" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags">
+									<children>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Dialog" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="2c60c719-c09f-4fa5-a1a1-8e5dbec6f1b6" />
+													<!--Again, this is where you check game flags to see if a line of dialogue should be available or not. This dialogue will only play if the HasMet flag for Jason is True! This flag was set earlier in the file, when the game was checking to see if HasMet flag for him was False. That line of dialogue should now be inaccessible, and this one should be accessible instead.-->
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+										<node id="flaggroup" key="type">
+											<!--A Global flag refers to flags that apply to the game broadly, and not just to specific characters.-->
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<!--This flag is checking for the MGNTN_PlayerIntimidatedJason flag I created, which is set if the player tried to intimidate Jason in their first conversation with him.-->
+													<attribute id="UUID" type="FixedString" value="a93af79a-6bec-4ad8-9b6f-8c1bdc924e40" />
+													<!--And specifically, it's checking to see whether the flag is False, meaning you didn't try to intimidate him. Be nice to him please <3-->
+													<attribute id="value" type="bool" value="False" />
+												</node>
+											</children>
+										</node>										
+									</children>
+								</node>
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: '...Dance upon the stars, tonight...'-->
+															<attribute id="TagText" type="TranslatedString" handle="h76469642791b4be581d35236815f374d6291" version="3" />
+															<attribute id="LineId" type="guid" value="ced061da-6bec-46c9-8782-beb1ee5ee0d3" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="ca2fc932-b8e2-4d11-a08f-ecba751a87ad" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="64350cc1-39b1-4c44-a705-90a0ff4eff80" />
+										</node>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="26d49997-770a-4866-b9d2-468bfb7abf6f" />
+										</node>
+									</children>
+								</node>                                
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<!--About Custom Sequences-->
+
+								<!--Sometimes, you can add multiple lines of dialog within the same node, and give them a unique entry in the timeline file using the 'CustomSequenceID' attribute!
+								
+								This is used for randomized dialog, like greetings, but also can be used to test for things like pronouns, whether the character is talking to a specific origin character, etc. This is super helpful if you want different lines that lead to the same places in the dialog tree! You shouldn't have to make multiple branches in a dialog tree just to respect someone's pronouns. And with this, you won't have to!
+								
+								You can also have multiple tagged texts for player responses, to insert different text depending on certain conditions, too. In those cases, you wouldn't put a custom sequence ID.-->
+								<node id="TaggedTexts">
+									<children>
+										<!--TaggedText can help group specific lines of text together, that are tested for a given rule. All lines within the same TaggedText entry will test for that rule. There can be multiple TaggedText entries in a TaggedTexts section!-->
+										<node id="TaggedText">
+											<!--This is usually True, even when nothing's being tested for.-->
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<!--Groups together all the different possible lines that can trigger based on the rule. When multiple lines are listed in the TagTexts section, the game will usually randomize between them. You can look to companion InParty greetings for examples!-->
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--The text handle for this line of dialog. In this case, it's, 'Now, where did I hear that?'-->
+															<attribute id="TagText" type="TranslatedFSString" value="" handle="h1a12158b1f77436dbc297a71d61ed85cb636" arguments="0" />
+															<!--UUID for this line specifically. This usually matches the CustomSequenceID!-->
+															<attribute id="LineId" type="guid" value="c2e05307-ac80-4afc-ba5f-346b3b6c9704" />
+															<!--The CustomSequenceID is used in the dialog timeline file to identify which line it needs to play! It's used to identify the line's unique PhaseIndex, and is also used to pull the correct audio for TLVoice, which I've explained more in Jason's timeline file.-->
+															<attribute id="CustomSequenceId" type="guid" value="c2e05307-ac80-4afc-ba5f-346b3b6c9704" />															
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<!--The rules the lines are testing for.-->
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules">
+															<children>
+																<node id="Rule">
+																	<attribute id="HasChildRules" type="bool" value="False" />
+																	<attribute id="speaker" type="int32" value="1" />
+																	<attribute id="TagCombineOp" type="uint8" value="0" />
+																	<children>
+																		<node id="Tags">
+																			<children>
+																				<!--I'm testing for the REALLY_DARK_URGE tag here.
+																				
+																				Note: I've only been able to find ingame examples testing for tags in custom sequences, but I'm not totally convinced you can't test for other game conditions. Will have to experiment more.-->
+																				<node id="Tag">
+																					<attribute id="Object" type="guid" value="cd611d7d-b67d-42b4-a75c-a0c6091ef8a2" />
+																				</node>
+																			</children>
+																		</node>
+																	</children>
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--...Ok so, this is actually the same tagged text as before: 'Now, where did I hear that?' This means the audio file will be...exactly the same!
+															
+															That's because there's another use for custom sequences:
+															
+															Since they allow you to add new entries to the dialog timeline file, without having to make new dialog tree branches, I'm using these custom sequences to test for whether Durge is speaking to him, and give them a different expression during the line.
+															
+															Durge spoilers ahead, but I was actually planning on testing for whether you'd killed Alfira, and have Durge react differently to the song based on that. But I couldn't find instances of the game testing for anything but tags in custom sequences, so, hm. Will have to experiment more. This still works as a demonstration, though!
+															
+															...Also, let's assume Jason genuinely doesn't remember where he heard Alfira's song for this demo. Or that he doesn't know she's dead, if she is. This probably wouldn't be a very in-character reaction otherwise...-->
+															<attribute id="TagText" type="TranslatedFSString" value="" handle="h1a12158b1f77436dbc297a71d61ed85cb636" arguments="0" />
+															<attribute id="LineId" type="guid" value="5789187f-66e0-48d6-817b-4e11de6a1f2a" />
+															<!--This will be used to identify the line that's Not testing for Durge in the timeline file.-->
+															<attribute id="CustomSequenceId" type="guid" value="5789187f-66e0-48d6-817b-4e11de6a1f2a" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<!--There aren't any rules being tested for here!-->
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	  
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagQuestion" />
+							<attribute id="UUID" type="FixedString" value="64350cc1-39b1-4c44-a705-90a0ff4eff80" />
+							<attribute id="speaker" type="int32" value="1" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="a0bf5e45-9c51-4405-8ba0-0ed63a46dec4" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Can I have a hug?'-->
+															<attribute id="TagText" type="TranslatedString" handle="hdf5bad85g651dg46c3g94f9g17061376a3a6" version="3" />
+															<attribute id="LineId" type="guid" value="957e920c-2d8e-477f-9be6-01b3f8983d64" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+						<!--This player response is designed to close out the conversation.-->
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagQuestion" />
+							<attribute id="UUID" type="FixedString" value="26d49997-770a-4866-b9d2-468bfb7abf6f" />
+							<attribute id="endnode" type="bool" value="True" />
+							<!--ShowOnce is also sometimes necessary to properly close out dialog! I haven't found a consistent pattern yet, though.-->
+							<attribute id="ShowOnce" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="1" />
+							<children>
+								<node id="children" />
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--TaggedText: 'Leave.'-->
+															<attribute id="TagText" type="TranslatedString" handle="hb7d239eage942g4c0cg9215gcc05b130cf08" version="1" />
+															<attribute id="LineId" type="guid" value="67e98d34-fea9-4c32-a9e1-a58bba7b7ce1" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ValidatedFlags">
+									<attribute id="ValidatedHasValue" type="bool" value="False" />
+								</node>
+							</children>
+						</node>
+
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagGreeting" />
+							<attribute id="UUID" type="FixedString" value="e403b39b-4ebc-402b-b227-c99c51605998" />
+							<attribute id="Root" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+											<attribute id="UUID" type="FixedString" value="4b0ae07b-f4c2-4d87-816b-23594c1d4150" />
+										</node>
+									</children>
+								</node>
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags">
+									<children>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Dialog" />
+											<children>
+												<node id="flag" key="UUID">
+													<attribute id="UUID" type="FixedString" value="2c60c719-c09f-4fa5-a1a1-8e5dbec6f1b6" />
+													<!--Once again, this dialogue is testing to see whether the HasMet flag is True.-->
+													<attribute id="value" type="bool" value="True" />
+													<attribute id="paramval" type="int32" value="1" />
+												</node>
+											</children>
+										</node>
+										<node id="flaggroup" key="type">
+											<attribute id="type" type="FixedString" value="Global" />
+											<children>
+												<node id="flag" key="UUID">
+													<!--This flag is checking for the MGNTN_PlayerIntimidatedJason flag I created again.-->
+													<attribute id="UUID" type="FixedString" value="a93af79a-6bec-4ad8-9b6f-8c1bdc924e40" />
+													<!--And specifically, it's checking to see whether the flag is True. Aw. Meanie...-->
+													<attribute id="value" type="bool" value="True" />
+												</node>
+											</children>
+										</node>										
+									</children>
+								</node>
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'Oh, if it isn't my scary friend!'-->
+															<attribute id="TagText" type="TranslatedString" handle="h11e5e945e2424e228a0888b02cb618c04129" version="3" />
+															<attribute id="LineId" type="guid" value="4cf348ac-1bce-4228-8364-687790afeffd" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+						<node id="node" key="UUID">
+							<attribute id="constructor" type="FixedString" value="TagAnswer" />
+							<attribute id="UUID" type="FixedString" value="4b0ae07b-f4c2-4d87-816b-23594c1d4150" />
+							<attribute id="endnode" type="bool" value="True" />
+							<attribute id="ShowOnce" type="bool" value="True" />
+							<attribute id="speaker" type="int32" value="0" />
+							<children>
+								<node id="children" />
+								<node id="GameData">
+									<children>
+										<node id="AiPersonalities" key="AiPersonality" />
+										<node id="MusicInstrumentSounds" />
+										<node id="OriginSound" />
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="TaggedTexts">
+									<children>
+										<node id="TaggedText">
+											<attribute id="HasTagRule" type="bool" value="True" />
+											<children>
+												<node id="TagTexts">
+													<children>
+														<node id="TagText">
+															<!--Text: 'I hope that little gold piece I tossed you wasn't too hard to find...'-->
+															<attribute id="TagText" type="TranslatedString" handle="hc00842d2502d4d1e8d4aad233d2e66c81gfd" version="3" />
+															<attribute id="LineId" type="guid" value="e66ae43c-a720-44f9-8826-52979d523c58" />
+															<attribute id="stub" type="bool" value="True" />
+														</node>
+													</children>
+												</node>
+												<node id="RuleGroup">
+													<attribute id="TagCombineOp" type="uint8" value="0" />
+													<children>
+														<node id="Rules" />
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>	                        
+
+						<node id="node" key="UUID">
+                            <!--A nested dialog node can link to other dialog files! Often this is for specific types of conversations, like for romance dialog, but sometimes cutscenes and story moments, like the scene in Act 2 with the Nightsong, are split up into nested dialog files, too.
+                            
+                            You'll need to add the Dialog Resource of the nested dialog as a child of the Dialog Resource of the original dialog in order to link from one to the other, though. More information can be found in the Dialog Assets file, which has the Dialog Resource entries for Jason's dialog. That can be found in this file path here:
+                            
+                            \\MGNTN_JasonDialogDemo\Public\MGNTN_JasonDialogDemo\Content\Assets\Dialogs\MGNTN_DialogDemo\_MGNTN_JasonDialogDemo_DialogResource01.lsf-->
+							<attribute id="constructor" type="FixedString" value="Nested Dialog" />
+                            <!--The UUID of this specific dialog node, which can be referenced as a child of another node in this file to select the nested dialog.-->
+							<attribute id="UUID" type="FixedString" value="a0bf5e45-9c51-4405-8ba0-0ed63a46dec4" />
+                            <!--The Dialog Resource ID for the dialog file you're jumping to.-->
+							<attribute id="NestedDialogNodeUUID" type="guid" value="6a881524-9bcb-436e-885c-8267410c544d" />
+							<children>
+								<node id="children">
+									<children>
+										<node id="child">
+                                            <!--The UUID of the dialog node you're jumping to.-->
+											<attribute id="UUID" type="FixedString" value="2f61043b-199c-4317-876d-732a2b1ddead" />
+										</node>
+									</children>
+								</node>
+								<node id="Tags" />
+								<node id="setflags" />
+								<node id="checkflags" />
+								<node id="SpeakerLinking">
+									<children>
+										<node id="SpeakerLinkingEntry">
+											<attribute id="Key" type="int32" value="0" />
+											<attribute id="Value" type="int32" value="0" />
+										</node>
+										<node id="SpeakerLinkingEntry">
+											<attribute id="Key" type="int32" value="1" />
+											<attribute id="Value" type="int32" value="1" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+
+
+
+						<!--Used to list the UUIDs for lines of dialogue that can be shown first in a conversation. There can be more than one root dialogue node! These are usually TagGreeting nodes, and are Root = True attribute. You can test for multiple TagGreeting nodes using the checkflags attribute, like I do in this file.-->
+						<node id="RootNodes">
+							<attribute id="RootNodes" type="FixedString" value="194918e5-fe1a-4a56-b902-45f7ad9f1a10" />
+						</node>	
+						<node id="RootNodes">
+							<attribute id="RootNodes" type="FixedString" value="0610cd4c-b761-4124-afa8-53fe0ca17fc7" />
+						</node>	
+						<node id="RootNodes">
+							<attribute id="RootNodes" type="FixedString" value="e403b39b-4ebc-402b-b227-c99c51605998" />
+						</node>																	
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,121 @@
+Emotion Rigs and their corresponding ID values in the Dialogue Timeline Files:
+
+1 = Neutral
+    • Neutral_A = No variation attribute provided; only the emotion is listed. 
+    • Neutral_B = 1 
+    • Neutral_C = 2 
+    • Neutral_D = 3 
+    • Neutral_E = 4 
+    • Neutral_X = 23 
+    • Neutral_Y = 24 
+    • Neutral_Z = 25
+
+2 = Happy
+    • Happy_A = No variation attribute provided; only the emotion is listed. 
+    • Happy_B = 1 
+    • Happy_C = 2 
+    • Happy_D = 3 
+    • Happy_E = 4 
+    • Happy_X = 23 
+    • Happy_Y = 24 
+    • Happy_Z = 25
+
+4 = Thinking
+    • Thinking_A = No variation attribute provided; only the emotion is listed. 
+    • Thinking_B = 1 
+    • Thinking_C = 2 
+    • Thinking_D = 3 
+    • Thinking_E = 4 
+    • Thinking_X = 23 
+    • Thinking_Y = 24 
+    • Thinking_Z = 25
+
+8 = Angry
+    • Angry_A = No variation attribute provided; only the emotion is listed. 
+    • Angry_B = 1 
+    • Angry_C = 2 
+    • Angry_D = 3 
+    • Angry_E = 4 
+    • Angry_X = 23 
+    • Angry_Y = 24 
+    • Angry_Z = 25
+
+16 = Fear
+    • Fear_A = No variation attribute provided; only the emotion is listed. 
+    • Fear_B = 1 
+    • Fear_C = 2 
+    • Fear_D = 3 
+    • Fear_E = 4 
+    • Fear_X = 23 
+    • Fear_Y = 24 
+    • Fear_Z = 25
+
+32 = Sad
+    • Sad_A = No variation attribute provided; only the emotion is listed. 
+    • Sad_B = 1 
+    • Sad_C = 2 
+    • Sad_D = 3 
+    • Sad_E = 4 
+    • Sad_X = 23 
+    • Sad_Y = 24 
+    • Sad_Z = 25
+
+64 = Surprised
+    • Surprised_A = No variation attribute provided; only the emotion is listed. 
+    • Surprised_B = 1 
+    • Surprised_C = 2 
+    • Surprised_D = 3 
+    • Surprised_E = 4 
+    • Surprised_X = 23 
+    • Surprised_Y = 24 
+    • Surprised_Z = 25
+
+128 = Disgust
+    • Disgust_A = No variation attribute provided; only the emotion is listed. 
+    • Disgust_B = 1 
+    • Disgust_C = 2 
+    • Disgust_D = 3 
+    • Disgust_E = 4 
+    • Disgust_X = 23 
+    • Disgust_Y = 24 
+    • Disgust_Z = 25
+
+256 = Sleeping
+    • Sleeping_A = No variation attribute provided; only the emotion is listed. 
+    • Sleeping_B = 1 
+    • Sleeping_C = 2 
+    • Sleeping_D = 3 
+    • Sleeping_E = 4 
+    • Sleeping_X = 23 
+    • Sleeping_Y = 24 
+    • Sleeping_Z = 25
+
+512 = Dead
+    • Dead_A = No variation attribute provided; only the emotion is listed. 
+    • Dead_B = 1 
+    • Dead_C = 2 
+    • Dead_D =3 
+    • Dead_E = 4 
+    • Dead_X = 23 
+    • Dead_Y = 24 
+    • Dead_Z = 25
+
+1024 = Confusion
+    • Confusion_A = No variation attribute provided; only the emotion is listed. 
+    • Confusion_B = 1 
+    • Confusion_C = 2 
+    • Confusion_D = 3 
+    • Confusion_E = 4 
+    • Confusion_X = 23 
+    • Confusion_Y = 24 
+    • Confusion_Z = 25
+
+2048 = Pain
+    • Pain_A = No variation attribute provided; only the emotion is listed. 
+    • Pain_B = 1 
+    • Pain_C = 2 
+    • Pain_D = 3 
+    • Pain_E = 4 
+    • Pain_X = 23 
+    • Pain_Y = 24 
+    • Pain_Z = 25

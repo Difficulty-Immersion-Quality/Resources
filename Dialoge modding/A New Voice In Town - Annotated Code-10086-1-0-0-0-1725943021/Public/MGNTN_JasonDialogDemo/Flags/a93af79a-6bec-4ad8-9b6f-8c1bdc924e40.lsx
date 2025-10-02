@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="611" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Flags">
+		<node id="Flags">
+			<!--Generate new UUID and make this the file name for your flag-->
+			<attribute id="UUID" type="guid" value="a93af79a-6bec-4ad8-9b6f-8c1bdc924e40" />
+			<!--Also give the flag a unique name-->
+			<attribute id="Name" type="FixedString" value="MGNTN_PlayerIntimidatedJason" />
+			<!--You can give longer descriptions to remind yourself what a flag does here!-->
+			<attribute id="Description" type="LSString" value="Player tried intimidating Jason in their first conversation with him." />
+			<!--This usage is generally for Global flags!-->
+			<attribute id="Usage" type="uint8" value="5" />
+		</node>
+	</region>
+</save>

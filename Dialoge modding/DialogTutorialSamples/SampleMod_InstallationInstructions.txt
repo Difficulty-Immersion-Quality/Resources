@@ -1,0 +1,27 @@
+Sample mods were made for Patch 6, Hotfix 25!
+
+Install loose file mods by dragging the "Public" folder in the "ForInstallation" folders into your BG3 Data folder!
+
+Make sure you're not testing these mods with other mods that edit the same scenes, including my own mods, like Wyll's Act 3 Romance Tweaks, Astarion Romance Reactions Fixed,
+and Suddenly Strong Astarion Begone.
+
+To uninstall, just delete the loose files from your BG3 Data folder. All changes made by the mods should revert on uninstallation, even mid-playthrough.
+
+
+To install the .pak sample mod:
+
+The mod demonstrating TLSwitchLocationEvent/TLAtmosphereAndLighting needs to be installed as a .pak file, due to it using a custom SceneTrigger, which has to be packed.
+
+Install via BG3 Mod Manager, and make sure the .pak is in your load order! The .pak mod should also be safe to uninstall, even mid playthrough.
+
+
+*** A note about Patch 7 ***
+
+  - All of the sample mods were made for Patch 6, Hotfix 25!
+  - Because of this, the DialogsBinary and Dialog Scene files from that patch have been included in the ForInstallation folder, to ensure
+    the dialog works as intended. Doing this reverted the Patch 7 changes.
+  - The way dialog files function is unchanged, and this tutorial still applies to Patch 7 dialog!
+  - However, some of the files I used had new content added for Patch 7, which would have broken the sample mods.
+  - I don't currently have time to edit many of the sample mods! And they were never meant to be played with permanently anyway.
+  - They're still useful as demonstrations, but know that by using them, any content added by Patch 7 will no longer be present
+    in those scenes.

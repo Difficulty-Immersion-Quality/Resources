@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+<!--Character name, title, description, CC voicebank label-->
+  <content contentuid="h20740c25ce4b4f2bb42f236dbafdd758bf0a" version="1">Jason</content>  
+  <content contentuid="h41f4f92966ba44718c381f5c8d751d7738cc" version="1">Mysterious Chatty Elf</content> 
+  <content contentuid="hafed2182d5614ead922e5be31689c080b7b4" version="1">A mysterious elf with something important to say to you.</content> 
+  <content contentuid="h7a4d7ce4d71746cba695ad326685ddc47103" version="1">Voice of Jason</content> 
+
+<!--Jason Voice Lines-->
+  <content contentuid="h3c280632737c454b9f1bac7cef87a669201d" version="1">It's you! The mighty defenders of this little grove.</content>  
+  <content contentuid="h6f24a6cdedb2436d9dd8bb4b1ff6462ed0b0" version="1">There's not many who would stick their necks out for others like that.</content>  
+  <content contentuid="h580e6615c3364b05843d7575309ad942e568" version="1">Thank you. It means a lot.</content>  
+  <content contentuid="h078dfca2243845789a0afb48381aeb946112" version="1">Oh, that's a shame.</content>  
+  <content contentuid="hc648329e90de4c0084ab6d9afba1b67e37e2" version="1">I hadn't pegged you for a common mercenary.</content>   
+  <content contentuid="h3227e20f28de4068a11b4a896b67a564c5ed" version="1">That's a bit dull.</content> 
+  <content contentuid="h8486e39e7fb947f08da1908ebb50239b867f" version="1">...Don't you think?</content> 
+  <content contentuid="hdbf39c3c7d06482ebe96dc3a71f9b7ed11ff" version="1">HA! Hah-hah. Ugh...</content>    
+  <content contentuid="hbf1c3c82184d413db36b07921dc646a46969" version="1">Fine, then. Take it.</content>  
+  <content contentuid="hdac1ddc9999b4415bd5c9a0f8b8079643091" version="1">Maybe looking for a gold piece in a haystack will be a meditative experience for you.</content>  
+  <content contentuid="h2b8bc04a7489422e9879faa7d45d85a436e9" version="1">I think you need it.</content>  
+  <content contentuid="h953f209c26c74b7c8ef03d080fcb7d6ec2e4" version="1">Oh, that's cute.</content>  
+  <content contentuid="had17a3cdd26d49b3a700c2d02dee581feb32" version="1">Well, I suppose I could pity you - a little.</content>  
+  <content contentuid="h0a613dadc28d4ef3aae9321375f22937344b" version="1">Here.</content>  
+  <content contentuid="hf43414fa01b24e7e930e23b80f5b6458b071" version="1">And by that, I mean I'll give you a little bit of advice.</content>  
+  <content contentuid="h2df1d0c492e4400cbca28b6dc21a9073559a" version="1">Don't go bothering anyone else.</content> 
+  <!--Alright? < This is so I can find this line later. Game consistently writes it as all right so I'm going to do that too. I might forget I did that tho so, comment time-->
+  <content contentuid="h0f707a78268643309dca1056859cb4c8g2be" version="1">...All right?</content>    
+  <content contentuid="h33d148b8db0a43788f224977927727adb825" version="1">'Professional extortionist' isn't really a title you'd want to aim for.</content>  
+  <content contentuid="h9858b0831c174facb4787e23a53e92ccbdc3" version="1">Oh, you and me both.</content>  
+  <content contentuid="hae6d097f086043eb8de46c581fc02a94c399" version="1">Oh, I don't think so.</content>  
+  <content contentuid="h67e32d3cbae44ecd90bdd32a47f83d7e5e06" version="1">The world is cruel.</content> 
+  <content contentuid="heb098af81a814372b9ecaf505ab1183f68e1" version="1">It takes a lot to be kind.</content>  
+  <content contentuid="h475107ddacfd4d42b372d60939314ac9f1gd" version="1">...You take care out there, all right?</content>  
+  <content contentuid="h93c7ba65c46e4457bb9783033cfbef1a723b" version="1">If I stumble on your corpse later, I'll be quite cross!</content>  
+
+  <!--Lines for if you've spoken to him before-->
+  <content contentuid="h76469642791b4be581d35236815f374d6291" version="1">&lt;i&gt;...Dance upon the stars, tonight...&lt;/i&gt;</content>  
+  <content contentuid="h1a12158b1f77436dbc297a71d61ed85cb636" version="1">Now, where did I hear that...?</content>  
+  <content contentuid="h11e5e945e2424e228a0888b02cb618c04129" version="1">Oh, if it isn't my scary friend!</content>  
+  <content contentuid="hc00842d2502d4d1e8d4aad233d2e66c81gfd" version="1">I hope that little gold piece I tossed you wasn't too hard to find...</content> 
+
+  <!--Lines if you ask him for a hug-->
+  <content contentuid="h53357172703d4b528687eab784920b1a6f0a" version="1">Oh... Adventuring gets rather hard, doesn't it...?</content> 
+  <content contentuid="ha0529acd355e4e758830ac9db7b0daf8c652" version="1">Come here.</content>
+
+  <!--Responses for Wyll origin specifically I'd like to add later!-->
+  <content contentuid="hd4e9bec84723419b8ba7b3834f708adb4809" version="1">Oh, I know.</content>  
+  <content contentuid="haff4700425554351b3b5d7bc583cb99ca41f" version="1">Your reputation does precede you, my friend.</content>  
+  <content contentuid="h6e182b4190d74a71a5147c6638d444e9238e" version="1">I do hope you're taking at least little time for yourself, though.</content>  
+  <content contentuid="h9b318c2fc89b43e7a95f16299f49297bc45c" version="1">The bards tell tales of your deeds, and it seems to me like there's a good man at the heart of them.</content>
+  <content contentuid="hd9f684ced87d4d90b26c68cb3e61deb7e505" version="1">I think the story deserves a happy ending.</content>  
+
+
+<!--Player Responses-->
+  <content contentuid="h56fc2f953493498e9e92776470a0e0f8ba0b" version="1">Don't thank me. I don't work for free - and I take my payment up front.</content>
+  <content contentuid="h4ff847e270644da4b0332cb3ea15c923ac69" version="1">And yet the blade of a knife is &lt;i&gt;so&lt;/i&gt; sharp.</content>
+  <content contentuid="h6d18665e33f94907ad2bdd7c794af7f083c1" version="1">Look, it's no hard feelings. I'm just looking out for myself.</content>    
+  <content contentuid="hefff737a6f60496699c8fff6585a707c0fad" version="1">It was nothing, really.</content> 
+  <content contentuid="hf05b200492424f6583e4a475e90487882fcc" version="1">All in a day's work for the Blade of Frontiers.</content> 
+  <content contentuid="h9863357eb38a4529af0cfa75c79cff32abc0" version="1">I do what I can - the world is a cruel place.</content> 
+  <content contentuid="ha5174058b28d41aa9719992476a32157aedd" version="1">...You're not from around here, are you?</content> 
+
+</contentList>

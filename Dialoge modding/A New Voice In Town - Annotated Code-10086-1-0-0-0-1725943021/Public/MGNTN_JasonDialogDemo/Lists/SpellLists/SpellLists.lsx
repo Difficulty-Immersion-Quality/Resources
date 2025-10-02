@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="300"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Jason Spells before Recruitment"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_WitchBolt;Zone_Thunderwave;Target_HealingWord;Target_MageArmor;Target_DissonantWhispers;Projectile_FireBolt;Projectile_RayOfFrost;Target_CureWounds"/>
+                    <attribute id="UUID" type="guid" value="dcb49068-b047-4101-b76b-845107afff3e"/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>
