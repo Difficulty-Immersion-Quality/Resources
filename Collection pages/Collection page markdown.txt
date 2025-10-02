@@ -1,23 +1,10 @@
-### [![](https://i.postimg.cc/mZFWC42n/the-four-horsemen-of-the-goonpocalypse-big.png)](https://next.nexusmods.com/profile/BaldursGoonsack/collections)
+# ![](https://i.postimg.cc/90BrWCgv/Copy-of-Copy-of-Index.png)Put some hairs on your chest with Difficulty, Immersion, Quality!
 
-***
-
-### My Other Baldur's Gate 3 Collections:
-
-- [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding further build options.
-- [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding more items!
-- [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding customisation options.
-- [BG3 Essentials](https://next.nexusmods.com/baldursgate3/collections/1asizr) A basic collection comprised of the building blocks for most mod lists, Native mods, Script Extender, UI Improvements etc. (**Note:** These mods are already included in [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv).)
-- [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj) Where I lay mods to rest after removal from the other collections. (**Note:** Not for general use.)
-
-***
-
-> ⚠️**NOTE:** If you want to mod a game you must be willing to **read**, **learn** and **commit** some time to it. Even when using a collection in its default state you should be attempting to understand the **what**, **why** and **how**.
-
+- ⚠️If you want to mod a game you must be willing to **read**, **learn** and **commit** some time to it. Even when using a collection in its default state you should be attempting to understand the **what**, **why** and **how**.
 - ❓If you have a general question it's likely already answered on this page.
 - 🏆You can earn achievements with this collection installed thanks to [Script Extender](https://github.com/Norbyte/bg3se)!
 - ⚙️You must use both [Vortex](https://www.nexusmods.com/about/vortex/) and [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) for this collection.
-- 💡A decent portion of the collection's size is found in the optional mods. Using Symlinks through [Vortex](https://www.nexusmods.com/about/vortex/) saves some space.
+- 💡A decent portion of the collection's size is found in the optional mods.
 - 🎮A number of mods are only relevant for keyboard & mouse, controllers will work just fine but K\&B is recommended.
 - ✍🏻Most mods are not translated to languages other than English, some comprehension of English is basically required.
 
@@ -56,10 +43,23 @@
 [![](https://i.postimg.cc/Zn3jjsBg/discord-banner-collection-page.png)](https://discord.gg/baldursgoonsacks)
 </details>
 
+<details><summary>📜All Of My BG3 Collections</summary>
+# 📜All Of My BG3 Collections
+
+- [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) This one.
+- [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding further build options.
+- [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding more items!
+- [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding customisation options.
+- [BG3 Essentials](https://next.nexusmods.com/baldursgate3/collections/1asizr) A basic collection comprised of the building blocks for most mod lists, Native mods, Script Extender, UI Improvements etc. (**Note:** These mods are already included in [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv).)
+- [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj) Where I lay mods to rest after removal from the other collections. (**Note:** Not for general use.)
+
+### [![](https://i.postimg.cc/mZFWC42n/the-four-horsemen-of-the-goonpocalypse-big.png)](https://next.nexusmods.com/profile/BaldursGoonsack/collections)
+</details>
+
 ***
 
 ![](https://i.postimg.cc/XYqpbMfz/Index.png)🫠Unfortunately I cannot hyperlink to the different sections of this page.
-🫠Also, you cannot use CTRL+F search functions to find results in unopened drop down menus.
+🫠Also, you cannot use CTRL+F search functions to find results in unopened drop-downs.
 
 1. Installation Guide - Vortex, BG3MM & Configs💡      <---Don't skip steps!
 2. Updating Guide - Collection & Game Updates⚠️       <---Don't update blindly!
@@ -73,23 +73,23 @@
 ![](https://i.postimg.cc/tJjD992g/1-Installation-Guide-Vortex-BG3-MM-Configs.png)⚠️Please do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order, use[ BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)).
 
 <details><summary>💻Video Guide  - OLD!</summary>
-# Video Guide  - OLD!
+# 💻Video Guide  - OLD!
 
-> I still **HIGHLY** recommend following along with written guides for further clarity and updated information.
-
-> Consider this video complimentary, it's not a full replacement. PLEASE READ! READ! READ!
+- ❗️It's essential to follow along the with written guides for clarity and updated information.
+- ⚠️Consider this video complimentary, it's not a full replacement for reading.
 
 https://www.youtube.com/watch?v=5u67KMwlfQY
 </details>
 
 <details><summary>⚡️Pre-Install: System Prerequisites  - Step #0</summary>
-# Pre-Install: System Prerequisites
+# ⚡️Pre-Install: System Prerequisites  - Step #0
 
 - Mac operating systems (OS) are not supported **PERIOD** due to lack of support from [Script Extender](https://github.com/Norbyte/bg3se) and game updates. Windows 10/11 or Linux systems only, all I know about Linux is the video below so I cannot offer advice for setting up the collection on a Linux OS.\
   \
   Related [Discord](https://discord.gg/baldursgoonsacks) thread: [Adventures Through Linux Gaming ( R\&D Thread )](https://ptb.discord.com/channels/1174823496086470716/1357103513162874911) \
   \
   **Note:** Because there's a Linux version of Baldur's Gate 3 now, you **must** force compatibility with a proton layer in the Steam settings, otherwise it will download and install the native Linux version, which will break [Vortex](https://www.nexusmods.com/about/vortex/) functionality.\
+  \
   ![](https://i.postimg.cc/bJjYcSj8/image-34.png)
 
 <details><summary>❓Kyozel's Endeavours to Play DIQ on EndeavourOS</summary>
@@ -177,8 +177,11 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 - You'll need to be able to view hidden files to easily access appdata folders etc.\
   1\. Open ***File Explorer*** from the taskbar.\
   2\. Select ***View*** > ***Show*** > ***Hidden items***.\
+  \
   ![](https://i.postimg.cc/VkBZykf6/Screenshot-2024-07-17-125957.png)You can also just search "hidden files" and select the following.\
+  \
   ![](https://i.postimg.cc/xdXmv642/Screenshot-2024-07-17-130344.png)**Bonus:** Seeing file extensions is very handy as well, if you don't have that enabled do it now.\
+  \
   ![](https://i.postimg.cc/CKp071vx/Screenshot-2024-07-17-130415.png)
 - **Bonus:** Here's a [Steam](https://store.steampowered.com/about/) guide going over a bunch of stuff to potentially increase performance, a clean PC is a happy PC: [Essential PC Tweaks to Improve Game Performance and Stability](https://steamcommunity.com/sharedfiles/filedetails/?id=3016159305)&#x20;
 
@@ -207,82 +210,125 @@ https://www.youtube.com/watch?v=xh91YywWaEo
    \
    **Note:** There's a good reason for this, you don't want to update the game prior to collection revisions coming out, if there's an update available without a matching collection revision set [Steam](https://store.steampowered.com/about/) into ***Offline Mode*** prior to launching.\
    For more information please read ***2: Updating Guide - Collection & Game Updates***⚠️.\
+   \
    ![](https://i.postimg.cc/zGWhHZQP/image2222222222222222222222222222.png)
 2. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** select ***Verify integrity of game files***.\
    You'll need to wait for this process under your [Steam](https://store.steampowered.com/about/) downloads to finish before continuing.\
    **Note:** I've even seen fresh installs get fixed from doing this, you are not above this step!\
-   **ALSO:** If you're playing on a downgraded install you cannot ***Verify integrity of game files*** without [Steam](https://store.steampowered.com/about/) fetching files from the latest version, so in these cases skip this step. For more information please read ***2: Updating Guide - Collection & Game Updates***⚠️. \
+   **ALSO:** If you're playing on a downgraded install you cannot ***Verify integrity of game files*** without [Steam](https://store.steampowered.com/about/) fetching files from the latest version, so in these cases skip this step. For more information please read ***2: Updating Guide - Collection & Game Updates***⚠️.\
+   \
    ![](https://i.postimg.cc/gkjqJ7df/image11111111111111111111.png)
-3. Once your install is finished being verified by [Steam](https://store.steampowered.com/about/) launch the game to open the ***Larian Launcher*** and select the ***Settings*** cog icon, underneath ***General*** untick the box for ***Enable stats tracking***.![](https://i.postimg.cc/MpFWwv5C/image.png)![](https://i.postimg.cc/cChSbH65/image.png)
+3. Once your install is finished being verified by [Steam](https://store.steampowered.com/about/) launch the game to open the ***Larian Launcher*** and select the ***Settings*** cog icon, underneath ***General*** untick the box for ***Enable stats tracking***.\
+   \
+   ![](https://i.postimg.cc/MpFWwv5C/image.png)![](https://i.postimg.cc/cChSbH65/image.png)
 4. Again in the ***Larian launcher***, use ***DirectX 11*** instead of ***Vulkan*** as your game's API.\
    This is a general recommendation for performance and mod functionality, I've seen very few users have a better time with ***Vulkan***.\
+   \
    ![](https://i.postimg.cc/VLNQNzJm/image.png)
-5. New with **Patch #7** is making sure you're not signed in to **ANY** in game accounts! If you're signed in to accounts the game will subscribe you to collection mods that are also present on [mod.io](https://mod.io/g/baldursgate3). This can cause dirty installs, especially when updating DIQ.\
+5. Make sure you're not signed in to **ANY** in game accounts, including the launcher! If you're signed in to accounts the game will subscribe you to collection mods that are also present on [mod.io](https://mod.io/g/baldursgate3). This can cause dirty installs, especially when updating DIQ.\
    \
-   You can unsubscribe from mods in game if you're signed into [mod.io](https://mod.io/g/baldursgate3), alternatively, unsubscribe from mods on the [mod.io](https://mod.io/g/baldursgate3) website.\
-   **Note:** [mod.io](https://mod.io/g/baldursgate3) and [Larian](https://larian.com) accounts are separate but can be linked.\
-   \
-   If using the [mod.io](https://mod.io/g/baldursgate3) website just filter by ***My subscriptions***, then click the ***Subscribed*** button to unsubscribe from each mod. This helps to ensure your game won't download a bunch of conflicting mods.\
-   ![](https://i.postimg.cc/kXVP4Tfk/Screenshot-2024-11-28-151349.png)
-6. Launch into the game at least once on a clean game install to generate files. This includes going through character creation and into the tutorial level to make sure it's working as intended.
+   **Note:** Being signed out of in-game accounts is not harmful to multiplayer functionality, as you should be using ***direct connect*** as your method of connection anyway.\
+   .
+6. Launch into the game at least once on a clean game install to generate files. This includes going through character creation and into the tutorial level to make sure it's working as intended.\
+   .
 7. Under ***Video*** -> ***General*** set ***Display Mode*** to ***Fullscreen***.\
-   Unless you're constantly tabbing out of the game It's generally better for performance and stability, if you tab out a lot however it could lead to the opposite, causing infrequent crashing or lead to noticeable performance loss over the course of a long play session.![](https://i.postimg.cc/FFBGjvP9/image.png)
-8. Under ***Video*** -> ***Quality*** set ***Animation Level of Detail*** to ***High***, otherwise custom heads and hair will have graphical issues.![](https://i.postimg.cc/HnxZTsBN/image.png)
-9. For future convenience, in [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** > ***General*** > ***Launch Options*** type ***--skip-launcher***.![](https://i.postimg.cc/G23zjmwp/image33333333333333333333333333333333333.png)
+   Unless you're constantly tabbing out of the game It's generally better for performance and stability, if you tab out a lot however it could lead to the opposite, causing infrequent crashing or lead to noticeable performance loss over the course of a long play session.\
+   \
+   ![](https://i.postimg.cc/FFBGjvP9/image.png)
+8. Under ***Video*** -> ***Quality*** set ***Animation Level of Detail*** to ***High***, otherwise custom heads and hair will have graphical issues.\
+   \
+   ![](https://i.postimg.cc/HnxZTsBN/image.png)
+9. For future convenience, in [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** > ***General*** > ***Launch Options*** type ***--skip-launcher***.\
+   \
+   ![](https://i.postimg.cc/G23zjmwp/image33333333333333333333333333333333333.png)
 10. Proceed to the next drop down menu: 💡***Vortex: Setup - Step #3***.
 </details>
 
 <details><summary>💡Vortex: Setup - Step #3</summary>
 # 💡Vortex: Setup - Step #3
 
-1. Download and install [Vortex](https://www.nexusmods.com/about/vortex/). In the ***Games*** tab, select ***Manage*** on Baldur's Gate 3. The installed path should be recognised automatically, if not point [Vortex](https://www.nexusmods.com/about/vortex/) it to the game's install.![](https://i.postimg.cc/nL1GD6zZ/image.png)
-2. **WARNING:** DO NOT install [LSLib/Divine Tool](https://github.com/Norbyte/lslib) when prompted by [Vortex](https://www.nexusmods.com/about/vortex/), ***Uninstall*** it if need be do not just ***Disable*** it.\
-   This tool is needed by [Vortex](https://www.nexusmods.com/about/vortex/) to touch the load order, we do not want [Vortex](https://www.nexusmods.com/about/vortex/) touching the load order. [Vortex](https://www.nexusmods.com/about/vortex/) runs much faster without it.\
-   If you needed to uninstall the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) please restart [Vortex](https://www.nexusmods.com/about/vortex/) before continuing with the installation.![](https://i.postimg.cc/0ydpH1CK/image.png)
+1. Download and install [Vortex](https://www.nexusmods.com/about/vortex/). In the ***Games*** tab, select ***Manage*** on Baldur's Gate 3. The installed path should be recognised automatically, if not point [Vortex](https://www.nexusmods.com/about/vortex/) it to the game's install.\
+   \
+   ![](https://i.postimg.cc/nL1GD6zZ/image.png)
+2. **WARNING:** DO NOT install [LSLib/Divine Tool](https://github.com/Norbyte/lslib) when prompted by [Vortex](https://www.nexusmods.com/about/vortex/), ***Uninstall*** it if need be do not just ***Disable*** it. This tool is needed by [Vortex](https://www.nexusmods.com/about/vortex/) to touch the load order, we do not want [Vortex](https://www.nexusmods.com/about/vortex/) touching the load order. [Vortex](https://www.nexusmods.com/about/vortex/) runs much faster without it.\
+   \
+   If you needed to uninstall the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) please restart [Vortex](https://www.nexusmods.com/about/vortex/) before continuing with the installation.\
+   \
+   ![](https://i.postimg.cc/0ydpH1CK/image.png)
 3. **NOTE:** The location of these is very important, putting them inside any of the game's folders will cause serious issues.\
-   In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Download*** set the ***Downloads Folder*** outside of the game files. Default path is fine, below is where I have mine located.![](https://i.postimg.cc/SxgKYdh3/image.png)
-4. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Mods*** set the ***Mod Staging Folder*** outside of the game files. Default path is fine, below is where I have mine located.![](https://i.postimg.cc/4dLnC18p/image.png)
+   \
+   In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Download*** set the ***Downloads Folder*** outside of the game files. Default path is fine, below is where I have mine located.\
+   \
+   ![](https://i.postimg.cc/SxgKYdh3/image.png)
+4. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Mods*** set the ***Mod Staging Folder*** outside of the game files. Default path is fine, below is where I have mine located.\
+   \
+   ![](https://i.postimg.cc/4dLnC18p/image.png)
 5. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Mods*** set ***Deployment Method*** to ***Symlink Deployment***. \
    ***Hardlink Deployment*** is the default, however ***Symlink Deployment*** is used when the Vortex staging folder is on a different storage device to the game's folders (including both the appdata folder and the game install). ***Symlink Deployment*** will also save you storage space, and is what I choose to use.\
    \
-   **WARNING:** Always ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/) prior to changing ***Deployment Methods***. Otherwise mods already deployed to the game's folders could fail to be managed by [Vortex](https://www.nexusmods.com/about/vortex/), and you will have to remove them manually just as you may have done towards the beginning of this guide.![](https://i.postimg.cc/sXZbyjmK/image.png)
-6. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Mods*** disable ***Auto export load order***.![](https://i.postimg.cc/brhNbFF0/image.png)
-7. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Workarounds*** enable ***Allow Symlinks without elevation***.![](https://i.postimg.cc/G28n2JLF/image.png)
-8. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Interface*** -> ***Automation*** -> disable ***Run Vortex when my computer starts*** and ***Deploy Mods when Enabled***.![](https://i.postimg.cc/wTbYYGcW/image.png)
-9. **Restart your PC for changes to take affect.**![](https://i.postimg.cc/3JWJGptc/image.png)
-10. **REMINDER:** If you uninstalled the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) please restart [Vortex](https://www.nexusmods.com/about/vortex/) before continuing with the installation.\
-    You will get prompted to install it every time you open [Vortex](https://www.nexusmods.com/about/vortex/), just don't get tricked into installing it.![](https://i.postimg.cc/DyqFLgq5/image.png)
+   **WARNING:** Always ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/) prior to changing ***Deployment Methods***. Otherwise mods already deployed to the game's folders could fail to be managed by [Vortex](https://www.nexusmods.com/about/vortex/), and you will have to remove them manually just as you may have done towards the beginning of this guide.\
+   \
+   ![](https://i.postimg.cc/sXZbyjmK/image.png)
+6. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Mods*** disable ***Auto export load order***.\
+   \
+   ![](https://i.postimg.cc/brhNbFF0/image.png)
+7. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Workarounds*** enable ***Allow Symlinks without elevation***.\
+   \
+   ![](https://i.postimg.cc/G28n2JLF/image.png)
+8. In [Vortex](https://www.nexusmods.com/about/vortex/) under ***Settings*** -> ***Interface*** -> ***Automation*** -> disable ***Run Vortex when my computer starts*** and ***Deploy Mods when Enabled***.\
+   \
+   ![](https://i.postimg.cc/wTbYYGcW/image.png)
+9. **Restart your PC for changes to take affect.**\
+   \
+   ![](https://i.postimg.cc/3JWJGptc/image.png)
+10. **REMINDER:** If you uninstalled the [LSLib/Divine Tool](https://github.com/Norbyte/lslib) please close and re-open [Vortex](https://www.nexusmods.com/about/vortex/) before continuing with the installation.\
+    \
+    You will get prompted to install it every time you open [Vortex](https://www.nexusmods.com/about/vortex/), just don't get tricked into installing it.\
+    \
+    ![](https://i.postimg.cc/DyqFLgq5/image.png)
 11. Proceed to the next drop down menu: 📥***Vortex: Download & Installation - Step #4***.
 </details>
 
 <details><summary>📥Vortex: Download & Installation - Step #4</summary>
 # 📥Vortex: Download & Installation - Step #4
 
-1. Click the orange ***Add collection*** button at the top of this page to begin the collection download. If you have [Nexus Premium](https://next.nexusmods.com/premium) it will begin downloading all of the mods, if not you will have to click through the download prompts for each mod.![](https://i.postimg.cc/3JwyMVC7/Screenshot-2024-10-27-150805.png)
-2. If you get stuck at 100% install/download, mods are missing, or anything weird happens remove the collection (but do not remove the mods, specifically the mod archives) and select ***Add collection*** again. Sometimes downloading hundreds of mods at the push of a button doesn't work right through [Vortex](https://www.nexusmods.com/about/vortex/), who could have guessed?\
-   View ***3: Troubleshooting Guides*** for more information.![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
-3. Read over ***5: Optional & Archived Mods*** for information on each optional mod prior installing them, they're optional for a multitude of reasons. You've been warned.\
-   ![](https://i.postimg.cc/Nf7gpQPk/image-2024-06-19-034858631.png)\
-   This step ensures you won't have question such as: "Why does my Tav have different tattoos?" and "How can I remove this chat box?"\
+1. Click the orange ***Add collection*** button at the top of this page to begin the collection download. If you have [Nexus Premium](https://next.nexusmods.com/premium) it will begin downloading all of the mods, if not you will have to click through the download prompts for each mod.\
    \
-   When downloading optional mods you can hold the CTRL key and left click mods you wish to install, before installing them from the bar at the bottom of your screen. This saves time as [Vortex](https://www.nexusmods.com/about/vortex/) will automatically ***Deploy*** whenever an optional mod is installed. \
-   **Note:** ***Deployment*** means the mods are being sent to the game files.\
+   ![](https://i.postimg.cc/3JwyMVC7/Screenshot-2024-10-27-150805.png)
+2. If you get stuck at 100% install/download, mods are missing, or anything weird happens during the download and installation please follow ⚡️***Soft Rebooting Your Vortex Collection Install*** under ***3: Troubleshooting Guides***⚡️.\
+   \
+   ![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
+3. Read over ***5: Optional Mods***🧰 for information on each optional mod prior installing them, they're optional for a multitude of reasons.\
+   \
+   ![](https://i.postimg.cc/SsWFRMxK/9-Optional-Archived-Mods.png)This step ensures you won't have question such as: "Why does my Tav have different tattoos?", "How can I remove this chat box?", and "Why is my main menu black?"\
+   \
+   When downloading optional mods you can hold the ***CTRL key*** and left click mods you wish to install, before installing them from the bar at the bottom of your screen. This saves time as [Vortex](https://www.nexusmods.com/about/vortex/) will automatically ***Deploy*** whenever an optional mod is installed.\
+   \
+   **Note:** ***Deploy*** means sending the mods are being sent to the game files from [Vortex](https://www.nexusmods.com/about/vortex/)'s staging folders.\
+   \
    ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
 4. Both in the next step and in the future whenever you're making more changes in [Vortex](https://www.nexusmods.com/about/vortex/) (updating etc.), verifying integrity of game files through [Steam](https://store.steampowered.com/about/), or cleaning out your game folders **ALWAYS** ***Purge*** mods prior!\
-   **Note:** ***Purging*** removes mods from the game files, it doesn't delete them permanently or harm your install. It increases the efficiency of [Vortex](https://www.nexusmods.com/about/vortex/), and reduces the potential for issues to occur.![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
+   \
+   **Note:** ***Purging*** removes mods from the game files, it doesn't delete them permanently or harm your install. It increases the efficiency of [Vortex](https://www.nexusmods.com/about/vortex/), and reduces the potential for issues to occur.\
+   \
+   ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
 5. It's at this point you may also wish to install [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) (more character customisation) and/or [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) (more build options), and/or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) (more items) alongside [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv). Just like the previous step explains you should **Purge** mods prior to adding these addon collections.\
    These addon collections can be added at a later date if you just want to try the base collection first.\
    \
    **Note:** The addon collections must be installed into the same ***profile*** in [Vortex](https://www.nexusmods.com/about/vortex/).\
    \
    [DIQ Horny](https://next.nexusmods.com/baldursgate3/collections/1uysmm) is an exception, this 18+ addon has special instructions when it comes to the load order, because I just don't care for having those mods enabled in my game even while testing.\
+   \
    ![](https://i.postimg.cc/xTtmMZ9k/Untitled-design.png)
 6. Toggle the column for ***Collection*** on your [Vortex](https://www.nexusmods.com/about/vortex/) ***Mods*** page, by clicking the cog icon in the top right. Click the ***Group*** icon for Collection as it will be mandatory for removing old mod files when updating the collection in the future.\
    Also toggle the column for ***Mod Type*** just for easier access to some of the more important mods, such as [Script Extender](https://github.com/Norbyte/bg3se), [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781), [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) and [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944).\
+   \
    ![](https://i.postimg.cc/rmF30Gqn/Screenshot-2024-02-29-115337.png)
 7. Make sure to ***Deploy*** mods before moving on from [Vortex](https://www.nexusmods.com/about/vortex/).\
+   \
    ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
-8. Once all of the above looks good, you are ready to begin managing the load order with [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)). Do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order.
+8. Once all of the above looks good, you are ready to begin managing the load order with [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)). Do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order.\
+   .
 9. Proceed to the next drop down menu: 💾***Manual Installation: Configuration Files - Step #5***.
 </details>
 
@@ -291,10 +337,14 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 
 While [Script Extender](https://github.com/Norbyte/bg3se) based mods will generate their configuration files upon creating/loading a game they will not have any of the custom settings which are critical to the functionality of DIQ.
 
-1. If you haven't cleaned out old configs please delete the `Script Extender` folder inside `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`
-2. You can find the files as an all in one `.zip` under [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784)***,*** or get them from my [Discord](https://discord.gg/baldursgoonsacks), under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-configs***.
-3. Inside the ***.zip*** folder you will see a folder called ***Script Extender***. Extract the ***.zip*** folder into `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`
-4. Overwrite the existing files and `Script Extender` folder if they exist, if it doesn't exist then extracting the `.zip` will create it.
+1. If you haven't cleaned out old configs please delete the `Script Extender` folder inside `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`\
+   .
+2. You can find the files as an all in one `.zip` under [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784)***,*** or get them from my [Discord](https://discord.gg/baldursgoonsacks), under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-configs***.\
+   .
+3. Inside the ***.zip*** folder you will see a folder called ***Script Extender***. Extract the ***.zip*** folder into `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`\
+   .
+4. Overwrite the existing files and `Script Extender` folder if they exist, if it doesn't exist then extracting the `.zip` will create it.\
+   .
 5. Proceed to the next drop down menu: 📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
@@ -310,54 +360,65 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    Patch #8: [1.0.12.0](https://github.com/LaughingLeader/BG3ModManager/releases)+\
    Patch #7: [1.0.11.1](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.11.1) \
    Patch #6: [1.0.10.0](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.10.0) \
+   \
    ![](https://i.postimg.cc/0jHzLyRC/image-2025-09-15-114606159.png)
-2. ***Under Settings*** > ***Preferences*** > ***General*** check that your ***Game Data Path*** and ***Game Executable Path*** are correct, and match where you installed the game.![](https://i.postimg.cc/FHVWQPSf/Screenshot-2024-03-22-041956.png)
+2. ***Under Settings*** > ***Preferences*** > ***General*** check that your ***Game Data Path*** and ***Game Executable Path*** are correct, and match where you installed the game.\
+   \
+   ![](https://i.postimg.cc/FHVWQPSf/Screenshot-2024-03-22-041956.png)
 3. Get the `REVISION_#.JSON` file from my [Discord](https://discord.gg/baldursgoonsacks) under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-load-order*** or [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) (requires extraction from the `.zip` folder) and place it in `BG3ModManager_Latest\Orders` folder.\
    \
    (You may need to create the `Orders` folder yourself, or select ***Save As*** in [BG3MM](https://github.com/LaughingLeader/BG3ModManager) to create a load order file and generate the folder.)\
    \
    ![](https://i.postimg.cc/5tjDpDQs/image-10.png)![](https://i.postimg.cc/sfGPLsH1/Screenshot-2024-07-30-215439.png)
-4. Open or ***Refresh*** [BG3MM](https://github.com/LaughingLeader/BG3ModManager).![](https://i.postimg.cc/nzw67dVR/image.png)
-5. In [BG3MM](https://github.com/LaughingLeader/BG3ModManager), select the `.json` file on the ***Mod Order*** drop-down menu. Make sure you've always got the correct load order selected, matching the collection revision you have installed.![](https://i.postimg.cc/7LNCxzPY/image.png)
-6. When prompted with ***Missing Mods in Load Order*** select ***Remove All Missing***, then \*\*\*OK. \*\*\*\
+4. Open or ***Refresh*** [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\
    \
-   This will show all of the optional mods and mods from [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg), [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) that you don't have installed, enabled and deployed through vortex.![](https://i.postimg.cc/fbsK2Ygw/image.png)You can confirm that it's worked by saving the load order and refreshing [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\\
-7. ***Save*** the load order.![](https://i.postimg.cc/x1zxFffP/image.png)
-8. If there are collection mods in the ***Inactive Mods*** they likely are intended to be there, and act as if they were ***Overrides***.\
+   ![](https://i.postimg.cc/nzw67dVR/image.png)
+5. In [BG3MM](https://github.com/LaughingLeader/BG3ModManager), select the `.json` file on the ***Mod Order*** drop-down menu. Make sure you've always got the correct load order selected, matching the collection revision you have installed.\
    \
-   For game versions prior to ***Patch #7***, ***DiceSet\_06*** and ***Honour*** will be present, they are not in the load order by default. You should not move them from ***Inactive Mods***. They are no longer present in [BG3MM](https://github.com/LaughingLeader/BG3ModManager) since ***Patch #7***.\
-   ![](https://i.postimg.cc/6qNFYsK3/image.png)
-9. ***Export*** the load order to game. You must do this anytime the load order changes, collection updates etc. No such thing as too much here, click it every time you launch into the game if you wish.![](https://i.postimg.cc/HxHhyqC9/image.png)
-10. When you go to ***Export*** the load order for the first time you will get the following popup. You can ignore it, and select ***Ok***. [Script Extender](https://github.com/Norbyte/bg3se) has been installed through [Vortex](https://www.nexusmods.com/about/vortex/), but it won't complete the install until you've launched into the game at least once. After reaching the game's main menu exit the game.![](https://i.postimg.cc/N0CTwTjq/image.png)
-11. Proceed to the next drop down menu: 🥹***IMPORTANT: Before you go! - Step #7***.
+   ![](https://i.postimg.cc/7LNCxzPY/image.png)
+6. When prompted with ***Missing Mods in Load Order*** select ***Remove All Missing***, then ***OK***. \
+   \
+   This will show all of the optional mods and mods from [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg), [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) that you don't have installed, enabled and deployed through vortex.\
+   \
+   ![](https://i.postimg.cc/fbsK2Ygw/image.png)You can confirm that it's worked by saving the load order and refreshing [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\
+   .
+7. ***Save*** the load order.\
+   \
+   ![](https://i.postimg.cc/x1zxFffP/image.png)
+8. ***Export*** the load order to game. You must do this anytime the load order changes, collection updates etc. No such thing as too much here, click it every time you launch into the game if you wish.\
+   \
+   ![](https://i.postimg.cc/HxHhyqC9/image.png)
+9. When you go to ***Export*** the load order for the first time you will get the following popup. You can ignore it, and select ***Ok***. [Script Extender](https://github.com/Norbyte/bg3se) has been installed through [Vortex](https://www.nexusmods.com/about/vortex/), but it won't complete the install until you've launched into the game at least once. After reaching the game's main menu exit the game.\
+   \
+   ![](https://i.postimg.cc/N0CTwTjq/image.png)
+10. We want to be particular about how we launch the game, so you should copy my [BG3MM](https://github.com/LaughingLeader/BG3ModManager) settings from below (with the exception of my ***Game Data Path*** and ***Game Executable Path***), and launch the game from there. While you can launch from [Steam](https://store.steampowered.com/about/) or the .exe files directly (not [Vortex](https://www.nexusmods.com/about/vortex/)), this comes recommended for the average user.\
+    \
+    ![](https://i.postimg.cc/FHHgWXtv/Screenshot-2025-10-01-220052.png)![](https://i.postimg.cc/vBBJbN6V/Screenshot-2025-10-01-215227.png)![](https://i.postimg.cc/FRzH8GrS/image-2025-10-01-221220889.png)
+11. Proceed to the next drop down menu: 🥹***IMPORTANT: Creating a New Game! - Step #7***.
 </details>
 
-<details><summary>🥹IMPORTANT: Before you go! - Step #7</summary>
-# 🥹IMPORTANT: Before you go! - Step #7
+<details><summary>🥹IMPORTANT: Creating a New Game! - Step #7</summary>
+# 🥹IMPORTANT: Creating a New Game! - Step #7
 
-1. **Recommendation:** \
-   Play the game on ***Custom Mode***, turn ***Honour Ruleset*** on and click ***Restore Defaults*** to toggle Tactician difficulty where applicable. Other settings here are handled via my patches and do not need changing, but you can change them if you choose.\
-   \
-   ***Honour Ruleset*** does not make the game super scary, it introduces [balance changes](https://bg3.wiki/wiki/Guide:Undocumented_Patch_5_updates#Honour_mode) and gives bosses new [Legendary Actions](https://bg3.wiki/wiki/Legendary_actions). The collection is designed with this ruleset in mind so it will provide the most consistent experience.\
-   **Note:** Having a single save file is not inherent with the ***Honour Ruleset***, it's an optional setting just below it and otherwise a feature of the ***Honour Mode*** difficulty.\
-   \
-   *For further information on difficulty modes check out the *[*wiki page*](https://bg3.wiki/wiki/Difficulty)*.*\
-   \
-   ❗️**WARNING:** ***Honour ruleset*** won't be saved if setting up ***Custom difficulty*** in a multiplayer lobby. Given that my recommendation is to play ***Custom difficulty*** with ***honour rules*** toggled you should do so by setting up the game solo, then getting your homie(s) to join via ***direct connect***. Double check once you're in the game that ***honour rules*** are active.\
-   ![](https://i.postimg.cc/hvGTCQBR/custom-difficulty-options.gif)
-2. **Recommendation 3:** \
-   [](https://www.nexusmods.com/baldursgate3/mods/14495)Play some BG3! Launch the game from [Steam](https://store.steampowered.com/about/) or a Desktop shortcut, `bg3_dx11.exe` preferably. If you want to launch from [BG3MM](https://github.com/LaughingLeader/BG3ModManager) make sure to ***Enable DirectX 11 Mode***, and for further convenience enable ***Skip Launcher*** too. Keep ***Launch Through Steam*** unticked to make avoiding game updates easier.\
-   ![](https://i.postimg.cc/ry49knX8/image.png)
+Play the game on ***Custom Mode***, turn ***Honour Ruleset*** on and click ***Restore Defaults*** to toggle Tactician difficulty and other custom settings of mine. From there, you can choose to edit things as you wish with the context of DIQ's intended settings.\
+\
+***Honour Ruleset*** does not make the game super scary, it introduces [balance changes](https://bg3.wiki/wiki/Guide:Undocumented_Patch_5_updates#Honour_mode) and gives bosses new [Legendary Actions](https://bg3.wiki/wiki/Legendary_actions). The collection is designed with this ruleset in mind so it will provide the most consistent experience.\
+**Note:** Having a single save file is not inherent with the ***Honour Ruleset***, it's an optional setting just below it and otherwise a feature of the ***Honour Mode*** difficulty.\
+\
+*For further information on difficulty modes check out the *[*wiki page*](https://bg3.wiki/wiki/Difficulty)*.*\
+\
+❗️**WARNING:** ***Honour ruleset*** won't be saved if setting up ***Custom difficulty*** in a multiplayer lobby. Given that my recommendation is to play ***Custom difficulty*** with ***honour rules*** toggled you should do so by setting up the game solo, then getting your homie(s) to join via ***direct connect***. Double check once you're in the game that ***honour rules*** are active.\
+\
+![](https://i.postimg.cc/hvGTCQBR/custom-difficulty-options.gif)**Congratulations** on reaching the end of my somewhat exhaustive, positively handholding and hopefully helpful enough guide!
 
-# **Congratulations** on reaching the end of my somewhat exhaustive, positively handholding and hopefully helpful enough guide!
+Please **Endorse** (the thumbs up button) the collection if you enjoy it! If you really enjoy and want to support the continued DIQ growth I have a [Ko-fi](https://ko-fi.com/baldursgoonsack) you can donate to!&#x20;
 
-- ![](https://i.postimg.cc/28tjLb9L/1265981445042733066.webp)Please **Endorse** (the thumbs up button) the collection if you enjoy it! If you really enjoy and want to support the continued DIQ growth I have a [Ko-fi](https://ko-fi.com/baldursgoonsack) you can donate to!&#x20;
 - Don't sleep on further information provided on this page if you have questions, such as ***4: Everything Else You Need to Know!*** 📌 and ***3: Troubleshooting Guides***⚡️if something goes wrong.
-- Don't update mid-playthrough without reading ***2: Updating Guide - Collection & Game Updates***⚠️and [changelogs](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog)!
+- Don't update mid-playthrough without reading ***2: Updating Guide - Collection & Game Updates***⚠️ and [changelogs](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog)!
 - If you need further assistance or just want to be a part of the DIQ community join [Discord](https://discord.gg/baldursgoonsacks)!
 - If you have any feedback, criticism, bug reports or need assistance provide as much information as possible so I, or another DIQ community member can remedy it effectively!
 
-# AND HAVE FUN!
+# ![](https://i.postimg.cc/28tjLb9L/1265981445042733066.webp)THANKS AND HAVE FUN!
 </details>
 
 ***
@@ -428,7 +489,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
     If you need a refresher on the load order please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡 ->📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
-❗️The two sections below need updating and are not currently relevant.
+❗️These two drop-downs below need updating and are not currently relevant.
 
 <details><summary>⚡️Game Updates + Rolling Back Your Game Version</summary>
 # ⚡️Game Updates + Rolling Back Your Game Version
@@ -1029,7 +1090,9 @@ The [Baldur's Gate 3 Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141)
 ![](https://i.postimg.cc/90HRvVgL/9-Optional-Archived-Mods.png)❌**DO NOT install optional mods without reading about them!**\
 Same goes for my addon collections [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z), [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) but it's easier to determine if you want the addon collections at a glance as the mods included generally aren't very niche or complicated.
 
-<details><summary>🙈difficulty & combat: buffs, nerfs, encounters, party management, bug fixes</summary>
+<details><summary>🙈Combat & Difficulty: NPC Buffs & Party Management</summary>
+# 🙈Combat & Difficulty: NPC Buffs & Party Management
+
 ### **Buffs and Nerfs:**
 
 - [Absolute Wrath](https://www.nexusmods.com/baldursgate3/mods/5552) "Nearly 2000 affixes and hundreds of potential "Elite" Absolutists, adding a dynamic twist and increased difficulty to encounters. Face off against enemies in a world altered by The Absolute."\
@@ -1049,7 +1112,9 @@ Same goes for my addon collections [DIQ Expanded](https://next.nexusmods.com/bal
 - [Sit This One Out 2](https://www.nexusmods.com/baldursgate3/mods/6183) Lets you pick which party members participate in combat, recommend only if you're taking more than 4 companions with you via [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172). Each character will be given a toggleable passive and a spell, I recommend just using the toggle, it's a bit easier.
 </details>
 
-<details><summary>🐱Quality of Life: Cheating, convenience, performance, time savers</summary>
+<details><summary>🐱Quality of Life: Cheating, Convenience, Performance & Time Savers</summary>
+# 🐱Quality of Life: Cheating, Convenience, Performance & Time Savers
+
 ### Goated:
 
 - [Smart Autosaving](https://www.nexusmods.com/baldursgate3/mods/5899) \
@@ -1090,7 +1155,9 @@ Same goes for my addon collections [DIQ Expanded](https://next.nexusmods.com/bal
   This can be used to gather Guids and Handles of NPCs for further customising the [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) config through overrides or the cloning feature.
 </details>
 
-<details><summary>💅🏼Customisation: body tattoos, makeup, unique tav stuff</summary>
+<details><summary>💅🏼Customisation: Tattoos, Makeup & Textures</summary>
+# 💅🏼Customisation: Tattoos, Makeup & Textures
+
 ### Advanced Character Customisation Tools:
 
 - [Character Appearance Editor (Charactery Character Editory Editor) (CCEE) WIP](https://www.nexusmods.com/baldursgate3/mods/17123)&#x20;
@@ -1123,7 +1190,9 @@ These overwrite the vanilla makeup options for Tav only! Icons will remain vanil
 
 ### Body Tattoos:
 
-For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's CC Body Tattoo Selector](https://www.nexusmods.com/baldursgate3/mods/17702). Below is a list of some alternatives which I will update further. \
+For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's CC Body Tattoo Selector](https://www.nexusmods.com/baldursgate3/mods/17702). \
+\
+Below is a list of some alternatives which I will update further in the future. \
 **Note:** KAVT support may not be present.
 
 - [Body Switcher Tattoo's](https://www.nexusmods.com/baldursgate3/mods/7323) *Pack 1*, *Pack 2* & *Pack 3*.
@@ -1132,8 +1201,10 @@ For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's
 - [Silver Tongue - Body Tattoos](https://www.nexusmods.com/baldursgate3/mods/16000) *Merged*.
 </details>
 
-<details><summary>📷Graphics: Environment & Objects</summary>
-**Note:** The following optional texture mods will demand more VRAM and could negatively impact performance.
+<details><summary>📷Models & Textures: Large Files & High Resolutions </summary>
+# 📷Models & Textures: Large Files & High Resolutions
+
+**Note:** The following optional texture mods will demand both more VRAM and storage space, and could negatively impact performance.
 
 ### Visuals:
 
@@ -1150,17 +1221,26 @@ For the moment DIQ only comes with the default body tattoo atlas from [Kazstra's
   ![](https://i.postimg.cc/SQdzByrQ/Screenshot-2024-07-28-105158.png)
 </details>
 
-<details><summary>Other: NPC customisation</summary>
-- [Karlach's Long Hair](https://www.nexusmods.com/baldursgate3/mods/10435) Does Avernus have hairdressers?
-- [Minthara's Haircut](https://www.nexusmods.com/baldursgate3/mods/7544) Based and Lolth-Sworn pilled.
-- [Alt Lae'zelhawk - Hair Replacer](https://www.nexusmods.com/baldursgate3/mods/6409) Breezy.
+<details><summary>🫨NPC Customisation: Subjective Origin Changes</summary>
+# 🫨NPC Customisation: Subjective Origin Changes
+
+- [Karlach's Long Hair](https://www.nexusmods.com/baldursgate3/mods/10435) \
+  Does Avernus have hairdressers?
+- [Minthara's Haircut](https://www.nexusmods.com/baldursgate3/mods/7544) \
+  Based and Lolth-Sworn pilled.
+- [Alt Lae'zelhawk - Hair Replacer](https://www.nexusmods.com/baldursgate3/mods/6409) \
+  Breezy.
 </details>
 
-<details><summary>Multiplayer specific mods</summary>
+<details><summary>👨‍👨‍👦‍👦Multiplayer</summary>
+# 👨‍👨‍👦‍👦Multiplayer
+
 - [Text Chat](https://www.nexusmods.com/baldursgate3/mods/10353) For multiplayer, you really don't need this at all unless a text chat box in multiplayer sounds good. Safe to add/remove mid-playthrough.
 </details>
 
 <details><summary>💻User Interface</summary>
+# 💻User Interface
+
 These just overwrite the main list's 16:9 inclusions. If you're playing multiplayer with someone not using an utlrawide the 16:9 mods are perfectly serviceable. Don't make your 16:9 homies install these.
 
 Ultrawide variants load last, so order of overwrites is: 16:9 < 16:10 < UW.
@@ -1182,14 +1262,15 @@ Ultrawide variants load last, so order of overwrites is: 16:9 < 16:10 < UW.
 
 ***
 
-![](https://i.postimg.cc/mkmqyhNp/5-Featured-Mods-By-Category.png)Every (non-optional) mod in the collection is listed in drop down menus here, the only exception is when I'm delayed in adding all of the changes; which can be found in the [Changelog](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog). I recommend that you at least skim through this.
-It's only kind of a mess, I keep coming back to clean it up here and there.
+![](https://i.postimg.cc/mkmqyhNp/5-Featured-Mods-By-Category.png)Every (non-optional) mod in the collection is listed below, the only exception is when I'm delayed in adding all of the changes which can otherwise be found on the [Changelogs](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog).
 
 ## Increased Difficulty
 
 Yep, it's in the name.
 
-<details><summary>🙈Combat/difficulty changes!</summary>
+<details><summary>🙈Combat & Difficulty</summary>
+# 🙈Combat & Difficulty
+
 ### Primary:
 
 - [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) \
@@ -1243,6 +1324,8 @@ Yep, it's in the name.
 The simple things, and sometimes not so simple things, which make a big difference.
 
 <details><summary>🐱Quality of Life</summary>
+# 🐱Quality of Life
+
 ### Camera and movement:
 
 - [Remove Camera Move](https://www.nexusmods.com/baldursgate3/mods/5046) \
@@ -1330,6 +1413,8 @@ The simple things, and sometimes not so simple things, which make a big differen
 </details>
 
 <details><summary>⚡️Bug Fixes, Tweaks & Patches</summary>
+# ⚡️Bug Fixes, Tweaks & Patches
+
 ### Debugging tools:&#x20;
 
 - [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) For removing items, passives, statuses etc. from mods in your save game.
@@ -1346,7 +1431,6 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Database Cleaner](https://www.nexusmods.com/baldursgate3/mods/5612)\
   Cleans up garbage data leftover from destroyed summons to decrease load times. First load(s) with this mod may be slow for an existing save.
 - [Show me my Dream Guardian](https://www.nexusmods.com/baldursgate3/mods/12649)&#x20;
-- [Dark Urge Banter Dialogue Fixes](https://www.nexusmods.com/baldursgate3/mods/12683)&#x20;
 - [Owlbear Cub Permanent Aggression Fix on Honor Ruleset](https://www.nexusmods.com/baldursgate3/mods/13220)&#x20;
 - [Blood for Bloodbanks](https://www.nexusmods.com/baldursgate3/mods/14117)&#x20;
 - [Just Bugs Me: QoL, item, tooltip + pedantic fixes!](https://mod.io/g/baldursgate3/m/just-bugs-me-qol-item-tooltip-pedantic-fixes)&#x20;
@@ -1355,35 +1439,37 @@ The simple things, and sometimes not so simple things, which make a big differen
 
 - [Critical Miss Has Consequences FIXED](https://www.nexusmods.com/baldursgate3/mods/6050) Empty passive fix for [Critical Miss Has Consequences](https://www.nexusmods.com/baldursgate3/mods/1883).
 - [Extra Attack Fix SE](https://www.nexusmods.com/baldursgate3/mods/5475)&#x20;
-- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) DIQ Misc Patches, DIQ Dialogue Patches.\
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Misc Patches*, *DIQ Dialogue Patches*.\
   Primarily bug fixes already reported to authors accumulated here as a temporary home.
 </details>
 
-<details><summary>🫂Dialogue and cutscene Mods: Bug Fixes, Overhauls & New Content</summary>
+<details><summary>🫂Dialogue and Cutscene Mods: Bug Fixes, Overhauls & New Content</summary>
+# 🫂Dialogue and cutscene Mods: Bug Fixes, Overhauls & New Content
+
 ### Other authors:
 
+- [AA and Karlach Can Fuck](https://www.nexusmods.com/baldursgate3/mods/10789) ✅Getting added in 138
 - [Always Save Alfira](https://www.nexusmods.com/baldursgate3/mods/13740)&#x20;
-- [Emperor Finale Follower Dialogue Extended](https://www.nexusmods.com/baldursgate3/mods/12555) &#x20;
+- [Aylin and Isobel Epilogue Letters](https://www.nexusmods.com/baldursgate3/mods/16055) ❌Getting removed in 138
+- [Companion Gale Can Consume Shadow Weave](https://www.nexusmods.com/baldursgate3/mods/16877)&#x20;
+- [Dark Urge Banter Dialogue Fixes](https://www.nexusmods.com/baldursgate3/mods/12683)
+- [Emperor Finale Follower Dialogue Extended](https://www.nexusmods.com/baldursgate3/mods/12555)&#x20;
+- [Epilogue Letter Bug Fixes - Aylin Isobel and Kagha](https://www.nexusmods.com/baldursgate3/mods/18945) ✅Getting added in 138
+- [Extremely Literal Mirror Scene Line For All Races](https://www.nexusmods.com/baldursgate3/mods/18057)&#x20;
 - [Humanoid Tag Scratch Fix](https://www.nexusmods.com/baldursgate3/mods/7786)&#x20;
 - [Manifest Domination - Bypass the 25 DC Ending Check](https://www.nexusmods.com/baldursgate3/mods/13454)&#x20;
 - [Minthara Moves - Halsin and Minthara tents separated](https://www.nexusmods.com/baldursgate3/mods/14148)&#x20;
+- [Moonblade Of Selune](https://www.nexusmods.com/baldursgate3/mods/14616) *Aylin Only*.\
+  While not a dialogue mod exactly, it does edit some timeline templates so I've listed it here.
+- [More Amnesia for the Haunted One (Dark Urge Not Baldurian)](https://www.nexusmods.com/baldursgate3/mods/6557)&#x20;
 - [Myshka Comes To Camp](https://www.nexusmods.com/baldursgate3/mods/6126)&#x20;
 - [Night With Drow (Minthara Romance Alternative)](https://www.nexusmods.com/baldursgate3/mods/16213) ❌Getting removed in 138
-
-### Sorting pile:
-
-- [Raphael Bed Story](https://www.nexusmods.com/baldursgate3/mods/14695)&#x20;
-- [Priestess Gut Gonna Knock You Out](https://www.nexusmods.com/baldursgate3/mods/17344)&#x20;
-- [Companion Gale Can Consume Shadow Weave](https://www.nexusmods.com/baldursgate3/mods/16877)&#x20;
-- [Aylin and Isobel Epilogue Letters](https://www.nexusmods.com/baldursgate3/mods/16055)&#x20;
-- [Neutral Facial Expressions](https://www.nexusmods.com/baldursgate3/mods/11491)&#x20;
 - [Original NightSong Cinematic](https://www.nexusmods.com/baldursgate3/mods/17754) *Original Nightsong Cinematic with Tweaks*.
-- [More Amnesia for the Haunted One (Dark Urge Not Baldurian)](https://www.nexusmods.com/baldursgate3/mods/6557)&#x20;
-- [Extremely Literal Mirror Scene Line For All Races](https://www.nexusmods.com/baldursgate3/mods/18057)&#x20;
+- [Raphael Bed Story](https://www.nexusmods.com/baldursgate3/mods/14695)&#x20;
 
 ### [iamy0urdad](https://www.nexusmods.com/baldursgate3/users/3792625):
 
-- \-
+- [Hallowleafs in Camp](https://www.nexusmods.com/baldursgate3/mods/17838) ✅Getting added in 138
 - [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) ❌Getting removed in 138
 - [Shadowheart and her pets](https://www.nexusmods.com/baldursgate3/mods/17943) ✅Getting added in 138
 - \-
@@ -1391,6 +1477,7 @@ The simple things, and sometimes not so simple things, which make a big differen
 ### [whatsontheflip](https://www.nexusmods.com/baldursgate3/users/4618209):
 
 - [Aylin Always Summons Moonlight Slivers](https://www.nexusmods.com/baldursgate3/mods/18079)&#x20;
+- [Priestess Gut Gonna Knock You Out](https://www.nexusmods.com/baldursgate3/mods/17344)&#x20;
 - [Stomp that Tadpole](https://www.nexusmods.com/baldursgate3/mods/17485)&#x20;
 
 ### [Nikjima](https://www.nexusmods.com/baldursgate3/users/126200613):
@@ -1414,12 +1501,17 @@ The simple things, and sometimes not so simple things, which make a big differen
 ### [Cerberry](https://www.nexusmods.com/baldursgate3/users/21798254):
 
 - \-
-- \-
 
 ### [freshcantaloupe42](https://www.nexusmods.com/baldursgate3/users/56912202):
 
 - [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) ❌Getting removed in 138
 - [Gale Chose Partner Over Dialog Fix](https://www.nexusmods.com/baldursgate3/mods/14967)&#x20;
+
+### [kelocena](https://www.nexusmods.com/baldursgate3/users/4043530):
+
+- [Platonic Halsin - No Confession or Shy Halsin Versions](https://www.nexusmods.com/baldursgate3/mods/18583) *ShyHalsin*. ✅Getting added in 138
+- [Various Dialogue Fixes](https://www.nexusmods.com/baldursgate3/mods/17091) + *VDFShadowLaezelFight*. ✅Getting added in 138
+- [Waterproof Shadowheart](https://www.nexusmods.com/baldursgate3/mods/18548) ✅Getting added in 138
 
 ### [HyperspaceTowel](https://www.nexusmods.com/baldursgate3/users/232505958):
 
@@ -1433,6 +1525,7 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Book Club With Gale](https://www.nexusmods.com/baldursgate3/mods/18568) ✅Getting added in 138
 - [Dark Urge Tweeaks](https://www.nexusmods.com/baldursgate3/mods/15031)&#x20;
 - [Epilogue bug fixes](https://www.nexusmods.com/baldursgate3/mods/14626)&#x20;
+- [Ex-Sharran Swimming Lessons for Shadowheart](https://www.nexusmods.com/baldursgate3/mods/17844) ✅Getting added in 138
 - [Firestarter - Karlach Romance Overhaul](https://www.nexusmods.com/baldursgate3/mods/15282)&#x20;
 - [Karlach Romance - Better Hot Date](https://www.nexusmods.com/baldursgate3/mods/15134)&#x20;
 - [Kiss Me Again - Unlimited Last Kisses in Endgame](https://www.nexusmods.com/baldursgate3/mods/16042) ❌Getting removed in 138
@@ -1441,6 +1534,7 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Minthara's Poison Kiss](https://www.nexusmods.com/baldursgate3/mods/15597)&#x20;
 - [Minthara's Weaknesses - Astarion Minthara Banter Restored](https://www.nexusmods.com/baldursgate3/mods/17444)&#x20;
 - [Missed Connections - Shadowheart](https://www.nexusmods.com/baldursgate3/mods/15272) ✅Getting added in 138
+- [Missed Connections - Shadowheart - Truly Connect](https://www.nexusmods.com/baldursgate3/mods/17359) ✅Getting added in 138
 - [Nightsong Points Bug Fix](https://www.nexusmods.com/baldursgate3/mods/15035) ✅Getting added in 138
 - [Sit With Astarion](https://www.nexusmods.com/baldursgate3/mods/17772)&#x20;
 - [Spawn Astarion - Epilogue Edits](https://www.nexusmods.com/baldursgate3/mods/14850)&#x20;
@@ -1449,34 +1543,41 @@ The simple things, and sometimes not so simple things, which make a big differen
 
 ### [moxifer3](https://www.nexusmods.com/baldursgate3/users/178903407):
 
-- [Happy facial expressions for Ascended Astarion kisses](https://www.nexusmods.com/baldursgate3/mods/9340) *MOXI\_NightingalesLordAstarion\_v3\_using\_patch7*.
-- [Vampire Lord Astarion - Epilogue Party Affection Dialog](https://www.nexusmods.com/baldursgate3/mods/12475)&#x20;
 - [Aeries' Gale Dekarios - Kisses and Hugs](https://www.nexusmods.com/baldursgate3/mods/10179)&#x20;
+- [Happy facial expressions for Ascended Astarion kisses](https://www.nexusmods.com/baldursgate3/mods/9340) *MOXI\_NightingalesLordAstarion\_v3\_using\_patch7*.
+- \-
+- [Vampire Lord Astarion - Epilogue Party Affection Dialog](https://www.nexusmods.com/baldursgate3/mods/12475)&#x20;
 
 ### [magnetuning](https://www.nexusmods.com/baldursgate3/users/154458743):
 
+- \-
+- [Astarion Romance Reactions Fixed](https://www.nexusmods.com/baldursgate3/mods/6539)&#x20;
+- \-
+- \-
+- [Shadowheart Judgement Cam - Astarion Abdirak Scene Edits](https://www.nexusmods.com/baldursgate3/mods/11925)&#x20;
+- [The Leg Thing - Astarion's Act 3 Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/11460)&#x20;
 - [Wyll Meets Minsc Fix](https://www.nexusmods.com/baldursgate3/mods/9998)&#x20;
 - [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442)&#x20;
-- [Astarion Romance Reactions Fixed](https://www.nexusmods.com/baldursgate3/mods/6539)&#x20;
-- [Shadowheart Judgement Cam - Astarion Abdirak Scene Edits](https://www.nexusmods.com/baldursgate3/mods/11925)&#x20;
 - [Wyllzel Flirty Banter Restored - Wyll Cinematic Universe Mod 3 (WCU)](https://www.nexusmods.com/baldursgate3/mods/14566)&#x20;
-- [The Leg Thing - Astarion's Act 3 Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/11460) ❌Getting removed in 138
 
 ### [Joell560](https://www.nexusmods.com/baldursgate3/users/3509871):
 
-- [Dialogue Edits](https://www.nexusmods.com/baldursgate3/mods/7862)&#x20;
 - [Additional Grove Raid Dialogue Options](https://www.nexusmods.com/baldursgate3/mods/8517)&#x20;
 - [Astarion Bugbear and Ogre Dialogue Priority](https://www.nexusmods.com/baldursgate3/mods/7721)&#x20;
+- [Auntie Ethel - Dark Urge Dialogue Bug Fix (with Optional Astarion Priority)](https://www.nexusmods.com/baldursgate3/mods/8363) *NoPrio*.
+- [Be Nice to Skoona (Elfsong Half-Orc) Dialogue Edit](https://www.nexusmods.com/baldursgate3/mods/8764)&#x20;
+- [Dialogue Edits](https://www.nexusmods.com/baldursgate3/mods/7862)&#x20;
 - [Flind - True Soul Dialogue Bug Fix](https://www.nexusmods.com/baldursgate3/mods/7307)&#x20;
-- [Minsc Dialogue Flow Fix](https://www.nexusmods.com/baldursgate3/mods/9061)&#x20;
-- [Strange Ox - Dialogue Flow Fix](https://www.nexusmods.com/baldursgate3/mods/8346)&#x20;
 - [Gale Spell Teaching Scene - Ability Check Changes](https://www.nexusmods.com/baldursgate3/mods/7863)&#x20;
 - [Halsin - Tell Me About Yourself - Additional Player Responses](https://www.nexusmods.com/baldursgate3/mods/8042)&#x20;
-- [Be Nice to Skoona (Elfsong Half-Orc) Dialogue Edit](https://www.nexusmods.com/baldursgate3/mods/8764)&#x20;
-- [Auntie Ethel - Dark Urge Dialogue Bug Fix (with Optional Astarion Priority)](https://www.nexusmods.com/baldursgate3/mods/8363) *NoPrio*.
+- \-
+- [Minsc Dialogue Flow Fix](https://www.nexusmods.com/baldursgate3/mods/9061)&#x20;
 - [Minthara Romance Scene - Fixes and Changes](https://www.nexusmods.com/baldursgate3/mods/8411)&#x20;
 - [Mol Persuasion Bug Fix](https://www.nexusmods.com/baldursgate3/mods/1149)&#x20;
-- [Mol Stolen Belongings Bug Fix](https://www.nexusmods.com/baldursgate3/mods/1877)&#x20;
+- [Mol Stolen Belongings Bug Fix](https://www.nexusmods.com/baldursgate3/mods/1877)
+- \-
+- [Strange Ox - Dialogue Flow Fix](https://www.nexusmods.com/baldursgate3/mods/8346)&#x20;
+- \-
 </details>
 
 ***
@@ -1484,9 +1585,10 @@ The simple things, and sometimes not so simple things, which make a big differen
 ## Class & Race Changes
 
 No class or race is changed in such a way that it is unrecognisable from the base game. The following primarily includes additions, such as custom classes and sub-classes.
-Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z)!
 
-<details><summary>🧝🏼Race/background/origin changes!</summary>
+<details><summary>🧝🏼Races & Backgrounds</summary>
+# 🧝🏼Races & Backgrounds
+
 ### Racials:
 
 - [Goon's Short Legs Overhaul - Full Movement for Short Races](https://www.nexusmods.com/baldursgate3/mods/17616) *UNSO*.
@@ -1501,7 +1603,9 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [JWL Histories and Occupations for Patch 7](https://www.nexusmods.com/baldursgate3/mods/14867) *JWL Histories and Occupations Plus*.
 </details>
 
-<details><summary>🧙🏼‍♂️Class changes!</summary>
+<details><summary>🧙🏼‍♂️Classes</summary>
+# 🧙🏼‍♂️Classes
+
 ### Overhauls:
 
 - [Expansion Level 13-20 (Configurable)](https://www.nexusmods.com/baldursgate3/mods/279) \
@@ -1675,8 +1779,8 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [Valkrana's Necrobroker - Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/17919)&#x20;
 </details>
 
-<details><summary>🙏deities!</summary>
-### Deities For All:
+<details><summary>🙏Deities</summary>
+# 🙏Deities
 
 - [Deity Tag Activator](https://www.nexusmods.com/baldursgate3/mods/1870)&#x20;
 - [Faithful and Faithless - No Mandatory Choice of God](https://www.nexusmods.com/baldursgate3/mods/1512)&#x20;
@@ -1689,7 +1793,9 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [Origin's Gods](https://www.nexusmods.com/baldursgate3/mods/6305) *AEE*.
 </details>
 
-<details><summary>🔆Spells/feats/abilities etc!</summary>
+<details><summary>🔆Spells, Feats, Abilities etc.</summary>
+# 🔆Spells, Feats, Abilities etc.
+
 ### Configuration:
 
 - [More Spell Choices and Slots - MCM](https://www.nexusmods.com/baldursgate3/mods/13472) Configure your spellslots!
@@ -1816,6 +1922,8 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 </details>
 
 <details><summary>⚔️Items</summary>
+# ⚔️Items
+
 ### Treasure Tables and Withers as a Merchant for Custom Items:
 
 - [Trade with Withers - Fully modular and customizable trader](https://www.nexusmods.com/baldursgate3/mods/2458) + *trade with withers reset inventory*.
@@ -1849,7 +1957,6 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [Companions' Packs](https://www.nexusmods.com/baldursgate3/mods/5997) Each companion has a custom personalised bag.
 - [Simple Sorting Bags](https://www.nexusmods.com/baldursgate3/mods/7891)&#x20;
 - [Tomes and Manuals](https://www.nexusmods.com/baldursgate3/mods/12914)&#x20;
-- [Moonblade Of Selune](https://www.nexusmods.com/baldursgate3/mods/14616) *Aylin Only*.
 
 ### Weapons and Armour:
 
@@ -1909,6 +2016,18 @@ Looking for more? Try adding [DIQ Expanded](https://next.nexusmods.com/baldursga
 - [Shadowheart Concept Outfit](https://www.nexusmods.com/baldursgate3/mods/6578)&#x20;
 - [Camp Pants](https://www.nexusmods.com/baldursgate3/mods/4437) *Camp Pants*.
 - [Shadowheart's Orchid](https://www.nexusmods.com/baldursgate3/mods/13906)&#x20;
+
+### Dye:
+
+Additional dyes can be found inside some of [havsglimt](https://www.nexusmods.com/baldursgate3/users/77184368)'s subclass mods.
+
+- [Extra Dyes for the Fashionable Folk of Faerun](https://www.nexusmods.com/baldursgate3/mods/1774) *AstralSprout's Extra Dyes - Bundle Version*.
+- [Boring Dyes](https://www.nexusmods.com/baldursgate3/mods/3444)&#x20;
+- [Chromatic Dyes](https://www.nexusmods.com/baldursgate3/mods/3833)&#x20;
+- [TC Dyes](https://www.nexusmods.com/baldursgate3/mods/3925)&#x20;
+- [Draconic Dyes](https://www.nexusmods.com/baldursgate3/mods/5061)&#x20;
+- [Psychotter's Goth Dyes](https://www.nexusmods.com/baldursgate3/mods/7329) *Bright Metal Version* & *Dark Metal Version*.
+- [Color Presets As Dyes - Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/6175)&#x20;
 </details>
 
 ***
@@ -1920,6 +2039,8 @@ More options than you'll ever need, but if it's not enough grab [DIQ Extras](htt
 - [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717) For all your transmogging needs, view the mod page for further information, there's also a tutorial video [here](https://github.com/osirisOfGit/BG3_The_Armory/wiki/Tutorial-Video)!
 
 <details><summary>💅🏼Colours </summary>
+# 💅🏼Colours
+
 ### Overhauls:
 
 - [Colorizer - Makeup and Tattoo Color Organizer](https://www.nexusmods.com/baldursgate3/mods/16656)&#x20;
@@ -1963,8 +2084,9 @@ More options than you'll ever need, but if it's not enough grab [DIQ Extras](htt
 </details>
 
 <details><summary>✂️Hairstyles</summary>
-**None of these replace existing hairstyles.**\
-The 2 mods that include hairs for Dragonborn do not implement them in a satisfactory fashion lol.
+# ✂️Hairstyles
+
+None of these replace existing hairstyles, they are new and standalone.
 
 ### **All Races & Bodies:**
 
@@ -2022,6 +2144,10 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 </details>
 
 <details><summary>🧑‍🦲Head Presets</summary>
+# 🧑‍🦲Head Presets
+
+❗️Information regarding VFX here is outdated.
+
 ### Head Patches:
 
 - [P4 Patches](https://www.nexusmods.com/baldursgate3/mods/353) *Patch 7 or 8 - Patches for CC Races* & *Patches\_for\_VFX\_Heads*.
@@ -2079,7 +2205,9 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 - [HUNTRIX Head presets](https://www.nexusmods.com/baldursgate3/mods/18199) *Huntrix - UTAV*.
 </details>
 
-<details><summary>💄Horns, Beards, Piercings, Tattoos, Makeup, Scars, etc!</summary>
+<details><summary>💄Horns, Beards, Piercings, Tattoos, Makeup, Scars, etc.</summary>
+# 💄Horns, Beards, Piercings, Tattoos, Makeup, Scars, etc.
+
 ### Core:
 
 - [Kazstra's Virtual Tav x Tattoo Makeup and Scar Extender](https://www.nexusmods.com/baldursgate3/mods/16325) *KAVT - Kazstra's Virtual Tav*.
@@ -2135,7 +2263,7 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 </details>
 
 <details><summary>📩Replacers</summary>
-### Replacers:
+# 📩Replacers
 
 - [Upscaled Tattoos (and more)](https://www.nexusmods.com/baldursgate3/mods/1703)&#x20;
 - [Odds and Ends for Lani](https://www.nexusmods.com/baldursgate3/mods/14041) *Edited Draconic Face Scales 4k.*
@@ -2144,9 +2272,16 @@ The 2 mods that include hairs for Dragonborn do not implement them in a satisfac
 - [XS Sporty Sexy Map for UTAV - KAVT](https://www.nexusmods.com/baldursgate3/mods/8413) *KAVT*.
 - [Less Wrinkled Expression and Forehead for Face](https://www.nexusmods.com/baldursgate3/mods/1058) *PAK format all-in-1*.
 - [Githyanki Ridged Spots (Body and Face) CUSTOM](https://www.nexusmods.com/baldursgate3/mods/9059) *Smooth Githyanki Variants*.
+- [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) *AIO Hairless (VT)*.
+- [Faerun Dental Care](https://www.nexusmods.com/baldursgate3/mods/2269) *Faerun Dental Care - Original*.
+- [Visual Artefact Fix](https://www.nexusmods.com/baldursgate3/mods/14841)
+- [HD Hair and Beards v2.0.0 (Patch 7 Update)](https://www.nexusmods.com/baldursgate3/mods/3496) Recommended to be used with TAA (anti-aliasing, in video options), looks great with DLAA for me too.
+- [Neutral Facial Expressions](https://www.nexusmods.com/baldursgate3/mods/11491) *Neutral Expressions v1*.
 </details>
 
 <details><summary>🫨NPC Customisation</summary>
+# 🫨NPC Customisation
+
 ### All Companions:
 
 - [Companion And NPC Face Texture Tweaks](https://www.nexusmods.com/baldursgate3/mods/36) *(Loose Files Version)*.
@@ -2253,6 +2388,8 @@ Targeted at 1080P-1440P on 24"-27" monitors. Built for 16:9 aspect ratio. Ultraw
 Every core UI element has a toggle, allowing the UI to fade out when not hovered over.
 
 <details><summary>💻User Interface</summary>
+# 💻User Interface
+
 ### Overhauls:
 
 - [ImpUI\_P8\_Fork (ImprovedUI)](https://www.nexusmods.com/baldursgate3/mods/16649)&#x20;
@@ -2334,6 +2471,8 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 The remaining mods.
 
 <details><summary>📷Models & Textures</summary>
+# 📷Models & Textures
+
 ### Environment Models:
 
 - [Darker Underdark](https://www.nexusmods.com/baldursgate3/mods/12237) + *Darker Grymforge*.
@@ -2372,10 +2511,6 @@ The remaining mods.
 
 ### Other:
 
-- [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) *AIO Hairless (VT)*.
-- [Faerun Dental Care](https://www.nexusmods.com/baldursgate3/mods/2269) *Faerun Dental Care - Original*.
-- [Visual Artefact Fix](https://www.nexusmods.com/baldursgate3/mods/14841)
-- [HD Hair and Beards v2.0.0 (Patch 7 Update)](https://www.nexusmods.com/baldursgate3/mods/3496) Recommended to be used with TAA (anti-aliasing, in video options), looks great with DLAA for me too.
 - [Smaller Boo](https://www.nexusmods.com/baldursgate3/mods/6762)&#x20;
 - [Darker Paper ](https://www.nexusmods.com/baldursgate3/mods/3021)&#x20;
 - [Shadow Mastiff Nimbus - Hound of Ill Omen Replacer](https://www.nexusmods.com/baldursgate3/mods/17371)&#x20;
@@ -2384,8 +2519,8 @@ The remaining mods.
 - [Kaz Lab Assorted Shader Pack](https://www.nexusmods.com/baldursgate3/mods/17005)&#x20;
 </details>
 
-<details><summary>🧥Dice & Dyes</summary>
-### Dice:
+<details><summary>🎱Dice</summary>
+# 🎱Dice
 
 - [Glass Gallery - A Dice Set](https://www.nexusmods.com/baldursgate3/mods/2355) ***"Moonlilia's Glass Gallery"***.
 - [Astral Sea Dice Set](https://www.nexusmods.com/baldursgate3/mods/1266)
@@ -2416,22 +2551,10 @@ The remaining mods.
 - [Christmas Dice Set](https://www.nexusmods.com/baldursgate3/mods/14335)&#x20;
 - [Fire and Smoke Dice](https://www.nexusmods.com/baldursgate3/mods/17402)&#x20;
 - [Runestone And Grymforge Dice](https://www.nexusmods.com/baldursgate3/mods/17632)&#x20;
-
-### Dye:
-
-Additional dyes can be found inside some of [havsglimt](https://www.nexusmods.com/baldursgate3/users/77184368)'s subclass mods.
-
-- [Extra Dyes for the Fashionable Folk of Faerun](https://www.nexusmods.com/baldursgate3/mods/1774) *AstralSprout's Extra Dyes - Bundle Version*.
-- [Boring Dyes](https://www.nexusmods.com/baldursgate3/mods/3444)&#x20;
-- [Chromatic Dyes](https://www.nexusmods.com/baldursgate3/mods/3833)&#x20;
-- [TC Dyes](https://www.nexusmods.com/baldursgate3/mods/3925)&#x20;
-- [Draconic Dyes](https://www.nexusmods.com/baldursgate3/mods/5061)&#x20;
-- [Psychotter's Goth Dyes](https://www.nexusmods.com/baldursgate3/mods/7329) *Bright Metal Version* & *Dark Metal Version*.
-- [Color Presets As Dyes - Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/6175)&#x20;
 </details>
 
 <details><summary>📦Libraries & Utilities</summary>
-**Requirements for other mods to function primarily.**
+# 📦Libraries & Utilities
 
 ### Essential utilities:
 
