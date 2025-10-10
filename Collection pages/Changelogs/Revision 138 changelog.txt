@@ -53,11 +53,7 @@
 
 ### Gameplay:
 
-> Any class mods you started the game as may have included custom items, and will also require use of
->
-> [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701)
->
-> for mid-playthrough updating.
+> Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
 
 - [Auto Loot Seller V4](https://www.nexusmods.com/baldursgate3/mods/2435) \
   \- Replaced by [Auto Wares - MCM](https://www.nexusmods.com/baldursgate3/mods/18924), as marking things as wares was all it was being used for.
@@ -148,8 +144,8 @@
 - [Alpha Dither Shader Fix - Replacer and Standalone](https://www.nexusmods.com/baldursgate3/mods/18585) *REPLACER Dither Shader Fix*.
 - [Lighting Template Fixes](https://www.nexusmods.com/baldursgate3/mods/18652)&#x20;
 - [Gnome More Clipping](https://www.nexusmods.com/baldursgate3/mods/18768)&#x20;
-- [ABSolutely](https://www.nexusmods.com/baldursgate3/mods/18726) *KavT\_Normie\_ELF\_Softer*, *KaVT\_TIF\_F*, *ABSolutely\_NrmF\_Softer* & *ABSolutely\_NrmM*.
-- [ABSolutely Companions](https://www.nexusmods.com/baldursgate3/mods/19073) *ABSolutely\_Shadowheart\_Softer*.
+- [ABSolutely](https://www.nexusmods.com/baldursgate3/mods/18726) + *ABSolutely\_NrmF\_Softer*, *KavT\_Normie\_ELF\_Softer* & *KaVT\_TIF\_F*.
+- [ABSolutely Companions](https://www.nexusmods.com/baldursgate3/mods/19073) *ABSolutely\_Shadowheart\_Softer* & *ABSolutely\_Minthara*.
 - [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) *Left Arm - Breast - Chest and Back (Black Nails)*.
 - [Elminster Aumar Edits - The Great Flame of the Shadowdale](https://www.nexusmods.com/baldursgate3/mods/18738) *Elminster Aumar Edits - The Old Greybeard*.
 - [Gortash's New Look](https://www.nexusmods.com/baldursgate3/mods/18761)&#x20;
