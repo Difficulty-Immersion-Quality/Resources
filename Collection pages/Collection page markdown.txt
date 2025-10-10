@@ -193,12 +193,17 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 <details><summary>✅Pre-Install: Having and Maintaining Clean Install - Step #1</summary>
 # ✅Pre-Install: Having and Maintaining Clean Install - Step #1
 
-1. **Make sure you have a clean game installation!** Follow [How to Remove All Mods from BG3](https://wiki.bg3.community/en/Tutorials/Mod-Use/How-to-remove-mods)!\
-   Also check out [Steam Community :: Guide :: Cleaning Cache](https://steamcommunity.com/sharedfiles/filedetails/?id=3018203217), having a **clean install** is about more than just removing mods you were previously using, **I expect people who have never modded their install to also follow these instructions**.\
-   .
+1. If you haven't confirmed that the folder you've installed the game to was empty prior to downloading the game, you might have a dirty install. You might also just be unaware of how much is stored in Larian's appdata folder, and how little is removed when the game itself is uninstalled.\
+   \
+   Note: Using an application such as [Revo Uninstaller](https://www.revouninstaller.com) is not sufficient for ensuring a clean installation, especially in the context of mods. \
+   \
+   If in doubt, view my guide ⚡️***Cleaning Out Your BG3 Game Install and Appdata*** under ***3: Troubleshooting Guides***⚡️.\
+   \
+   ![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
 2. [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) is a script you can install so each time Windows starts up the game's `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache`, and other temp files are cleared. This is highly beneficial for avoiding issues that may arise over time were it otherwise not cleaned out.\
    \
-   Alternatively, you can just run the executable file manually before playing the game, keep it on your desktop of wherever you want!\
+   Alternatively, you can just run the executable file manually before playing the game, keep it on your desktop or wherever you want!\
+   \
    ![](https://staticdelivery.nexusmods.com/mods/3474/images/14495/14495-1735549500-1291419674.png)
 3. Proceed to the next drop down menu: 💡***Game: Setup - Step #2***.
 </details>
@@ -209,12 +214,14 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 1. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Updates*** -> ***Automatic Updates***  set it to ***Only update the game when I launch it***.\
    \
    **Note:** There's a good reason for this, you don't want to update the game prior to collection revisions coming out, if there's an update available without a matching collection revision set [Steam](https://store.steampowered.com/about/) into ***Offline Mode*** prior to launching.\
+   \
    For more information please read ***2: Updating Guide - Collection & Game Updates***⚠️.\
    \
    ![](https://i.postimg.cc/zGWhHZQP/image2222222222222222222222222222.png)
-2. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** select ***Verify integrity of game files***.\
-   You'll need to wait for this process under your [Steam](https://store.steampowered.com/about/) downloads to finish before continuing.\
+2. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** select ***Verify integrity of game files***. You'll need to wait for this process to complete, and download any files it needs.\
+   \
    **Note:** I've even seen fresh installs get fixed from doing this, you are not above this step!\
+   \
    **ALSO:** If you're playing on a downgraded install you cannot ***Verify integrity of game files*** without [Steam](https://store.steampowered.com/about/) fetching files from the latest version, so in these cases skip this step. For more information please read ***2: Updating Guide - Collection & Game Updates***⚠️.\
    \
    ![](https://i.postimg.cc/gkjqJ7df/image11111111111111111111.png)
@@ -337,11 +344,11 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 
 While [Script Extender](https://github.com/Norbyte/bg3se) based mods will generate their configuration files upon creating/loading a game they will not have any of the custom settings which are critical to the functionality of DIQ.
 
-1. If you haven't cleaned out old configs please delete the `Script Extender` folder inside `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`\
+1. If you haven't cleaned out old configs please delete the `Script Extender` folder inside `%AppData%\Local\Larian Studios\Baldur's Gate 3`\
    .
 2. You can find the files as an all in one `.zip` under [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784)***,*** or get them from my [Discord](https://discord.gg/baldursgoonsacks), under ***=== DIFFICULTY, IMMERSION, QUALITY ===*** > ***#***📑***bg3-configs***.\
    .
-3. Inside the ***.zip*** folder you will see a folder called ***Script Extender***. Extract the ***.zip*** folder into `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3`\
+3. Inside the ***.zip*** folder you will see a folder called ***Script Extender***. Extract the ***.zip*** folder into `%AppData%\Local\Larian Studios\Baldur's Gate 3`\
    .
 4. Overwrite the existing files and `Script Extender` folder if they exist, if it doesn't exist then extracting the `.zip` will create it.\
    .
@@ -643,6 +650,69 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
    ![](https://i.postimg.cc/HxHhyqC9/image.png)
 </details>
 
+<details><summary>⚡️Cleaning Out Your BG3 Game Install and Appdata</summary>
+# ⚡️Cleaning Out Your BG3 Game Install and Appdata
+
+- You can also view [How to Remove All Mods from BG3](https://wiki.bg3.community/en/Tutorials/Mod-Use/How-to-remove-mods) and [Cleaning Cache](https://steamcommunity.com/sharedfiles/filedetails/?id=3018203217), but my guide is preferable in the context of the collection.
+- File paths shown below are based on a default [Steam](https://store.steampowered.com/about/) install.
+- If some of these folders and files don't exist for you it's not a cause for alarm, just follow it through.
+
+1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).\
+   \
+   ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
+2. Go to your `%LocalAppData%` find the `BG3ScriptExtender` folder and delete it.\
+   \
+   ![](https://i.postimg.cc/MK0QYYSQ/BG3-Script-Extender.png)
+3. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache` and delete the:\
+   \- Everything, make `LevelCache` an empty folder.
+4. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\Mods` and delete the:\
+   \- Everything, make `Mods` an empty folder.\
+   \
+   ![](https://i.postimg.cc/BvBSr8XS/mods.png)
+5. Go to `%AppData%\Larian Studios\Baldur's Gate 3\Script Extender` and delete the:\
+   \- Everything, make `Script Extender` an empty folder.\
+   ![](https://i.postimg.cc/7ZDgvWVX/Script-Extender.png)
+6. Go to `%AppData%\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles`\
+   \- Any `Debug Profile` folders you see.\
+   ![](https://i.postimg.cc/9QqznFdd/playerprofiles.png)
+7. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public` and delete the:\
+   \- `modsettings.lsx`\
+   \- `modsettings.lsx.backup`\
+   \
+   ![](https://i.postimg.cc/mZzDDgn8/image-2025-10-10-123600121.png)
+8. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Bin` and delete the:\
+   \- `NativeMods` folder\
+   \- `SDL2.dll`\
+   \- `Dwrite.dll`\
+   \- `bind2w64.dll`\
+   \- `bink2w64_original.dll` \
+   \- `ScriptExtenderSettings.json` \
+   \- `ScriptExtenderUpdaterConfig.json` \
+   \- You might as well delete ***every*** `log` file too, and make sure there's no remnants from previously using ***Achievement Enabler*** if you ever had it installed.\
+   \
+   Example of a clean `bin` folder:\
+   \
+   ![](https://i.postimg.cc/DwSMXRrk/bin.png)
+9. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Data` and delete the:\
+   \- `Cursors` folder\
+   \- `Generated` folder\
+   \- `Mods` folder\
+   \- `Public` folder\
+   \
+   Example of a clean `Data` folder:\
+   \
+   ![](https://i.postimg.cc/vZyvQj0g/data-1.png)![](https://i.postimg.cc/258FWWRL/data-2.png)
+10. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** and select ***Verify integrity of game files***. You'll need to wait for this process to complete, and download any files it needs.\
+    \
+    ![](https://i.postimg.cc/gkjqJ7df/image11111111111111111111.png)
+11. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).\
+    \
+    ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
+12. Make sure your configuration files and load order are handled properly, refer to:\
+    \- ***1: Installation Guide - Vortex, BG3MM & Configs***💡->💾***Manual Installation: Configuration Files - Step #5***\
+    \- ***1: Installation Guide - Vortex, BG3MM & Configs***💡->📋***BG3MM: Load Order Management - Step #6***
+</details>
+
 <details><summary>⚡️Multiplayer Issues & Troubleshooting</summary>
 # ⚡️Multiplayer Issues & Troubleshooting
 
@@ -667,9 +737,9 @@ No u
 - When in doubt go full nuclear, wipe it all and start from scratch.
 </details>
 
-### Stuff Is Missing:
+### Stuff Is Missing or Broken:
 
-The following issues should more is less be resolved by following the above ⚡️***Soft Rebooting Your Vortex Collection Install*** guide, I recommend following that first and if issues persist doing both.
+The following issues should be more or less resolved by following the above guides, I recommend following those first and looking at these if issues persist, one issue could mean multiple and it's best to be thorough.
 
 <details><summary>⚡️Mods Missing in Game + "MCM is 'inactive' in your load order" Main Menu Error</summary>
 # ⚡️Mods Missing in Game + "MCM is 'inactive' in your load order" Main Menu Error
@@ -746,8 +816,6 @@ Not only can they be overwritten, the staging folders for them in [Vortex](https
 8. Reinstall [BG3MM](https://github.com/LaughingLeader/BG3ModManager), redoing ***1: Installation Guide - Vortex, BG3MM & Configs***💡-> 📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
-### Guides I'm yet to update:
-
 <details><summary>⚡️Texture Issues: Flickering & Pop-in</summary>
 # ⚡️Texture Issues: Flickering & Pop-in
 
@@ -780,61 +848,6 @@ Not only can they be overwritten, the staging folders for them in [Vortex](https
 - Your install might be dirty.
 - Maybe your graphics drivers are out of date or have issues.
 - It's exceedingly rare.
-</details>
-
-### ⚡️Cleaning out Your BG3 folders:
-
-<details><summary>⚡️Vortex Failing to Manage Files: Remnant Files in Game Folders</summary>
-# ⚡️Vortex Failing to Manage Files: Remnant Files in Game Folders
-
-Alternatively follow [How to Remove All Mods from BG3](https://wiki.bg3.community/en/Tutorials/Mod-Use/How-to-remove-mods).
-
-I've only experienced files being unmanaged by [Vortex](https://www.nexusmods.com/about/vortex/) once, it was when I swapped ***Deployment Methods*** without ***Purging*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), I don't think that bug exists anymore either.
-
-Delete all `.symlink` files if that was the deployment method in use.
-File paths shown below are based on a default [Steam](https://store.steampowered.com/about/) install.
-
-- In your ***Baldurs Gate 3 > Data*** folder delete **all folders** (not **.pak** files) titled ***Mods***, ***SharedDev*** or ***GustavDev***.
-
-1. ***Purge*** mods in Vortex.
-2. Go to your `%AppData%\Local\Larian Studios\Baldur's Gate 3\Mods` folder and delete the:\
-   ***Everything, make it an empty folder.***
-3. Go to your `%AppData%\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public` folder and delete the:\
-   `modsettings.lsx`\
-   Any `Debug Profile` folders you see
-4. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Bin` and **delete** the:\
-   `NativeMods` folder\
-   `SDL2.dll`\
-   `Dwrite.dll`\
-   `bind2w64.dll`\
-   `bink2w64_original.dll` (this you would rename to `bind2w64.dll` for returning to vanilla, we're just nuking all [Vortex](https://www.nexusmods.com/about/vortex/) managed files. Also, if it's a `.symlink` this would not be any good.)\
-   `ScriptExtenderSettings.json` \
-   `ScriptExtenderUpdaterConfig.json` \
-   You might as well delete ***every*** `log` file too, and make sure there's no remnants from previously using ***Achievement Enabler*** if you ever had it installed.
-5. Go to `SteamLibrary > steamapps > common > Baldurs Gate 3 > Data` ***folder and delete the***:\
-   `Cursors` folder\
-   `Generated` folder\
-   `Mods` folder\
-   `Public` folder
-6. In [Steam](https://store.steampowered.com/about/) go to ***Library > Baldurs Gate III > Properties > Installed files*** and select ***Verify integrity of game files***. Let the scan and potential download finish.
-7. ***Deploy*** mods in Vortex, check that they're deployed properly.\
-   e.g. No folders, only `.pak` files in the `appdata` `Mods` folder from step ***3***. (A few exceptions such as `readme` files)
-8. Test ***Purging*** mods. If the game's folders appear as they did after step ***7*** you're all good to go.\
-   If you've followed this whole guide you'll need to follow installation steps again, such as ***manually installing*** my configuration files and launching into the game at least once with mods ***Deployed*** so [Script Extender](https://github.com/Norbyte/bg3se) installs properly.
-
-**NOTE:** If you've installed other collections previously, or just done a [Vortex](https://www.nexusmods.com/about/vortex/) only install there may be modded `.pak` files in your `SteamLibrary > steamapps > common > Baldurs Gate 3 > Data` folder. Below is a screenshot of the vanilla files which you should **NOT** delete as of Hotfix #22, 21st of March, 2024.\
-**NOTE:** The image is cut off, there are 19 `VirtualTextures_X.pak` files.\
-![](<C: \> SteamLibrary \> steamapps \> common \> Baldurs Gate 3 \> Data folder>)![](https://i.postimg.cc/5txFZg52/Screenshot-2024-03-21-051301.png)
-</details>
-
-<details><summary>⚡️Nuking Script Extender and Configuration Files</summary>
-# ⚡️Nuking Script Extender and Configuration Files
-
-In the above steps for ⚡️V***ortex failing to manage files: Remnant files in game folders*** you will delete the `Dwrite.dll` and `ScriptExtenderSettings.json` file.
-
-1. Go to your `%LocalAppData%` find the `BG3ScriptExtender` folder and delete it.
-2. Go to your `%AppData%\Larian Studios\Baldur's Gate 3\Script Extender` folder and delete the:\
-   ***Everything, make it an empty folder.***
 </details>
 
 ### Other:
@@ -956,7 +969,7 @@ All other items are distributed through the game world for immersive and balance
 - I encourage everyone to customise this config to their liking, I highly recommend you use [Visual Studio Code](https://code.visualstudio.com) as it will let you know if you've made errors, or at least [Notepad ++](https://notepad-plus-plus.org) instead of [Notepad](https://apps.microsoft.com/detail/9msmlrh6lzf3?hl=en-US\&gl=US).
 - [Configuration Explained](https://github.com/Zehtukae/combat-extender/blob/main/Source/ConfigurationExplained.json#L281) is an overview of how the config works.
 - If your [Script Extender](https://github.com/Norbyte/bg3se) console is filling up with red texts usually referring to boosts not being applied then you've made errors.
-- You can make edits to your ***CombatExtender.json*** in `%AppData%\Local\Larian Studios\Baldur's Gate 3\Larian Studios\Baldur's Gate 3\Script Extender` while the game is running, and load a save to apply changes. Great for testing!
+- You can make edits to your ***CombatExtender.json*** in `%AppData%\Local\Larian Studios\Baldur's Gate 3\Script Extender` while the game is running, and load a save to apply changes. Great for testing!
 - While you can just remove the mod (***Disable*** in [Vortex](https://www.nexusmods.com/about/vortex/), redo [BG3MM](https://github.com/LaughingLeader/BG3ModManager) steps) you will be missing out on some interesting gameplay changes, such as enemies using many more spells and abilities, keeping combat fresh and interesting.
 - **Note:** [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) uses Tactician difficulty stats as a base, decreasing the difficulty from Tactician has no impact on the buffs provided to enemies through [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207)'s configuration file.
 - Just bellow is the related lined for health, the `StaticBoost` 0.150 means all NPCs of that type have their health increased by a flat 15%, and the `HealthPerLevel` of 0.100 is giving another 10% per level of the creature. Given that the Tactician difficulty (used as a baseline) increases it by 30%, the collection essentially doubles the health of all NPCs at the higher levels.
@@ -1466,6 +1479,7 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Night With Drow (Minthara Romance Alternative)](https://www.nexusmods.com/baldursgate3/mods/16213) ❌Getting removed in 138
 - [Original NightSong Cinematic](https://www.nexusmods.com/baldursgate3/mods/17754) *Original Nightsong Cinematic with Tweaks*.
 - [Raphael Bed Story](https://www.nexusmods.com/baldursgate3/mods/14695)&#x20;
+- [Who Is Marcus](https://www.nexusmods.com/baldursgate3/mods/18943) ✅Getting added in 138
 
 ### [iamy0urdad](https://www.nexusmods.com/baldursgate3/users/3792625):
 
