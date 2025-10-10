@@ -2,7 +2,7 @@
 
 # 🔥Patch #8/Hotfix #34 - Some Tedious Yet Necessary Renovations.🔥
 
-### Don't forget to endorse the collection if you enjoy it! 😘 Maybe buy me a Pepsi too? [Kofi](https://ko-fi.com/baldursgoonsack)💖
+### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
 
 ***
 
@@ -33,7 +33,7 @@
 - A long standing issue with the House of Grief going hostile upon entry should be resolved. \
   [NPC Visual Overhaul (WIP) - NPC VO](https://www.nexusmods.com/baldursgate3/mods/11373) had an improper overwrite of a minor character's stat entry leading them to turn up dead, this messed with things and was easily patched. If the issue persists after having visited lower city for the first time on Revision 138, please report it here in [Discord](https://discord.com/invite/baldursgoonsacks) -> [Sharran Cloister is automatically hostile - House of Grief](https://ptb.discord.com/channels/1174823496086470716/1322592638947557510).
 - I spent many hours going over dialogue mods with a fine tooth comb, everything should be compatible and very functional. [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) is gone, but so too is the headache that came with including it, as it touched many files, many many files.
-- Configs were also gone over with a fine tooth comb, a number of changes were made.
+- Configs were also gone over with a fine tooth comb, a number of changes were made; you can view them on the [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) changelog.
 
 ***
 
@@ -41,26 +41,45 @@
 
 ### Visuals:
 
-- [Black Nail Polish (Hands and Foot)](https://www.nexusmods.com/baldursgate3/mods/637) *Shadowheart*.
+- [XS Sporty Sexy Map for UTAV - KAVT](https://www.nexusmods.com/baldursgate3/mods/8413) *XS Sporty Sexy Map BG3 - KAVT*.\
+  \- Made redundant by [ABSolutely](https://www.nexusmods.com/baldursgate3/mods/18726).
+- [Black Nail Polish (Hands and Foot)](https://www.nexusmods.com/baldursgate3/mods/637) *Shadowheart*.\
+  \- Made redundant by [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) *Left Arm - Breast - Chest and Back (Black Nails)*.
 - [Pushed Back Gortash Hair](https://www.nexusmods.com/baldursgate3/mods/8310) *Pushed Back Hair - Full Swoop*.
 - [Mizora's Human Form Restored](https://www.nexusmods.com/baldursgate3/mods/16825) *Complete Immersion*.\
-  Swapped to *Wyrm's Crossing Only*.
+  \- Swapped to *Wyrm's Crossing Only*.
+- [Viconia and Sarevok head replacement WIP](https://www.nexusmods.com/baldursgate3/mods/8751) *Sarevok head replacement*.\
+  \- While it gets some more of the discreet BG2 features correct, it just feels off the more I look at it; BG3 Sarevok definitely just looks more the part given the time that has passed.
 
 ### Gameplay:
+
+> Any class mods you started the game as may have included custom items, and will also require use of
+>
+> [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701)
+>
+> for mid-playthrough updating.
 
 - [Auto Loot Seller V4](https://www.nexusmods.com/baldursgate3/mods/2435) \
   \- Replaced by [Auto Wares - MCM](https://www.nexusmods.com/baldursgate3/mods/18924), as marking things as wares was all it was being used for.
 - [Druid Quality of Life - Hotbar Restore](https://www.nexusmods.com/baldursgate3/mods/5877) \
   \- Deprecated.
 - [True Range - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/14441) \
-  Implementation isn't really dynamic enough and would require patching, it also will forever display improper 5e values regardless of the configuration.\
-  This is a concept I could support myself just by changing range values on base weapons, though it would be limited to 30m (which is what I want).
+  \- Implementation isn't really dynamic enough and would require patching, it also will forever display improper 5e values regardless of the configuration.\
+  \- This is a concept I could support myself just by changing range values on base weapons, though it would be limited to 30m (which is what I want).
 - [True Darkness - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/13542) *(OPTIONAL) Semi-Transparent VFX*.\
-  It's a good idea but the base visuals are so much better to look at, if you can't see enough just toggle character highlighting with the tilde key.
-- [Graviturgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/484) \
-  \- Unaddressed issues and no spell lists for level 7-9 spells.
-- [Chronurgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/3323) \
-  \- Unaddressed issues and no spell lists for level 7-9 spells.
+  \- It's a good idea but the base visuals are so much better to look at, if you can't see enough just toggle character highlighting with the tilde key.
+- [Valkrana's Skeleton Emporium - Over 50 New Animate Dead Options](https://www.nexusmods.com/baldursgate3/mods/5808) \
+  \- OP stuff.
+- [Arcanist Feat](https://www.nexusmods.com/baldursgate3/mods/1087) \
+  \- Replaced with the *SE* version.
+- [Troubadour](https://www.nexusmods.com/baldursgate3/mods/472) \
+  \- Doesn't have proper 13-20 support.
+- [Oath of the Storm - Paladin Subclass](https://www.nexusmods.com/baldursgate3/mods/4682) \
+  \- OP stuff.
+- [Oath of the Phoenix - Paladin Subclass](https://www.nexusmods.com/baldursgate3/mods/4791) \
+  \- OP stuff, and some bugs that may or may not be conflicts.
+- [Oath of Heroism - Paladin Subclass](https://www.nexusmods.com/baldursgate3/mods/9233) \
+  \- Not really needed, a somewhat duplicate given I've added [5e Oath of Glory - Paladin Subclass Lv20 Expansion (PATCH 8)](https://www.nexusmods.com/baldursgate3/mods/19027).
 - [Clockwork Soul Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/9081) \
   ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
   \- **Note:** If you've used the included ***Clockwork Soul Dye*** on an item that exists it can cause the save to not load, remove/replace the dye and preferably never use any dye outside of [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717).\
@@ -73,16 +92,18 @@
   ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
   \- **Note:** If you've used the included ***Dye of the Aberrant Mind*** on an item that exists it can cause the save to not load, remove/replace the dye and preferably never use any dye outside of [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717).\
   \- Replaced by [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777).
-- [The Raven Queen Patron for Warlock](https://www.nexusmods.com/baldursgate3/mods/1895) \
-  \- No 13-20 support.
-- [Wizard - War Magic (Patch 8 Updated)](https://www.nexusmods.com/baldursgate3/mods/924) \
-  \- Still conflicts with [Wizard Traditions - Runesmith](https://www.nexusmods.com/baldursgate3/mods/2563) for some reason.
 - [Sorcerer - Divine Soul (Revised) PATCH 7 READY](https://www.nexusmods.com/baldursgate3/mods/4443) \
   \- Replaced by [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777).
 - [Divine Soul (REVISED) Lv20 Expansion Add-On\_ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/17331) \
   \- Replaced by [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777).
-- [Troubadour](https://www.nexusmods.com/baldursgate3/mods/472) \
-  \- Doesn't have proper 13-20 support.
+- [The Raven Queen Patron for Warlock](https://www.nexusmods.com/baldursgate3/mods/1895) \
+  \- No 13-20 support.
+- [Wizard - War Magic (Patch 8 Updated)](https://www.nexusmods.com/baldursgate3/mods/924) \
+  \- Still conflicts with [Wizard Traditions - Runesmith](https://www.nexusmods.com/baldursgate3/mods/2563) for some reason.
+- [Graviturgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/484) \
+  \- Unaddressed issues and no spell lists for level 7-9 spells.
+- [Chronurgy Magic Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/3323) \
+  \- Unaddressed issues and no spell lists for level 7-9 spells.
 
 ### Other:
 
@@ -90,11 +111,17 @@
   \- Replaced by [Epilogue Letter Bug Fixes - Aylin Isobel and Kagha](https://www.nexusmods.com/baldursgate3/mods/18945).
 - [DVQR - Really Shadowheart Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/15822) *DVQR - Really Shadowheart Compability Patch 8*.
 - [Dialogue Voice Quality Restoration (DVQR)](https://www.nexusmods.com/baldursgate3/mods/8224) *2. DVQR - Audio*.
+- [Deity Tag Activator](https://www.nexusmods.com/baldursgate3/mods/1870) \
+  \- Replaced by [Deities For All - All Classes Can Choose A Deity](https://www.nexusmods.com/baldursgate3/mods/19020), which is compatible with [Dialogue and Reactivity Tags (DART) Framework](https://www.nexusmods.com/baldursgate3/mods/17561).
+- [Auto Send Read Books To Camp](https://www.nexusmods.com/baldursgate3/mods/7035) \
+  \- I just don't feel the need.
 
 ### Dialogue and cutscenes:
 
 - [Astarion's Nightmare - Restored from Early Access](https://www.nexusmods.com/baldursgate3/mods/17511) \
   \- Not exactly immersive in the context of the full release game.
+- [Blade of Avernus saves Karlach (Act 3 spoilers)](https://www.nexusmods.com/baldursgate3/mods/13834) \
+  \- Included in [Origin Astarion - Docks Scene Edit](https://www.nexusmods.com/baldursgate3/mods/14852).
 - [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) \
   \- For some reason this mod removes the game over screen, will return if the author can address my bug report, I don't think it happened on Patch #7.
 - [Kiss Me Again - Unlimited Last Kisses in Endgame](https://www.nexusmods.com/baldursgate3/mods/16042) \
@@ -131,7 +158,7 @@
 
 - [Full Restore Fix](https://www.nexusmods.com/baldursgate3/mods/18642)&#x20;
 - [Heavy Weapons RAW](https://www.nexusmods.com/baldursgate3/mods/19028) *5R 2024*.\
-  GWM changes from this mod are overwritten entirely.
+  \- GWM changes from this mod are entirely overwritten.
 - [Summon Initiative Fixer](https://www.nexusmods.com/baldursgate3/mods/8692)&#x20;
 - [Spells of Exandria](https://www.nexusmods.com/baldursgate3/mods/18441)&#x20;
 - [Cat Familiars Plus Plus](https://www.nexusmods.com/baldursgate3/mods/19083)&#x20;
@@ -142,6 +169,11 @@
 - [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777)&#x20;
 - [Pact of the Heart and Additional Invocations](https://www.nexusmods.com/baldursgate3/mods/18429)&#x20;
 - [Book of Wizards - 5e Wizard Subclasses (Nexus Version)](https://www.nexusmods.com/baldursgate3/mods/18653)&#x20;
+
+### UI:
+
+- [Better Tooltips](https://www.nexusmods.com/baldursgate3/mods/6324) \
+  \- Swapped to *Better Tooltips for Heavy Weapons RAW*, instead of the main file.
 
 ### Other:
 
@@ -195,7 +227,7 @@
 
 - [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044)&#x20;
 - [Arcanist Feat](https://www.nexusmods.com/baldursgate3/mods/1087) *Arcanist Feat SE*.\
-  Swapped from the non-SE version.
+  \- Swapped from the non-SE version.
 - [War Caster (2014 and 2024)](https://www.nexusmods.com/baldursgate3/mods/5822)&#x20;
 - [Lone Wolf Feat - SE](https://www.nexusmods.com/baldursgate3/mods/14351)&#x20;
 
@@ -215,7 +247,7 @@
 - [Echo Knight Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/3939)&#x20;
 - [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion (PATCH 8) ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/18306)&#x20;
 - [Goon's Coffee Lock - Use Warlock Spell Slots First](https://www.nexusmods.com/baldursgate3/mods/17634) *Decaf*.\
-  Still gotta fix a pretty big bug here, the Warlock spell slot versions don't actually cost anything despite the tooltip.
+  \- Still gotta fix a pretty big bug here, the Warlock spell slot versions don't actually cost anything despite the tooltip.
 - [Goon's Wizard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17659)&#x20;
 - [Valkrana's Necrobroker - Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/17919)&#x20;
 
@@ -226,7 +258,7 @@
 - [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717)&#x20;
 - [P4 Patches](https://www.nexusmods.com/baldursgate3/mods/353) *Patches\_for\_VFX\_Heads*.
 - [HD Hair and Beards v2.0.1 (Patch 8 Update)](https://www.nexusmods.com/baldursgate3/mods/3496) \
-  Now comes as loose files instead of a PAK.
+  \- Now comes as loose files instead of a PAK.
 - [Reza head - for different races and body types](https://www.nexusmods.com/baldursgate3/mods/1384) *Reza Head - Main File* & *Unique Tav or Kaz Virtual Tav - PATCH*.
 - [Jerinski's Masc Gith Heads](https://www.nexusmods.com/baldursgate3/mods/4648) *Masc Gith Heads* & *Patch for Unique Tav or Kazstra Virtual Tav*.
 - [Jerinski's BT1 - BT3 Heads](https://www.nexusmods.com/baldursgate3/mods/16985) *BT1 - BT3 Heads* & *Patch for Kazstra Virtual Tav - Unique Tav*.
@@ -259,7 +291,8 @@
 - [HybridUI](https://www.nexusmods.com/baldursgate3/mods/17906)&#x20;
 - [Better Context Menu](https://www.nexusmods.com/baldursgate3/mods/3617)&#x20;
 - [Better Inventory UI](https://www.nexusmods.com/baldursgate3/mods/4597)&#x20;
-- [Better Tooltips](https://www.nexusmods.com/baldursgate3/mods/6324) Swapped to *Better Tooltips for Heavy Weapons RAW*, instead of the main file.
+- [Better Tooltips](https://www.nexusmods.com/baldursgate3/mods/6324) *Better Tooltips for Heavy Weapons RAW*.\
+  \- Swapped from the base version.
 
 ### Other:
 
@@ -288,7 +321,7 @@
 ## Other:
 
 - [Various NPCs Restyled](https://www.nexusmods.com/baldursgate3/mods/13937) *All in One Version (seperate paks)*.\
-  Added *TheHallowleafs\_Restyled\_V2*.\
+  \- Added *TheHallowleafs\_Restyled\_V2*.\
   ![](https://i.postimg.cc/gkWLtJkF/Screenshot-2025-09-27-203624.png)
 - [Mizora's Human Form Restored](https://www.nexusmods.com/baldursgate3/mods/16825) Removed *Complete Immersion* in favour of *Wyrm's Crossing Only*.\
-  When she's like astral projecting or whatever prior to the colony she shows as her human form, that's really not very immersive, I dunno. If it was just when she was in the pod it would make more sense, and there's some reported bugs besides.
+  \- When she's like astral projecting or whatever prior to the colony she shows as her human form, that's really not very immersive, I dunno. If it was just when she was in the pod it would make more sense, and there's some reported bugs besides.
