@@ -195,16 +195,16 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 
 1. If you haven't confirmed that the folder you've installed the game to was empty prior to downloading the game, you might have a dirty install. You might also just be unaware of how much is stored in Larian's appdata folder, and how little is removed when the game itself is uninstalled.\
    \
-   Note: Using an application such as [Revo Uninstaller](https://www.revouninstaller.com) is not sufficient for ensuring a clean installation, especially in the context of mods. \
+   **Note:** Using an application such as [Revo Uninstaller](https://www.revouninstaller.com) is not sufficient for ensuring a clean installation, especially in the context of mods. \
    \
-   If in doubt, view my guide ⚡️***Cleaning Out Your BG3 Game Install and Appdata*** under ***3: Troubleshooting Guides***⚡️.\
+   If in doubt, follow my guide ⚡️***Cleaning Out Your BG3 Game Install and Appdata*** under ***3: Troubleshooting Guides***⚡️ prior to continuing with the installation.\
    \
    ![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
-2. [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) is a script you can install so each time Windows starts up the game's `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache`, and other temp files are cleared. This is highly beneficial for avoiding issues that may arise over time were it otherwise not cleaned out.\
+2. [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) is an executable script you can add to your startup applications, so each time Windows starts the game's `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache` and other temp files are cleared. This is highly beneficial for avoiding issues that may arise over time were it otherwise not cleaned out.\
    \
    Alternatively, you can just run the executable file manually before playing the game, keep it on your desktop or wherever you want!\
    \
-   ![](https://staticdelivery.nexusmods.com/mods/3474/images/14495/14495-1735549500-1291419674.png)
+   ![](https://i.postimg.cc/qML7qJyM/cache-clean.png)
 3. Proceed to the next drop down menu: 💡***Game: Setup - Step #2***.
 </details>
 
@@ -663,24 +663,20 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
 2. Go to your `%LocalAppData%` find the `BG3ScriptExtender` folder and delete it.\
    \
    ![](https://i.postimg.cc/MK0QYYSQ/BG3-Script-Extender.png)
-3. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache` and delete the:\
-   \- Everything, make `LevelCache` an empty folder.
-4. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\Mods` and delete the:\
-   \- Everything, make `Mods` an empty folder.\
+3. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3` and delete the:\
+   \- Everything except the `PlayerProfiles` folder.\
    \
-   ![](https://i.postimg.cc/BvBSr8XS/mods.png)
-5. Go to `%AppData%\Larian Studios\Baldur's Gate 3\Script Extender` and delete the:\
-   \- Everything, make `Script Extender` an empty folder.\
-   ![](https://i.postimg.cc/7ZDgvWVX/Script-Extender.png)
-6. Go to `%AppData%\Local\Larian Studios\Baldur's Gate 3\PlayerProfiles`\
-   \- Any `Debug Profile` folders you see.\
+   ![](https://i.postimg.cc/Pf6dmpLZ/Larian-appdata.png)
+4. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\PlayerProfiles` and delete the:\
+   \- Everything except the `Public` folder and `playerprofiles8.lsf` file.\
+   \
    ![](https://i.postimg.cc/9QqznFdd/playerprofiles.png)
-7. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public` and delete the:\
+5. Go to `%LocalAppData%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public` and delete the:\
    \- `modsettings.lsx`\
-   \- `modsettings.lsx.backup`\
+   \- `modsettings.lsx.backup`.\
    \
    ![](https://i.postimg.cc/mZzDDgn8/image-2025-10-10-123600121.png)
-8. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Bin` and delete the:\
+6. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Bin` and delete the:\
    \- `NativeMods` folder\
    \- `SDL2.dll`\
    \- `Dwrite.dll`\
@@ -688,23 +684,29 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
    \- `bink2w64_original.dll` \
    \- `ScriptExtenderSettings.json` \
    \- `ScriptExtenderUpdaterConfig.json` \
-   \- You might as well delete ***every*** `log` file too, and make sure there's no remnants from previously using ***Achievement Enabler*** if you ever had it installed.\
-   \
-   Example of a clean `bin` folder:\
+   \- You might as well delete ***every*** `log` file too, and make sure there's no remnants from previously using ***Achievement Enabler*** if you ever had it installed\
+   \- Any other non-vanilla files and folders not in the images below.\
    \
    ![](https://i.postimg.cc/DwSMXRrk/bin.png)
-9. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Data` and delete the:\
+7. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Data` and delete the:\
    \- `Cursors` folder\
    \- `Generated` folder\
    \- `Mods` folder\
    \- `Public` folder\
-   \
-   Example of a clean `Data` folder:\
+   \- Any other non-vanilla files and folders not in the images below.\
+   \- ❗️If you mod with the toolkit do NOT delete the `Editor` and `Projects` folders! Also, do NOT delete the `mod` folders in `Mods` and `Public`! To be safe, backup/move both `Mods` and `Public` instead of deleting them**.**\
    \
    ![](https://i.postimg.cc/vZyvQj0g/data-1.png)![](https://i.postimg.cc/258FWWRL/data-2.png)
-10. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** and select ***Verify integrity of game files***. You'll need to wait for this process to complete, and download any files it needs.\
+8. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Data` and delete the:\
+   \- Any non-vanilla files and folders not in the images below, assuming your install is in English.\
+   \
+   ![](https://i.postimg.cc/YqfhKqjY/localisation.png)
+9. In [Steam](https://store.steampowered.com/about/) go to ***Library*** and right click ***Baldur's Gate 3*** select ***Properties*** -> ***Installed Files*** and select ***Verify integrity of game files***. You'll need to wait for this process to complete, and download any files it needs.\
+   \
+   ![](https://i.postimg.cc/gkjqJ7df/image11111111111111111111.png)
+10. Run the [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) executable file.\
     \
-    ![](https://i.postimg.cc/gkjqJ7df/image11111111111111111111.png)
+    ![](https://i.postimg.cc/qML7qJyM/cache-clean.png)
 11. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).\
     \
     ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
@@ -1330,8 +1332,6 @@ Yep, it's in the name.
 - [PPMeter damage meter and combat statistics](https://www.nexusmods.com/baldursgate3/mods/14722) For the super nerds who want to parse.
 </details>
 
-***
-
 ## Quality of Life
 
 The simple things, and sometimes not so simple things, which make a big difference.
@@ -1593,8 +1593,6 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Strange Ox - Dialogue Flow Fix](https://www.nexusmods.com/baldursgate3/mods/8346)&#x20;
 - \-
 </details>
-
-***
 
 ## Class & Race Changes
 
@@ -2044,8 +2042,6 @@ Additional dyes can be found inside some of [havsglimt](https://www.nexusmods.co
 - [Color Presets As Dyes - Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/6175)&#x20;
 </details>
 
-***
-
 ## Character Customisation
 
 More options than you'll ever need, but if it's not enough grab [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) too!
@@ -2393,8 +2389,6 @@ None of these replace existing hairstyles, they are new and standalone.
   ![](https://i.postimg.cc/0jvH7vSq/Screenshot-2025-08-31-221821.png)
 </details>
 
-***
-
 ## UI Overhaul
 
 **Most UI changes are for keyboard & mouse, gamepad UI is largely vanilla.**\
@@ -2477,8 +2471,6 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 - [Various passives has an icon](https://www.nexusmods.com/baldursgate3/mods/16621)&#x20;
 - [5eSpells Icon fixes](https://www.nexusmods.com/baldursgate3/mods/18435)&#x20;
 </details>
-
-***
 
 ## Miscellaneous
 
