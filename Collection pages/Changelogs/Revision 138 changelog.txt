@@ -1,6 +1,6 @@
 ### Revision 138 Changelog (Work in progress)
 
-# 🔥Patch #8/Hotfix #34 - WIP.🔥
+# 🔥Patch #8/Hotfix #34 - Some Tedious Yet Necessary Renovations.🔥
 
 ### Don't forget to endorse the collection if you enjoy it! 😘 Maybe buy me a Pepsi too? [Kofi](https://ko-fi.com/baldursgoonsack)💖
 
@@ -29,24 +29,27 @@
 - Realistically the addon packs were a recycling bin for crap I no longer wanted, then just became a dumping ground for things others may find cool that didn't seem like they would set the list on fire; I have no passion for them at all.
 </details>
 
--
+- ❗️Mid-playthrough updating will be pretty tedious if you were using [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) and/or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf), you'll basically want to use [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) on every single mod from those collections, and I make no guarantee it will just work no problem.
+- A long standing issue with the House of Grief going hostile upon entry should be resolved. \
+  [NPC Visual Overhaul (WIP) - NPC VO](https://www.nexusmods.com/baldursgate3/mods/11373) had an improper overwrite of a minor character's stat entry leading them to turn up dead, this messed with things and was easily patched. If the issue persists after having visited lower city for the first time on Revision 138, please report it here in [Discord](https://discord.com/invite/baldursgoonsacks) -> [Sharran Cloister is automatically hostile - House of Grief](https://ptb.discord.com/channels/1174823496086470716/1322592638947557510).
+- I spent many hours going over dialogue mods with a fine tooth comb, everything should be compatible and very functional. [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) is gone, but so too is the headache that came with including it, as it touched many files, many many files.
+- Configs were also gone over with a fine tooth comb, a number of changes were made.
 
 ***
 
-### Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
+## Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
 
-- [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) \
-  \- For some reason this mod removes the game over screen, will return if the author can address my bug report, I don't think it happened on Patch #7.
-- [Kiss Me Again - Unlimited Last Kisses in Endgame](https://www.nexusmods.com/baldursgate3/mods/16042) \
-  Redundant.
-- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) \
-  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
-  \- It's under moderation review as of this WIP changelog and will only be in the archive if it becomes available again.\
-  \- Community drama and moderation review aside, dialogue mods are compatibility hell and it's way less work for me to just not support this mod.
-- [DVQR - Really Shadowheart Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/15822) *DVQR - Really Shadowheart Compability Patch 8*.
-- [Dialogue Voice Quality Restoration (DVQR)](https://www.nexusmods.com/baldursgate3/mods/8224) *2. DVQR - Audio*.
+### Visuals:
+
 - [Black Nail Polish (Hands and Foot)](https://www.nexusmods.com/baldursgate3/mods/637) *Shadowheart*.
 - [Pushed Back Gortash Hair](https://www.nexusmods.com/baldursgate3/mods/8310) *Pushed Back Hair - Full Swoop*.
+- [Mizora's Human Form Restored](https://www.nexusmods.com/baldursgate3/mods/16825) *Complete Immersion*.\
+  Swapped to *Wyrm's Crossing Only*.
+
+### Gameplay:
+
+- [Auto Loot Seller V4](https://www.nexusmods.com/baldursgate3/mods/2435) \
+  \- Replaced by [Auto Wares - MCM](https://www.nexusmods.com/baldursgate3/mods/18924), as marking things as wares was all it was being used for.
 - [Druid Quality of Life - Hotbar Restore](https://www.nexusmods.com/baldursgate3/mods/5877) \
   \- Deprecated.
 - [True Range - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/14441) \
@@ -81,30 +84,211 @@
 - [Troubadour](https://www.nexusmods.com/baldursgate3/mods/472) \
   \- Doesn't have proper 13-20 support.
 
-### Added: 💯
+### Other:
 
--
+- [Aylin and Isobel Epilogue Letters](https://www.nexusmods.com/baldursgate3/mods/16055) \
+  \- Replaced by [Epilogue Letter Bug Fixes - Aylin Isobel and Kagha](https://www.nexusmods.com/baldursgate3/mods/18945).
+- [DVQR - Really Shadowheart Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/15822) *DVQR - Really Shadowheart Compability Patch 8*.
+- [Dialogue Voice Quality Restoration (DVQR)](https://www.nexusmods.com/baldursgate3/mods/8224) *2. DVQR - Audio*.
 
-### Added to optional mods: 💯
+### Dialogue and cutscenes:
 
--
+- [Astarion's Nightmare - Restored from Early Access](https://www.nexusmods.com/baldursgate3/mods/17511) \
+  \- Not exactly immersive in the context of the full release game.
+- [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) \
+  \- For some reason this mod removes the game over screen, will return if the author can address my bug report, I don't think it happened on Patch #7.
+- [Kiss Me Again - Unlimited Last Kisses in Endgame](https://www.nexusmods.com/baldursgate3/mods/16042) \
+  \- Redundant.
+- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) \
+  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.\
+  \- It's under moderation review as of this WIP changelog and will only be in the archive if it becomes available again.\
+  \- Community drama and moderation review aside, dialogue mods are compatibility hell and it's way less work for me to just not support this mod.
 
-### Updated Class/Spell Mods:✨
+***
+
+## Moved to [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) from [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z):🧙🏻‍♂️
+
+- [Psychic Armory](https://www.nexusmods.com/baldursgate3/mods/14476)&#x20;
+- [Mesmerist - Pathfinder 1e Class Conversion](https://www.nexusmods.com/baldursgate3/mods/11854)&#x20;
+- [The Alchemist](https://www.nexusmods.com/baldursgate3/mods/14175)&#x20;
+- [Huffman's Magus - A Class of Spell and Steel](https://www.nexusmods.com/baldursgate3/mods/17765) + *5e Spells Add-On*.
+- [Inquisitor Class](https://www.nexusmods.com/baldursgate3/mods/18318)&#x20;
+
+## Added: 💯
+
+### Visuals:
+
+- [Alpha Dither Shader Fix - Replacer and Standalone](https://www.nexusmods.com/baldursgate3/mods/18585) *REPLACER Dither Shader Fix*.
+- [Lighting Template Fixes](https://www.nexusmods.com/baldursgate3/mods/18652)&#x20;
+- [Gnome More Clipping](https://www.nexusmods.com/baldursgate3/mods/18768)&#x20;
+- [ABSolutely](https://www.nexusmods.com/baldursgate3/mods/18726) *KavT\_Normie\_ELF\_Softer*, *KaVT\_TIF\_F*, *ABSolutely\_NrmF\_Softer* & *ABSolutely\_NrmM*.
+- [ABSolutely Companions](https://www.nexusmods.com/baldursgate3/mods/19073) *ABSolutely\_Shadowheart\_Softer*.
+- [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) *Left Arm - Breast - Chest and Back (Black Nails)*.
+- [Elminster Aumar Edits - The Great Flame of the Shadowdale](https://www.nexusmods.com/baldursgate3/mods/18738) *Elminster Aumar Edits - The Old Greybeard*.
+- [Gortash's New Look](https://www.nexusmods.com/baldursgate3/mods/18761)&#x20;
+
+### Gameplay:
+
+- [Full Restore Fix](https://www.nexusmods.com/baldursgate3/mods/18642)&#x20;
+- [Heavy Weapons RAW](https://www.nexusmods.com/baldursgate3/mods/19028) *5R 2024*.\
+  GWM changes from this mod are overwritten entirely.
+- [Summon Initiative Fixer](https://www.nexusmods.com/baldursgate3/mods/8692)&#x20;
+- [Spells of Exandria](https://www.nexusmods.com/baldursgate3/mods/18441)&#x20;
+- [Cat Familiars Plus Plus](https://www.nexusmods.com/baldursgate3/mods/19083)&#x20;
+- [Circle of Witchcraft - A Druid subclass](https://www.nexusmods.com/baldursgate3/mods/18772)&#x20;
+- [5e Oath of Glory - Paladin Subclass Lv20 Expansion (PATCH 8)](https://www.nexusmods.com/baldursgate3/mods/19027)&#x20;
+- [Scavenger - A Rogue subclass](https://www.nexusmods.com/baldursgate3/mods/18581)&#x20;
+- [Spiritmaster - A Ranger summoner subclass](https://www.nexusmods.com/baldursgate3/mods/19012)&#x20;
+- [Book of Sorcerers - 5e Sorcerer Subclasses](https://www.nexusmods.com/baldursgate3/mods/18777)&#x20;
+- [Pact of the Heart and Additional Invocations](https://www.nexusmods.com/baldursgate3/mods/18429)&#x20;
+- [Book of Wizards - 5e Wizard Subclasses (Nexus Version)](https://www.nexusmods.com/baldursgate3/mods/18653)&#x20;
+
+### Other:
+
+- [Mazzle's EZ-Documentation (MazzleDocs)](https://www.nexusmods.com/baldursgate3/mods/18883)&#x20;
+- [Records - A Party Statistics Tracker](https://www.nexusmods.com/baldursgate3/mods/19021)&#x20;
+- [Auto Wares - MCM](https://www.nexusmods.com/baldursgate3/mods/18924)&#x20;
+- [Epilogue Letter Bug Fixes - Aylin Isobel and Kagha](https://www.nexusmods.com/baldursgate3/mods/18945)&#x20;
+- [Deities For All - All Classes Can Choose A Deity](https://www.nexusmods.com/baldursgate3/mods/19020)&#x20;
+
+### Dialogue and cutscenes:
+
+- [AA and Karlach Can Fuck](https://www.nexusmods.com/baldursgate3/mods/10789)&#x20;
+- [Origin Astarion - Docks Scene Edit](https://www.nexusmods.com/baldursgate3/mods/14852)&#x20;
+- [Nightsong Points Bug Fix](https://www.nexusmods.com/baldursgate3/mods/15035)&#x20;
+- [Missed Connections - Shadowheart](https://www.nexusmods.com/baldursgate3/mods/15272)&#x20;
+- [Missed Connections - Shadowheart - Truly Connect](https://www.nexusmods.com/baldursgate3/mods/17359)&#x20;
+- [Ex-Sharran Swimming Lessons for Shadowheart](https://www.nexusmods.com/baldursgate3/mods/17844)&#x20;
+- [Astral Pain - Lae'zel Romance Debuff](https://www.nexusmods.com/baldursgate3/mods/17067)&#x20;
+- [Book Club With Gale](https://www.nexusmods.com/baldursgate3/mods/18568)&#x20;
+- [Various Dialogue Fixes](https://www.nexusmods.com/baldursgate3/mods/17091) + *VDFShadowLaezelFight*.
+- [Waterproof Shadowheart](https://www.nexusmods.com/baldursgate3/mods/18548)&#x20;
+- [Hallowleafs in Camp](https://www.nexusmods.com/baldursgate3/mods/17838)&#x20;
+- [Shadowheart and her pets](https://www.nexusmods.com/baldursgate3/mods/17943)&#x20;
+- [Who Is Marcus](https://www.nexusmods.com/baldursgate3/mods/18943)&#x20;
+
+## Added to optional mods: 💯
+
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *BG3SE Configs - Advanced*.
+- [Inheritance Populator - Modders Resource](https://www.nexusmods.com/baldursgate3/mods/15147)&#x20;
+- [Mod Change Tracker - Modders Resource](https://www.nexusmods.com/baldursgate3/mods/15172)&#x20;
+- [Shadows of the Gate](https://www.nexusmods.com/baldursgate3/mods/17611) *Instanced Objects* & *Instanced Objects Additions*.
+- [Datamined Karlach](https://www.nexusmods.com/baldursgate3/mods/508) *Scarred Vanilla Head*.
+- [Shadowheart Takes Her Hair Down At Night](https://www.nexusmods.com/baldursgate3/mods/18328)&#x20;
+- [Shadowheart Concept Art Face Tattoos](https://www.nexusmods.com/baldursgate3/mods/18807)&#x20;
+
+***
+
+## Updated Class/Spell Mods:✨
 
 > It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
 
--
+### Spells:
 
-### Updated: ✅
+- [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Cantrips*, *Level 1*, *Level 7* & *Misc*.
+- [5e Spells](https://www.nexusmods.com/baldursgate3/mods/125)&#x20;
+- [Advanced Tabletop Spells](https://www.nexusmods.com/baldursgate3/mods/14429)&#x20;
+- [Valkrana's Spellbook - 15 New Necromancy Spells](https://www.nexusmods.com/baldursgate3/mods/1258)&#x20;
+- [Dawnstar's Grimoire](https://www.nexusmods.com/baldursgate3/mods/15598)&#x20;
 
--
+### Feats:
 
-### Updated optional mods: ✅
-
--
+- [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044)&#x20;
+- [Arcanist Feat](https://www.nexusmods.com/baldursgate3/mods/1087) *Arcanist Feat SE*.\
+  Swapped from the non-SE version.
+- [War Caster (2014 and 2024)](https://www.nexusmods.com/baldursgate3/mods/5822)&#x20;
+- [Lone Wolf Feat - SE](https://www.nexusmods.com/baldursgate3/mods/14351)&#x20;
 
 ### Other:
+
+- [Familiar Casting and Fixes](https://www.nexusmods.com/baldursgate3/mods/6149)&#x20;
+- [Automated Summons](https://www.nexusmods.com/baldursgate3/mods/10922)&#x20;
+- [Animate Dead Plus Plus - Necromancy Patch](https://www.nexusmods.com/baldursgate3/mods/642)&#x20;
+
+### Classes and class features:
+
+- [Expansion Level 13-20 (Configurable)](https://www.nexusmods.com/baldursgate3/mods/279)&#x20;
+- [Goon's Bard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17658)&#x20;
+- [Druid Wild Shape Overhaul](https://www.nexusmods.com/baldursgate3/mods/1148)&#x20;
+- [Book of Druids - 5e Druid Subclasses (Nexus-Exclusive Version)](https://www.nexusmods.com/baldursgate3/mods/17722)&#x20;
+- [UA6 Invoke Duplicity](https://www.nexusmods.com/baldursgate3/mods/5311)&#x20;
+- [Echo Knight Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/3939)&#x20;
+- [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion (PATCH 8) ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/18306)&#x20;
+- [Goon's Coffee Lock - Use Warlock Spell Slots First](https://www.nexusmods.com/baldursgate3/mods/17634) *Decaf*.\
+  Still gotta fix a pretty big bug here, the Warlock spell slot versions don't actually cost anything despite the tooltip.
+- [Goon's Wizard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17659)&#x20;
+- [Valkrana's Necrobroker - Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/17919)&#x20;
+
+## Updated: ✅
+
+### Visuals:
+
+- [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717)&#x20;
+- [P4 Patches](https://www.nexusmods.com/baldursgate3/mods/353) *Patches\_for\_VFX\_Heads*.
+- [HD Hair and Beards v2.0.1 (Patch 8 Update)](https://www.nexusmods.com/baldursgate3/mods/3496) \
+  Now comes as loose files instead of a PAK.
+- [Reza head - for different races and body types](https://www.nexusmods.com/baldursgate3/mods/1384) *Reza Head - Main File* & *Unique Tav or Kaz Virtual Tav - PATCH*.
+- [Jerinski's Masc Gith Heads](https://www.nexusmods.com/baldursgate3/mods/4648) *Masc Gith Heads* & *Patch for Unique Tav or Kazstra Virtual Tav*.
+- [Jerinski's BT1 - BT3 Heads](https://www.nexusmods.com/baldursgate3/mods/16985) *BT1 - BT3 Heads* & *Patch for Kazstra Virtual Tav - Unique Tav*.
+- [Such a Tease - Ornamented (a Raphael redressing mod)](https://www.nexusmods.com/baldursgate3/mods/13218)&#x20;
+- [NPC Redesign - Vampire Spawns by AzazeL (WIP)](https://www.nexusmods.com/baldursgate3/mods/17268)&#x20;
+
+### Gameplay:
+
+- [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781)&#x20;
+- [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945)&#x20;
+- [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217)&#x20;
+- [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535) + *Extras*.
+- [Valkrana's Undead Encounters - New Bosses Fights Items and Allies - Including Act 3](https://www.nexusmods.com/baldursgate3/mods/9024)&#x20;
+- [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863)&#x20;
+- [Dr. Kekyll's Grappling Framework](https://www.nexusmods.com/baldursgate3/mods/3382)&#x20;
+- [Power Hunger - Story Buffs Enhanced](https://www.nexusmods.com/baldursgate3/mods/3989)&#x20;
+- [Illithid Powers Overhaul 2](https://www.nexusmods.com/baldursgate3/mods/5105)&#x20;
+- [Dragonborn and Breath Weapon Enhanced - inspired by Fizban's Treasury of Dragons](https://www.nexusmods.com/baldursgate3/mods/12169)&#x20;
+- [Goon's Throwing Overhaul](https://www.nexusmods.com/baldursgate3/mods/15126) *Goon's Gear and Throwing Overhaul*.
+- [The Hand of Vecna](https://www.nexusmods.com/baldursgate3/mods/12600)&#x20;
+- [The Eye of Vecna](https://www.nexusmods.com/baldursgate3/mods/12601)&#x20;
+- [Awakened Blood of Lathander](https://www.nexusmods.com/baldursgate3/mods/12628)&#x20;
+- [Critfisher Ring](https://www.nexusmods.com/baldursgate3/mods/13425)&#x20;
+- [Fix Stragglers](https://www.nexusmods.com/baldursgate3/mods/10795)&#x20;
+
+### UI:
+
+- [Mod Configuration Menu (MCM)](https://www.nexusmods.com/baldursgate3/mods/9162)&#x20;
+- [Tooltip Manager - Highlight Everything SE - MCM](https://www.nexusmods.com/baldursgate3/mods/18208)&#x20;
+- [HybridUI](https://www.nexusmods.com/baldursgate3/mods/17906)&#x20;
+- [Better Context Menu](https://www.nexusmods.com/baldursgate3/mods/3617)&#x20;
+- [Better Inventory UI](https://www.nexusmods.com/baldursgate3/mods/4597)&#x20;
+- [Better Tooltips](https://www.nexusmods.com/baldursgate3/mods/6324) Swapped to *Better Tooltips for Heavy Weapons RAW*, instead of the main file.
+
+### Other:
+
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Misc Patches*, *DIQ Dialogue Patches* & *BG3SE Configs* (formerly *Norbyte's BG3SE Configs*.)
+- [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095) *DIQ Clothing Patches*.
+- [Goon's Library - Passives Functions Spells and More](https://www.nexusmods.com/baldursgate3/mods/12834)&#x20;
+- [Xara's Library and Patches](https://www.nexusmods.com/baldursgate3/mods/17107)&#x20;
+- [Scribe - Object Inspector and Event Logging](https://www.nexusmods.com/baldursgate3/mods/9200)&#x20;
+- [Object Character Support](https://www.nexusmods.com/baldursgate3/mods/3940)&#x20;
+- [Action Resource Passives](https://www.nexusmods.com/baldursgate3/mods/8913)&#x20;
+- [Dialogue Voice Quality Restoration (DVQR)](https://www.nexusmods.com/baldursgate3/mods/8224) Removed *2. DVQR - Audio*, added *DVQR - Voice1*, *DVQR - Voice2* & *DVQR - VoiceMeta*.
+
+### Dialogue and cutscenes:
+
+- [Dark Urge Tweeaks](https://www.nexusmods.com/baldursgate3/mods/15031)&#x20;
+- [Lesser Restoration - Assorted Bug Fixes](https://www.nexusmods.com/baldursgate3/mods/15125)&#x20;
+- [Astarion Kisses Revamped](https://www.nexusmods.com/baldursgate3/mods/15387)&#x20;
+- [Raphael Restored - Last Light Fixes](https://www.nexusmods.com/baldursgate3/mods/17508)&#x20;
+- [Lae'zel Kiss Dialogue](https://www.nexusmods.com/baldursgate3/mods/17523)&#x20;
+
+## Updated optional mods: ✅
+
+- [Character Appearance Editor (Charactery Character Editory Editor) (CCEE) WIP](https://www.nexusmods.com/baldursgate3/mods/17123)&#x20;
+- [Minimal Main Menu](https://www.nexusmods.com/baldursgate3/mods/18137)&#x20;
+
+## Other:
 
 - [Various NPCs Restyled](https://www.nexusmods.com/baldursgate3/mods/13937) *All in One Version (seperate paks)*.\
   Added *TheHallowleafs\_Restyled\_V2*.\
   ![](https://i.postimg.cc/gkWLtJkF/Screenshot-2025-09-27-203624.png)
+- [Mizora's Human Form Restored](https://www.nexusmods.com/baldursgate3/mods/16825) Removed *Complete Immersion* in favour of *Wyrm's Crossing Only*.\
+  When she's like astral projecting or whatever prior to the colony she shows as her human form, that's really not very immersive, I dunno. If it was just when she was in the pod it would make more sense, and there's some reported bugs besides.

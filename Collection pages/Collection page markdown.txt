@@ -187,17 +187,17 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 
 ### You're confident that your system is ready for the DIQ?
 
-- Proceed to the next drop down menu: ✅***Pre-Install: Having and Maintaining Clean Install - Step #1***.
+- Proceed to the next drop down menu: ✅***Pre-Install: Having and Maintaining a Clean Install - Step #1***.
 </details>
 
-<details><summary>✅Pre-Install: Having and Maintaining Clean Install - Step #1</summary>
-# ✅Pre-Install: Having and Maintaining Clean Install - Step #1
+<details><summary>✅Pre-Install: Having and Maintaining a Clean Install - Step #1</summary>
+# ✅Pre-Install: Having and Maintaining a Clean Install - Step #1
 
 1. If you haven't confirmed that the folder you've installed the game to was empty prior to downloading the game, you might have a dirty install. You might also just be unaware of how much is stored in Larian's appdata folder, and how little is removed when the game itself is uninstalled.\
    \
    **Note:** Using an application such as [Revo Uninstaller](https://www.revouninstaller.com) is not sufficient for ensuring a clean installation, especially in the context of mods. \
    \
-   If in doubt, follow my guide ⚡️***Cleaning Out Your BG3 Game Install and Appdata*** under ***3: Troubleshooting Guides***⚡️ prior to continuing with the installation.\
+   If in doubt, follow my guide ⚡️***Cleaning Out Your BG3 Game Install, Appdata and Caches*** under ***3: Troubleshooting Guides***⚡️ prior to continuing with the installation.\
    \
    ![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
 2. [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) is an executable script you can add to your startup applications, so each time Windows starts the game's `%LocalAppData%\Larian Studios\Baldur's Gate 3\LevelCache` and other temp files are cleared. This is highly beneficial for avoiding issues that may arise over time were it otherwise not cleaned out.\
@@ -496,8 +496,7 @@ Please **Endorse** (the thumbs up button) the collection if you enjoy it! If you
     If you need a refresher on the load order please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡 ->📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
-❗️These two drop-downs below need updating and are not currently relevant.
-
+<details><summary>❗️These two included drop-downs need updating and are not currently relevant.</summary>
 <details><summary>⚡️Game Updates + Rolling Back Your Game Version</summary>
 # ⚡️Game Updates + Rolling Back Your Game Version
 
@@ -602,6 +601,7 @@ Overwrite the game install with the downloaded packages, ***purge*** mods in [Vo
 - Whenever you actually want to update [Script Extender](https://github.com/Norbyte/bg3se) just delete the ***19.0.0.0*** folder, the real one will be fetched on launch.
 - If another version comes out you will have to do this again, just overwrite the latest folder with the desired version of [Script Extender](https://github.com/Norbyte/bg3se).
 </details>
+</details>
 
 ***
 
@@ -650,8 +650,8 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
    ![](https://i.postimg.cc/HxHhyqC9/image.png)
 </details>
 
-<details><summary>⚡️Cleaning Out Your BG3 Game Install and Appdata</summary>
-# ⚡️Cleaning Out Your BG3 Game Install and Appdata
+<details><summary>⚡️Cleaning Out Your BG3 Game Install, Appdata and Caches</summary>
+# ⚡️Cleaning Out Your BG3 Game Install, Appdata and Caches
 
 - You can also view [How to Remove All Mods from BG3](https://wiki.bg3.community/en/Tutorials/Mod-Use/How-to-remove-mods) and [Cleaning Cache](https://steamcommunity.com/sharedfiles/filedetails/?id=3018203217), but my guide is preferable in the context of the collection.
 - File paths shown below are based on a default [Steam](https://store.steampowered.com/about/) install.
@@ -694,7 +694,7 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
    \- `Mods` folder\
    \- `Public` folder\
    \- Any other non-vanilla files and folders not in the images below.\
-   \- ❗️If you mod with the toolkit do NOT delete the `Editor` and `Projects` folders! Also, do NOT delete the `mod` folders in `Mods` and `Public`! To be safe, backup/move both `Mods` and `Public` instead of deleting them**.**\
+   \- ❗️If you mod with the toolkit do NOT delete the `Editor` and `Projects` folders! Also, do NOT delete the `mod` folders in `Mods` and `Public`! To be safe, backup/move both `Mods` and `Public` instead of deleting them.\
    \
    ![](https://i.postimg.cc/vZyvQj0g/data-1.png)![](https://i.postimg.cc/258FWWRL/data-2.png)
 8. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Data` and delete the:\
@@ -707,10 +707,15 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
 10. Run the [Auto-Clean-Cache Script for Baldur's Gate 3](https://www.nexusmods.com/baldursgate3/mods/14495) executable file.\
     \
     ![](https://i.postimg.cc/qML7qJyM/cache-clean.png)
-11. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).\
+11. If you're getting errors about no deployment method being available: \
+    \- Restart [Vortex](https://www.nexusmods.com/about/vortex/), then, under ***Settings*** -> ***Mods*** set ***Deployment Method*** to ***Symlink Deployment***.\
     \
+    The following errors don't matter, and can safely be ignored.\
+    \
+    ![](https://i.postimg.cc/jqJbBsZH/failed-to-migrate.png)
+12. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).\
     ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
-12. Make sure your configuration files and load order are handled properly, refer to:\
+13. Make sure your configuration files and load order are handled properly, refer to:\
     \- ***1: Installation Guide - Vortex, BG3MM & Configs***💡->💾***Manual Installation: Configuration Files - Step #5***\
     \- ***1: Installation Guide - Vortex, BG3MM & Configs***💡->📋***BG3MM: Load Order Management - Step #6***
 </details>
