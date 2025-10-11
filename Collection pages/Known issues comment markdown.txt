@@ -4,6 +4,10 @@ If you can't find what you're looking for here, make sure to check ***3: Trouble
 
 Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=), alongside everything else in progress. Some other important ones for the current revision I will list here:
 
+- Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
+  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 139. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+
+<details><summary>❓Revision 137 Issues that are fixed with Revision 138</summary>
 - If you've updated to Patch #8/Hotfix #34 you can probably just update the following mods in Vortex (or MO2 is using the Wabbajack) and be fine.\
   ❓Hit ***Check for Updates***, let it do its thing, click the orange cloud icons to update the mods (the specific ones below, not everything), ignore dependency warning (you won't break the list), deploy mods, W![](https://i.postimg.cc/9fmcXJ1C/image-33.png)
 - If you have any issues related to [Script Extender](https://github.com/Norbyte/bg3se) please view ***3: Troubleshooting Guides***⚡️->⚡️***Script Extender Won't Update + Missing Console Window and/or Achievements***.
@@ -12,8 +16,12 @@ Bugs which are actively being hunted, or intend to be resolved can be found on t
 - [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) breaks the game over screen, you can just remove it.
 - [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535) needs to be manually updated to version 2.2.0.0 to prevent [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) from stacking passives provided to NPCs; which can cause them to do insane damage, have larger HP than usual, and continue stacking boost in multiple different contexts, including when they are hit, on their turn, when they take damage, etc.\
   ❓Right click it in Vortex, check for updates, click update icon, ignore dependency warning (you won't break the list), deploy mods, W
-- Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can cause AI slowdown, or even have NPCs skipping turns. \
-  In Revision 138 there will be a full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217), spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+
+# ⚡️Cosmetic Issues
+
+1. [Better Inventory UI](https://www.nexusmods.com/baldursgate3/mods/4597) cooks instrument/trinket tooltips when they're equipped. It's Larian's fault and [Caites](https://www.nexusmods.com/baldursgate3/users/703937) can't fix it as of right now. Removing the mod is an option, but you lose all the good it brings too.\
+   ![](https://i.postimg.cc/764fPn7b/clZscS7.png)
+</details>
 
 What follows below is instead known issues that are not things I can really do much of anything about, very low priority stuff, niche circumstantial issues, vanilla bugs, game limitations etc.
 
@@ -78,12 +86,10 @@ TemplateAddTo("ae588c38-3e1b-4f38-97b2-635c76164527", GetHostCharacter(), 1)
 1. **Incorrect tooltip information**:\
    Tooltips often get stuck showing outdated information, because of this bug the information displayed may be incorrect. Save then load the game to refresh the UI if necessary.
 2. Since ***Patch #7*** many custom icons have been cooked. Lots are patched, but a bunch of action resource icons might still be the purple star.
-3. [Better Inventory UI](https://www.nexusmods.com/baldursgate3/mods/4597) cooks instrument/trinket tooltips when they're equipped. It's Larian's fault and [Caites](https://www.nexusmods.com/baldursgate3/users/703937) can't fix it as of right now. Removing the mod is an option, but you lose all the good it brings too.\
-   ![](https://i.postimg.cc/764fPn7b/clZscS7.png)
-4. 🔞**In Game Nudity Toggles Not Working Properly:**\
+3. 🔞**In Game Nudity Toggles Not Working Properly:**\
    If a custom/modded item uses the chest/camp clothes slot and does not cover genitalia the game is generally assuming that it does. This circumvents the nudity being disabled. This may also be the case if a modded outfit does not have visuals for your race/gender.&#x20;
-5. Unique bodies may not display correctly on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97).
-6. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
-7. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
-8. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
+4. Unique bodies may not display correctly on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97).
+5. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
+6. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
+7. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
 </details>

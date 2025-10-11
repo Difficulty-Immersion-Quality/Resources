@@ -46,12 +46,24 @@
 <details><summary>📜All Of My BG3 Collections</summary>
 # 📜All Of My BG3 Collections
 
-- [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) This one.
-- [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding further build options.
-- [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding more items!
-- [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) focused on adding customisation options.
-- [BG3 Essentials](https://next.nexusmods.com/baldursgate3/collections/1asizr) A basic collection comprised of the building blocks for most mod lists, Native mods, Script Extender, UI Improvements etc. (**Note:** These mods are already included in [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv).)
-- [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj) Where I lay mods to rest after removal from the other collections. (**Note:** Not for general use.)
+### [✅Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) Addons
+
+- [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding more customisation options.
+- [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding adult activities.
+
+### ❌[Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) Addons - Support discontinued as of Revision 138.
+
+- [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding further build options.&#x20;
+- [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding more gear.
+
+### Other
+
+- [BG3 Essentials](https://next.nexusmods.com/baldursgate3/collections/1asizr) A basic collection comprised of the building blocks for most mod lists, Native mods, Script Extender, UI Improvements etc.\
+  **Note:** This is a standalone collection, the mods are already included in [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv).
+- [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj) Where I lay mods to rest after removal from the other collections. \
+  **Note:** Not for general use.
+- [Goon Test Cave](https://www.nexusmods.com/games/baldursgate3/collections/x7rwye) Where I store a whole host of stuff as a backup.\
+  **Note:** Not for general use.
 
 ### [![](https://i.postimg.cc/mZFWC42n/the-four-horsemen-of-the-goonpocalypse-big.png)](https://next.nexusmods.com/profile/BaldursGoonsack/collections)
 </details>
@@ -319,14 +331,12 @@ https://www.youtube.com/watch?v=xh91YywWaEo
    **Note:** ***Purging*** removes mods from the game files, it doesn't delete them permanently or harm your install. It increases the efficiency of [Vortex](https://www.nexusmods.com/about/vortex/), and reduces the potential for issues to occur.\
    \
    ![](https://i.postimg.cc/B6z3J72c/Screenshot-2023-11-25-082156.png)
-5. It's at this point you may also wish to install [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) (more character customisation) and/or [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) (more build options), and/or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) (more items) alongside [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv). Just like the previous step explains you should **Purge** mods prior to adding these addon collections.\
+5. It's at this point you may also wish to install [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and/or [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) alongside [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv). Just like the previous step explains you should **Purge** mods prior to adding these addon collections.\
+   \
    These addon collections can be added at a later date if you just want to try the base collection first.\
    \
    **Note:** The addon collections must be installed into the same ***profile*** in [Vortex](https://www.nexusmods.com/about/vortex/).\
-   \
-   [DIQ Horny](https://next.nexusmods.com/baldursgate3/collections/1uysmm) is an exception, this 18+ addon has special instructions when it comes to the load order, because I just don't care for having those mods enabled in my game even while testing.\
-   \
-   ![](https://i.postimg.cc/xTtmMZ9k/Untitled-design.png)
+   .
 6. Toggle the column for ***Collection*** on your [Vortex](https://www.nexusmods.com/about/vortex/) ***Mods*** page, by clicking the cog icon in the top right. Click the ***Group*** icon for Collection as it will be mandatory for removing old mod files when updating the collection in the future.\
    Also toggle the column for ***Mod Type*** just for easier access to some of the more important mods, such as [Script Extender](https://github.com/Norbyte/bg3se), [WASD Character Movement](https://www.nexusmods.com/baldursgate3/mods/781), [Native Camera Tweaks](https://www.nexusmods.com/baldursgate3/mods/945) and [Native Mod Loader](https://www.nexusmods.com/baldursgate3/mods/944).\
    \
@@ -358,8 +368,9 @@ While [Script Extender](https://github.com/Norbyte/bg3se) based mods will genera
 <details><summary>📋BG3MM: Load Order Management - Step #6</summary>
 # 📋BG3MM: Load Order Management - Step #6
 
-**Note:** Before doing the following, have the collection(s) installed, including optional mods which you want to use from [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg), [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) and [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf).
-If you decide to add more optional mods afterwards, or install [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and/or [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) and/or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) at a later date, you will want to get a fresh load order `.json` file so the mods are placed correctly.
+**Note:** Before doing the following, have the collection(s) installed, including optional mods which you want to use from [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm).\
+\
+If you decide to add more optional mods afterwards, or install [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and/or [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) at a later date, you will want to get a fresh load order `.json` file so the mods are placed correctly.
 
 1. Get [BG3MM](https://github.com/LaughingLeader/BG3ModManager) and extract it to your desktop, or somewhere else nice and easy. Not inside Vortex or game related folders. There is no installation executable, it's good to go upon extraction.\
    \
@@ -385,7 +396,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
    ![](https://i.postimg.cc/7LNCxzPY/image.png)
 6. When prompted with ***Missing Mods in Load Order*** select ***Remove All Missing***, then ***OK***. \
    \
-   This will show all of the optional mods and mods from [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg), [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) or [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) that you don't have installed, enabled and deployed through vortex.\
+   This will show all of the optional mods, as well as mods from [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) that you don't have installed, enabled, and deployed through [Vortex](https://www.nexusmods.com/about/vortex/).\
    \
    ![](https://i.postimg.cc/fbsK2Ygw/image.png)You can confirm that it's worked by saving the load order and refreshing [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\
    .
@@ -1108,7 +1119,7 @@ The [Baldur's Gate 3 Mod Fixer](https://www.nexusmods.com/baldursgate3/mods/141)
 ***
 
 ![](https://i.postimg.cc/90HRvVgL/9-Optional-Archived-Mods.png)❌**DO NOT install optional mods without reading about them!**\
-Same goes for my addon collections [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z), [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) but it's easier to determine if you want the addon collections at a glance as the mods included generally aren't very niche or complicated.
+Same goes for my addon collections [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) and [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) but it's easier to determine if you want the addon collections at a glance as the mods included generally aren't very niche or complicated.
 
 <details><summary>🙈Combat & Difficulty: NPC Buffs & Party Management</summary>
 # 🙈Combat & Difficulty: NPC Buffs & Party Management

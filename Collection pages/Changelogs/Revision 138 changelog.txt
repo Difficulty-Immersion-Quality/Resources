@@ -1,4 +1,4 @@
-### Revision 138 Changelog (Work in progress)
+### Revision 138 Changelog
 
 # 🔥Patch #8/Hotfix #34 - Some Tedious Yet Necessary Renovations.🔥
 
@@ -34,6 +34,8 @@
   [NPC Visual Overhaul (WIP) - NPC VO](https://www.nexusmods.com/baldursgate3/mods/11373) had an improper overwrite of a minor character's stat entry leading them to turn up dead, this messed with things and was easily patched. If the issue persists after having visited lower city for the first time on Revision 138, please report it here in [Discord](https://discord.com/invite/baldursgoonsacks) -> [Sharran Cloister is automatically hostile - House of Grief](https://ptb.discord.com/channels/1174823496086470716/1322592638947557510).
 - I spent many hours going over dialogue mods with a fine tooth comb, everything should be compatible and very functional. [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) is gone, but so too is the headache that came with including it, as it touched many files, many many files.
 - Configs were also gone over with a fine tooth comb, a number of changes were made; you can view them on the [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) changelog.
+- [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) is now included in the load order, and does not require manual handling.
+- [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) replacing [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) was delayed, intended now for Revision 139. As always, you can see a decent enough outline of what's planned on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1).&#x20;
 
 ***
 
@@ -232,6 +234,7 @@
 - [Familiar Casting and Fixes](https://www.nexusmods.com/baldursgate3/mods/6149)&#x20;
 - [Automated Summons](https://www.nexusmods.com/baldursgate3/mods/10922)&#x20;
 - [Animate Dead Plus Plus - Necromancy Patch](https://www.nexusmods.com/baldursgate3/mods/642)&#x20;
+- [Illithid Powers Consolidated (compatible with IPO2)](https://www.nexusmods.com/baldursgate3/mods/16671)&#x20;
 
 ### Classes and class features:
 
