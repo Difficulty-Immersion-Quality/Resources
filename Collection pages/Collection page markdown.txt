@@ -461,9 +461,9 @@ Please **Endorse** (the thumbs up button) the collection if you enjoy it! If you
    ![](https://i.postimg.cc/FsnDMTJf/Untitled-1000-x-250-px.gif)
 2. Read the [changelog](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog), not just the most recent; but all changelogs from the revision you are currently on, up to the most recent.\
    \
-   Follow any specific instructions found on the [changelogs](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog). This may consist of things such as: Respeccing character classes, unequipping or deleting items and uninstalling a mod through [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701).\
+   For mid-playthrough updating you must follow any specific instructions found on the [changelogs](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog). This may consist of things such as: Respeccing character classes, unequipping or deleting items and uninstalling a mod through [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701).\
    \
-   [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) allows you to remove mods via the [Mod Configuration Menu (MCM)](https://www.nexusmods.com/baldursgate3/mods/9162) interface, making it easier to cleanly uninstall mods that add items, passives, statuses etc.\
+   [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) allows you to remove mods via the [Mod Configuration Menu (MCM)](https://www.nexusmods.com/baldursgate3/mods/9162) interface, making it easier to cleanly uninstall mods that add items, passives, statuses etc. by removing them from the game world, for that saved game specifically.\
    \
    **Using **[**Mod Uninstaller**](https://www.nexusmods.com/baldursgate3/mods/9701)**:**\
    1\. Open the [Mod Configuration Menu (MCM)](https://www.nexusmods.com/baldursgate3/mods/9162) in game while loaded into the save you wish to continue playing on\
@@ -903,7 +903,9 @@ Selecting the ***Mod Type*** drop down box after double clicking on a mod allows
 
 ***
 
-![](https://i.postimg.cc/Lsy1RpDK/4-Everything-Else-You-Need-to-Know.png)📌Most mods are seamlessly integrated into the game's systems. Some mods are a little more unique and should be taken note of. Please read this section instead of adding to the giant pile of questions from people without eyeballs.
+![](https://i.postimg.cc/Lsy1RpDK/4-Everything-Else-You-Need-to-Know.png)📌Most mods are seamlessly integrated into the game's systems. Some mods are a little more unique and should be taken note of. (This section needs a lot more added to it.)
+
+- 🪲***Known Issues + Workarounds*** has been moved to a [pinned comment](https://www.nexusmods.com/games/baldursgate3/collections/pns4qv/comments?commentId=172148) for greater visibility!
 
 ### HIGHLY Recommended Reading:
 
@@ -912,7 +914,9 @@ Selecting the ***Mod Type*** drop down box after double clicking on a mod allows
 
 You can purchase custom items from **Withers** through the power of [Trade with Withers](https://www.nexusmods.com/baldursgate3/mods/2458) and all the patches I've created! The items range from weapons and crafting tools, to clothes and dyes. Prices have been reduced and stats nerfed as needed.\
 \
-It's mostly cosmetic stuff, and is an alternative delivery method which I've opted to use instead of [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) or [AV Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/8295). The reason for this is to make the items un-exploitable for gold, further curated/organised and keeps other vendor's selections closer to how they were in vanilla.\
+It's mostly cosmetic stuff, and is an alternative delivery method which I've opted to use instead of [Tutorial Chest Summoning](https://www.nexusmods.com/baldursgate3/mods/457) or [AV Item Shipment Framework](https://www.nexusmods.com/baldursgate3/mods/8295). The reason for this is to make the items un-exploitable for gold, further curated/organised and keeps other vendor's selections closer to how they were in vanilla.
+
+**Note:** You don't really need to access cosmetics this way because you can just use [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717) For all your transmogging needs, view the mod page for further information, there's also a tutorial video [here](https://github.com/osirisOfGit/BG3_The_Armory/wiki/Tutorial-Video)!\
 \
 All other items are distributed through the game world for immersive and balanced acquisition.\
 [Yield to Temptation - Tutorial Chest Anti-Cheat](https://www.nexusmods.com/baldursgate3/mods/4913) makes sure the beginning of your journey isn't like Dragon Age: Origins giving you a bunch of random DLC items, but even more overpowered and numerous.\
@@ -930,7 +934,8 @@ All other items are distributed through the game world for immersive and balance
   \- Toggle the mod on and off with ***Caps Lock***.\
   ![](https://i.postimg.cc/k5sgjq1b/781-1691761313-2064208011.webp)
 - [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172) By default the party limit is still 4, edit the limit through the [MCM](https://www.nexusmods.com/baldursgate3/mods/9162) in-game.\
-  **Note:** Increasing the party limit beyond 4 has its own set of bugs, educate yourself on the subject by reading the mod's page.
+  **Note:** Increasing the party limit beyond 4 has its own set of bugs, educate yourself on the subject by reading the mod's page.\
+  .
 - [Animate Dead Plus Plus - Necromancy Patch](https://www.nexusmods.com/baldursgate3/mods/642) and [Automated Summons](https://www.nexusmods.com/baldursgate3/mods/10922) will add some toggleable passives to your main character whenever you first Short Rest or toggle Non-Lethal Attacks.\
   This GIF shows the two automation toggles for summons and the button to remove all these passives from your character, which is only really useful for updating or removing the mods.\
   There is another which is not shown here which toggles the corpse requirement for Necromancy summons off.\
@@ -940,17 +945,6 @@ All other items are distributed through the game world for immersive and balance
 <details><summary>🤠Character Creation</summary>
 # 🤠Character Creation
 
-- Some Origin characters have messed up colours of the character creation screen. This is a side effect of them being customisable, however it's **ONLY** on the character creation screen. They will not look like this as NPC party members.\
-  \
-  Having [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899) as an optional file is a headache for compatibility, as some mods need to be patched to work alongside it such as [Origin's Gods](https://www.nexusmods.com/baldursgate3/mods/6305), so it's included in the main list. It does not take very long at all to select the appropriate eye, hair and skin colours, and to stick a beard back on to Gale. If you're not playing as one of these 4 Origin characters, or weren't going to use their default appearances, then this is entirely irrelevant to you.\
-  \
-  Note: They may not look as cooked as they do below depending on other factors, such as optional mods that alter their default appearance somewhat fixing things.\
-  \
-  **WARNING:** Wyll is a special case when it comes to Origin character editing, if he undergoes a certain transformation in Act I it will likely remove customisations made to him. He will not be further editable without resetting his appearance to his human form, which can be done via [Script Extender](https://github.com/Norbyte/bg3se). Be aware, that this will break any race/body type changing you have done and remove his devil form permanently: `Osi.RemoveTransforms("S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d")`\
-  ![](https://i.postimg.cc/CKGsmgsf/origin-characters-at-home.png)
-- Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. For example, slots such as the Dragonborn Jaw, or Horns can be used for layering hairstyles if you wish (layering hairstyles etc. may cause physics to negatively interact with each other). There's a great number of options, and you're best to build your character piece by piece. \
-  Unless you're looking for some inspiration, like I have below.\
-  ![](https://i.postimg.cc/WbpYzXPP/Screenshot-2024-05-19-075923.png)
 - All classes can now choose deities! If you wish to opt out of deity selection, choose ***Faithful*** or ***Faithless***, these are the only options without dialogue tags associated.\
   **Note:**\
   \- [Silvanus](https://www.nexusmods.com/baldursgate3/mods/6591) does not have new dialogue associated, uses dialogue options shared amongst deities.\

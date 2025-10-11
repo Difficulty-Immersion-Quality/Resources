@@ -58,7 +58,8 @@
 > Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
 
 - [Auto Loot Seller V4](https://www.nexusmods.com/baldursgate3/mods/2435) \
-  \- Replaced by [Auto Wares - MCM](https://www.nexusmods.com/baldursgate3/mods/18924), as marking things as wares was all it was being used for.
+  \- Replaced by [Auto Wares - MCM](https://www.nexusmods.com/baldursgate3/mods/18924), as marking things as wares was all it was being used for.\
+  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (If you didn't have configs properly installed, making the damn bag spawn.)
 - [Druid Quality of Life - Hotbar Restore](https://www.nexusmods.com/baldursgate3/mods/5877) \
   \- Deprecated.
 - [True Range - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/14441) \
@@ -67,7 +68,8 @@
 - [True Darkness - 5e RAW](https://www.nexusmods.com/baldursgate3/mods/13542) *(OPTIONAL) Semi-Transparent VFX*.\
   \- It's a good idea but the base visuals are so much better to look at, if you can't see enough just toggle character highlighting with the tilde key.
 - [Valkrana's Skeleton Emporium - Over 50 New Animate Dead Options](https://www.nexusmods.com/baldursgate3/mods/5808) \
-  \- OP stuff.
+  \- OP stuff.\
+  ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
 - [Arcanist Feat](https://www.nexusmods.com/baldursgate3/mods/1087) \
   \- Replaced with the *SE* version.
 - [Troubadour](https://www.nexusmods.com/baldursgate3/mods/472) \

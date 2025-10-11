@@ -4,18 +4,33 @@ If you can't find what you're looking for here, make sure to check ***3: Trouble
 
 Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=), alongside everything else in progress. Some other important ones for the current revision I will list here:
 
+- Wyll crashes the game when recruited, and Astarion pseudo-soft locks it from generic interaction (I made some oopsies.)\
+  -> Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) `DIQ Dialogue Patches` & `DIQ Misc Patches` in [Vortex](https://www.nexusmods.com/about/vortex/).\
+  ❓Hit ***Check for Updates***, let it do its thing, click the yellow/orange cloud icons to update the mods (the specific ones below, not everything), ignore dependency warning (you won't break the list), deploy mods, W.\
+  .
+- You can also update [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion (PATCH 8) ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/18306) to fix tooltip text and [Circle of Witchcraft - A Druid subclass](https://www.nexusmods.com/baldursgate3/mods/18772) to fix a progression conflict.\
+  .
+- Shields aren't held correctly, and clip through the arm in the idle pose when wielding a rapier, dagger or shortsword in your main hand. Nothing to be done by the end user, I'll fix it for 139.\
+  .
+- First Vampire Warlock Drain Life, and Warlock variants of Sorcerer's Create Spell Slot both don't actually require or use spell slots. Unfortunately just another for me to fix, and not you.\
+  .
+- The `KavT_Normie_ELF_Softer` mod file from [ABSolutely](https://www.nexusmods.com/baldursgate3/mods/18726) will display as "redundant" in [Vortex](https://www.nexusmods.com/about/vortex/). It was supposed to be set to "replicate", with the 2 male body files removed and loaded after both KAVT [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) files. It's really not a big deal, your female player characters are just going to be a bit more jacked than I intended until 139. \
+  \
+  If you just HAVE to fix it for your female custom character, adjust the rules for overwrites to be as follows. \
+  **Note:** You won't see `Ripped Body - AIO Hairy (VT)` unless you specifically installed that optional mod.\
+  &#x20;![](https://i.postimg.cc/j56pj6mj/Screenshot-2025-10-11-230409.png)![](https://i.postimg.cc/FFpt5ZjF/Screenshot-2025-10-11-230430.png)
 - Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
   A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 139. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
 
 <details><summary>❓Revision 137 Issues that are fixed with Revision 138</summary>
-- If you've updated to Patch #8/Hotfix #34 you can probably just update the following mods in Vortex (or MO2 is using the Wabbajack) and be fine.\
+- If you've updated to Patch #8/Hotfix #34 you can probably just update the following mods in [Vortex](https://www.nexusmods.com/about/vortex/) (or MO2 is using the Wabbajack) and be fine.\
   ❓Hit ***Check for Updates***, let it do its thing, click the orange cloud icons to update the mods (the specific ones below, not everything), ignore dependency warning (you won't break the list), deploy mods, W![](https://i.postimg.cc/9fmcXJ1C/image-33.png)
 - If you have any issues related to [Script Extender](https://github.com/Norbyte/bg3se) please view ***3: Troubleshooting Guides***⚡️->⚡️***Script Extender Won't Update + Missing Console Window and/or Achievements***.
-- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) is under moderation review and cannot be downloaded. The reason for that is due to code that's not present in the current collection version of the mod, so I have no qualms in saying you can download the correct version [here from mod.io](https://g-6715.modapi.io/v1/games/6715/mods/4979078/files/6515254/download) (direct download link for 2.0.2.6), and import that into Vortex instead. This will not complete the collection install technically, but it does practically.\
-  ❓You can either ignore the unfinished collection install, or set the Nexus file for [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) to "Ignore" in the collections tab of Vortex.
+- [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) is under moderation review and cannot be downloaded. The reason for that is due to code that's not present in the current collection version of the mod, so I have no qualms in saying you can download the correct version [here from mod.io](https://g-6715.modapi.io/v1/games/6715/mods/4979078/files/6515254/download) (direct download link for 2.0.2.6), and import that into [Vortex](https://www.nexusmods.com/about/vortex/) instead. This will not complete the collection install technically, but it does practically.\
+  ❓You can either ignore the unfinished collection install, or set the Nexus file for [Really Shadowheart](https://www.nexusmods.com/baldursgate3/mods/11524) to "Ignore" in the collections tab of [Vortex](https://www.nexusmods.com/about/vortex/).
 - [Halsin Minthara Confrontation CFM Workaround](https://www.nexusmods.com/baldursgate3/mods/14090) breaks the game over screen, you can just remove it.
 - [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535) needs to be manually updated to version 2.2.0.0 to prevent [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) from stacking passives provided to NPCs; which can cause them to do insane damage, have larger HP than usual, and continue stacking boost in multiple different contexts, including when they are hit, on their turn, when they take damage, etc.\
-  ❓Right click it in Vortex, check for updates, click update icon, ignore dependency warning (you won't break the list), deploy mods, W
+  ❓Right click it in [Vortex](https://www.nexusmods.com/about/vortex/), check for updates, click update icon, ignore dependency warning (you won't break the list), deploy mods, W
 
 # ⚡️Cosmetic Issues
 
@@ -83,13 +98,24 @@ TemplateAddTo("ae588c38-3e1b-4f38-97b2-635c76164527", GetHostCharacter(), 1)
 <details><summary>⚡️Cosmetic Issues</summary>
 # ⚡️Cosmetic Issues
 
-1. **Incorrect tooltip information**:\
+1. Some Origin characters have messed up colours of the character creation screen. This is a side effect of them being customisable, however it's **ONLY** on the character creation screen. They will not look like this as NPC party members.\
+   \
+   Having [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899) as an optional file is a headache for compatibility, as some mods need to be patched to work alongside it such as [Origin's Gods](https://www.nexusmods.com/baldursgate3/mods/6305), so it's included in the main list. It does not take very long at all to select the appropriate eye, hair and skin colours, and to stick a beard back on to Gale. If you're not playing as one of these 4 Origin characters, or weren't going to use their default appearances, then this is entirely irrelevant to you.\
+   \
+   Note: They may not look as cooked as they do below depending on other factors, such as optional mods that alter their default appearance somewhat fixing things.\
+   \
+   **WARNING:** Wyll is a special case when it comes to Origin character editing, if he undergoes a certain transformation in Act I it will likely remove customisations made to him. He will not be further editable without resetting his appearance to his human form, which can be done via [Script Extender](https://github.com/Norbyte/bg3se). Be aware, that this will break any race/body type changing you have done and remove his devil form permanently: `Osi.RemoveTransforms("S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d")`\
+   ![](https://i.postimg.cc/CKGsmgsf/origin-characters-at-home.png)
+2. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. For example, slots such as the Dragonborn Jaw, or Horns can be used for layering hairstyles if you wish (layering hairstyles etc. may cause physics to negatively interact with each other). There's a great number of options, and you're best to build your character piece by piece. \
+   Unless you're looking for some inspiration, like I have below.\
+   ![](https://i.postimg.cc/WbpYzXPP/Screenshot-2024-05-19-075923.png)
+3. **Incorrect tooltip information**:\
    Tooltips often get stuck showing outdated information, because of this bug the information displayed may be incorrect. Save then load the game to refresh the UI if necessary.
-2. Since ***Patch #7*** many custom icons have been cooked. Lots are patched, but a bunch of action resource icons might still be the purple star.
-3. 🔞**In Game Nudity Toggles Not Working Properly:**\
+4. Since ***Patch #7*** many custom icons have been cooked. Lots are patched, but a bunch of action resource icons might still be the purple star.
+5. 🔞**In Game Nudity Toggles Not Working Properly:**\
    If a custom/modded item uses the chest/camp clothes slot and does not cover genitalia the game is generally assuming that it does. This circumvents the nudity being disabled. This may also be the case if a modded outfit does not have visuals for your race/gender.&#x20;
-4. Unique bodies may not display correctly on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97).
-5. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
-6. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
-7. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
+6. Unique bodies may not display correctly on clothing which modifies the body, such as outfits from [Scantily Camp Outfit](https://www.nexusmods.com/baldursgate3/mods/2617) and some from [Basket Full of Equipment. NSFW version](https://www.nexusmods.com/baldursgate3/mods/97).
+7. NPCs when inspected will show as having 0m Movement Speed, they still move in combat so it's definitely just cosmetic, I have no idea why and should investigate one day.
+8. [Ellian's heads](https://www.nexusmods.com/baldursgate3/mods/2939) has both Eyes of the Beholder and non-EOTB version of the heads in one download. Since we're not using EOTB, those additional heads will have mesh textured eyes and should not be used.
+9. Selecting ***Randomise Appearance*** in character creation will likely lead to some less than desirable outcomes. E.g. physics negatively interacting with each other, nail options being body type specific etc.
 </details>
