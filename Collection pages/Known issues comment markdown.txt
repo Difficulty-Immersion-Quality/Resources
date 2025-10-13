@@ -4,7 +4,7 @@ If you can't find what you're looking for here, make sure to check ***3: Trouble
 
 Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=), alongside everything else in progress. Some other important ones for the current revision I will list here:
 
-- Wyll crashes the game when recruited, and Astarion pseudo-soft locks it from generic interaction (I made some oopsies.)\
+- Wyll crashes the game when recruited and/or doesn't react to initiating dialogue, and Astarion pseudo-soft locks it from generic interaction (I made some oopsies.)\
   -> Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) `DIQ Dialogue Patches` & `DIQ Misc Patches` in [Vortex](https://www.nexusmods.com/about/vortex/).\
   ❓Hit ***Check for Updates***, let it do its thing, click the yellow/orange cloud icons to update the mods (the specific ones below, not everything), ignore dependency warning (you won't break the list), deploy mods, W.\
   .
