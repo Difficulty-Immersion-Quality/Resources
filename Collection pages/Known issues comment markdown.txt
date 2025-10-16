@@ -1,14 +1,15 @@
 # 🪲Known Issues + Workarounds
 
-If you can't find what you're looking for here, make sure to check ***3: Troubleshooting Guides***⚡️on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page too.
+> If you can't find what you're looking for here, make sure to check ***3: Troubleshooting Guides*** ⚡️on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page too.
 
-Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=), alongside everything else in progress. Some other important ones for the current revision I will list here:
+> Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=) , alongside everything else in progress.
+> Some other important ones for the current revision I will list here:
 
 - Wyll crashes the game when recruited and/or doesn't react to initiating dialogue, and Astarion pseudo-soft locks it from generic interaction (I made some oopsies.)\
   -> Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) `DIQ Dialogue Patches` & `DIQ Misc Patches` in [Vortex](https://www.nexusmods.com/about/vortex/).\
   ❓Hit ***Check for Updates***, let it do its thing, click the yellow/orange cloud icons to update the mods (the specific ones below, not everything), ignore dependency warning (you won't break the list), deploy mods, W.\
   .
-- You can also update [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion (PATCH 8) ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/18306) to fix tooltip text and [Circle of Witchcraft - A Druid subclass](https://www.nexusmods.com/baldursgate3/mods/18772) to fix a progression conflict.\
+- You can also update [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion (PATCH 8) ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/18306) to fix tooltip text and [Circle of Witchcraft - A Druid subclass](https://www.nexusmods.com/baldursgate3/mods/18772) to fix a progression conflict and Lightning Charges.\
   .
 - Shields aren't held correctly, and clip through the arm in the idle pose when wielding a rapier, dagger or shortsword in your main hand. Nothing to be done by the end user, I'll fix it for 139.\
   .
