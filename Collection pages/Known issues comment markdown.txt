@@ -5,15 +5,35 @@
 > Bugs which are actively being hunted, or intend to be resolved can be found on the [DIQ Planning Board](https://github.com/orgs/Difficulty-Immersion-Quality/projects/7/views/1?filterQuery=) , alongside everything else in progress.
 > Some other important ones for the current revision I will list here:
 
+<details><summary>❓Instructions for updating mods yourself</summary>
+# ❓Instructions for updating mods yourself
+
+> **Note:**
+>
+> You can't just update everything some mod files are kept on older versions, or have had their version control done improperly leading to false positives. Others will need patches, or have dependencies and such. It's important that you only update things below, or bear the risk of going further. Generally however, if it's from me, [Cahooots](https://www.nexusmods.com/baldursgate3/users/50497581), [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532) or [actualsailorcat](https://www.nexusmods.com/baldursgate3/users/78518828) it should be fine to update. To a lesser extent you should also feel comfortable updating mods from [DiZ91891](https://www.nexusmods.com/baldursgate3/users/57776731) and [sumradagnoth8](https://www.nexusmods.com/baldursgate3/users/186661377). I will flesh out a generalised list more in the future I guess.
+
+1. Hit ***Check for Updates***, let it do its thing.\
+   ![](https://i.postimg.cc/x1YFJZdH/image-2025-11-04-164633504.png)
+2. Click the yellow/orange cloud icons next to the respective mods, in the ***Version*** column.\
+   ![](https://i.postimg.cc/DZsqc2js/image-2025-11-04-164848893.png)
+3. You can ignore the dependency warning when updating the mods, you won't be breaking anything.
+4. ***Deploy*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
+5. Most of the time you don't have to do anything in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), I will specify below if you do.
+</details>
+
 - Wyll crashes the game when recruited and/or doesn't react to initiating dialogue, and Astarion pseudo-soft locks it from generic interaction (I made some oopsies.)\
   -> Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) `DIQ Dialogue Patches` & `DIQ Misc Patches` in [Vortex](https://www.nexusmods.com/about/vortex/).\
-  ❓Hit ***Check for Updates***, let it do its thing, click the yellow/orange cloud icons to update the mods (the specific ones below, not everything), ignore dependency warning (you won't break the list), deploy mods, W.\
   .
 - You can also update [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion (PATCH 8) ENG\_KOR](https://www.nexusmods.com/baldursgate3/mods/18306) to fix tooltip text and [Circle of Witchcraft - A Druid subclass](https://www.nexusmods.com/baldursgate3/mods/18772) to fix a progression conflict and Lightning Charges.\
   .
-- Shields aren't held correctly, and clip through the arm in the idle pose when wielding a rapier, dagger or shortsword in your main hand. Nothing to be done by the end user, I'll fix it for 139.\
+- Shields aren't held correctly, and clip through the arm in the idle pose when wielding a rapier, dagger or shortsword in your main hand.\
+  -> Update [Goon's Throwing Overhaul](https://www.nexusmods.com/baldursgate3/mods/15126) `Goon's Gear and Throwing Overhaul` in [Vortex](https://www.nexusmods.com/about/vortex/).\
   .
-- First Vampire Warlock Drain Life, and Warlock variants of Sorcerer's Create Spell Slot both don't actually require or use spell slots. Unfortunately just another for me to fix, and not you.\
+- First Vampire Warlock Drain Life, and Warlock variants of Sorcerer's Create Spell Slot both don't actually require or use spell slots.\
+  -> Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) `DIQ Misc Patches` in [Vortex](https://www.nexusmods.com/about/vortex/).\
+  .
+- Only heavy weapons working with Great Weapon Master?\
+  -> Update [Heavy Weapons RAW](https://www.nexusmods.com/baldursgate3/mods/19028) `Heavy Weapons RAW - 5R 2024` in [Vortex](https://www.nexusmods.com/about/vortex/).\
   .
 - The `KavT_Normie_ELF_Softer` mod file from [ABSolutely](https://www.nexusmods.com/baldursgate3/mods/18726) will display as "redundant" in [Vortex](https://www.nexusmods.com/about/vortex/). It was supposed to be set to "replicate", with the 2 male body files removed and loaded after both KAVT [Ripped Physique - Body Retextures](https://www.nexusmods.com/baldursgate3/mods/13223) files. It's really not a big deal, your female player characters are just going to be a bit more jacked than I intended until 139. \
   \

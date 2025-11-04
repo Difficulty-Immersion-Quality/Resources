@@ -82,7 +82,7 @@
 
 ***
 
-![](https://i.postimg.cc/tJjD992g/1-Installation-Guide-Vortex-BG3-MM-Configs.png)⚠️Please do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order, use[ BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)).
+![](https://i.postimg.cc/tJjD992g/1-Installation-Guide-Vortex-BG3-MM-Configs.png)⚠️Please do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order, use [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)).
 
 <details><summary>💻Video Guide  - OLD!</summary>
 # 💻Video Guide  - OLD!
@@ -134,11 +134,11 @@ https://www.youtube.com/watch?v=5u67KMwlfQY
 \<!---->
 
 - Running Baldurs Gate 3 Mod Manager through Lutris/Bottles does work,,
-- Make sure to install .NET 8.0 and the latest C++ redistributable into the bottle or lutris profile containing BG3MM,
+- Make sure to install .NET 8.0 and the latest C++ redistributable into the bottle or lutris profile containing [BG3MM](https://github.com/LaughingLeader/BG3ModManager).
 
 on the main setup popup that appears when first running the app, Set `Game Data Path` , `Game Executable Path`, and `Override AppData Path`
 
-- In BG3MM when it says "Missing Mods in Load Order", Press Remove All Missing, It might not say 'removed x missing mods from current order\` but it has. Can check the active mod list to make sure,
+- In [BG3MM](https://github.com/LaughingLeader/BG3ModManager) when it says "Missing Mods in Load Order", Press Remove All Missing, It might not say 'removed x missing mods from current order\` but it has. Can check the active mod list to make sure,
 - Save updated load order to the json file and to `Current`. When I restarted my pc, because I didn't save on Current, it reset my mod load order but it was a simple fix,
 
 **STEAM:**
@@ -154,8 +154,8 @@ on the main setup popup that appears when first running the app, Set `Game Data 
 1. to all of the insane people trying to run this shit on linux here's a tip for you: when you're pointing vortex to the game on steam it has no idea that the actual mods folder is in the corresponding proton wineprefix for baldur's gate 3 and you have to symlink it manually in the vortex wineprefix
 2. this is presuming that you're running vortex off its own wineprefix which you should be doing through say lutris
 3. so the command would be `ln -s $HOME/.local/share/Steam/steamapps/compatdata/1086940/pfx/drive_c/users/steamuser/AppData/Local/Larian\ Studios/Baldur\'s\ Gate\ 3/ $WINEPREFIX/drive_c/users/user/AppData/Local/Larian\ Studios/Baldur\'s\ Gate\ 3` or something to this extent change the wineprefix and username paths to what corresponds to your system
-4. this step has to happen before vortex starts managing baldurs gate 3
-5. and you have to do the same thing with bg3mm but it's easier with bg3mm you add this string `  "DocumentsFolderPathOverride": "Z:\\home\\<user>\\.steam\\steam\\steamapps\\compatdata\\1086940\\pfx\\drive_c\\users\\steamuser\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\",` to `Data\settings.json`
+4. this step has to happen before Vortex starts managing baldurs gate 3
+5. and you have to do the same thing with [BG3MM](https://github.com/LaughingLeader/BG3ModManager) but it's easier with [BG3MM](https://github.com/LaughingLeader/BG3ModManager) you add this string `  "DocumentsFolderPathOverride": "Z:\\home\\<user>\\.steam\\steam\\steamapps\\compatdata\\1086940\\pfx\\drive_c\\users\\steamuser\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\",` to `Data\settings.json`
 </details>
 
 <details><summary>❓How to be a Linux User</summary>
@@ -409,7 +409,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
 9. When you go to ***Export*** the load order for the first time you will get the following popup. You can ignore it, and select ***Ok***. [Script Extender](https://github.com/Norbyte/bg3se) has been installed through [Vortex](https://www.nexusmods.com/about/vortex/), but it won't complete the install until you've launched into the game at least once. After reaching the game's main menu exit the game.\
    \
    ![](https://i.postimg.cc/N0CTwTjq/image.png)
-10. We want to be particular about how we launch the game, so you should copy my [BG3MM](https://github.com/LaughingLeader/BG3ModManager) settings from below (with the exception of my ***Game Data Path*** and ***Game Executable Path***), and launch the game from there. While you can launch from [Steam](https://store.steampowered.com/about/) or the .exe files directly (not [Vortex](https://www.nexusmods.com/about/vortex/)), this comes recommended for the average user.\
+10. We want to be particular about how we launch the game, so you should copy my [BG3MM](https://github.com/LaughingLeader/BG3ModManager) settings from below (with the exception of my ***Game Data Path*** and ***Game Executable Path***), and launch the game from there. While you can launch from [Steam](https://store.steampowered.com/about/) or the .exe files directly (not [Vortex](https://www.nexusmods.com/about/vortex/)), this comes recommended for the average user; and I don't really trust the launcher settings for confirming that you are indeed using the DX11 API.\
     \
     ![](https://i.postimg.cc/FHHgWXtv/Screenshot-2025-10-01-220052.png)![](https://i.postimg.cc/vBBJbN6V/Screenshot-2025-10-01-215227.png)![](https://i.postimg.cc/FRzH8GrS/image-2025-10-01-221220889.png)
 11. Proceed to the next drop down menu: 🥹***IMPORTANT: Creating a New Game! - Step #7***.
@@ -1337,11 +1337,18 @@ Yep, it's in the name.
 - [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) + *Injuries - JWL Discordant Instruments Patch*.\
   My magnus opus developed for DIQ collaboratively with [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532). The ultimate immersive CBT experience, or not, depends on how you want to configure it.
 
+### Content Expansions:
+
+> Whole lotta stuff in these, including encounters.
+
+- [Features from DnD 5E Planescape](https://www.nexusmods.com/baldursgate3/mods/12096) + *Optional adjustments*.
+- [Features from DnD 5E Spelljammer](https://www.nexusmods.com/baldursgate3/mods/13195)&#x20;
+
 ### New Encounters:
 
 - [Many More Monsters](https://www.nexusmods.com/baldursgate3/mods/11639)&#x20;
 - [Valkrana's Undead Encounters - New Bosses Fights Items and Allies - Including Act 3](https://www.nexusmods.com/baldursgate3/mods/9024)&#x20;
-- [More Firewine Kobolds](https://www.nexusmods.com/baldursgate3/mods/16748)
+- [More Firewine Kobolds](https://www.nexusmods.com/baldursgate3/mods/16748)&#x20;
 
 ### Modified Encounters:
 
@@ -1866,11 +1873,6 @@ No class or race is changed in such a way that it is unrecognisable from the bas
 - [More Spell Choices and Slots - MCM](https://www.nexusmods.com/baldursgate3/mods/13472) Configure your spellslots!
 - [Universal Feat Every X Level(s) - MCM](https://www.nexusmods.com/baldursgate3/mods/13193) Configure how many feats you want like never before!
 
-### Bundles:
-
-- [Features from DnD 5E Planescape](https://www.nexusmods.com/baldursgate3/mods/12096) + *Optional adjustments*.
-- [Features from DnD 5E Spelljammer](https://www.nexusmods.com/baldursgate3/mods/13195)&#x20;
-
 ### Common Actions:
 
 - [Custom Common Action Patch](https://www.nexusmods.com/baldursgate3/mods/5403) Makes all of the below not conflict.
@@ -1914,7 +1916,7 @@ No class or race is changed in such a way that it is unrecognisable from the bas
 - [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Misc*, *Cantrips*, *Level 1*, *Level 2*, *Level 3*, *Level 4*, *Level 5*, *Level 7*, *Level 8* & *Level 9*.
 - [Animate Dead Plus Plus - Necromancy Patch](https://www.nexusmods.com/baldursgate3/mods/642)&#x20;
 - [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Remove\_Toggle\_Corpse\_Requirements\_ADPP*.\
-  **NOTE:** Remove *Remove\_Toggle\_Corpse\_Requirements\_ADPP.pak* from BG3MM's active load order to enable *Toggle Corpse Requirement*.
+  **NOTE:** Remove *Remove\_Toggle\_Corpse\_Requirements\_ADPP.pak* from [BG3MM](https://github.com/LaughingLeader/BG3ModManager)'s active load order to enable *Toggle Corpse Requirement*.
 
 ### Wild Magic:
 
