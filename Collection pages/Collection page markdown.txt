@@ -314,7 +314,7 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 1. Click the orange ***Add collection*** button at the top of this page to begin the collection download. If you have [Nexus Premium](https://next.nexusmods.com/premium) it will begin downloading all of the mods, if not you will have to click through the download prompts for each mod.\
    \
    ![](https://i.postimg.cc/3JwyMVC7/Screenshot-2024-10-27-150805.png)
-2. If you get stuck at 100% install/download, mods are missing, or anything weird happens during the download and installation please follow ⚡️***Soft Rebooting Your Vortex Collection Install*** under ***3: Troubleshooting Guides***⚡️.\
+2. If you get stuck at 100% install/download, mods are missing, or anything weird happens during the download and installation that does not resolve itself, please follow ⚡️***Soft Rebooting Your Vortex Collection Install*** under ***3: Troubleshooting Guides***⚡️.\
    \
    ![](https://i.postimg.cc/4ykzRZXx/image-2024-06-02-221319767.png)
 3. Read over ***5: Optional Mods***🧰 for information on each optional mod prior installing them, they're optional for a multitude of reasons.\

@@ -31,6 +31,7 @@
   .
 - First Vampire Warlock Drain Life, and Warlock variants of Sorcerer's Create Spell Slot both don't actually require or use spell slots.\
   -> Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) `DIQ Misc Patches` in [Vortex](https://www.nexusmods.com/about/vortex/).\
+  -> Update [Goon's Library - Passives Functions Spells and More](https://www.nexusmods.com/baldursgate3/mods/12834) in [Vortex](https://www.nexusmods.com/about/vortex/).\
   .
 - Only heavy weapons working with Great Weapon Master?\
   -> Update [Heavy Weapons RAW](https://www.nexusmods.com/baldursgate3/mods/19028) `Heavy Weapons RAW - 5R 2024` in [Vortex](https://www.nexusmods.com/about/vortex/).\
