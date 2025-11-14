@@ -1,0 +1,122 @@
+### Revision X Changelog (Work in progress)
+
+# 🔥Patch #8/Hotfix #34 - Some bullshit.🔥
+
+### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
+
+***
+
+- Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
+- [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
+- Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
+- Save safe!✅**BUT**, multiple mods ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (See below)
+
+***
+
+- Stuff
+
+***
+
+## Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
+
+### Visuals:
+
+-
+
+### Gameplay:
+
+> Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
+
+- ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
+
+### Other:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+***
+
+## Moved to [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) from [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z):🧙🏻‍♂️
+
+-
+
+## Added: 💯
+
+### Visuals:
+
+-
+
+### Gameplay:
+
+-
+
+### UI:
+
+-
+
+### Other:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+## Added to optional mods: 💯
+
+-
+
+***
+
+## Updated Class/Spell Mods:✨
+
+> It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
+
+### Spells:
+
+-
+
+### Feats:
+
+-
+
+### Other:
+
+-
+
+### Classes and class features:
+
+-
+
+## Updated: ✅
+
+### Visuals:
+
+-
+
+### Gameplay:
+
+-
+
+### UI:
+
+-
+
+### Other:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+## Updated optional mods: ✅
+
+-
+
+## Other:
+
+-
