@@ -1,8 +1,8 @@
-### Revision 139 Changelog (Work in progress)
+### Revision 139 Changelog
 
 # 🔥Patch #8/Hotfix #34 - Overdue and Undercooked (No Absolute's Laboratory Just Yet).🔥
 
-### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
+### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Ko-fi](https://ko-fi.com/baldursgoonsack)!💖
 
 ***
 
@@ -14,9 +14,14 @@
 
 ***
 
-- Many, many bugs fixed.
-- A number of mods now have dependencies set up in [Vortex](https://www.nexusmods.com/about/vortex/). This will assist people with installing optional mods that other optional mods as dependencies, and make the list a lot more customisable for the average user; as disabling a mod may provide a warning if it's a dependency for another mod. This is not universally implemented, it's just some notable ones for now.&#x20;
+- If [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) isn't properly set up in Revision 140 @diimmortalis is allowed to snip my willie off.
+- Fixed a shit load of bugs, including some long standing annoyance with passive boost stacking and stuff, thanks to @diimmortalis' [Passive Boost Deduplicator](https://www.nexusmods.com/baldursgate3/mods/19523).
 - Revision 138 really wasn't as crispy as intended, and the turnaround for getting a hotfix revision out was weeks past what I wanted. So that's how we ended up with a decent list in the 🪲**Known Issues + Workarounds** [pinned comment](https://www.nexusmods.com/games/baldursgate3/collections/pns4qv/comments?commentId=172148), but this revision really shouldn't have any surprises. Since Revision 136 development of DIQ has been rather reactive to bugs and all that, but moving forward I should be able to largely focus on polish and features, getting to the intended point that I was never really able to reach months ago. If all goes well I hope to be "finished" with developing DIQ in 6 months or so, putting the list into maintenance mode and potentially adopting a new main project if I feel it's worth the time.
+- A number of mods now have dependencies set up in [Vortex](https://www.nexusmods.com/about/vortex/). This will assist people with installing optional mods that other optional mods as dependencies, and make the list a lot more customisable for the average user; as disabling a mod may provide a warning if it's a dependency for another mod. This is not universally implemented, it's just some notable ones for now. \
+  ❗️**Update:** Apparently these dependencies did not come through with the collection update.
+- [Companion And NPC Face Texture Tweaks](https://www.nexusmods.com/baldursgate3/mods/36) broke for some reason, probably related to my new OS and transferring of files; I'll look at having a properly clean [Vortex](https://www.nexusmods.com/about/vortex/) environment for Revision 140; I tried troubleshooting it but it's simply not included for 139. If you want to add it (loose files version), delete the Human folder from `Generated\Public\Shared\Assets\Characters\_Models` in its staging folder, and set it to load BEFORE all the conflicts in the [Vortex](https://www.nexusmods.com/about/vortex/) rules.
+- The changes in this changelog are not yet reflected on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page.
+- Massively appreciate the continued support on my [Ko-fi](https://ko-fi.com/baldursgoonsack)! Help me reach that monthly goal maybe uwu.
 
 ***
 
@@ -29,8 +34,6 @@
 ### Gameplay:
 
 > Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
-
-- ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
 
 ### Spells:
 
@@ -51,7 +54,8 @@
 - [Oath of Conquest Paladin Subclass](https://www.nexusmods.com/baldursgate3/mods/477) \
   \- Replaced by [Luma](https://www.nexusmods.com/baldursgate3/users/193037348)'s version [Oath of Conquest - Paladin Subclass](https://www.nexusmods.com/baldursgate3/mods/13147), closer to RAW with less bugs.
 - [Drakewarden (Ranger Subclass) with Dragon Companion and Draconic Gifts](https://www.nexusmods.com/baldursgate3/mods/2838) \
-  \- Redundant, as [sumra](https://www.nexusmods.com/baldursgate3/users/186661377) has now included Drakewarden in [5e Ranger Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15037).
+  \- Redundant, as [sumra](https://www.nexusmods.com/baldursgate3/users/186661377) has now included Drakewarden in [5e Ranger Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15037).\
+  \- ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
 
 ### Gameplay:
 
@@ -63,11 +67,13 @@
 - [Chauntea Deity](https://www.nexusmods.com/baldursgate3/mods/12840) \
   \- All of the above are redundant, as the deities are covered in [Deity Expansion](https://www.nexusmods.com/baldursgate3/mods/19488).
 - [Immersive Infernal Robe](https://www.nexusmods.com/baldursgate3/mods/14235) \
-  \- Redundant, similar implementation in [Anders Crew Redone - True Paladins of Tyr](https://www.nexusmods.com/baldursgate3/mods/16696) *Anders Crew Redone - Infernal Robes Edition*.
+  \- Redundant, similar implementation in [Anders Crew Redone - True Paladins of Tyr](https://www.nexusmods.com/baldursgate3/mods/16696) *Anders Crew Redone - Infernal Robes Edition*.\
+  \- ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (If it's not in the list for you, it's safe to skip.)
 
 ### UI:
 
-- [Waiting With Style - AIMRYAX Loading Screen Overhaul](https://www.nexusmods.com/baldursgate3/mods/10713) *Waiting With Style - Base Edition*.
+- [Waiting With Style - AIMRYAX Loading Screen Overhaul](https://www.nexusmods.com/baldursgate3/mods/10713) *Waiting With Style - Base Edition*.\
+  \- Swapped to [Immersive Loading Screens](https://www.nexusmods.com/baldursgate3/mods/1758) *With Vignette*.&#x20;
 
 ### Visuals:
 
@@ -302,7 +308,8 @@
 - [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095) *DIQ Clothing Patches*.
 - [Goon's Library - Passives Functions Spells and More](https://www.nexusmods.com/baldursgate3/mods/12834)&#x20;
 - [Cat's Library](https://www.nexusmods.com/baldursgate3/mods/17245)&#x20;
-- [Dialogue and Reactivity Tags (DART) Framework](https://www.nexusmods.com/baldursgate3/mods/17561)&#x20;
+- [Dialogue and Reactivity Tags (DART) Framework](https://www.nexusmods.com/baldursgate3/mods/17561) \
+  \- Name changed, no longer in beta.
 - [AnimationUnlocker](https://www.nexusmods.com/baldursgate3/mods/16058)&#x20;
 - [Volition Cabinet](https://www.nexusmods.com/baldursgate3/mods/7676)&#x20;
 - [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701)&#x20;

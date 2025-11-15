@@ -21,6 +21,18 @@
 5. Most of the time you don't have to do anything in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), I will specify below if you do.
 </details>
 
+- Cosmetic items showing in vendors and with stats? Utility spells not in the container?\
+  ->Just update **every mod that I have authored** in [Vortex](https://www.nexusmods.com/about/vortex/) so they definitely have the correct packing priority, fresh install of my multitool borked me.\
+  .
+- Shadow Blade has concentration and only lasts for 10 turns when it shouldn't.\
+  -> Update [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Level 2* in [Vortex](https://www.nexusmods.com/about/vortex/).\
+  .
+- [Companion And NPC Face Texture Tweaks](https://www.nexusmods.com/baldursgate3/mods/36) broke for some reason, probably related to my new OS and transferring of files; I'll look at having a properly clean [Vortex](https://www.nexusmods.com/about/vortex/) environment for Revision 140; I tried troubleshooting it but it's simply not included for 139. If you want to add it (loose files version), delete the Human folder from `Generated\Public\Shared\Assets\Characters\_Models` in its staging folder, and set it to load BEFORE all the conflicts in the [Vortex](https://www.nexusmods.com/about/vortex/) rules.\
+  .
+- Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
+  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 140. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+
+<details><summary>❓Revision 138 Issues that are fixed with Revision 139</summary>
 - Wyll crashes the game when recruited and/or doesn't react to initiating dialogue, and Astarion pseudo-soft locks it from generic interaction (I made some oopsies.)\
   -> Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) `DIQ Dialogue Patches` & `DIQ Misc Patches` in [Vortex](https://www.nexusmods.com/about/vortex/).\
   .
@@ -41,8 +53,7 @@
   If you just HAVE to fix it for your female custom character, adjust the rules for overwrites to be as follows. \
   **Note:** You won't see `Ripped Body - AIO Hairy (VT)` unless you specifically installed that optional mod.\
   &#x20;![](https://i.postimg.cc/j56pj6mj/Screenshot-2025-10-11-230409.png)![](https://i.postimg.cc/FFpt5ZjF/Screenshot-2025-10-11-230430.png)
-- Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
-  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 139. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+</details>
 
 <details><summary>❓Revision 137 Issues that are fixed with Revision 138</summary>
 - If you've updated to Patch #8/Hotfix #34 you can probably just update the following mods in [Vortex](https://www.nexusmods.com/about/vortex/) (or MO2 is using the Wabbajack) and be fine.\
