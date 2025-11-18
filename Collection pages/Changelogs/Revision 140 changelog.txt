@@ -1,0 +1,181 @@
+### Revision 140 Changelog
+
+# 🔥Patch #8/Hotfix #34 - Some Maintenance and Goodies (Not the big lab update).🔥
+
+### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
+
+***
+
+- Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
+- [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
+- Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
+- Save safe!✅**BUT**, multiple mods ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (See below)
+
+***
+
+- Yeah I know, no [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) again, but I didn't want to delay maintenance again as that's been happening too much over the last couple months; reducing scope is good at times, maybe I'm learning.
+- Fixed bugs, this is what 139 basically should have been. Now all of my patches will actually take effect.
+- Let me know in the replies if you prefer this changelog formatting with the drop downs or not.
+- Changes from Revision 139 and Revision 140 are not yet reflected on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page.
+
+***
+
+## Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
+
+> Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
+
+<details><summary>0 mods removed</summary>
+### Visuals:
+
+-
+
+### Spells:
+
+-
+
+### Feats:
+
+-
+
+### Classes and class features:
+
+-
+
+### Gameplay:
+
+-
+
+### UI:
+
+-
+
+### Visuals:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+### Other:
+
+-
+</details>
+
+***
+
+## Added: 💯
+
+<details><summary>7 new mods added </summary>
+### Visuals:
+
+- [Dragonborn Walk to Idle Animation Bug Fix - Male and Female](https://www.nexusmods.com/baldursgate3/mods/19663) *Dragonborn Walk Fix Female* & *Dragonborn Walk Fix Male*.
+- [Half-Orcs Stand Tall](https://www.nexusmods.com/baldursgate3/mods/19679) *(Female)* & *(Male)*.
+
+### Spells:
+
+- [Chiz's 5e Spells Adjustments](https://www.nexusmods.com/baldursgate3/mods/19247)&#x20;
+- [Wall Fixer - Fire Ice Thorns and Blade Barrier](https://www.nexusmods.com/baldursgate3/mods/19669)&#x20;
+
+### Feats:
+
+-
+
+### Classes and class features:
+
+- [UA Fighting Styles](https://www.nexusmods.com/baldursgate3/mods/19693)&#x20;
+- [Circle of the Land Spells Revised - DND 5E](https://www.nexusmods.com/baldursgate3/mods/19705)&#x20;
+
+### Gameplay:
+
+-
+
+### UI:
+
+- [Better Photo Mode](https://www.nexusmods.com/baldursgate3/mods/15831)&#x20;
+
+### Other:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+## Added to optional mods: 💯
+
+-
+</details>
+
+***
+
+## Updated Class/Spell/Feat Mods:✨
+
+> It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
+
+<details><summary>14 class/spell/feat mods updated</summary>
+### Spells:
+
+- [5e Spells](https://www.nexusmods.com/baldursgate3/mods/125)&#x20;
+- [Arcane Recovery - Spell Balance Intent and Flavor](https://www.nexusmods.com/baldursgate3/mods/19623)&#x20;
+- [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Level 2*.
+
+### Feats:
+
+- [Valkrana's Skeleton Crew - Over 60 Random Undead Allies](https://www.nexusmods.com/baldursgate3/mods/4496) *Valkrana's Skeleton Crew Feat*.
+
+### Classes and class features:
+
+- [Expansion Level 13-20 (Configurable)](https://www.nexusmods.com/baldursgate3/mods/279)&#x20;
+- [Animate Dead Plus Plus - Necromancy Patch](https://www.nexusmods.com/baldursgate3/mods/642)&#x20;
+- [5e Barbarian Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15141)&#x20;
+- [Night Domain Cleric Subclass](https://www.nexusmods.com/baldursgate3/mods/15443)&#x20;
+- [UA6 Invoke Duplicity](https://www.nexusmods.com/baldursgate3/mods/5311)&#x20;
+- [The Unbroken Circle Druid Subclass](https://www.nexusmods.com/baldursgate3/mods/17277)&#x20;
+- [5e Fighter Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15060)&#x20;
+- [5e Monk Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15907)&#x20;
+- [5e Ranger Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15037)&#x20;
+- [Inquisitor Class](https://www.nexusmods.com/baldursgate3/mods/18318)&#x20;
+
+### Other:
+
+-
+</details>
+
+## Updated: ✅
+
+<details><summary>9 other mods updated</summary>
+### Visuals:
+
+- [HUNTRIX Head presets](https://www.nexusmods.com/baldursgate3/mods/18199) *Huntrix - UTAV*.
+- [November Heads](https://www.nexusmods.com/baldursgate3/mods/19640) *UTAV*.
+
+### Gameplay:
+
+- [Psychic Armory](https://www.nexusmods.com/baldursgate3/mods/14476)&#x20;
+- [I Surrender](https://www.nexusmods.com/baldursgate3/mods/19112)&#x20;
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Misc Patches*.
+- [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095) *DIQ Clothing Patches*, *DIQ Miscellaneous Item Patches* & *DIQ Starting Equipment*.
+
+### UI:
+
+-
+
+### Dialogue and cutscenes:
+
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Dialogue Patches*.
+
+### Other:
+
+- [Modular Equipment](https://www.nexusmods.com/baldursgate3/mods/443)&#x20;
+- [Ciri's Clothes](https://www.nexusmods.com/baldursgate3/mods/519) \
+  These two probably should have gone to [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg), but I've got overdue plans for that sort of shuffling around that I'll handle at some point.
+
+## Updated optional mods: ✅
+
+-
+
+## Other:
+
+-
+</details>
