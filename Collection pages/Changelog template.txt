@@ -19,33 +19,21 @@
 
 ## Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
 
-### Visuals:
-
--
-
-### Gameplay:
-
 > Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
 
-- ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
-
-### Other:
-
--
-
-### Dialogue and cutscenes:
-
--
-
-***
-
-## Moved to [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) from [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z):🧙🏻‍♂️
-
--
-
-## Added: 💯
-
 ### Visuals:
+
+-
+
+### Spells:
+
+-
+
+### Feats:
+
+-
+
+### Classes and class features:
 
 -
 
@@ -57,11 +45,61 @@
 
 -
 
-### Other:
+### Visuals:
 
 -
 
 ### Dialogue and cutscenes:
+
+-
+
+### Other:
+
+-
+
+***
+
+## Moved to [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) from [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z):🧙🏻‍♂️
+
+-
+
+***
+
+## Added: 💯
+
+### Visuals:
+
+-
+
+### Spells:
+
+-
+
+### Feats:
+
+-
+
+### Classes and class features:
+
+-
+
+### Gameplay:
+
+-
+
+### UI:
+
+-
+
+### Visuals:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+### Other:
 
 -
 
@@ -105,11 +143,11 @@
 
 -
 
-### Other:
+### Dialogue and cutscenes:
 
 -
 
-### Dialogue and cutscenes:
+### Other:
 
 -
 
