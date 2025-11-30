@@ -1,4 +1,4 @@
-# ![](https://i.postimg.cc/90BrWCgv/Copy-of-Copy-of-Index.png)Put some hairs on your chest with Difficulty, Immersion, Quality!
+# ![](https://i.postimg.cc/Y0yWt3PJ/Overview.png)Put some hairs on your chest with Difficulty, Immersion, Quality!
 
 - ⚠️If you want to mod a game you must be willing to **read**, **learn** and **commit** some time to it. Even when using a collection in its default state you should be attempting to understand the **what**, **why** and **how**.
 - ❓If you have a general question it's likely already answered on this page.
@@ -43,20 +43,26 @@
 [![](https://i.postimg.cc/Zn3jjsBg/discord-banner-collection-page.png)](https://discord.gg/baldursgoonsacks)
 </details>
 
-<details><summary>📜All Of My BG3 Collections</summary>
-# 📜All Of My BG3 Collections
+<details><summary>📜All Of My Collections</summary>
+# 📜All Of My Collections
 
-### [✅Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) Addons
+## Baldur's Gate 3:
 
-- [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding more customisation options.
-- [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding adult activities.
+- [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) My primary collection, a full overhaul of Baldur's Gate 3.
+- [BG3 Essentials](https://next.nexusmods.com/baldursgate3/collections/1asizr) A basic collection comprised of the building blocks for most mod lists.\
+  **Note:** This is a standalone collection, the mods are already included in [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv).
 
-### ❌[Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) Addons - Support discontinued as of Revision 138.
+### [✅Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) Addons:
 
-- [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding further build options.&#x20;
-- [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) A supplemental collection for [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv), focused on adding more gear.
+- [DIQ Extras](https://next.nexusmods.com/baldursgate3/collections/k3zucg) A supplemental collection focused on adding more customisation options.
+- [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) A supplemental collection focused on adding *adult activities*.
 
-### Other
+### ❌[Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) Addons - Support discontinued as of Revision 138:
+
+- [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z) A supplemental collection focused on adding further build options.&#x20;
+- [DIQ Armoury](https://next.nexusmods.com/baldursgate3/collections/y7cdjf) A supplemental collection focused on adding more equipment.
+
+### Baldur's Gate 3 - Other:
 
 - [BG3 Essentials](https://next.nexusmods.com/baldursgate3/collections/1asizr) A basic collection comprised of the building blocks for most mod lists, Native mods, Script Extender, UI Improvements etc.\
   **Note:** This is a standalone collection, the mods are already included in [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv).
@@ -65,7 +71,17 @@
 - [Goon Test Cave](https://www.nexusmods.com/games/baldursgate3/collections/x7rwye) Where I store a whole host of stuff as a backup.\
   **Note:** Not for general use.
 
-### [![](https://i.postimg.cc/mZFWC42n/the-four-horsemen-of-the-goonpocalypse-big.png)](https://next.nexusmods.com/profile/BaldursGoonsack/collections)
+## Oblivion Remastered:
+
+- [Goonsack's Goon Shack](https://www.nexusmods.com/games/oblivionremastered/collections/xussuc) A currently abandoned WIP I made after release.
+
+## Battle Brothers:
+
+- [Battle, Brothers, Bedlam](https://www.nexusmods.com/games/battlebrothers/collections/0qgqiu) A vanilla+ experience focused on making the game more accessible without tarnishing the intended game experience.
+
+## Hogwarts Legacy:
+
+- [You're a Gooner Harry!](https://www.nexusmods.com/games/hogwartslegacy/collections/cacnmy) A small QoL list that you can still earn achievements with.
 </details>
 
 ***
@@ -158,7 +174,9 @@ on the main setup popup that appears when first running the app, Set `Game Data 
 5. and you have to do the same thing with [BG3MM](https://github.com/LaughingLeader/BG3ModManager) but it's easier with [BG3MM](https://github.com/LaughingLeader/BG3ModManager) you add this string `  "DocumentsFolderPathOverride": "Z:\\home\\<user>\\.steam\\steam\\steamapps\\compatdata\\1086940\\pfx\\drive_c\\users\\steamuser\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\",` to `Data\settings.json`
 </details>
 
-<details><summary>❓How to be a Linux User</summary>
+<details><summary>❓Video: How to be a Linux User</summary>
+# ❓Video: How to be a Linux User
+
 https://www.youtube.com/watch?v=cC1CqyCN9Q0
 </details>
 
@@ -169,6 +187,8 @@ https://www.youtube.com/watch?v=cC1CqyCN9Q0
   This is primarily so [Vortex](https://www.nexusmods.com/about/vortex/) can actually deploy the mods, if your drive is formatted to FAT or anything else it will likely result in the collection not functioning.
 
 <details><summary>❓Video: How to Initialize and Format a New Hard Drive in Windows 10</summary>
+# ❓Video: How to Initialize and Format a New Hard Drive in Windows 10
+
 https://www.youtube.com/watch?v=ZxV6IcNvbek
 </details>
 
@@ -182,10 +202,14 @@ https://www.youtube.com/watch?v=ZxV6IcNvbek
   \
   **Note:** For some reason Windows will not allocate virtual memory from other drives to the game's process, if you have more information on this conundrum please share it with me.
 
-<details><summary>❓Video: How to Initialize and Format a New Hard Drive in Windows 10</summary>
+<details><summary>❓Video: How to Set and Adjust Virtual Memory In Windows 11</summary>
+# ❓Video: How to Set and Adjust Virtual Memory In Windows 11
+
 https://www.youtube.com/watch?v=xh91YywWaEo
 </details>
 
+- [BG3MM](https://github.com/LaughingLeader/BG3ModManager) requires [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.15-windows-x64-installer), the [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.416-windows-x64-installer) and [the latest C++ redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe) installed. You may already have them but it's best to check.\
+  .
 - You'll need to be able to view hidden files to easily access appdata folders etc.\
   1\. Open ***File Explorer*** from the taskbar.\
   2\. Select ***View*** > ***Show*** > ***Hidden items***.\
@@ -431,6 +455,7 @@ Play the game on ***Custom Mode***, turn ***Honour Ruleset*** on and click ***Re
 
 Please **Endorse** (the thumbs up button) the collection if you enjoy it! If you really enjoy and want to support the continued DIQ growth I have a [Ko-fi](https://ko-fi.com/baldursgoonsack) you can donate to!&#x20;
 
+- The 🪲***Known Issues + Workarounds*** [pinned comment](https://www.nexusmods.com/games/baldursgate3/collections/pns4qv/comments?commentId=172148) is a super important reference, and gives a list of mods you should update prior to the next revision being available.
 - Don't sleep on further information provided on this page if you have questions, such as ***4: Everything Else You Need to Know!*** 📌 and ***3: Troubleshooting Guides***⚡️if something goes wrong.
 - Don't update mid-playthrough without reading ***2: Updating Guide - Collection & Game Updates***⚠️ and [changelogs](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=changelog)!
 - If you need further assistance or just want to be a part of the DIQ community join [Discord](https://discord.gg/baldursgoonsacks)!
@@ -450,7 +475,7 @@ Please **Endorse** (the thumbs up button) the collection if you enjoy it! If you
 1. Prior to updating It is recommended that you do the following to maintain the health of an ongoing save:\
    \
    1\. Deactivate **ALL** toggle passives on your hotbars, and use the ***Remove Automation Toggles*** as shown in the GIF below.\
-   **Note:** ***Remove Automation Toggles*** is now inside the ***Utility Spells*** spell container, AKA the big red exclamation mark.\
+   **Note:** ***Remove Automation Toggles*** is now inside the ***Utility Spells*** spell container (AKA the big red exclamation mark), and named ***Toggle Remove (Animate Dead++ Toggles)***.\
    .\
    2\. Respec characters to level 1 Barbarians, unless the character is already a Barbarian in which case you should select Fighter; you will have to redo your builds after successfully updating.\
    **Note:** This includes companions, hirelings, Tavs and Durges, both actively in the party and at camp.\
@@ -505,6 +530,7 @@ Please **Endorse** (the thumbs up button) the collection if you enjoy it! If you
     .
 13. Export the new load order to the game through [BG3MM](https://github.com/LaughingLeader/BG3ModManager).\
     If you need a refresher on the load order please view ***1: Installation Guide - Vortex, BG3MM & Configs***💡 ->📋***BG3MM: Load Order Management - Step #6***.
+14. The 🪲***Known Issues + Workarounds*** [pinned comment](https://www.nexusmods.com/games/baldursgate3/collections/pns4qv/comments?commentId=172148) is a super important reference, and gives a list of mods you should update prior to the next revision being available.
 </details>
 
 <details><summary>❗️These two included drop-downs need updating and are not currently relevant.</summary>
@@ -824,7 +850,7 @@ First make sure your issue is not simply with one of the below [WASD Character M
 
 The [Script Extender](https://github.com/Norbyte/bg3se) ([BG3SE](https://github.com/Norbyte/bg3se)) configuration files from [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) that come packaged with the collection enable the [BG3SE](https://github.com/Norbyte/bg3se) console, as well as achievements while using mods.\
 \
-Not only can they be overwritten, the staging folders for them in [Vortex](https://www.nexusmods.com/about/vortex/) can become infected, for lack of a better term. This means no achievements and no [BG3SE](https://github.com/Norbyte/bg3se) console unless you've otherwise enabled them in via [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually via [Norbyte's documentation](https://github.com/Norbyte/bg3se). In addition [BG3MM](https://github.com/LaughingLeader/BG3ModManager) seems to want to mess stuff up and not let settings reset, so we have to get nuclear with that.
+Not only can they be overwritten, the staging folders for them in [Vortex](https://www.nexusmods.com/about/vortex/) can become infected, for lack of a better term. This means no [BG3SE](https://github.com/Norbyte/bg3se) console unless you've otherwise enabled them in via [BG3MM](https://github.com/LaughingLeader/BG3ModManager) or manually via [Norbyte's documentation](https://github.com/Norbyte/bg3se). In addition [BG3MM](https://github.com/LaughingLeader/BG3ModManager) seems to want to mess stuff up and not let settings reset, so we have to get nuclear with that.
 
 1. ***Purge*** mods in [Vortex](https://www.nexusmods.com/about/vortex/).
 2. Completely nuke your [BG3MM](https://github.com/LaughingLeader/BG3ModManager) installation.
