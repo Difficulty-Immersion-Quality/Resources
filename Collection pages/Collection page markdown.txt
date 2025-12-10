@@ -1,11 +1,29 @@
-# ![](https://i.postimg.cc/Y0yWt3PJ/Overview.png)Put some hairs on your chest with Difficulty, Immersion, Quality!
+![](https://i.postimg.cc/Y0yWt3PJ/Overview.png)Difficulty, Immersion, Quality (DIQ) is *probably* the most polished publicly available large scale mod list for Baldur's Gate 3, it has been consistently curated over the course of 2+ years in an attempt to capture a specific vision that's still being worked towards. I started playing the original Baldur's Gate when I was 9 years old and have been a fan of CRPGs ever since, I've also played multiple tabletop RPGs with a preference towards more old school, grimdark settings. My hope with DIQ is to try and move BG3 away from being a theme park ride by introducing more gameplay elements one would expect of an immersive sim.
+
+### Difficulty:
+
+- DIQ is a list focused on bringing a greater challenge for players with a background in CRPGs, tabletop, or even those unfamiliar who just like a punch in the nuts every now and then.&#x20;
+- Difficulty isn't *only* increased through the buffing of numbers, it's enhanced by the addition of systematic changes that truly change the game and the way you play it. From adjusting [help](https://www.nexusmods.com/baldursgate3/mods/10340) and [healing potions](https://www.nexusmods.com/baldursgate3/mods/15391), to [having NPCs with improved class functionality](https://www.nexusmods.com/baldursgate3/mods/15535), or adding a whole new system for [injuries, exhaustion and madness](https://www.nexusmods.com/baldursgate3/mods/14863) there should be plenty to make your playthrough challenging and satisfying.
+- It's not exceptionally difficult (haha) to reduce the difficulty DIQ brings, if that's a concern you can see ***4: Everything Else You Need to Know!*** 📌.&#x20;
+
+### Immersion:
+
+- It's all about the little things adding up when it comes to capturing a more immersive experience. From something small like [taking off your shoes before bed](https://www.nexusmods.com/baldursgate3/mods/14726), to something creative like [Gale's Netherese affliction being more mechanically involved](https://www.nexusmods.com/baldursgate3/mods/14442) or something that really shouldn't need to be a mod, like [giving Minthara her own space](https://www.nexusmods.com/baldursgate3/mods/14148).
+- While I don't adhere to rules as written (RAW) religiously, D\&D 5th Edition (2014) serves as a solid foundation for balance, and I try not to have things stray too far from it, even if it's Larian who strayed from the path in their design. You won't see a lot of 2024 stuff here as I don't like a whole lot of the changes, some are great, most are just power-creep for power-creep sake.
+- The homebrew material that does exist in DIQ shouldn't feel too far detached from D\&D 5th Edition (2014), Forgotten Realms or vanilla Baldur's Gate 3.
+
+### Quality:
+
+- Unlike most other mod lists DIQ is curated by a mod author and many of the authors who's mods are in the collection are also present within the [Discord](https://discord.gg/baldursgoonsacks); such as [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532) (Di Immortalis), [actualsailorcat](https://www.nexusmods.com/baldursgate3/users/78518828),  [Cahooots](https://www.nexusmods.com/baldursgate3/users/50497581), [wtfbengt](https://www.nexusmods.com/baldursgate3/users/16726234), [TheWailingBard](https://www.nexusmods.com/baldursgate3/users/60264956), [sumradagnoth8](https://www.nexusmods.com/baldursgate3/users/186661377), [NellsRelo](https://www.nexusmods.com/baldursgate3/users/244952) and [Lumaterian](https://www.nexusmods.com/baldursgate3/users/193037348).&#x20;
+- Players report issues and they're continually addressed to offer the best experience possible, all players with feedback and reports are responded to, addressed and helped as is reasonable.
+- Every mod within the collection is unpacked and screened for compatibility and other issues before being added, files and entries are constantly compared ensuring DIQ does not suffer from near as many compatibility issues other mod lists have.
+
+### Stuff:
 
 - ⚠️If you want to mod a game you must be willing to **read**, **learn** and **commit** some time to it. Even when using a collection in its default state you should be attempting to understand the **what**, **why** and **how**.
 - ❓If you have a general question it's likely already answered on this page.
 - 🏆You can earn achievements with this collection installed thanks to [Script Extender](https://github.com/Norbyte/bg3se)!
-- ⚙️You must use both [Vortex](https://www.nexusmods.com/about/vortex/) and [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) for this collection.
 - 💡A decent portion of the collection's size is found in the optional mods.
-- 🎮A number of mods are only relevant for keyboard & mouse, controllers will work just fine but K\&B is recommended.
 - ✍🏻Most mods are not translated to languages other than English, some comprehension of English is basically required.
 
 <details><summary>❌THE DO NOTS</summary>
@@ -17,16 +35,6 @@
 - 🧠Only big brained, longtime mod users, or very patient folk should attempt to customise this list!
 - ❗️I do not recommend playing Honour Mode, it's bad enough in vanilla where bugs still exist, pile hundreds of mods on top and you're really gambling. BG3 is a long game, previous saves are a useful commodity.
 - ❗️New games only, don't install this collection for an existing playthrough, especially an existing modded playthrough.
-</details>
-
-<details><summary>😎Preamble and Thanks!</summary>
-# 😎Preamble and Thanks:
-
-> I started Playing the original Baldur's Gate when I was 9 years old, have been a fan of CRPGs ever since, and played many tabletop RPGs with a preference towards more old school, grimdark settings. Naturally, this collection is targeted at players with a similar background to me. I try to keep the collection living up to its name, combat should bring you a challenge, your immersion should be enhanced, and both the quality of life and overall quality of the mods should bring you an elevated gaming experience.
-
-> While DIQ is primarily a one man show without any official co-curators, it'd be a whole lot worse off without the community that surrounds it, especially the mod authors who frequent the [Discord](https://discord.gg/baldursgoonsacks) and develop things for DIQ, or with it in mind. So big thanks to [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532) (Di Immortalis), [actualsailorcat](https://www.nexusmods.com/baldursgate3/users/78518828) ,  [Cahooots](https://www.nexusmods.com/baldursgate3/users/50497581) , [wtfbengt](https://www.nexusmods.com/baldursgate3/users/16726234) and everyone else!&#x20;
->
-> Big shout out to [Vexorant](https://next.nexusmods.com/profile/vexorant) for forking DIQ to a Wabbajack list too, which for now can just be gotten over [here](https://www.nexusmods.com/baldursgate3/mods/9784?tab=files)!
 </details>
 
 <details><summary>🥰Discord, Ko-fi and the Github Planning Board</summary>
@@ -64,8 +72,6 @@
 
 ### Baldur's Gate 3 - Other:
 
-- [BG3 Essentials](https://next.nexusmods.com/baldursgate3/collections/1asizr) A basic collection comprised of the building blocks for most mod lists, Native mods, Script Extender, UI Improvements etc.\
-  **Note:** This is a standalone collection, the mods are already included in [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv).
 - [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj) Where I lay mods to rest after removal from the other collections. \
   **Note:** Not for general use.
 - [Goon Test Cave](https://www.nexusmods.com/games/baldursgate3/collections/x7rwye) Where I store a whole host of stuff as a backup.\
@@ -98,7 +104,8 @@
 
 ***
 
-![](https://i.postimg.cc/tJjD992g/1-Installation-Guide-Vortex-BG3-MM-Configs.png)⚠️Please do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order, use [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)).
+![](https://i.postimg.cc/tJjD992g/1-Installation-Guide-Vortex-BG3-MM-Configs.png)⚙️You must use both [Vortex](https://www.nexusmods.com/about/vortex/) and [BG3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager/releases) ([BG3MM](https://github.com/LaughingLeader/BG3ModManager)) for this collection.
+⚠️Please do not even attempt to use [Vortex](https://www.nexusmods.com/about/vortex/) for handling the load order, use [BG3MM](https://github.com/LaughingLeader/BG3ModManager).
 
 <details><summary>💻Video Guide  - OLD!</summary>
 # 💻Video Guide  - OLD!
@@ -734,7 +741,7 @@ This should also be done if you've previously had the [LSLib/Divine Tool](https:
    \- ❗️If you mod with the toolkit do NOT delete the `Editor` and `Projects` folders! Also, do NOT delete the `mod` folders in `Mods` and `Public`! To be safe, backup/move both `Mods` and `Public` instead of deleting them.\
    \
    ![](https://i.postimg.cc/vZyvQj0g/data-1.png)![](https://i.postimg.cc/258FWWRL/data-2.png)
-8. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Data` and delete the:\
+8. Go to `SteamLibrary\steamapps\common\Baldurs Gate 3\Data\Localization` and delete the:\
    \- Any non-vanilla files and folders not in the images below, assuming your install is in English.\
    \
    ![](https://i.postimg.cc/YqfhKqjY/localisation.png)
