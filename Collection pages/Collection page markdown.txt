@@ -1,4 +1,4 @@
-![](https://i.postimg.cc/Y0yWt3PJ/Overview.png)Difficulty, Immersion, Quality (DIQ) is *probably* the most polished publicly available large scale mod list for Baldur's Gate 3, it has been consistently curated over the course of 2+ years in an attempt to capture a specific vision that's still being worked towards. I started playing the original Baldur's Gate when I was 9 years old and have been a fan of CRPGs ever since, I've also played multiple tabletop RPGs with a preference towards more old school, grimdark settings. My hope with DIQ is to try and move BG3 away from being a theme park ride by introducing more gameplay elements one would expect of an immersive sim.
+![](https://i.postimg.cc/Y0yWt3PJ/Overview.png)Difficulty, Immersion, Quality (DIQ) is *probably* the most polished publicly available large scale mod list for Baldur's Gate 3, it has been consistently curated over the course of 2+ years in an attempt to capture a specific vision that's still being worked towards. My hope with DIQ is to try and move BG3 away from being a theme park ride and introducing more gameplay elements one would expect of an immersive sim.
 
 ### Difficulty:
 
@@ -16,7 +16,7 @@
 
 - Unlike most other mod lists DIQ is curated by a mod author and many of the authors who's mods are in the collection are also present within the [Discord](https://discord.gg/baldursgoonsacks); such as [osirisofinternet](https://www.nexusmods.com/baldursgate3/users/6682532) (Di Immortalis), [actualsailorcat](https://www.nexusmods.com/baldursgate3/users/78518828),  [Cahooots](https://www.nexusmods.com/baldursgate3/users/50497581), [wtfbengt](https://www.nexusmods.com/baldursgate3/users/16726234), [TheWailingBard](https://www.nexusmods.com/baldursgate3/users/60264956), [sumradagnoth8](https://www.nexusmods.com/baldursgate3/users/186661377), [NellsRelo](https://www.nexusmods.com/baldursgate3/users/244952) and [Lumaterian](https://www.nexusmods.com/baldursgate3/users/193037348).&#x20;
 - Players report issues and they're continually addressed to offer the best experience possible, all players with feedback and reports are responded to, addressed and helped as is reasonable.
-- Every mod within the collection is unpacked and screened for compatibility and other issues before being added, files and entries are constantly compared ensuring DIQ does not suffer from near as many compatibility issues other mod lists have.
+- Basically every mod within the collection is unpacked and screened for compatibility and other issues before being added, files and entries are constantly compared ensuring DIQ does not suffer from near as many compatibility issues other mod lists have.
 
 ### Stuff:
 
@@ -119,13 +119,14 @@ https://www.youtube.com/watch?v=5u67KMwlfQY
 <details><summary>⚡️Pre-Install: System Prerequisites  - Step #0</summary>
 # ⚡️Pre-Install: System Prerequisites  - Step #0
 
-- Mac operating systems (OS) are not supported **PERIOD** due to lack of support from [Script Extender](https://github.com/Norbyte/bg3se) and game updates. Windows 10/11 or Linux systems only, all I know about Linux is the video below so I cannot offer advice for setting up the collection on a Linux OS.\
-  \
-  Related [Discord](https://discord.gg/baldursgoonsacks) thread: [Adventures Through Linux Gaming ( R\&D Thread )](https://ptb.discord.com/channels/1174823496086470716/1357103513162874911) \
-  \
-  **Note:** Because there's a Linux version of Baldur's Gate 3 now, you **must** force compatibility with a proton layer in the Steam settings, otherwise it will download and install the native Linux version, which will break [Vortex](https://www.nexusmods.com/about/vortex/) functionality.\
-  \
-  ![](https://i.postimg.cc/bJjYcSj8/image-34.png)
+- Mac operating systems (OS) are not supported **PERIOD** due to lack of support from [Script Extender](https://github.com/Norbyte/bg3se) and game updates. Windows 10/11 work without much messing around, Linux systems have extra hoops to jump through, see the below drop down if you're a Linux user.
+
+<details><summary>❓Linux stuff provided by DIQ users in thigh highs</summary>
+Related [Discord](https://discord.gg/baldursgoonsacks) thread: [Adventures Through Linux Gaming ( R\&D Thread )](https://ptb.discord.com/channels/1174823496086470716/1357103513162874911) \
+\
+**Note:** Because there's a Linux version of Baldur's Gate 3 now, you **must** force compatibility with a proton layer in the Steam settings, otherwise it will download and install the native Linux version, which will break [Vortex](https://www.nexusmods.com/about/vortex/) functionality.\
+\
+![](https://i.postimg.cc/bJjYcSj8/image-34.png)
 
 <details><summary>❓Kyozel's Endeavours to Play DIQ on EndeavourOS</summary>
 **Distro:** EndeavourOS **Setup:**
@@ -185,6 +186,7 @@ on the main setup popup that appears when first running the app, Set `Game Data 
 # ❓Video: How to be a Linux User
 
 https://www.youtube.com/watch?v=cC1CqyCN9Q0
+</details>
 </details>
 
 - Do not use [WeMod](https://www.wemod.com) or [Cheat Engine](https://www.cheatengine.org) with your modded BG3, there's been a few occurrences of save instability correlated with use of these programs. For cheating and debug needs use [EasyCheat with in-game UI (MCM)(SE)](https://www.nexusmods.com/baldursgate3/mods/9827) and [The Debug Book](https://www.nexusmods.com/baldursgate3/mods/2119), both included in the collection.\
@@ -383,7 +385,7 @@ https://www.youtube.com/watch?v=xh91YywWaEo
 <details><summary>💾Manual Installation: Configuration Files - Step #5</summary>
 # 💾Manual Installation: Configuration Files - Step #5
 
-While [Script Extender](https://github.com/Norbyte/bg3se) based mods will generate their configuration files upon creating/loading a game they will not have any of the custom settings which are critical to the functionality of DIQ.
+While [Script Extender](https://github.com/Norbyte/bg3se) based mods will generate their configuration files upon creating/loading a game they will not have any of the custom settings which are **critical** for the functionality of DIQ.
 
 1. If you haven't cleaned out old configs please delete the `Script Extender` folder inside `%AppData%\Local\Larian Studios\Baldur's Gate 3`\
    .
@@ -393,7 +395,10 @@ While [Script Extender](https://github.com/Norbyte/bg3se) based mods will genera
    .
 4. Overwrite the existing files and `Script Extender` folder if they exist, if it doesn't exist then extracting the `.zip` will create it.\
    .
-5. Proceed to the next drop down menu: 📋***BG3MM: Load Order Management - Step #6***.
+5. It should look like the following, with a bunch of different files and folders inside:\
+   `Local Disk C:\Users\(Your account)\Appdata\Local\Larian Studios\Baldur's Gate 3\Script Extender`\
+   .
+6. Proceed to the next drop down menu: 📋***BG3MM: Load Order Management - Step #6***.
 </details>
 
 <details><summary>📋BG3MM: Load Order Management - Step #6</summary>
@@ -1061,7 +1066,9 @@ Below is some general advice for dealing with the increased difficulty.
 You can easily return the game to a near-vanilla state temporarily by:
 
 1. ***Purging*** mods in [Vortex](https://www.nexusmods.com/about/vortex/), or swapping to another empty ***profile*** in [Vortex](https://www.nexusmods.com/about/vortex/).&#x20;
-2. ***Exporting*** an empty load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager), or, you can just delete the `modsettings.lsx` inside `%LocalAppData%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public\Savegames\Story`.
+2. ***Exporting*** an empty load order with [BG3MM](https://github.com/LaughingLeader/BG3ModManager), or, you can just delete the `modsettings.lsx` inside `%LocalAppData%\Larian Studios\Baldur's Gate 3\PlayerProfiles\Public\Savegames\Story`.\
+   \
+   This step isn't even really needed, as the `modsettings.lsx` is reset to vanilla when the game is launched with even a single listed mod not present.
 
 To reactivate your collection install just:
 

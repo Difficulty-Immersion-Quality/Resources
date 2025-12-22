@@ -21,8 +21,14 @@
 5. Most of the time you don't have to do anything in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), I will specify below if you do.
 </details>
 
+- The latest game version works fine, you can ignore the mismatch Vortex presents.\
+  .
+- There's some issues on the back end that I ought to be able to resolve, just slowdown with the installation and such. Still works fine for most folk, but things aren't as fast as they should be.\
+  .
+- [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442) is under optional mods for some reason? It's intended as main list so grab it if you care; not a big deal.\
+  .
 - Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
-  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 140. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 141. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
 
 <details><summary>❓Issues fixed in previous revisions</summary>
 # ❓Issues fixed in previous revisions
