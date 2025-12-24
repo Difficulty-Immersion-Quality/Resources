@@ -17,6 +17,9 @@
 
 ***
 
+## Moved and removed: 📦
+
+<details><summary>X mods removed</summary>
 ## Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
 
 > Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
@@ -56,17 +59,19 @@
 ### Other:
 
 -
+</details>
 
-***
-
-## Moved to [Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) from [DIQ Expanded](https://next.nexusmods.com/baldursgate3/collections/y0iw7z):🧙🏻‍♂️
+<details><summary>X mods moved</summary>
+## Moved to [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg): 👔
 
 -
+</details>
 
 ***
 
 ## Added: 💯
 
+<details><summary>X mods added</summary>
 ### Visuals:
 
 -
@@ -106,9 +111,13 @@
 ## Added to optional mods: 💯
 
 -
+</details>
 
 ***
 
+## Updates and file adjustments: ✅
+
+<details><summary>X mods updated</summary>
 ## Updated Class/Spell Mods:✨
 
 > It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
@@ -128,8 +137,6 @@
 ### Classes and class features:
 
 -
-
-## Updated: ✅
 
 ### Visuals:
 
@@ -158,3 +165,4 @@
 ## Other:
 
 -
+</details>
