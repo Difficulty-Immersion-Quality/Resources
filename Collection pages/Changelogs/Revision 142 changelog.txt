@@ -1,0 +1,193 @@
+### Revision 142 Changelog
+
+# 🔥Patch #8/Hotfix #34 - Merry Christmas (No more loading screen crashes).🔥
+
+### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
+
+***
+
+- Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
+- [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
+- Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
+- Save safe!✅**BUT**, multiple mods ❗️Require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (See below)
+
+***
+
+- No new configs, use Revision 141 configs.
+- No more inconsistent loading screen crashes.
+
+***
+
+## Moved and removed: 📦
+
+<details><summary>1 mods removed</summary>
+## Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
+
+> Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
+
+### Spells:
+
+-
+
+### Feats:
+
+-
+
+### Classes and class features:
+
+- [The Archmage Patron - Warlock Subclass](https://www.nexusmods.com/baldursgate3/mods/20162) \
+  Identified as a causal link for loading screen crashes.
+
+### Visuals:
+
+-
+
+### Customisation:
+
+-
+
+### Gameplay:
+
+-
+
+### Items:
+
+-
+
+### UI:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+### Other:
+
+-
+</details>
+
+<details><summary>2 mods moved</summary>
+## Moved to optional mods: 💯
+
+- [Vivid Landscapes - All in One](https://www.nexusmods.com/baldursgate3/mods/20021) *Vivid Landscapes AiO - Loose Files - 4k* & *Vivid Landscapes - Rough Sea 4k*.\
+  Was never intended to be in the main list.
+
+### Moved from optional mods to main list: 💯
+
+## Moved to [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg): 👔
+
+-
+</details>
+
+***
+
+## Added: 💯
+
+<details><summary>2 mods added</summary>
+## Spells:
+
+-
+
+### Feats:
+
+-
+
+### Classes and class features:
+
+- [Automatic Magical Secrets Extender](https://www.nexusmods.com/baldursgate3/mods/20247)&#x20;
+
+### Visuals:
+
+-
+
+### Customisation:
+
+-
+
+### Gameplay:
+
+-
+
+### Items:
+
+-
+
+### UI:
+
+-
+
+### Visuals:
+
+-
+
+### Dialogue and cutscenes:
+
+- [Little Secrets with Quil (Dark Urge Spoilers)](https://www.nexusmods.com/baldursgate3/mods/20101)&#x20;
+
+### Other:
+
+-
+
+## Added to optional mods: 💯
+
+-
+</details>
+
+***
+
+## Updates and file adjustments: ✅
+
+<details><summary>3 mods updated</summary>
+## Updated Class/Spell Mods:✨
+
+> It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
+
+### Spells:
+
+- [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Level 3*.
+
+### Feats:
+
+-
+
+### Classes and class features:
+
+-
+
+### Visuals:
+
+-
+
+### Customisation:
+
+-
+
+### Gameplay:
+
+- [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535)&#x20;
+
+### Items:
+
+-
+
+### UI:
+
+-
+
+### Dialogue and cutscenes:
+
+-
+
+### Other:
+
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Misc Patches*.
+
+## Updated optional mods: ✅
+
+-
+
+## Other:
+
+-
+</details>
