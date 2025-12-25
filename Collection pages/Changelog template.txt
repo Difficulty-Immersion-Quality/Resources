@@ -24,10 +24,6 @@
 
 > Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
 
-### Visuals:
-
--
-
 ### Spells:
 
 -
@@ -40,15 +36,23 @@
 
 -
 
+### Visuals:
+
+-
+
+### Customisation:
+
+-
+
 ### Gameplay:
 
 -
 
-### UI:
+### Items:
 
 -
 
-### Visuals:
+### UI:
 
 -
 
@@ -62,6 +66,12 @@
 </details>
 
 <details><summary>X mods moved</summary>
+## Moved to optional mods: 💯
+
+-
+
+### Moved from optional mods to main list: 💯
+
 ## Moved to [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg): 👔
 
 -
@@ -72,11 +82,7 @@
 ## Added: 💯
 
 <details><summary>X mods added</summary>
-### Visuals:
-
--
-
-### Spells:
+## Spells:
 
 -
 
@@ -88,7 +94,19 @@
 
 -
 
+### Visuals:
+
+-
+
+### Customisation:
+
+-
+
 ### Gameplay:
+
+-
+
+### Items:
 
 -
 
@@ -130,10 +148,6 @@
 
 -
 
-### Other:
-
--
-
 ### Classes and class features:
 
 -
@@ -142,7 +156,15 @@
 
 -
 
+### Customisation:
+
+-
+
 ### Gameplay:
+
+-
+
+### Items:
 
 -
 
