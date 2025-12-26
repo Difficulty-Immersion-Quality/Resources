@@ -1735,6 +1735,7 @@ No class or race is changed in such a way that it is unrecognisable from the bas
 
 - [Expansion Level 13-20 (Configurable)](https://www.nexusmods.com/baldursgate3/mods/279) \
   Adds progressions for all vanilla classes up to level 20, and more.
+- [UA Fighting Styles](https://www.nexusmods.com/baldursgate3/mods/19693)&#x20;
 
 ### New Custom Classes
 
@@ -1788,7 +1789,8 @@ No class or race is changed in such a way that it is unrecognisable from the bas
 ### Druid Changes
 
 - [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Goon's Druid Overhaul*.
-- [Druid Wild Shape Overhaul](https://www.nexusmods.com/baldursgate3/mods/1148) + *DWSO - Wild Shape as Ritual*.\
+- [Druid Wild Shape Overhaul](https://www.nexusmods.com/baldursgate3/mods/1148) + *DWSO - Wild Shape as Ritual*.
+- [Circle of the Land Spells Revised - DND 5E](https://www.nexusmods.com/baldursgate3/mods/19705) \
   **Subclasses:**
 - [Book of Druids - 5e Druid Subclasses (Nexus-Exclusive Version)](https://www.nexusmods.com/baldursgate3/mods/17722)&#x20;
 - [Circle of Stormchasers Druid Subclass](https://www.nexusmods.com/baldursgate3/mods/3584)&#x20;
@@ -1968,6 +1970,8 @@ No class or race is changed in such a way that it is unrecognisable from the bas
 
 - [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Misc*, *Cantrips*, *Level 1*, *Level 2*, *Level 3*, *Level 4*, *Level 5*, *Level 7*, *Level 8* & *Level 9*.
 - [Arcane Recovery - Spell Balance Intent and Flavor](https://www.nexusmods.com/baldursgate3/mods/19623)&#x20;
+- [Chiz's 5e Spells Adjustments](https://www.nexusmods.com/baldursgate3/mods/19247)&#x20;
+- [Wall Fixer - Fire Ice Thorns and Blade Barrier](https://www.nexusmods.com/baldursgate3/mods/19669)&#x20;
 - [Animate Dead Plus Plus - Necromancy Patch](https://www.nexusmods.com/baldursgate3/mods/642)&#x20;
 - [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Remove\_Toggle\_Corpse\_Requirements\_ADPP*.\
   **NOTE:** Remove *Remove\_Toggle\_Corpse\_Requirements\_ADPP.pak* from [BG3MM](https://github.com/LaughingLeader/BG3ModManager)'s active load order to enable *Toggle Corpse Requirement*.
@@ -2404,6 +2408,8 @@ More options than you'll ever need, but if it's not enough grab [DIQ Extras](htt
   Recommended to be used with TAA (anti-aliasing, in video options), looks great with DLAA for me too.
 - [Neutral Facial Expressions](https://www.nexusmods.com/baldursgate3/mods/11491) *Neutral Expressions v1*.
 - [Seam Mender - Dragonborn Texture fix](https://www.nexusmods.com/baldursgate3/mods/19216)&#x20;
+- [Dragonborn Walk to Idle Animation Bug Fix - Male and Female](https://www.nexusmods.com/baldursgate3/mods/19663) *Dragonborn Walk Fix Female* & *Dragonborn Walk Fix Male*.
+- [Half-Orcs Stand Tall](https://www.nexusmods.com/baldursgate3/mods/19679) *(Female)* & *(Male)*.
 </details>
 
 <details><summary>🫨NPC Customisation</summary>
@@ -2531,8 +2537,7 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 - [HybridUI](https://www.nexusmods.com/baldursgate3/mods/17906)&#x20;
 - [Mod Configuration Menu (MCM)](https://www.nexusmods.com/baldursgate3/mods/9162)&#x20;
 - [Tooltip Manager - Highlight Everything SE - MCM](https://www.nexusmods.com/baldursgate3/mods/18208)&#x20;
-- [Mazzle's EZ-Documentation (MazzleDocs)](https://www.nexusmods.com/baldursgate3/mods/18883)&#x20;
-- [Records - A Party Statistics Tracker](https://www.nexusmods.com/baldursgate3/mods/19021)&#x20;
+- [Better Photo Mode](https://www.nexusmods.com/baldursgate3/mods/15831)&#x20;
 
 ### **Main UI Elements:**
 
@@ -2560,7 +2565,6 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 ### Hotbar Resources:
 
 - [Reaction Points on Hotbar](https://www.nexusmods.com/baldursgate3/mods/13455)&#x20;
--
 
 ### Tooltips:
 
@@ -2578,8 +2582,10 @@ Every core UI element has a toggle, allowing the UI to fade out when not hovered
 - [Mark books as read](https://www.nexusmods.com/baldursgate3/mods/3682) \
   Books you've read are all shown as such!
 - [Always Show Approvals](https://www.nexusmods.com/baldursgate3/mods/4675)&#x20;
+- [Mazzle's EZ-Documentation (MazzleDocs)](https://www.nexusmods.com/baldursgate3/mods/18883)&#x20;
 - [Mazzle's Photo Hub](https://www.nexusmods.com/baldursgate3/mods/19560)&#x20;
 - [Tav's Journal](https://www.nexusmods.com/baldursgate3/mods/19332)&#x20;
+- [Records - A Party Statistics Tracker](https://www.nexusmods.com/baldursgate3/mods/19021)&#x20;
 
 ### Loading Screens:
 
