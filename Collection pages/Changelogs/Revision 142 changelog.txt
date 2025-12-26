@@ -1,6 +1,6 @@
 ### Revision 142 Changelog
 
-# 🔥Patch #8/Hotfix #34 - Merry Christmas (No more loading screen crashes).🔥
+# 🔥Patch #8/Hotfix #35 - Merry Christmas (No more loading screen crashes).🔥
 
 ### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
 
@@ -15,6 +15,7 @@
 
 - No new configs, use Revision 141 configs.
 - No more inconsistent loading screen crashes.
+- Changes from Revision 139-142 are not yet reflected on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page.
 
 ***
 

@@ -21,8 +21,15 @@
 5. Most of the time you don't have to do anything in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), I will specify below if you do.
 </details>
 
+- Whoopsy, that mod most people were scared of was mistakenly in the main list instead of optional. [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884) can be disabled by adding its optional file *Sandi's Waypoint Only Fast Travel - Remover*.\
+  "Uninstaller. Important: After removing the mod, load this mod to cleanup to restore fast travel and fleeing with the flee button."\
+  \
+  Or just play in a sandbox without pocket dimension camps and teleportation. (sigma)\
+  .
+- If you can't use Injury Kits (missing cast animation) from [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) try disabling/removing [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) (it's not properly in use yet anyway).\
+  .
 - Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
-  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 141. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 143. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
 
 <details><summary>❓Issues fixed in previous revisions</summary>
 # ❓Issues fixed in previous revisions
