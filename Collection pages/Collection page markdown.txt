@@ -1171,11 +1171,12 @@ Same goes for my addon collections [DIQ Extras](https://next.nexusmods.com/baldu
 
 ### Immersive Simulation:
 
-- [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884)&#x20;
+- [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884) \
+  Turn BG3's theme park ride into an actual game world.
 
-> With this mod enabled you** can** fast travel between waypoints, from **waypoint to camp, and from camp to waypoints**.
+> With this mod enabled you **can** fast travel between waypoints, from waypoint to camp, and from camp to waypoints.
 >
-> You** cannot** fast travel** to waypoints or to camp from other locations**.
+> You **cannot** fast travel to waypoints or to camp from other locations.
 
 Removal of this mod mid-playthrough requires extra steps, consult the mod page.
 
@@ -1337,7 +1338,7 @@ Ultrawide variants load last, so order of overwrites is: 16:9 < 16:10 < UW.
 - [Better Character and Party Panels](https://www.nexusmods.com/baldursgate3/mods/1580) *BCPP 16x10 4 chars 5x9 inventory.*
 - [Better Character and Party Panels](https://www.nexusmods.com/baldursgate3/mods/1580) *BCPP UW 6 chars 6x9 inventory*.
 
-<!---->
+\<!---->
 
 - [Companions Panel and Camp Chest Everywhere](https://www.nexusmods.com/baldursgate3/mods/4968) \
   This is optional because it offers convenience that spoils the immersion added by [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884). If you aren't using that mod though, this comes heavily recommended.
@@ -1591,6 +1592,7 @@ The simple things, and sometimes not so simple things, which make a big differen
 - [Epilogue Letter Bug Fixes - Aylin Isobel and Kagha](https://www.nexusmods.com/baldursgate3/mods/18945)&#x20;
 - [Extremely Literal Mirror Scene Line For All Races](https://www.nexusmods.com/baldursgate3/mods/18057)&#x20;
 - [Humanoid Tag Scratch Fix](https://www.nexusmods.com/baldursgate3/mods/7786)&#x20;
+- [Little Secrets with Quil (Dark Urge Spoilers)](https://www.nexusmods.com/baldursgate3/mods/20101)&#x20;
 - [Manifest Domination - Bypass the 25 DC Ending Check](https://www.nexusmods.com/baldursgate3/mods/13454)&#x20;
 - [Minthara Moves - Halsin and Minthara tents separated](https://www.nexusmods.com/baldursgate3/mods/14148)&#x20;
 - [Moonblade Of Selune](https://www.nexusmods.com/baldursgate3/mods/14616) *Aylin Only*.\
@@ -1774,7 +1776,8 @@ No class or race is changed in such a way that it is unrecognisable from the bas
 
 ### Bard Changes
 
-- [Goon's Bard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17658)\
+- [Goon's Bard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17658)&#x20;
+- [Automatic Magical Secrets Extender](https://www.nexusmods.com/baldursgate3/mods/20247) \
   **Subclasses:**
 - [College of Spirits Bard Subclass](https://www.nexusmods.com/baldursgate3/mods/4309?_gl=1*lho5vj*_ga*MTg1MjQ1NzM5LjE2ODY5MTYzMzU.*_ga_N0TELNQ37M*MTcwMDYwMTk3Mi40NDYuMS4xNzAwNjI0NjMxLjAuMC4w)&#x20;
 - [College of Cantors - Bard Subclass](https://www.nexusmods.com/baldursgate3/mods/11330)&#x20;
