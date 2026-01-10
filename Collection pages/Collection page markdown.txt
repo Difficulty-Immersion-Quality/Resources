@@ -35,7 +35,7 @@ My hope with DIQ is to try and move BG3 away from being a theme park ride and in
   ✅Report issues to me, I will diagnose things and filter more accurate information to relevant authors.
 - 💥You cannot use other curator's collections alongside this one, stuff will break!
 - 🧠Only big brained, longtime mod users, or very patient folk should attempt to customise this list!
-- ❗️I do not recommend playing Honour Mode, it's bad enough in vanilla where bugs still exist, pile hundreds of mods on top and you're really gambling. BG3 is a long game, previous saves are a useful commodity.
+- ❗️I do not recommend playing ***Honour Mode***, it's bad enough in vanilla where bugs still exist, pile hundreds of mods on top and you're really gambling. BG3 is a long game, previous saves are a useful commodity; **instead** play the game on ***Custom Mode***, turn ***Honour Ruleset*** on and click ***Restore Defaults*** to toggle Tactician difficulty and other custom settings of mine.
 - ❗️New games only, don't install this collection for an existing playthrough, especially an existing modded playthrough.
 </details>
 
@@ -456,7 +456,7 @@ If you decide to add more optional mods afterwards, or install [DIQ Extras](http
 <details><summary>🥹IMPORTANT: Creating a New Game! - Step #7</summary>
 # 🥹IMPORTANT: Creating a New Game! - Step #7
 
-Play the game on ***Custom Mode***, turn ***Honour Ruleset*** on and click ***Restore Defaults*** to toggle Tactician difficulty and other custom settings of mine. From there, you can choose to edit things as you wish with the context of DIQ's intended settings.\
+Play the game on ***Custom Mode***, turn ***Honour Ruleset*** on and click ***Restore Defaults*** to toggle Tactician difficulty and other custom settings of mine. From there, you can choose to edit things as you wish within the context of DIQ's intended settings as a baseline.\
 \
 ***Honour Ruleset*** does not make the game super scary, it introduces [balance changes](https://bg3.wiki/wiki/Guide:Undocumented_Patch_5_updates#Honour_mode) and gives bosses new [Legendary Actions](https://bg3.wiki/wiki/Legendary_actions). The collection is designed with this ruleset in mind so it will provide the most consistent experience.\
 **Note:** Having a single save file is not inherent with the ***Honour Ruleset***, it's an optional setting just below it and otherwise a feature of the ***Honour Mode*** difficulty.\
@@ -1313,7 +1313,8 @@ Some of the above mods will cause "*Some mods are redundant*" warnings in [Vorte
 
 - [Shadowheart Takes Her Hair Down At Night](https://www.nexusmods.com/baldursgate3/mods/18328) \
   Causes issues if you want to edit her appearance via [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899).
-- [Shadowheart Concept Art Face Tattoos](https://www.nexusmods.com/baldursgate3/mods/18807)&#x20;
+- [Shadowheart Concept Art Face Tattoos](https://www.nexusmods.com/baldursgate3/mods/18807) \
+  Overlaps with other tattoos if you decide to customise her.
 </details>
 
 <details><summary>👨‍👨‍👦‍👦Multiplayer</summary>
