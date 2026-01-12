@@ -1,3 +1,23 @@
+# Setting up dual push locations for Github and Gitlab
+1. Right click a repo in your VSC source control and select "open in integrated terminal"
+2. Your folder path will come up automatically, and the URLs for multiple push locations can be added like below
+(or whatever your upstream is named if not origin)
+```
+git remote set-url origin --push --add <Github url>
+```
+```
+git remote set-url origin --push --add <Gitlab url>
+```
+3. Done, easy
+### Additional:
+To see a list of remotes:
+```
+git remote -v
+```
+To remove a remote:
+```
+git remote set-url origin --push --remove <url>
+```
 # Git Repo Remotes
 | Repo name                                              | Remotes command                                                                                                                                                                                                                                                                             |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -38,7 +58,7 @@
 | Larian Appdata                                         | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/DIQ-Meta-Files/larian-appdata.git<br> git remote set-url origin --push --add https://github.com/Difficulty-Immersion-Quality/larian-appdata.git                                                      |
 | Lone Wolf                                              | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/Goon-Other-Mods/Lone-Wolf.git<br> git remote set-url origin --push --add https://github.com/Difficulty-Immersion-Quality/Lone-Wolf.git                                                               |
 | Many More Monsters                                     | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/Goon-Other-Mods/Many-More-Monsters.git<br> git remote set-url origin --push --add https://github.com/Difficulty-Immersion-Quality/Many-More-Monsters.git                                             |
-| NPC Scanner for Combat Extender                        | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/Goon-Other-Mods/NPC-Scanner-for-Combat-Extender<br> git remote set-url origin --push --add  https://github.com/Difficulty-Immersion-Quality/NPC-Scanner-for-Combat-Extender.git |
+| NPC Scanner for Combat Extender                        | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/Goon-Other-Mods/NPC-Scanner-for-Combat-Extender<br> git remote set-url origin --push --add https://github.com/Difficulty-Immersion-Quality/NPC-Scanner-for-Combat-Extender.git |
 | Orders                                                 | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/DIQ-Meta-Files/Orders.git<br> git remote set-url origin --push --add https://github.com/Difficulty-Immersion-Quality/Orders.git                                                                      |
 | Reaction Points on Hotbar                              | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/Goon-Other-Mods/Reaction-Points-on-Hotbar.git<br> git remote set-url origin --push --add https://github.com/Difficulty-Immersion-Quality/Reaction-Points-on-Hotbar.git |
 | Remove Toggle Corpse Requirements ADPP                 | git remote set-url origin --push --add https://gitlab.com/Difficulty-Immersion-Quality/Goon-Patching/Remove-Toggle-Corpse-Requirements-ADPP.git<br> git remote set-url origin --push --add https://github.com/Difficulty-Immersion-Quality/Remove-Toggle-Corpse-Requirements-ADPP.git       |
