@@ -18,6 +18,8 @@ To remove a remote:
 ```
 git remote set-url origin --push --remove <url>
 ```
+### Other:
+Enable "Use Git Credential Manager" to clone private repos from Gitlab with Github Desktop... and maybe turn off usage statistics too hehe.
 # Git Repo Remotes
 | Repo name                                              | Remotes command                                                                                                                                                                                                                                                                             |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
