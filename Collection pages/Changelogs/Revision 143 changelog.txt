@@ -1,0 +1,358 @@
+### Revision 143 Changelog
+
+# 🔥Patch #8/Hotfix #35 - An Overdue Maintenance++ Overhaul Enhanced Feature Player Nerf Edition - No Lab Again Because I Was Doing Anything But Configuring it - BIG GOOD UPDATE!🔥
+
+### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
+
+***
+
+- Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
+- [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
+- Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
+- Save safe!✅❗️**BUT**, some mods may require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (See below)
+
+***
+
+# ❗️WARNING: IF YOU'RE DOING A MID-PLAYTHROUGH UPDATE AND CARE ABOUT THE DETAILS YOU'LL NEED TO WAIT FOR ME TO PROPERLY WRITE OUT THIS CHANGELOG.
+
+***
+
+## Moved and removed: 📬
+
+<details><summary>X mods removed 🗑</summary>
+## Moved to [DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog): 🗑
+
+> Any class mods you started the game as may have included custom items, and will also require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating.
+
+### Spells:✨
+
+- [Frostbite Blade](https://www.nexusmods.com/baldursgate3/mods/1188) \
+  A strange implementation that's a bit buggy and not cohesive with other blade cantrips.
+- [Illithid Powers Overhaul 2](https://www.nexusmods.com/baldursgate3/mods/5105) + *Half Potency*.\
+  Too much power creep, OP.
+- [Shield Bash as Action](https://www.nexusmods.com/baldursgate3/mods/6279) \
+  Invalidates feats and items, easy prone spam lowkey OP.
+- [Telekinesis Plus - DELETED](https://www.nexusmods.com/baldursgate3/mods/11317) \
+  Pretty sure bugs, but also abandoned by author.
+- [Confusion Saving Throw Fix](https://www.nexusmods.com/baldursgate3/mods/12088) \
+  Deprecated, fixed in [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481).
+- [Light Utility (QoL - Autolight - Toggle - Reapply - Autodim - Candlelight)](https://www.nexusmods.com/baldursgate3/mods/14393) \
+  Bugs.
+- [Dawnstar's Grimoire](https://www.nexusmods.com/baldursgate3/mods/15598)&#x20;
+- [Water Spells](https://www.nexusmods.com/baldursgate3/mods/15328)&#x20;
+- [Dawnstar's Telekinetic Spells](https://www.nexusmods.com/baldursgate3/mods/16781) \
+  Balance concerns, some bugs, added to spell lists that aren't exactly thematically appropriate.\
+  (The VFX is epic and I have perms to do patching and such, but there's just too much to do so they're snipped for now.)
+-
+
+### Feats:💪
+
+- [Essential Feats](https://www.nexusmods.com/baldursgate3/mods/5623)&#x20;
+- [Stackable ASI Feats - Uncapped Feat Selection and Ability Score Increases](https://www.nexusmods.com/baldursgate3/mods/13238) *Essential Feats Patch*.\
+  Feats that begin intruding on class features, invalidating stuff that otherwise exists to be used.
+-
+
+### Classes and class features:📊
+
+- [Pirate (Homebrew Rogue Subclass)](https://www.nexusmods.com/baldursgate3/mods/3070) \
+  Bit OP, invalidates Arcane Trickster.
+- [Sea Sorcery - Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/10402) *Raw leveling ver*.\
+  OP.
+- [Giant Soul - Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/9960) *Raw leveling ver*.\
+  OP.
+- [Stone Sorcery - Subclass for Sorcerer](https://www.nexusmods.com/baldursgate3/mods/8299) *Raw leveling ver*.\
+  OP.
+- [Barbarian Quality of Life](https://www.nexusmods.com/baldursgate3/mods/8350) \
+  Largely not needed due to changes of mine in [Goon's Barbarian Overhaul](https://www.nexusmods.com/baldursgate3/mods/17654). Might also just crash your game because of limits on entries being referenced as a "new entry" across mods.
+-
+
+***
+
+### Gameplay:🧌
+
+- [Approval Tweaks](https://www.nexusmods.com/baldursgate3/mods/644) *(Version A) Natural*.\
+  Deprecated, replaced by [Attitude Adjuster - Approval Gains SE](https://www.nexusmods.com/baldursgate3/mods/20933).
+- [Critical Miss Has Consequences](https://www.nexusmods.com/baldursgate3/mods/1883)&#x20;
+- [Critical Miss Has Consequences FIXED](https://www.nexusmods.com/baldursgate3/mods/6050) \
+  Deprecated, replaced by [Missed Opportunity](https://www.nexusmods.com/baldursgate3/mods/20601).
+- [Power Hunger - Story Buffs Enhanced](https://www.nexusmods.com/baldursgate3/mods/3989) + *Hag Hair Choice*.\
+  Too much power creep, OP.
+- [Origin's Gods](https://www.nexusmods.com/baldursgate3/mods/6305) *AEE*.\
+  Deprecated, replaced by [Origin Gods SE - MCM](https://www.nexusmods.com/baldursgate3/mods/20583).
+- [AOE Status Fixer](https://www.nexusmods.com/baldursgate3/mods/8461) \
+  Conflicts with some of my item changes in [Goon's (Gear and) Throwing Overhaul](https://www.nexusmods.com/baldursgate3/mods/15126), we can get most of this functionality just in stats anyway.
+- [Returning Weapon QOL](https://www.nexusmods.com/baldursgate3/mods/14877)&#x20;
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Returning Weapon QoL - Goon Patch*.\
+  Incorporated with more robust code in [Goon's (Gear and) Throwing Overhaul](https://www.nexusmods.com/baldursgate3/mods/15126).
+- [Champions of Faerun](https://www.nexusmods.com/baldursgate3/mods/11485) \
+  Bugs.
+- [Better Cambion Summon](https://www.nexusmods.com/baldursgate3/mods/11683) \
+  Also buffs the wild magic cambion summons, ideally it wouldn't.
+- [Skeleton Shortbow Nerf](https://www.nexusmods.com/baldursgate3/mods/14001) \
+  Deprecated, [Necromancy Reanimated (Formerly Animate Dead Plus Plus)](https://www.nexusmods.com/baldursgate3/mods/642) should handle it.
+- [Just Bugs Me: QoL, item, tooltip + pedantic fixes!](https://mod.io/g/baldursgate3/m/just-bugs-me-qol-item-tooltip-pedantic-fixes#description) \
+  While it does fix many bugs, it doesn't use self inheritance or merging and creates many other bugs.
+-
+
+### Items:⚔️
+
+- [Secret Scrolls](https://www.nexusmods.com/baldursgate3/mods/416) *Extended* & *Unlocked*.\
+  OP.
+- [Secret Scrolls for 5e Spells](https://www.nexusmods.com/baldursgate3/mods/2145) *Extended* & *Unlocked*.\
+  OP.
+- [Ninja-to and Katana sets](https://www.nexusmods.com/baldursgate3/mods/2405) \
+  OP.
+- [Cloaks of Faerun](https://www.nexusmods.com/baldursgate3/mods/2811) \
+  OP.
+- [Frostbound Legendaries](https://www.nexusmods.com/baldursgate3/mods/13543) \
+  OP.
+
+### Dialogue and cutscenes:🤗
+
+- [Night With Drow (Minthara Romance Alternative)](https://www.nexusmods.com/baldursgate3/mods/16213) \
+  The implementation is just not super immersive, and there's some bugs with getting it to trigger anyway.
+- [Hallowleafs in Camp](https://www.nexusmods.com/baldursgate3/mods/17838) \
+  Deprecated, fix included in [Check Out Of The Elfsong - Act 3 Camp Swapper](https://www.nexusmods.com/baldursgate3/mods/20316).
+
+***
+
+### UI:💻
+
+- [Always Show Approvals](https://www.nexusmods.com/baldursgate3/mods/4675) \
+  Deprecated, replaced by [Attitude Adjuster - Approval Gains SE](https://www.nexusmods.com/baldursgate3/mods/20933).
+-
+
+### Visuals:📸
+
+- [ABSolutely](https://www.nexusmods.com/baldursgate3/mods/18726) *KaVT GTY F*.\
+  Replaced by *KAVT GTY F Smooth*.
+- [Goon's Doll House - NPC Vanilla Visual Overwrites](https://www.nexusmods.com/baldursgate3/mods/19545) *Goon's Doll House - Vanilla - Kagha*.\
+  Deprecated, we have [Kagha Redux - The Viper in the Grass](https://www.nexusmods.com/baldursgate3/mods/20967) now.
+
+### Character customisation:👗
+
+- [Shadowheart Takes Her Hair Down At Night](https://www.nexusmods.com/baldursgate3/mods/18328) \
+  Buggy and deprecated, replaced by [Shadowheart's Nightly Hairdo](https://www.nexusmods.com/baldursgate3/mods/21060).
+
+### Other:🔍
+
+- [Christmas Dice Set](https://www.nexusmods.com/baldursgate3/mods/14335) \
+  These were left in for an entire year when they were supposed to just be there for Christmas.
+</details>
+
+<details><summary>X mods moved 📨</summary>
+### Moved to optional mods: 💯
+
+- [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884)&#x20;
+- [Enhanced World Tooltips](https://www.nexusmods.com/baldursgate3/mods/2037) *All-In-One*.
+- [Alternative Shadowheart Tattoos](https://www.nexusmods.com/baldursgate3/mods/8115) *Left Arm - Breast - Chest and Back (Black Nails)*.
+
+### Moved from optional mods to main list: 💯
+
+- [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442) \
+  About time Vortex listened to me and put this in main list lol.
+
+***
+
+### Moved to [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg): 👔
+
+-
+
+### Moved from [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg) to main list: 👔
+
+-
+</details>
+
+## Added: 📦
+
+<details><summary>X mods added 📦</summary>
+### Spells:✨
+
+-
+
+### Feats:💪
+
+-
+
+### Classes and class features:📊
+
+- [Goon's Barbarian Overhaul](https://www.nexusmods.com/baldursgate3/mods/17654) *Dynamic Wildheart Patch*.
+
+***
+
+### Gameplay:🧌
+
+-
+
+### Items:⚔️
+
+- [Goon's (Gear and) Throwing Overhaul](https://www.nexusmods.com/baldursgate3/mods/15126) *Church of Shar by AzazeL Patch* & *Orin the Red by AzazeL Patch.*
+
+### Dialogue and cutscenes:🤗
+
+-
+
+***
+
+### UI:💻
+
+-
+
+### Visuals:📸
+
+-
+
+### Character customisation:👗
+
+-
+
+### Other:🔍
+
+- [BG3AF - Animation Framework](https://www.nexusmods.com/baldursgate3/mods/16207)&#x20;
+
+***
+
+## Added to optional mods: 📦
+
+- [Enhanced World Tooltips](https://www.nexusmods.com/baldursgate3/mods/2037) *Alt Toggle - Hide Looted* & *Hide Looted - Preview*.
+- [Better Hotbar 2](https://www.nexusmods.com/baldursgate3/mods/2417) *UW 4x41 grid 0.86*, *16to10 4x24 grid 0.86* & *16to9 4x28 grid 0.86*.
+- [Goon's Immersive Loading Screen Hints](https://www.nexusmods.com/baldursgate3/mods/7644) *ILS UW*.
+</details>
+
+## Updates and adjustments: 🔧
+
+<details><summary>X mods updated 🔧</summary>
+> 📌It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
+
+### Spells:✨
+
+- [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Cantrips*, *Level 1*, *Level 2*, *Level 3*, *Level 4*, *Level 5*, *Level 7*, *Level 8*, *Level 9* & *Misc*.
+- [Arcane Recovery - Spell Balance Intent and Flavor](https://www.nexusmods.com/baldursgate3/mods/19623)&#x20;
+- [Spells Extra - DND 5E Library](https://www.nexusmods.com/baldursgate3/mods/11291)&#x20;
+- [Valkrana's Spellbook - 15 New Necromancy Spells](https://www.nexusmods.com/baldursgate3/mods/1258)&#x20;
+- [Incubate Death - Necromancy Spell](https://www.nexusmods.com/baldursgate3/mods/5716)&#x20;
+- [Pernicious Thread - Necromancy Spell](https://www.nexusmods.com/baldursgate3/mods/8733)&#x20;
+- [5e Spells Compatibility Patch](https://www.nexusmods.com/baldursgate3/mods/7054)&#x20;
+- [Automatic Magical Secrets Extender](https://www.nexusmods.com/baldursgate3/mods/20247)&#x20;
+
+### Feats:💪
+
+- [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044)&#x20;
+- [Valkrana's Skeleton Crew - Over 60 Random Undead Allies](https://www.nexusmods.com/baldursgate3/mods/4496) *Valkrana's Skeleton Crew Feat*.
+- [Savage Attacker Variants - Unarmed Spell Ranged and Thrown](https://www.nexusmods.com/baldursgate3/mods/11834)&#x20;
+- [Lone Wolf Feat - SE](https://www.nexusmods.com/baldursgate3/mods/14351)&#x20;
+- [Stackable ASI Feats - Uncapped Feat Selection and Ability Score Increases](https://www.nexusmods.com/baldursgate3/mods/13238) *Stackable ASI Feats - Planescape Patch*.
+
+### Classes and class features:📊
+
+- [Commoner Class](https://www.nexusmods.com/baldursgate3/mods/12581)&#x20;
+- [Inquisitor Class](https://www.nexusmods.com/baldursgate3/mods/18318)&#x20;
+- [Mesmerist - Pathfinder 1e Class Conversion](https://www.nexusmods.com/baldursgate3/mods/11854)&#x20;
+- [Goon's Barbarian Overhaul](https://www.nexusmods.com/baldursgate3/mods/17654)&#x20;
+- [Goon's Bard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17658)&#x20;
+- [Goon's Cleric Overhaul](https://www.nexusmods.com/baldursgate3/mods/17471)&#x20;
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Goon's Druid Overhaul*.
+- [Circle of Witchcraft - A Druid subclass](https://www.nexusmods.com/baldursgate3/mods/18772)&#x20;
+- [Goon's Fighter Overhaul](https://www.nexusmods.com/baldursgate3/mods/17926)&#x20;
+- [5e Fighter Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15060)&#x20;
+- [Goon's Monk Overhaul](https://www.nexusmods.com/baldursgate3/mods/17706)&#x20;
+- [5e Monk Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15907)&#x20;
+- [Goon's Paladin Overhaul](https://www.nexusmods.com/baldursgate3/mods/17535) + *No Divine Smite for Oathbreakers*.
+- [5e Oath of Glory - Paladin Subclass Lv20 Expansion](https://www.nexusmods.com/baldursgate3/mods/19027)&#x20;
+- [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion](https://www.nexusmods.com/baldursgate3/mods/18306)&#x20;
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Goon's Ranger Overhaul*.
+- [5e Ranger Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15037)&#x20;
+- [Stargazer - Ranger Subclass](https://www.nexusmods.com/baldursgate3/mods/20251)&#x20;
+- [Goon's Rogue Overhaul](https://www.nexusmods.com/baldursgate3/mods/17612)&#x20;
+- [Goon's Sorcerer Overhaul](https://www.nexusmods.com/baldursgate3/mods/17657)&#x20;
+- [Divine Right - A Sorcerer Subclass](https://www.nexusmods.com/baldursgate3/mods/14997)&#x20;
+- [Goon's Coffee Lock - Use Warlock Spell Slots First](https://www.nexusmods.com/baldursgate3/mods/17634)&#x20;
+- [The Necrobroker Patron - Warlock Subclass](https://www.nexusmods.com/baldursgate3/mods/19848)&#x20;
+- [Pact of the Heart and Additional Invocations](https://www.nexusmods.com/baldursgate3/mods/18429)&#x20;
+- [Goon's Wizard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17659)&#x20;
+- [Valkrana's Necrobroker - Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/17919)&#x20;
+
+***
+
+### Gameplay:🧌
+
+- [Many More Monsters](https://www.nexusmods.com/baldursgate3/mods/11639)&#x20;
+- [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535) + *Extras*.
+- [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) + *JWL Discordant Instruments Patch*.
+- [Goon's Short Legs Overhaul - Full Movement for Short Races](https://www.nexusmods.com/baldursgate3/mods/17616) *UNSO*.
+- [Goon's Slayer Overhaul](https://www.nexusmods.com/baldursgate3/mods/17963)&#x20;
+- [Goon's Condition and Surface Overhaul](https://www.nexusmods.com/baldursgate3/mods/17320)&#x20;
+- [Goon's Vendor Overhaul - Trader Exploit Prevention](https://www.nexusmods.com/baldursgate3/mods/19741)&#x20;
+- [Universal Feat Every X Level(s) - MCM](https://www.nexusmods.com/baldursgate3/mods/13193)&#x20;
+- [Bonk Enhanced - Knocked Out Failsafe - Non-Lethal Attacks and Damage Overhaul](https://www.nexusmods.com/baldursgate3/mods/13727)&#x20;
+- [Fix Stragglers](https://www.nexusmods.com/baldursgate3/mods/10795)&#x20;
+- [Goon's Companion Protection](https://www.nexusmods.com/baldursgate3/mods/14396)&#x20;
+- [Gale and His Netherese Orb - A Magical Appetite](https://www.nexusmods.com/baldursgate3/mods/14442)&#x20;
+- [Necromancy Reanimated (Formerly Animate Dead Plus Plus)](https://www.nexusmods.com/baldursgate3/mods/642)&#x20;
+- [Custom Common Action Patch](https://www.nexusmods.com/baldursgate3/mods/5403)&#x20;
+- [Hardcore Help](https://www.nexusmods.com/baldursgate3/mods/10340)&#x20;
+- [Swap Places Common Action](https://www.nexusmods.com/baldursgate3/mods/13120)&#x20;
+
+### Items:⚔️
+
+- [Goon's (Gear and) Throwing Overhaul](https://www.nexusmods.com/baldursgate3/mods/15126) *Goon's Gear and Throwing Overhaul*.\
+  Name changed.
+- [Markoheshkir Expanded](https://www.nexusmods.com/baldursgate3/mods/15396) (SE).\
+  Swapped to the *(non-SE)* version.
+- [Soul Knife Equipment](https://www.nexusmods.com/baldursgate3/mods/13717)&#x20;
+- [The Eye of Vecna](https://www.nexusmods.com/baldursgate3/mods/12601)&#x20;
+- [The Hand of Vecna](https://www.nexusmods.com/baldursgate3/mods/12600)&#x20;
+- [Awakened Blood of Lathander](https://www.nexusmods.com/baldursgate3/mods/12628)&#x20;
+- [Faith and Fortitude - Cleric Equipment](https://www.nexusmods.com/baldursgate3/mods/9415)&#x20;
+- [Grove and Growl - Druid Equipment](https://www.nexusmods.com/baldursgate3/mods/10304)&#x20;
+- [Beast and Bow - Ranger Equipment](https://www.nexusmods.com/baldursgate3/mods/12016)&#x20;
+- [Pact and Power - Warlock Equipment](https://www.nexusmods.com/baldursgate3/mods/14327)&#x20;
+- [Knights and Dames](https://www.nexusmods.com/baldursgate3/mods/8208)&#x20;
+- [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095) *DIQ Clothing Patches*, *DIQ Miscellaneous Item Patches* & *DIQ Starting Equipment*.
+- [Trade with Withers Addon - Containers](https://www.nexusmods.com/baldursgate3/mods/9397)&#x20;
+
+### Dialogue and cutscenes:🤗
+
+-
+
+***
+
+### UI:💻
+
+- [Mod Configuration Menu (MCM)](https://www.nexusmods.com/baldursgate3/mods/9162)&#x20;
+- [Preemptively Label Containers](https://www.nexusmods.com/baldursgate3/mods/6313)&#x20;
+- [Goon's Immersive Loading Screen Hints](https://www.nexusmods.com/baldursgate3/mods/7644)&#x20;
+- [Reaction Points on Hotbar](https://www.nexusmods.com/baldursgate3/mods/13455)&#x20;
+
+### Visuals:📸
+
+- [Anders Crew Redone - True Paladins of Tyr](https://www.nexusmods.com/baldursgate3/mods/16696) *Infernal Robes Edition*.\
+  Swapped to the regular version.
+- [Various NPCs Restyled](https://www.nexusmods.com/baldursgate3/mods/13937) *All in One Version (seperate paks)*.\
+  Removed *Mayrina No More Tears* and added *Hope Restyled*.\
+  ![](https://i.postimg.cc/RZWXYW28/image-2026-02-11-015913797.png)
+-
+
+### Character customisation:👗
+
+- [Appearance Edit Enhanced](https://www.nexusmods.com/baldursgate3/mods/899)&#x20;
+- [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717)&#x20;
+- [Whiter Eyes](https://www.nexusmods.com/baldursgate3/mods/5220)&#x20;
+- [Astralities' Glow Eyes](https://www.nexusmods.com/baldursgate3/mods/4964) + *Unique Tav and Glow Eyes Compatibility Patch*.
+- [Horns of Faerun](https://www.nexusmods.com/baldursgate3/mods/466)&#x20;
+- [Tepkunset Hair Collection](https://www.nexusmods.com/baldursgate3/mods/7156)&#x20;
+
+### Other:🔍
+
+- [P4 Patches](https://www.nexusmods.com/baldursgate3/mods/353) *Patches\_for\_VFX\_Heads*.
+- [Volition Cabinet](https://www.nexusmods.com/baldursgate3/mods/7676)&#x20;
+- [Goon's Library - Passives Functions Spells and More](https://www.nexusmods.com/baldursgate3/mods/12834)&#x20;
+
+***
+
+## Updated optional mods: 🔧
+
+- [Sit This One Out 2](https://www.nexusmods.com/baldursgate3/mods/6183)&#x20;
+- [Text Chat](https://www.nexusmods.com/baldursgate3/mods/10353)&#x20;
+- [All-In-One Collector Total (Auto Loot)](https://www.nexusmods.com/baldursgate3/mods/17089)&#x20;
+</details>
