@@ -21,17 +21,25 @@
 5. Most of the time you don't have to do anything in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), I will specify below if you do.
 </details>
 
-- Whoopsy, that mod most people were scared of was mistakenly in the main list instead of optional. [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884) can be disabled by adding its optional file *Sandi's Waypoint Only Fast Travel - Remover*.\
-  "Uninstaller. Important: After removing the mod, load this mod to cleanup to restore fast travel and fleeing with the flee button."\
-  Or just play in a sandbox without pocket dimension camps and teleportation. (sigma)
-- [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442) is under optional mods for some reason? It's intended as main list so grab it if you care; not a big deal.
-- If you can't use Injury Kits (missing cast animation) from [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) try splitting the kits from the stack and updating the mod.
-- Purple Dragon Knight Fighter from [2024 Purple Dragon Knight (UA) - Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/15607), Order Domain Cleric from [5e Cleric Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/16007) and Fey Wanderer Ranger from [5e Ranger Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15037) have some performance and stability issues in combat at present. [sumradagnoth8](https://www.nexusmods.com/baldursgate3/users/186661377) is aware of reports for the latter two but neither he or myself can replicate those issues in a less modded environment. Conclusion here is just to not use these for now until I can investigate further and potentially find a fix/optimisation for Sumra to implement, as it's all a bit weird right now and presents a rabbit hole.
+- Update DIQ Misc Patches to 1.4.3.2 otherwise Honour Ruleset will not work properly. (But don't stress, the fix is 95% retroactive if updating mid-playthrough.)
+- Crashes in scenes with Gale, including the entire epilogue can be fixed by removing the [Piercing Improvement - Physics](https://www.nexusmods.com/baldursgate3/mods/6705?tab=bugs) *Physics Gale Piercing* file.
+- If you don't use [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg), then import the zip from [https://mod.io/g/baldursgate3/m/elledwyn-hairstyles1#description](https://mod.io/g/baldursgate3/m/elledwyn-hairstyles1#description "https://mod.io/g/baldursgate3/m/elledwyn-hairstyles1#description") into Vortex otherwise Kagha will be bald lmao. (She lowkey looks pretty cool bald ngl.)
+- There seems to be issues with characters being bald in portraits, especially Shadowheart. Lower prior but it will be investigated.
+- Combat input delay and crashes: Purple Dragon Knight Fighter from [2024 Purple Dragon Knight (UA) - Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/15607) and Order Domain Cleric from [5e Cleric Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/16007) have some performance and stability issues in combat at present. [sumradagnoth8](https://www.nexusmods.com/baldursgate3/users/186661377) is aware of implementations for how to get around the issue and will do so when he is able.
 - Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
-  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 143. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
+  A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 144. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
 
 <details><summary>❓Issues fixed in previous revisions</summary>
 # ❓Issues fixed in previous revisions
+
+<details><summary>❓Revision 143 Issues that are fixed with Revision 144</summary>
+- Combat input delay and crashes: Fey Wanderer Ranger from [5e Ranger Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15037).
+- [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442) is under optional mods for some reason? It's intended as main list so grab it if you care; not a big deal.
+- If you can't use Injury Kits (missing cast animation) from [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) try splitting the kits from the stack and updating the mod.
+- Whoopsy, that mod most people were scared of was mistakenly in the main list instead of optional. [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884) can be disabled by adding its optional file *Sandi's Waypoint Only Fast Travel - Remover*.\
+  "Uninstaller. Important: After removing the mod, load this mod to cleanup to restore fast travel and fleeing with the flee button."\
+  Or just play in a sandbox without pocket dimension camps and teleportation. (sigma)
+</details>
 
 <details><summary>❓Revision 141 Issues that are fixed with Revision 142</summary>
 - Crashing on launch or load? Disable/remove [The Archmage Patron - Warlock Subclass](https://www.nexusmods.com/baldursgate3/mods/20162).
