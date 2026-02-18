@@ -21,18 +21,21 @@
 5. Most of the time you don't have to do anything in [BG3MM](https://github.com/LaughingLeader/BG3ModManager), I will specify below if you do.
 </details>
 
-- Update DIQ Misc Patches to 1.4.3.2 otherwise Honour Ruleset will not work properly. (But don't stress, the fix is 95% retroactive if updating mid-playthrough.)
+- The latest unnamed hotfix works with the collection, no need for downgrading or anything.
+- If you're missing spells normally unlocked for class progressions and update [Spell List Customization Framework](https://www.nexusmods.com/baldursgate3/mods/21017) to 1.0.0.1.
+- Update [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Misc Patches* to 1.4.3.3, and **add** DIQ Misc Patches - Overrides (loaded after DIQ Misc Patches) otherwise Honour Ruleset will not work properly. (But don't stress, the fix is 95% retroactive if updating mid-playthrough.)
 - Crashes in scenes with Gale, including the entire epilogue can be fixed by removing the [Piercing Improvement - Physics](https://www.nexusmods.com/baldursgate3/mods/6705?tab=bugs) *Physics Gale Piercing* file.
 - If you don't use [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg), then import the zip from [https://mod.io/g/baldursgate3/m/elledwyn-hairstyles1#description](https://mod.io/g/baldursgate3/m/elledwyn-hairstyles1#description "https://mod.io/g/baldursgate3/m/elledwyn-hairstyles1#description") into Vortex otherwise Kagha will be bald lmao. (She lowkey looks pretty cool bald ngl.)
-- There seems to be issues with characters being bald in portraits, especially Shadowheart. Lower prior but it will be investigated.
-- Combat input delay and crashes: Purple Dragon Knight Fighter from [2024 Purple Dragon Knight (UA) - Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/15607) and Order Domain Cleric from [5e Cleric Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/16007) have some performance and stability issues in combat at present. [sumradagnoth8](https://www.nexusmods.com/baldursgate3/users/186661377) is aware of implementations for how to get around the issue and will do so when he is able.
+- Bald/naked/armour as useless helmets - Update [Goon's Library - Passives Functions Spells and More](https://www.nexusmods.com/baldursgate3/mods/12834). You'll need to enter the mirror, level up, respec etc. for portraits to update.\
+  Additional related fixes include removing [Trade with Withers Addon - Containers](https://www.nexusmods.com/baldursgate3/mods/9397) files and getting all the latest from [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095).
+- Order Domain Cleric combat input delay and crashes: Update [5e Cleric Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/16007) to 1.6.2.0+.
 - Current [Combat Extender](https://www.nexusmods.com/baldursgate3/mods/5207) configurations are a bit bloated and can contribute to AI slowdown, NPCs skipping turns, etc. \
   A full swap to [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) is planned for Revision 144. Spell choices will be handled via controlled randomisation of large pools that mirror the players' access to spells, creating more stable and diverse combat throughout the whole game.
 
 <details><summary>❓Issues fixed in previous revisions</summary>
 # ❓Issues fixed in previous revisions
 
-<details><summary>❓Revision 143 Issues that are fixed with Revision 144</summary>
+<details><summary>❓Revision 142 Issues that are fixed with Revision 143</summary>
 - Combat input delay and crashes: Fey Wanderer Ranger from [5e Ranger Subclasses Combined](https://www.nexusmods.com/baldursgate3/mods/15037).
 - [Wyll's Act 3 Romance Tweaks](https://www.nexusmods.com/baldursgate3/mods/11442) is under optional mods for some reason? It's intended as main list so grab it if you care; not a big deal.
 - If you can't use Injury Kits (missing cast animation) from [Grit and Glory - Injuries Exhaustion and Madness - MCM](https://www.nexusmods.com/baldursgate3/mods/14863) try splitting the kits from the stack and updating the mod.

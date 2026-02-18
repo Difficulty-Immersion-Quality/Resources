@@ -9,12 +9,12 @@
 - Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
 - [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
 - Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
-- Save safe!✅❗️**BUT**, some mods may require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (This is less common nowadays, see below.)
+- Has not been save safe for everyone!⚠️❗️Some mods may require use of [Mod Uninstaller](https://www.nexusmods.com/baldursgate3/mods/9701) for mid-playthrough updating. (This is less common nowadays, see below.)
 - Changes from this revision not yet reflected on the main collection page.
 
 ***
 
-- This is a pretty big one but it should be save safe like usual with a whole host of improvements. However, it's also focused on trimming some fat on curbing late game player power that grows to absurd extremes. Buffs and items you have may be gone after updating, but it's all intended.
+- This is a pretty big one but it *should* be save safe like usual (**edit: for multiple users it has no been, proceed with caution**) with a whole host of improvements. However, it's also focused on trimming some fat on curbing late game player power that grows to absurd extremes. Buffs and items you have may be gone after updating, but it's all intended.
 - There's one wee exception I suppose where it's heavily advised to respec your illithid powers. This can be done prior to updating by acquiring the Purity Tadpole from [Illithid Powers Overhaul 2](https://www.nexusmods.com/baldursgate3/mods/5105), easily acquired from Withers or spawning with Easy Cheat's item spawner in the mod configuration menu.
 - Definitely respec all characters to level 1 martials.
 - Update DIQ Misc Patches after updating to this revision, otherwise Honour Ruleset will not work properly. (But don't stress, the fix is 95% retroactive if updating mid-playthrough.)
