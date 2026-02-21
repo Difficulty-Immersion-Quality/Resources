@@ -3,10 +3,10 @@
 2. Your folder path will come up automatically, and the URLs for multiple push locations can be added like below
 (or whatever your upstream is named if not origin)
 ```
-git remote set-url origin --push --add <Github url>
-```
-```
 git remote set-url origin --push --add <Gitlab url>
+```
+```
+git remote set-url origin --push --add <Github url>
 ```
 3. Done, easy
 ### Additional:
@@ -16,7 +16,12 @@ git remote -v
 ```
 To remove a remote:
 ```
-git remote set-url origin --push --remove <url>
+git remote set-url origin --push --delete <url>
+```
+To swap a pull location:
+```
+git remote set-url origin --pull --delete <url>
+git remote set-url origin --pull --add <url>
 ```
 ### Other:
 Enable "Use Git Credential Manager" to clone private repos from Gitlab with Github Desktop... and maybe turn off usage statistics too hehe.
