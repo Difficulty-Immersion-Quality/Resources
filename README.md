@@ -20,8 +20,7 @@ git remote set-url origin --push --delete <url>
 ```
 To swap a pull location:
 ```
-git remote set-url origin --pull --delete <url>
-git remote set-url origin --pull --add <url>
+git remote set-url origin <url>
 ```
 ### Other:
 Enable "Use Git Credential Manager" to clone private repos from Gitlab with Github Desktop... and maybe turn off usage statistics too hehe.
