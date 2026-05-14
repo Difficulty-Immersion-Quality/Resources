@@ -1,0 +1,8 @@
+# 🔥Patch #8/Hotfix #36 - FATAL CRASH FIX!🔥
+
+### Don't forget to endorse the collection if you enjoy it! 😘 Maybe buy me a Pepsi too? [Kofi](https://ko-fi.com/baldursgoonsack)💖
+
+***
+
+- Sorry y'all, I should have done a last second flight check but my hubris got the better of me, a single missing line in an equipment entry blew everything up.
+- Everything else is the same as before, with the exception of updating [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Misc Patches*.

@@ -1,0 +1,250 @@
+### Revision 147 Changelog (Work in progress)
+
+# 🔥Patch #8/Hotfix #36 - Vortex 2.0 + Maintenance Time.🔥
+
+### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
+
+***
+
+- Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
+- [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
+- Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
+- Save safe!✅**BUT**, updating instructions must be followed and the following must actually be read.
+
+***
+
+- Bug fixes and QoL this time around, nothing too crazy.
+- Don't sleep on this update, there shouldn't be any issues for mid-playthrough updating and it resolves a bunch of stuff I can't really be bothered to list rn.
+
+***
+
+# Removed ([DIQ Archive](https://next.nexusmods.com/baldursgate3/collections/yif5lj?tab=changelog)) 🗑
+
+### Spells:✨
+
+- [Speak with Dead Rework and Tweaks](https://www.nexusmods.com/baldursgate3/mods/2144) *Speak with Dead Rework - Damaged Corpse Version*.\
+  \- Redundant.
+
+### Feats:💪
+
+-
+
+### Classes and class features:📊
+
+-
+
+### Gameplay:🧌
+
+-
+
+### Items:⚔️
+
+-
+
+### Dialogue and cutscenes:🤗
+
+-
+
+### UI:💻
+
+-
+
+### Visuals:📸
+
+- [Dirt B Gone - NPC Edition](https://www.nexusmods.com/baldursgate3/mods/18263) *Nine-Fingers - Dirt B Gone* & *Quartermaster Talli - Dirt B Gone*.\
+  \- Redundant due to including them in my [Unsoiled](https://www.nexusmods.com/baldursgate3/mods/22472) configuration.
+
+### Character customisation:👗
+
+-
+
+### Other:🔍
+
+-
+
+***
+
+# Moved 📨
+
+### Moved to optional mods: 💯
+
+-
+
+### Moved from optional mods to main list: 💯
+
+- [Datamined Karlach](https://www.nexusmods.com/baldursgate3/mods/508) *Scarred Vanilla Head*.
+
+### Moved to [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg): 👔
+
+-
+
+### Moved from [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg) to main list: 👔
+
+-
+
+### Moved to [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm): 🥵
+
+-
+
+### Moved from [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) to main list: 🥵
+
+-
+
+***
+
+# Added 📦
+
+### Spells:✨
+
+- [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Goon's Spell Overhaul - Level 6*.
+- [5eSpells and Expansion Patch](https://www.nexusmods.com/baldursgate3/mods/22565) *5eSpells and Expansion Level 13-20 Patch*.
+
+### Feats:💪
+
+-
+
+### Classes and class features:📊
+
+- [The Pugilist - A Streetfighting Class with Swagger to Spare](https://www.nexusmods.com/baldursgate3/mods/22635) \
+  \- Might have issues with The Old One-Two not playing the proper animation, only casting 1 attack instead of 2. Potential conflict with [BlocknMiss Differentiation](https://www.nexusmods.com/baldursgate3/mods/9646) + [AnimationUnlocker](https://www.nexusmods.com/baldursgate3/mods/16058) that needs investigating, loading [AnimationUnlocker](https://www.nexusmods.com/baldursgate3/mods/16058) may resolve it.
+
+### Gameplay:🧌
+
+- [Interrupted Music Performance Fixer](https://www.nexusmods.com/baldursgate3/mods/19451) *musicperformworkaround*.\
+  \- I've got my own WIP in the oven that will also fix this in addition to some other neat stuff, but it's so low prio that I'm just not touching it for the foreseeable future.
+- [Speak With Dead Always Highlights Corpses](https://www.nexusmods.com/baldursgate3/mods/22412) *Speak With Dead Always Highlights Corpses 1.0.0*.
+
+### Items:⚔️
+
+-
+
+### Dialogue and cutscenes:🤗
+
+- [No Wound Flares During Party Banter](https://www.nexusmods.com/baldursgate3/mods/22614) *HT\_NoWoundFlaresDuringPartyBanter*.
+- [Roah Moonglow Always Escapes](https://www.nexusmods.com/baldursgate3/mods/22529) *Roah Escapes*.
+
+### UI:💻
+
+-
+
+### Visuals:📸
+
+- [Unsoiled](https://www.nexusmods.com/baldursgate3/mods/22472)&#x20;
+- [Goon's Doll House - NPC Vanilla Visual Overwrites](https://www.nexusmods.com/baldursgate3/mods/19545) *Goon's Doll House - Vanilla - Mattis*.\
+  \- Mattis without dreads felt very wrong.
+
+### Character customisation:👗
+
+-
+
+### Other:🔍
+
+-
+
+### Added to optional mods: 📦
+
+- [Bigger Mouse Cursors](https://www.nexusmods.com/baldursgate3/mods/3664)&#x20;
+- [Auto-Knockout Story NPCs](https://www.nexusmods.com/baldursgate3/mods/22662)&#x20;
+
+***
+
+## Updated 🔧
+
+> 📌It's recommended to respec characters making use of the following mods into level 1 Barbarians, and deactivate/remove all toggles you're able to.
+
+### Spells:✨
+
+- [Warlock Spell List Fixer](https://www.nexusmods.com/baldursgate3/mods/11239)&#x20;
+- [Valkrana's Spellbook - 15 New Necromancy Spells](https://www.nexusmods.com/baldursgate3/mods/1258) *Valkrana's Spellbook*.
+- [Arcane Recovery - Spell Balance Intent and Flavor](https://www.nexusmods.com/baldursgate3/mods/19623) *Arcane Recovery*.
+- [Goon's Spell Overhaul](https://www.nexusmods.com/baldursgate3/mods/15481) *Goon's Spell Overhaul - Cantrips*, *Goon's Spell Overhaul - Level 3*, & *Goon's Spell Overhaul - Level 4*.
+
+### Feats:💪
+
+- [Feats Overhaul](https://www.nexusmods.com/baldursgate3/mods/15044) *FeatsOverhaul*.
+- [Valkrana's Skeleton Crew - Over 60 Random Undead Allies](https://www.nexusmods.com/baldursgate3/mods/4496) *Valkrana's Skeleton Crew Feat*.
+- [War Caster (2014 and 2024)](https://www.nexusmods.com/baldursgate3/mods/5822) *War Caster*, *More Upcasting*, & *5e Spells Support*.
+
+### Classes and class features:📊
+
+- [Goon's Barbarian Overhaul](https://www.nexusmods.com/baldursgate3/mods/17654)&#x20;
+- [Goon's Bard Overhaul](https://www.nexusmods.com/baldursgate3/mods/17658)&#x20;
+- [Goon's Cleric Overhaul](https://www.nexusmods.com/baldursgate3/mods/17471)&#x20;
+- [UA6 Invoke Duplicity](https://www.nexusmods.com/baldursgate3/mods/5311) *UA Invoke Duplicity*.
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *Goon's Druid Overhaul*.
+- [Echo Knight Fighter Subclass](https://www.nexusmods.com/baldursgate3/mods/3939) *Echo Knight*.
+- [5e Oath of Glory - Paladin Subclass Lv20 Expansion](https://www.nexusmods.com/baldursgate3/mods/19027) *5e Oath of Glory - Paladin Subclass*.
+- [5e Oath of the Watchers - Paladin Subclass Lv20 Expansion](https://www.nexusmods.com/baldursgate3/mods/18306) *5e Oath of the Watchers - Paladin Subclass*.
+- [The Necrobroker Patron - Warlock Subclass](https://www.nexusmods.com/baldursgate3/mods/19848) *Necrobroker Patron*.
+- [Valkrana's Necrobroker - Wizard Subclass](https://www.nexusmods.com/baldursgate3/mods/17919) *Valkrana's Necrobroker*.
+
+### Gameplay:🧌
+
+- [Deity Expansion](https://www.nexusmods.com/baldursgate3/mods/19488)&#x20;
+- [Heavy Weapons RAW](https://www.nexusmods.com/baldursgate3/mods/19028) *Heavy Weapons RAW - 5R 2024* > *Heavy Weapons RAW - 5.5e*.\
+  \- 5.5e... disgusting.
+- [Necromancy Reanimated (Formerly Animate Dead Plus Plus)](https://www.nexusmods.com/baldursgate3/mods/642) *Necromancy Reanimated*.
+- [Goon's Condition and Surface Overhaul](https://www.nexusmods.com/baldursgate3/mods/17320)&#x20;
+- [Valkrana's Undead Encounters - New Bosses Fights Items and Allies - Including Act 3](https://www.nexusmods.com/baldursgate3/mods/9024) *Valkrana's Undead Encounters*.
+- [Valkrana's Skeleton Crew - Over 60 Random Undead Allies](https://www.nexusmods.com/baldursgate3/mods/4496) *VSCrew XP Enabled*.
+- [Ultimate NPC Stat Overhaul (UNSO)](https://www.nexusmods.com/baldursgate3/mods/15535) *Ultimate NPC Stat Overhaul*.
+- [Absolute's Laboratory - NPC and Combat Inspector and Mutator](https://www.nexusmods.com/baldursgate3/mods/16217) *Absolute's Laboratory*.
+- [EZ-Manipulator - Object Move-Rotate-Transform Gizmo](https://www.nexusmods.com/baldursgate3/mods/21922) *EZ-Manipulator GizmoLib*.
+- [Configurable Party Limit](https://www.nexusmods.com/baldursgate3/mods/11172) *Configurable Party Limit 1.1.0* > *Configurable Party Limit 1.2.1*.
+- [Post-Combat Cleanup](https://www.nexusmods.com/baldursgate3/mods/21777) *Post-Combat Cleanup 1.0.0* > *Post-Combat Cleanup 1.1.0*.
+
+### Items:⚔️
+
+- [Goon's (Gear and) Throwing Overhaul](https://www.nexusmods.com/baldursgate3/mods/15126) *Goon's Gear and Throwing Overhaul*.
+- [DIQ Patches - Treasure Tables and More](https://www.nexusmods.com/baldursgate3/mods/9095) + *DIQ Clothing Patches*.
+- [Fade's Assorted Treasure Expansion - FATE](https://www.nexusmods.com/baldursgate3/mods/20745) *Fade's Assorted Treasure Expansion*.
+- [Helm's Armory - Shield and Longsword for Paladin Cleric](https://www.nexusmods.com/baldursgate3/mods/6345) *Helm's Armory*.
+- [The Eye of Vecna](https://www.nexusmods.com/baldursgate3/mods/12601) *Eye of Vecna*.
+- [The Hand of Vecna](https://www.nexusmods.com/baldursgate3/mods/12600) *Hand of Vecna*.
+- [Awakened Spear of Selune](https://www.nexusmods.com/baldursgate3/mods/13832)&#x20;
+- [JWL Discordant Instruments for Patch 7](https://www.nexusmods.com/baldursgate3/mods/17536)&#x20;
+- [Ciri's Clothes](https://www.nexusmods.com/baldursgate3/mods/519) \
+  \- Should move this to DIQ Extras.
+
+### Dialogue and cutscenes:🤗
+
+- [Minthara Auto-Knockout](https://www.nexusmods.com/baldursgate3/mods/21836) *Minthara Auto-KO - Combined* > *Minthara Auto-KO - Combined - No Dialogue Changes* & *Patch for Additional Grove Raid Dialogue Options*.\
+  \- Name was changed to not share a name with another existing file on the page.
+
+### UI:💻
+
+- [Immersive Loading Screens](https://www.nexusmods.com/baldursgate3/mods/1758) *Immersive Loading Screens - With Vignette*.
+- [Progression Preview - Full Class Progressions Shown Ingame](https://www.nexusmods.com/baldursgate3/mods/20193) *ProgressionPreview*.
+- [Respec Tadpoles - Integrated UI](https://www.nexusmods.com/baldursgate3/mods/20538) *Respec Tadpoles*.
+- [Dice Roulette](https://www.nexusmods.com/baldursgate3/mods/20857)&#x20;
+- [Better Dialogue Controls - SE](https://www.nexusmods.com/baldursgate3/mods/20908) *Better Dialogue Controls*.
+- [Mazzle's EZ-Documentation (MazzleDocs)](https://www.nexusmods.com/baldursgate3/mods/18883) *MazzleDocs 2.3.3* > *MazzleDocs 2.4.1*.
+- [Tav's Journal](https://www.nexusmods.com/baldursgate3/mods/19332) *Tav's Journal 2.0* > *Tav's Journal 2.1*.
+
+### Visuals:📸
+
+- [P4 Patches](https://www.nexusmods.com/baldursgate3/mods/353) *Patches\_for\_VFX\_Heads*.
+- [Such a Tease - Ornamented (a Raphael redressing mod)](https://www.nexusmods.com/baldursgate3/mods/13218) *Such a Tease - Ornamented (Raphael redressing mod)*.
+- [NPC Redesign - The Emerald Grove by AzazeL (Patch 7-8)](https://www.nexusmods.com/baldursgate3/mods/14054) *NPC Redesign v1.5 (Wither's Crypt Robbers)* > *5. NPC Redesign v2 (Wither's Crypt Robbers)*.
+
+### Character customisation:👗
+
+- [Armory - Auto-Transmog Vanity Outfit Manager](https://www.nexusmods.com/baldursgate3/mods/14717) *Armory*.
+- [Character Preset Framework (CPF)](https://www.nexusmods.com/baldursgate3/mods/19805) *Character Preset Framework 1.6.2* > *Character Preset Framework 1.7.0*.
+
+### Other:🔍
+
+- [Baldur's Gate 3 Script Extender (BG3SE)](https://www.nexusmods.com/baldursgate3/mods/2172) *Baldur's Gate 3 Script Extender*.
+- [Compatibility Framework](https://www.nexusmods.com/baldursgate3/mods/1933)&#x20;
+- [EasyCheat with in-game UI (MCM)(SE)](https://www.nexusmods.com/baldursgate3/mods/9827) *EasyCheat\_2.2* > *EasyCheat\_2.3.2*.
+- [Records - A Party Statistics Tracker](https://www.nexusmods.com/baldursgate3/mods/19021) *Records*.
+- [Lighty Lights and Photo Mode stuff](https://www.nexusmods.com/baldursgate3/mods/14364) *Lighty Lights*.
+- [Difficulty Immersion Quality Collection - Misc Files](https://www.nexusmods.com/baldursgate3/mods/9784) *DIQ Misc Patches* & *DIQ Misc Patches - Overrides*.
+- [Goon's Library - Passives Functions Spells and More](https://www.nexusmods.com/baldursgate3/mods/12834) *Goon's Library*.
+- [MazzleLib](https://www.nexusmods.com/baldursgate3/mods/18231) *MazzleLib 1.5.4* > *MazzleLib 1.6.1*.
+- [Oops All Characters with simple NPC enemy spawner](https://www.nexusmods.com/baldursgate3/mods/19914) *Oops All Characters 1.0.0*.
+- [Faerun Fashionistas Mega Pose Patch](https://www.nexusmods.com/baldursgate3/mods/20159) *FF Mega Patch*.
+
+### Updated optional mods: 🔧
+
+- [Sandi's Waypoint Only Fast Travel](https://www.nexusmods.com/baldursgate3/mods/19884) *Sandi's Waypoint Only Fast Travel - No UI*.
