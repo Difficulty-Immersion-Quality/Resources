@@ -12,7 +12,12 @@
 ***
 
 - Lots of bug fixes. Very good stuff yes.
-- Very mid-playthrough updating friendly.
+- Very save safe update.
+- Forgot at least one inclusion and a DIQ Extras mod was removed by staff... so Revision 153 will probably be coming sooner rather than later.
+- Vex still travelling so I still gotta get the Wabbajack up to parity, it's still at 150.2 for now.
+- Highly recommend ensuring you're updated to Vortex 2.11 (stable branch).
+- [Baldur's Emporium](https://www.nexusmods.com/baldursgate3/mods/26347) is doing good on Mod of the Month votes, but it would be nice to see [STAV - Snailzx Tattoos And VTs](https://www.nexusmods.com/baldursgate3/mods/23613) up there as well methinks! Help bring some more attention to it as a framework so it gets more author support.&#x20;
+- Success ratings have been very low when compared with downloads, with Revision 151 having only 3% of players even casting a vote. Please keep an eye out on your notifications in Vortex, or go to the collection tab and endorse/vote!
 
 ***
 
