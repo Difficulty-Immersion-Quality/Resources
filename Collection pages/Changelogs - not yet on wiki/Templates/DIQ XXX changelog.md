@@ -1,12 +1,12 @@
 ### Revision X Changelog (Work in progress)
 
-# 🔥Patch #8/Hotfix #36 - Work in progress.🔥
+# 🔥Patch #8/Hotfix #36 - XXXXXXXXXXXXXXXXXXX.🔥
 
 ### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
 
 ***
 
-- Read!📜Follow updating instructions on the [About](https://next.nexusmods.com/baldursgate3/collections/pns4qv?tab=about) page! -> ***2. Updating Guide - Collection & Game Updates***⚠️
+- Read!📜Follow [updating instructions](https://gitlab.com/Difficulty-Immersion-Quality/Difficulty-Immersion-Quality/-/wikis/04-Updating)!
 - [BG3MM](https://github.com/LaughingLeader/BG3ModManager) version [1.0.12.9](https://github.com/LaughingLeader/BG3ModManager/releases/tag/1.0.12.9).
 - Get updated configs and load order [here](https://www.nexusmods.com/baldursgate3/mods/9784) or in the [Discord](https://discord.com/invite/baldursgoonsacks).
 - Save safe!✅**BUT**, updating instructions must be followed and the following must actually be read.
@@ -183,4 +183,4 @@
 
 ### Updated optional mods: 🔧
 
-- 
+-
