@@ -75,7 +75,7 @@
 
 -
 
-### Moved from [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg) to main list: 👔
+### Moved from [DIQ Extras](https://www.nexusmods.com/games/baldursgate3/collections/k3zucg) to [DIQ](https://next.nexusmods.com/baldursgate3/collections/pns4qv): 🧙🏻‍♂️
 
 -
 
@@ -83,7 +83,7 @@
 
 -
 
-### Moved from [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) to main list: 🥵
+### Moved from [DIQ Horny](https://www.nexusmods.com/games/baldursgate3/collections/1uysmm) to [DIQ](https://next.nexusmods.com/baldursgate3/collections/pns4qv): 🧙🏻‍♂️
 
 -
 
