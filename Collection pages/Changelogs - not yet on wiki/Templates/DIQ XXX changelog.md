@@ -2,7 +2,7 @@
 
 # 🔥Patch #8/Hotfix #36 - XXXXXXXXXXXXXXXXXXX.🔥
 
-### ✅Don't forget to endorse the collection if you enjoy it! 😘 You can support the continued development of DIQ via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
+### ✅Don't forget to endorse and upvote the collection if you enjoy it! 😘 You can support continued development via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
 
 ***
 

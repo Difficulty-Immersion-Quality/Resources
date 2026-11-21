@@ -1,6 +1,7 @@
 # Patch #8/Hotfix #36 - 🔥[Difficulty, Immersion, Quality](https://next.nexusmods.com/baldursgate3/collections/pns4qv) Revision 148-150.
 
-### Don't forget to endorse the collection if you enjoy it! 😘 Maybe buy me a Pepsi too? [Kofi](https://ko-fi.com/baldursgoonsack)💖
+
+### ✅Don't forget to endorse and upvote the collection if you enjoy it! 😘 You can support continued development via my [Kofi](https://ko-fi.com/baldursgoonsack)!💖
 
 ***
 
